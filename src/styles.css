@@ -1,0 +1,5 @@
+:root { color-scheme: light; font-family: 'DM Sans', sans-serif; color: #1e2935; background: #f5f7f6; }
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; }
+button, textarea { font: inherit; }
+button { cursor: pointer; }

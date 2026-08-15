@@ -1,0 +1,65 @@
+<div class="app-frame">
+  <header>
+    <div class="brand"><div class="brand-mark">P<span>+</span></div><div><strong>Personalize</strong><small>INTELLIGENCE</small></div></div>
+    <div class="workspace"><span class="status-dot"></span> Wealth & Retirement <span class="chevron">⌄</span></div>
+    <div class="header-actions"><button class="icon-button" aria-label="Help">?</button><button class="avatar">AR</button></div>
+  </header>
+
+  <aside>
+    <button class="new-chat" (click)="newConversation()"><span>＋</span> New conversation</button>
+    <nav>
+      <p>WORKSPACE</p>
+      <button [class.active]="activeNav() === 'New conversation'"><span>◇</span> Discover</button>
+      <button><span>▱</span> Saved conversations <em>3</em></button>
+      <button><span>▥</span> Rule library</button>
+      <button><span>⌁</span> Glossary</button>
+    </nav>
+    <div class="recent" *ngIf="recent().length"><p>RECENT</p><button class="recent-item" *ngFor="let item of recent().slice(0,4)" (click)="loadConversation(item.id)">{{item.title}}<small>v{{item.version}} · {{item.visibility}}</small></button></div>
+    <div class="guardrail"><span>✓</span><div><strong>Read-only workspace</strong><small>Recommendations use approved, authorized evidence.</small></div></div>
+  </aside>
+
+  <main>
+    <div class="connection-banner" *ngIf="health() && health().status !== 'ok'">
+      <span>!</span><div><strong>Live connections need configuration</strong><small>Set the service URLs and LLM gateway values from .env.example, then restart the API.</small></div><code>{{health().mode || 'live'}}</code>
+    </div>
+    <div class="main-title"><div><span class="breadcrumb">DISCOVER</span><h1>Personalization intelligence</h1><p>Find, understand, and reuse what your organization already knows.</p></div><button class="context-button">◎ Context <span>2</span></button></div>
+    <section class="timeline" #timeline>
+      <div class="message-row" *ngFor="let message of messages()" [class.user]="message.role === 'user'">
+        <div class="assistant-icon" *ngIf="message.role === 'assistant'">P<span>+</span></div>
+        <div class="message-stack">
+          <div class="message-meta"><strong>{{ message.role === 'assistant' ? 'Personalize Intelligence' : 'You' }}</strong><span>{{message.time}}</span><span class="scope-pill" *ngIf="message.scope">{{message.scope}}</span></div>
+          <div class="bubble">{{message.content}}</div>
+          <div class="starter-grid" *ngIf="message.id === 'welcome' && !hasConversation()">
+            <button *ngFor="let suggestion of suggestions" (click)="send(suggestion)"><span>↗</span>{{suggestion}}</button>
+          </div>
+          <div class="cards" *ngIf="message.cards?.length">
+            <article *ngFor="let card of message.cards" class="result-card" [class.selected]="card.selected" [class.clarification]="card.cardType === 'clarification'">
+              <div class="card-top"><span class="card-icon">{{card.cardType === 'rule' ? '⌘' : card.cardType === 'attribute' ? '◫' : card.cardType === 'content' ? '▤' : card.cardType === 'ruleProposal' ? '✓' : '?'}}</span><div><small>{{card.eyebrow}}</small><h3>{{card.title}}</h3></div><span class="confidence" *ngIf="card.confidence || card.status">{{card.confidence || card.status}}</span></div>
+              <p>{{card.description}}</p>
+              <div class="tags"><span *ngFor="let tag of card.tags">{{tag}}</span><span class="score" *ngIf="card.score">{{card.score * 100 | number:'1.0-0'}}% match</span></div>
+              <div class="choices" *ngIf="card.choices"><button *ngFor="let choice of card.choices" (click)="choose(card, choice)">{{choice}} <span>›</span></button></div>
+              <div class="proposal-details" *ngIf="card.cardType === 'ruleProposal' && proposalOpen()[card.id]">
+                <div class="metric-row"><span>Coverage</span><strong>{{card.data.plan.coverageSummary.coveredConditions}} / {{card.data.plan.coverageSummary.totalConditions}}</strong></div>
+                <div class="metric-row"><span>Deterministic tests</span><strong>{{card.data.tests.length}} executed</strong></div>
+                <div class="test-row" *ngFor="let test of card.data.tests"><span [class.pass]="test.passed">{{test.passed ? '✓' : '×'}}</span>{{test.name}}<code>{{test.actual}}</code></div>
+                <details><summary>CCRE JSON</summary><pre>{{card.data.condition | json}}</pre></details>
+              </div>
+              <div class="card-footer" *ngIf="!card.choices"><button class="evidence-button" *ngIf="card.cardType !== 'ruleProposal'" (click)="toggleEvidence(card.id)">{{evidenceOpen()[card.id] ? 'Hide' : 'View'}} evidence <span>⌄</span></button><button class="evidence-button" *ngIf="card.cardType === 'ruleProposal'" (click)="toggleProposal(card.id)">{{proposalOpen()[card.id] ? 'Hide' : 'Review'}} proposal <span>⌄</span></button><button class="select-button" *ngIf="card.cardType !== 'ruleProposal'" (click)="select(card)">{{card.selected ? '✓ Selected' : 'Select'}}</button></div>
+              <div class="evidence" *ngIf="evidenceOpen()[card.id]"><div *ngFor="let ev of card.evidence"><span>✓</span><div><strong>{{ev.label}}</strong><small>{{ev.source || ev.sourceSystem}} · v{{ev.version || ev.entityVersion}}</small></div></div></div>
+            </article>
+          </div>
+          <div class="actions" *ngFor="let action of message.proposedActions">
+            <div><span>✓</span><div><small>CONFIRM GOVERNED ACTION</small><strong>Create validated {{action.type === 'CREATE_TREATMENT_MAP_DRAFT' ? 'treatment-map' : 'rule'}} draft</strong><p>This creates an inactive versioned draft. It does not approve, activate, or publish it.</p></div></div>
+            <button (click)="confirm(action)" [disabled]="busy() || action.status === 'SUCCEEDED'">{{action.status === 'SUCCEEDED' ? '✓ Draft created' : 'Confirm draft creation'}}</button>
+            <code *ngIf="action.result">{{action.result.object.id}} · Receipt {{action.result.receiptId}}</code>
+          </div>
+        </div>
+      </div>
+      <div class="thinking" *ngIf="busy()"><div class="assistant-icon">P<span>+</span></div><div><strong>Working through your request</strong><div *ngFor="let step of progress(); let last = last" [class.current]="last"><span>{{last ? '●' : '✓'}}</span>{{step}}</div></div></div>
+    </section>
+    <section class="composer-wrap">
+      <div class="composer"><textarea [(ngModel)]="draft" (keydown.enter)="onEnter($event)" placeholder="Describe an audience, paste content, or ask about a rule…" rows="2"></textarea><div class="composer-bottom"><div><button class="attach">＋</button><span>Paste or attach campaign content</span></div><button class="send" (click)="send()" [disabled]="!draft.trim() || busy()">↑</button></div></div>
+      <p class="disclaimer"><span>✦</span> Evidence-backed recommendations · No production changes · AI can make mistakes</p>
+    </section>
+  </main>
+</div>
