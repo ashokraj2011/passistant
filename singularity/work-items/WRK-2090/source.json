@@ -1,0 +1,10 @@
+{
+  "type": "manual",
+  "id": "WRK-2090",
+  "key": null,
+  "url": null,
+  "title": "Change the color to green",
+  "description": "Change the chat windiw color to red",
+  "desiredOutcome": "",
+  "acceptanceCriteria": "code validation"
+}
