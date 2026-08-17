@@ -2088,17 +2088,90 @@
       "rejectedAt": null,
       "rejectedBy": null,
       "rejectionReason": null,
-      "generation": 0,
-      "generatedBy": null,
+      "generation": 1,
+      "generatedBy": {
+        "name": "Ashok Raj",
+        "email": "88361104+ashokraj2011@users.noreply.github.com",
+        "login": "ashokraj2011",
+        "githubLookup": "resolved"
+      },
       "generatedAgent": null,
-      "authorship": [],
+      "authorship": [
+        {
+          "schemaVersion": 1,
+          "producer": "human",
+          "channel": "manual-in-place",
+          "actor": {
+            "name": "Ashok Raj",
+            "email": "88361104+ashokraj2011@users.noreply.github.com",
+            "login": "ashokraj2011",
+            "githubLookup": "resolved"
+          },
+          "governedAgentContext": {
+            "agentId": "developer"
+          },
+          "kernelModel": {
+            "invoked": false,
+            "status": "exact",
+            "invocationIds": []
+          },
+          "externalAiUse": {
+            "value": "unknown",
+            "status": "unavailable"
+          },
+          "source": {
+            "kind": "in-place",
+            "filename": "implementation-summary.md",
+            "mediaType": "text/markdown",
+            "sha256": "61d4455f7322e955acc5e3a406e827e446eb9383ddfef591f76bd886d3a331eb",
+            "bytes": 26368
+          },
+          "generation": 1,
+          "publishedAt": "2026-08-17T02:51:10.360Z"
+        }
+      ],
       "usage": [],
-      "telemetry": [],
+      "telemetry": [
+        {
+          "generation": 1,
+          "path": "singularity/work-items/WRK-2090/telemetry/implementation-gen1.json",
+          "sha256": "e5185bae25aa1eed22033a9f6a6f6a19235ffefbe60108281aad06c6fd7db155",
+          "status": "not-invoked",
+          "models": [],
+          "providerCost": null
+        }
+      ],
       "approvals": [],
       "designSourceSets": [],
-      "artifacts": [],
+      "artifacts": [
+        {
+          "path": "singularity/work-items/WRK-2090/artifacts/implementation/implementation-summary.md",
+          "kind": "document",
+          "status": "pending",
+          "exists": true,
+          "size": 28933,
+          "sha256": "6d6840397300dd66d29fee6f5ce140000d4ec9bfd4b53729d7155155a8294ecc",
+          "registeredAt": "2026-08-17T02:51:10.237Z",
+          "updatedAt": "2026-08-17T02:51:10.393Z"
+        }
+      ],
       "checks": [],
-      "remoteOutputs": []
+      "remoteOutputs": [],
+      "inputContext": {
+        "generation": 1,
+        "path": "singularity/work-items/WRK-2090/context/inputs-implementation-gen1.json",
+        "sha256": "2805de0981abbda2d28c40feb3a3f7eb8fb44d67359af49b041e4ae7e67e90b0",
+        "renderedSha256": "bff1038f3d1167d73f9402b8bc5342c00039c4ef1c2c259a5c7b286d0a8a2d5c",
+        "mode": "enforce"
+      },
+      "sidecars": [
+        {
+          "path": "singularity/work-items/WRK-2090/context/sidecars/implementation-gen1-singularity-work-items-WRK-2090-artifacts-implementation-implementation-summary.md.json",
+          "artifact": "singularity/work-items/WRK-2090/artifacts/implementation/implementation-summary.md",
+          "integritySha256": "77cc4258678f39050f894b01705851eced102e59eba9468240bd60b9177eca07"
+        }
+      ],
+      "sourceCommit": "d713bbd1f851a33eec9683bced2d9a3e925b608a"
     },
     "convergence": {
       "id": "convergence",
@@ -2479,6 +2552,14 @@
       "event": "work_interval_started",
       "phase": "implementation",
       "detail": "baseline ef95b83dd608 at cbe18a79172a"
+    },
+    {
+      "at": "2026-08-17T02:51:10.394Z",
+      "actor": "ashokraj2011",
+      "agent": "developer",
+      "event": "phase_generated",
+      "phase": "implementation",
+      "detail": "generation 1"
     }
   ],
   "measurement": {
@@ -2990,6 +3071,77 @@
           "templateSha256": "303b6402e8c2c925c3507ce1eafe95bb08a69d097509cb6f8a0b5e3bee1db23f"
         },
         "createdAt": "2026-08-17T01:39:21.623Z"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "event": {
+        "schemaVersion": 1,
+        "eventId": "3e63858f-864b-4895-b0bd-a2dc6d1046f2",
+        "type": "artifact-generated",
+        "subject": {
+          "kind": "story",
+          "id": "WRK-2090",
+          "branch": "WRK-2090"
+        },
+        "phaseId": "implementation",
+        "generation": 1,
+        "actor": {
+          "name": "Ashok Raj",
+          "email": "88361104+ashokraj2011@users.noreply.github.com",
+          "login": "ashokraj2011",
+          "githubLookup": "resolved"
+        },
+        "agent": null,
+        "authorityGroup": null,
+        "payload": {
+          "decision": null,
+          "reviewPacketSha256": null
+        },
+        "sourceCommit": null,
+        "idempotencyKey": null,
+        "idempotencyHash": null,
+        "createdAt": "2026-08-17T02:51:10.256Z"
+      },
+      "ledgerIntent": {
+        "schemaVersion": 1,
+        "eventId": "3e63858f-864b-4895-b0bd-a2dc6d1046f2",
+        "eventType": "artifact-generated",
+        "capabilityId": "piassistnat",
+        "subject": {
+          "branch": "WRK-2090",
+          "generation": 1,
+          "phase": "implementation",
+          "workId": "WRK-2090",
+          "workType": "spec-driven-standard"
+        },
+        "actor": {
+          "name": "Ashok Raj",
+          "email": "88361104+ashokraj2011@users.noreply.github.com",
+          "githubLogin": "ashokraj2011",
+          "identityAssurance": "configured-local"
+        },
+        "agent": null,
+        "authorityGroup": null,
+        "payload": {
+          "capabilityMapSha256": "78b522f1b6f41455d7a7359b80e1c92b89f3ab59ae47a4a4e6487ce2df1fe48a",
+          "capabilityPolicy": {
+            "protectedPaths": [],
+            "qualityCommands": [],
+            "requiredAuthorityGroups": [],
+            "requiredChecks": [],
+            "requiredWorldModelViews": []
+          },
+          "configPath": "singularity/workflow.yml",
+          "configSha256": "2cc8dc077f53562783446c7d4ad8d3dc1ff267bbbe2c06070cc5e77b02adf62c",
+          "lifecycleEventId": "3e63858f-864b-4895-b0bd-a2dc6d1046f2",
+          "lifecyclePayload": {
+            "decision": null,
+            "reviewPacketSha256": null
+          },
+          "templateSha256": "5d0478b18c8fd14221e14c68e6238b909bccd6802a70262c416005354716c62c"
+        },
+        "createdAt": "2026-08-17T02:51:10.261Z"
       }
     }
   ],

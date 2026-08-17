@@ -1,0 +1,46 @@
+{
+  "artifact": {
+    "bytes": 27977,
+    "path": "singularity/work-items/WRK-2090/artifacts/implementation/implementation-summary.md",
+    "role": "document",
+    "sha256": "429e7b045f209a90b4d9cdc42a7678ae996ce848c6e57243e2ffcc1bb5742676"
+  },
+  "configuration": {
+    "revision": "9299f97da81c34213413949feb8dbbeea641e2ff",
+    "sha256": "2cc8dc077f53562783446c7d4ad8d3dc1ff267bbbe2c06070cc5e77b02adf62c"
+  },
+  "generation": 1,
+  "inputs": [
+    {
+      "kind": null,
+      "path": "artifacts/planning/plan.md",
+      "sha256": null
+    },
+    {
+      "kind": null,
+      "path": "artifacts/specification/spec.md",
+      "sha256": null
+    }
+  ],
+  "integritySha256": "77cc4258678f39050f894b01705851eced102e59eba9468240bd60b9177eca07",
+  "phase": "implementation",
+  "producer": {
+    "actor": "88361104+ashokraj2011@users.noreply.github.com",
+    "agent": null,
+    "kind": "human"
+  },
+  "publication": {
+    "branch": "WRK-2090",
+    "commit": null,
+    "publishedAt": "2026-08-17T02:51:10.360Z"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "id": "WRK-2090",
+    "kind": "story"
+  },
+  "template": {
+    "path": "singularity/templates/common/implementation.md",
+    "sha256": "5d0478b18c8fd14221e14c68e6238b909bccd6802a70262c416005354716c62c"
+  }
+}
