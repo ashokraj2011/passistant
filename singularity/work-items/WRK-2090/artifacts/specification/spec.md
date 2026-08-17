@@ -4,27 +4,48 @@
   "workId": "WRK-2090",
   "workType": "spec-driven-standard",
   "phase": "specification",
-  "generation": 0,
+  "generation": 1,
   "status": "in_progress",
-  "generatedBy": null,
-  "generatedAgent": null,
+  "generatedBy": {
+    "name": "Ashok Raj",
+    "email": "88361104+ashokraj2011@users.noreply.github.com",
+    "login": "ashokraj2011",
+    "githubLookup": "resolved"
+  },
+  "generatedAgent": "product-owner",
   "authorship": {
     "schemaVersion": 1,
-    "producer": "legacy-unspecified",
-    "channel": "legacy",
-    "governedAgentContext": null,
+    "producer": "governed-agent",
+    "channel": "copilot-host",
+    "actor": {
+      "name": "Ashok Raj",
+      "email": "88361104+ashokraj2011@users.noreply.github.com",
+      "login": "ashokraj2011",
+      "githubLookup": "resolved"
+    },
+    "governedAgentContext": {
+      "agentId": "product-owner"
+    },
     "kernelModel": {
       "invoked": false,
-      "status": "unavailable",
+      "status": "exact",
       "invocationIds": []
     },
     "externalAiUse": {
       "value": "unknown",
       "status": "unavailable"
     },
-    "source": null
+    "source": {
+      "kind": "in-place",
+      "filename": "spec.md",
+      "mediaType": "text/markdown",
+      "sha256": "358b60a34fd217de1e7eaf8dddd87c59822dcdffc3ce73747476dbb74f0c5b24",
+      "bytes": 2527
+    },
+    "generation": 1,
+    "publishedAt": "2026-08-17T00:17:08.931Z"
   },
-  "sourceCommit": null,
+  "sourceCommit": "051dab0a7da432729906217c7692dd3f7c9634f8",
   "generationCommit": null,
   "publicationCommit": null,
   "configSha256": "2cc8dc077f53562783446c7d4ad8d3dc1ff267bbbe2c06070cc5e77b02adf62c",
@@ -39,10 +60,52 @@
     "approved": null
   },
   "remoteAgent": null,
-  "clarification": null,
-  "telemetry": [],
+  "clarification": {
+    "generation": 1,
+    "path": "singularity/work-items/WRK-2090/context/clarifications-specification-gen1.json",
+    "sha256": "182e9e50a536581ec883e1fb86f2716234544ed538c9622171b393d6fa92ad2e",
+    "promptSha256": "5cd5d424725fca497ed8435651abd0ff885a66e4efbe101486d6a3e25a619a4c",
+    "responses": 1,
+    "markers": [],
+    "recordedAt": "2026-08-17T00:16:46.599Z",
+    "recordedBy": {
+      "name": "Ashok Raj",
+      "email": "88361104+ashokraj2011@users.noreply.github.com",
+      "login": "ashokraj2011",
+      "githubLookup": "resolved"
+    }
+  },
+  "telemetry": [
+    {
+      "generation": 1,
+      "path": "singularity/work-items/WRK-2090/telemetry/specification-gen1.json",
+      "sha256": "d8226e13eac2e1644311a37068a62fbd5d89a668cb9a8cc89739ef25211ba253",
+      "status": "pending",
+      "models": [],
+      "providerCost": null
+    }
+  ],
   "remoteOutputs": [],
-  "usage": [],
+  "usage": [
+    {
+      "status": "unavailable",
+      "source": "copilot-otel-unavailable",
+      "provider": null,
+      "model": null,
+      "inputTokens": null,
+      "outputTokens": null,
+      "cachedInputTokens": null,
+      "cacheWriteInputTokens": null,
+      "totalTokens": null,
+      "providerCost": null,
+      "costStatus": "unavailable",
+      "spans": null,
+      "startedAt": "2026-08-17T00:17:08.931Z",
+      "completedAt": "2026-08-17T00:17:08.931Z",
+      "agent": "product-owner",
+      "generation": 1
+    }
+  ],
   "sequenceOverrides": [],
   "approvals": [],
   "selfApproval": false,
@@ -50,92 +113,60 @@
 }
 -->
 
-# Specification — {{WORK_ID}}
-
-<!--
-Scenarios come first, and general requirements come after them `[SPK:REQ-068]`. That ordering is the
-template's opinion: a requirement written before anyone has described the situation it serves tends
-to describe the system instead of the need, and nobody notices until verification.
-
-Where you do not know something, say so with a marker rather than guessing:
-
-    [NEEDS CLARIFICATION: which roles may retry a failed payment?]
-
-The question must be one non-empty line. Markers are extracted the same way clauses are, so a marker
-inside fenced or inline code is ignored `[SPK:REQ-063]`. This phase blocks publication while any
-marker is unresolved, and a marker is only resolved when a later generation removes it *and* records
-the answer `[SPK:REQ-067]` — deleting the text alone is an integrity failure, not an answer.
--->
+# Specification — WRK-2090
 
 ## Actors
 
-Who uses this, and what authority does each hold?
+- End user of the product interface.
 
 ## User scenarios
 
-Prioritized. Each scenario leads with the situation, then its acceptance cases.
-
-### S1 — <the most important situation, in the user's words>
+### S1 — The primary UI accent is green
 
 **Priority:** P1
-**Actor:** <role>
-**Context:** <what is true before this begins>
+**Actor:** End user
+**Context:** The user opens the product interface and views the default theme.
 
-- **Given** <the starting state>
-  **When** <the actor does this>
-  **Then** <the observable outcome>
+- **Given** the interface is first rendered in its default state, **When** the user views the main screen, **Then** the primary accent color is green instead of the previous non-green color.
+- **Given** the user encounters a primary action control, **When** they look at the control, **Then** the control uses the green accent consistently with the application's default theme.
 
-- **Given** <a variation worth stating>
-  **When** <…>
-  **Then** <…>
-
-### S2 — <the next situation>
+### S2 — Semantic color meanings remain unchanged
 
 **Priority:** P2
 
-- **Given** … **When** … **Then** …
-
-## Failure and empty states
-
-What happens the first time, with nothing there yet, and when each step fails. These are where
-specifications are usually silent and implementations usually improvise.
-
-- **Empty:** <no records yet>
-- **Failure:** <the dependency is unavailable>
-- **Partial:** <some of it worked>
+- **Given** the UI displays a success, warning, or error state, **When** the user views that state, **Then** the existing semantic color meaning is preserved and is not replaced by the green theme accent.
 
 ## Permissions
 
-Who may do each thing, and what a reader without that authority sees instead.
+- End users may view the updated theme. No additional authorization or role change is required for this aesthetic update.
 
 ## Boundary conditions
 
-Limits, sizes, counts, timeouts, and what happens exactly at and beyond each one.
+- This change applies only to the primary product accent color used in the relevant interface elements.
+- No structural layout changes, content edits, or unrelated theme changes are in scope.
 
 ## Requirements
 
-Numbered, testable, one obligation each. Cite the scenario each serves.
-
-- **REQ-001** — <requirement>. *(S1)*
-- **REQ-002** — <requirement>. *(S1, S2)*
+- **SPEC-001** — The primary interface accent shall be rendered in green for the affected default-view elements. *(S1, AC-001)*
+- **SPEC-002** — The product shall use the green accent consistently across the primary action and theme elements affected by this change. *(S1, AC-002)*
+- **SPEC-003** — The application shall preserve the existing meaning of success, warning, and error states when those states are displayed. *(S2, AC-003)*
+- **SPEC-004** — The visual update shall appear on first render without requiring any user action beyond opening the screen. *(S1, AC-004)*
 
 ## Non-functional requirements
 
-Latency, throughput, availability, accessibility, privacy, retention. State the number and how it
-will be measured; "fast" is not a requirement.
+- **NFR-001** — The updated green styling shall be available on initial render without a noticeable delay after page load. *(S1)*
 
 ## Constitution articles
 
-Cite the article IDs this specification is bound by `[SPK:REQ-100]`. The kernel validates that each
-cited ID exists at the pinned revision before publication `[SPK:REQ-101]`.
-
-- <ART-…>
+- None required for this visual theme adjustment.
 
 ## Assumptions
 
-What this specification takes as true without proving. An assumption that turns out false is a
-change request, not a defect — which is only true if it was written down.
+- The intended change is a single default-theme color update to green for the primary action styling.
+- Existing semantic colors for errors, warnings, and success remain intentionally distinct.
 
 ## Out of scope
 
-Named explicitly, so the boundary is reviewable rather than inferred.
+- Redesigning the full product palette.
+- Changing the behavior or logic of unrelated user flows.
+- Reworking iconography, layout, or content beyond the requested green accent update.

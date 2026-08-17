@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "workId": "WRK-2090",
+  "phase": "specification",
+  "generation": 1,
+  "mode": "required",
+  "promptPath": "singularity/work-items/WRK-2090/context/prompts/specification-gen1.md",
+  "promptSha256": "5cd5d424725fca497ed8435651abd0ff885a66e4efbe101486d6a3e25a619a4c",
+  "groundingRecordPath": "singularity/work-items/WRK-2090/context/specification-gen1.json",
+  "groundingRecordSha256": "b464fa20e6ed7d7c278d641c46329428edfef655123539799cb6fe5c55ec9f5f",
+  "responses": [
+    {
+      "id": "Q-001",
+      "question": "Which roles may retry a failed payment?",
+      "why": "Business authorization rule required before publication of the specification.",
+      "answer": "Only finance/admin roles",
+      "status": "answered",
+      "blocking": false
+    }
+  ],
+  "completed": true,
+  "recordedAt": "2026-08-17T00:16:46.599Z",
+  "recordedBy": {
+    "name": "Ashok Raj",
+    "email": "88361104+ashokraj2011@users.noreply.github.com",
+    "login": "ashokraj2011",
+    "githubLookup": "resolved"
+  },
+  "agent": "product-owner"
+}

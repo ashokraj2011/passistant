@@ -1321,16 +1321,175 @@
       "rejectedAt": null,
       "rejectedBy": null,
       "rejectionReason": null,
-      "generation": 0,
-      "generatedBy": null,
-      "generatedAgent": null,
-      "authorship": [],
-      "usage": [],
-      "telemetry": [],
+      "generation": 1,
+      "generatedBy": {
+        "name": "Ashok Raj",
+        "email": "88361104+ashokraj2011@users.noreply.github.com",
+        "login": "ashokraj2011",
+        "githubLookup": "resolved"
+      },
+      "generatedAgent": "product-owner",
+      "authorship": [
+        {
+          "schemaVersion": 1,
+          "producer": "governed-agent",
+          "channel": "copilot-host",
+          "actor": {
+            "name": "Ashok Raj",
+            "email": "88361104+ashokraj2011@users.noreply.github.com",
+            "login": "ashokraj2011",
+            "githubLookup": "resolved"
+          },
+          "governedAgentContext": {
+            "agentId": "product-owner"
+          },
+          "kernelModel": {
+            "invoked": false,
+            "status": "exact",
+            "invocationIds": []
+          },
+          "externalAiUse": {
+            "value": "unknown",
+            "status": "unavailable"
+          },
+          "source": {
+            "kind": "in-place",
+            "filename": "spec.md",
+            "mediaType": "text/markdown",
+            "sha256": "358b60a34fd217de1e7eaf8dddd87c59822dcdffc3ce73747476dbb74f0c5b24",
+            "bytes": 2527
+          },
+          "generation": 1,
+          "publishedAt": "2026-08-17T00:17:08.931Z"
+        }
+      ],
+      "usage": [
+        {
+          "status": "unavailable",
+          "source": "copilot-otel-unavailable",
+          "provider": null,
+          "model": null,
+          "inputTokens": null,
+          "outputTokens": null,
+          "cachedInputTokens": null,
+          "cacheWriteInputTokens": null,
+          "totalTokens": null,
+          "providerCost": null,
+          "costStatus": "unavailable",
+          "spans": null,
+          "startedAt": "2026-08-17T00:17:08.931Z",
+          "completedAt": "2026-08-17T00:17:08.931Z",
+          "agent": "product-owner",
+          "generation": 1
+        }
+      ],
+      "telemetry": [
+        {
+          "generation": 1,
+          "path": "singularity/work-items/WRK-2090/telemetry/specification-gen1.json",
+          "sha256": "d8226e13eac2e1644311a37068a62fbd5d89a668cb9a8cc89739ef25211ba253",
+          "status": "pending",
+          "models": [],
+          "providerCost": null
+        }
+      ],
       "approvals": [],
       "designSourceSets": [],
-      "artifacts": [],
-      "checks": []
+      "artifacts": [
+        {
+          "path": "singularity/work-items/WRK-2090/artifacts/specification/spec.md",
+          "kind": "document",
+          "status": "pending",
+          "exists": true,
+          "size": 5854,
+          "sha256": "b81df8085a0dcc063db54ceda622cbf0ba8f4c24ffab6192e50cceb6245968a8",
+          "registeredAt": "2026-08-17T00:17:08.753Z",
+          "updatedAt": "2026-08-17T00:17:08.973Z"
+        }
+      ],
+      "checks": [],
+      "remoteOutputs": [],
+      "sidecars": [
+        {
+          "path": "singularity/work-items/WRK-2090/context/sidecars/specification-gen1-singularity-work-items-WRK-2090-artifacts-specification-spec.md.json",
+          "artifact": "singularity/work-items/WRK-2090/artifacts/specification/spec.md",
+          "integritySha256": "dbacf4947c765876e4f833554fed6ac90a94c90ac82f4b9a265d835c1db8bf81"
+        }
+      ],
+      "clarifications": [
+        {
+          "generation": 1,
+          "path": "singularity/work-items/WRK-2090/context/clarifications-specification-gen1.json",
+          "sha256": "182e9e50a536581ec883e1fb86f2716234544ed538c9622171b393d6fa92ad2e",
+          "promptSha256": "5cd5d424725fca497ed8435651abd0ff885a66e4efbe101486d6a3e25a619a4c",
+          "responses": 1,
+          "markers": [],
+          "recordedAt": "2026-08-17T00:16:46.599Z",
+          "recordedBy": {
+            "name": "Ashok Raj",
+            "email": "88361104+ashokraj2011@users.noreply.github.com",
+            "login": "ashokraj2011",
+            "githubLookup": "resolved"
+          }
+        }
+      ],
+      "markers": [
+        {
+          "generation": 1,
+          "artifactPath": "singularity/work-items/WRK-2090/artifacts/specification/spec.md",
+          "artifactSha256": "bf4a33e2294cb568a0c8e9fb9b4573ebdb35c6a22a40a79c3a8d7c042b36318d",
+          "policySha256": "f52b980ffcaf26cf59e2d5c7fb15b38c1bb7fef7e37f4a81603bdfe0b55006ab",
+          "markerMode": "block",
+          "qualityMode": "enforce",
+          "open": [],
+          "findings": 0,
+          "recordedAt": "2026-08-17T00:17:08.931Z"
+        }
+      ],
+      "sourceCommit": "051dab0a7da432729906217c7692dd3f7c9634f8",
+      "artifactSet": {
+        "schemaVersion": 1,
+        "resultType": "artifact-set-catalog",
+        "setId": "spec-driven-specification",
+        "primary": "singularity/work-items/WRK-2090/artifacts/specification/spec.md",
+        "members": [
+          {
+            "path": "singularity/work-items/WRK-2090/artifacts/specification/checklists/requirements.md",
+            "member": "checklists/requirements.md",
+            "role": "specification-quality",
+            "required": false,
+            "authority": "advisory",
+            "directory": false,
+            "exists": false,
+            "sha256": null,
+            "bytes": null,
+            "files": null
+          },
+          {
+            "path": "singularity/work-items/WRK-2090/artifacts/specification/spec.md",
+            "member": "spec.md",
+            "role": "specification",
+            "required": true,
+            "authority": "governed",
+            "directory": false,
+            "exists": true,
+            "sha256": "b81df8085a0dcc063db54ceda622cbf0ba8f4c24ffab6192e50cceb6245968a8",
+            "bytes": 5854,
+            "files": null
+          }
+        ],
+        "bundleSha256": "7e498873d35a43ad4e42c541fa4907040af7bcfa6d4ead1124aed6c0c2fc732a",
+        "missingRequired": [],
+        "generation": 1,
+        "preserved": [],
+        "changed": []
+      },
+      "specIndex": {
+        "generation": 1,
+        "clauses": 0,
+        "indexSha256": "67a4610646dc86650740f61bb09150ffacabb0d9801f99d2c638456fefe0c799",
+        "sourceSha256": "b81df8085a0dcc063db54ceda622cbf0ba8f4c24ffab6192e50cceb6245968a8"
+      }
     },
     "planning": {
       "id": "planning",
@@ -1405,7 +1564,8 @@
       "approvals": [],
       "designSourceSets": [],
       "artifacts": [],
-      "checks": []
+      "checks": [],
+      "remoteOutputs": []
     },
     "implementation": {
       "id": "implementation",
@@ -1486,7 +1646,8 @@
       "approvals": [],
       "designSourceSets": [],
       "artifacts": [],
-      "checks": []
+      "checks": [],
+      "remoteOutputs": []
     },
     "convergence": {
       "id": "convergence",
@@ -1571,7 +1732,8 @@
       "approvals": [],
       "designSourceSets": [],
       "artifacts": [],
-      "checks": []
+      "checks": [],
+      "remoteOutputs": []
     },
     "verification": {
       "id": "verification",
@@ -1661,7 +1823,8 @@
       "approvals": [],
       "designSourceSets": [],
       "artifacts": [],
-      "checks": []
+      "checks": [],
+      "remoteOutputs": []
     },
     "release": {
       "id": "release",
@@ -1738,19 +1901,48 @@
       "approvals": [],
       "designSourceSets": [],
       "artifacts": [],
-      "checks": []
+      "checks": [],
+      "remoteOutputs": []
     }
   },
   "usage": {
     "mode": "exact-or-unavailable",
     "totalTokens": 0,
-    "records": 0,
+    "records": 1,
     "exactRecords": 0,
-    "unavailableRecords": 0,
-    "byPhase": {},
-    "byAgent": {},
-    "byWorkType": {},
-    "byWorkItem": {}
+    "unavailableRecords": 1,
+    "byPhase": {
+      "specification": {
+        "records": 1,
+        "exactRecords": 0,
+        "unavailableRecords": 1,
+        "totalTokens": 0
+      }
+    },
+    "byAgent": {
+      "product-owner": {
+        "records": 1,
+        "exactRecords": 0,
+        "unavailableRecords": 1,
+        "totalTokens": 0
+      }
+    },
+    "byWorkType": {
+      "spec-driven-standard": {
+        "records": 1,
+        "exactRecords": 0,
+        "unavailableRecords": 1,
+        "totalTokens": 0
+      }
+    },
+    "byWorkItem": {
+      "WRK-2090": {
+        "records": 1,
+        "exactRecords": 0,
+        "unavailableRecords": 1,
+        "totalTokens": 0
+      }
+    }
   },
   "telemetry": {
     "schemaVersion": 1,
@@ -1774,6 +1966,14 @@
       "event": "work_started",
       "phase": "specification",
       "detail": "Created spec-driven-standard branch WRK-2090"
+    },
+    {
+      "at": "2026-08-17T00:17:08.975Z",
+      "actor": "ashokraj2011",
+      "agent": "product-owner",
+      "event": "phase_generated",
+      "phase": "specification",
+      "detail": "generation 1"
     }
   ],
   "measurement": {
@@ -1860,6 +2060,83 @@
         },
         "createdAt": "2026-08-16T23:56:31.376Z"
       }
+    },
+    {
+      "schemaVersion": 1,
+      "event": {
+        "schemaVersion": 1,
+        "eventId": "2cdfc8e5-36d2-4b98-83cd-ee9b84baf418",
+        "type": "artifact-generated",
+        "subject": {
+          "kind": "story",
+          "id": "WRK-2090",
+          "branch": "WRK-2090"
+        },
+        "phaseId": "specification",
+        "generation": 1,
+        "actor": {
+          "name": "Ashok Raj",
+          "email": "88361104+ashokraj2011@users.noreply.github.com",
+          "login": "ashokraj2011",
+          "githubLookup": "resolved"
+        },
+        "agent": null,
+        "authorityGroup": null,
+        "payload": {
+          "decision": null,
+          "reviewPacketSha256": null
+        },
+        "sourceCommit": null,
+        "idempotencyKey": null,
+        "idempotencyHash": null,
+        "createdAt": "2026-08-17T00:17:08.771Z"
+      },
+      "ledgerIntent": {
+        "schemaVersion": 1,
+        "eventId": "2cdfc8e5-36d2-4b98-83cd-ee9b84baf418",
+        "eventType": "artifact-generated",
+        "capabilityId": "piassistnat",
+        "subject": {
+          "branch": "WRK-2090",
+          "generation": 1,
+          "phase": "specification",
+          "workId": "WRK-2090",
+          "workType": "spec-driven-standard"
+        },
+        "actor": {
+          "name": "Ashok Raj",
+          "email": "88361104+ashokraj2011@users.noreply.github.com",
+          "githubLogin": "ashokraj2011",
+          "identityAssurance": "configured-local"
+        },
+        "agent": null,
+        "authorityGroup": null,
+        "payload": {
+          "capabilityMapSha256": "78b522f1b6f41455d7a7359b80e1c92b89f3ab59ae47a4a4e6487ce2df1fe48a",
+          "capabilityPolicy": {
+            "protectedPaths": [],
+            "qualityCommands": [],
+            "requiredAuthorityGroups": [],
+            "requiredChecks": [],
+            "requiredWorldModelViews": []
+          },
+          "configPath": "singularity/workflow.yml",
+          "configSha256": "2cc8dc077f53562783446c7d4ad8d3dc1ff267bbbe2c06070cc5e77b02adf62c",
+          "lifecycleEventId": "2cdfc8e5-36d2-4b98-83cd-ee9b84baf418",
+          "lifecyclePayload": {
+            "decision": null,
+            "reviewPacketSha256": null
+          },
+          "templateSha256": "9aa58420ffe1554fddf932aa9be333fd5283599895c2f6617262fd7e9e3e2be7"
+        },
+        "createdAt": "2026-08-17T00:17:08.776Z"
+      }
     }
-  ]
+  ],
+  "workIntervals": {
+    "schemaVersion": 1,
+    "current": null,
+    "history": [],
+    "escalations": []
+  }
 }

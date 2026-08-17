@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 2,
+  "workId": "WRK-2090",
+  "phase": "specification",
+  "generation": 1,
+  "agent": "product-owner",
+  "modelCommit": "3d58c7545aba5e29d4a538cc9ba3fed4999d689e",
+  "matchedRules": 0,
+  "mode": "append",
+  "applied": false,
+  "depth": "standard",
+  "evidence": false,
+  "requiredViews": [
+    "business"
+  ],
+  "requiredSelections": [
+    {
+      "kind": "core",
+      "tier": "brief",
+      "required": true
+    },
+    {
+      "kind": "view",
+      "view": "business",
+      "tier": "full",
+      "required": true,
+      "origin": "phase+agent"
+    }
+  ],
+  "task": "Change the color to green",
+  "supportingEvidence": [],
+  "references": [],
+  "modelSourceTreeSha256": "sha256:c7aa59a6a367e29754210d961325169ad8ca8277c07bdc5bc0ba03bcb0126938",
+  "composedSourceTreeSha256": "sha256:c7aa59a6a367e29754210d961325169ad8ca8277c07bdc5bc0ba03bcb0126938",
+  "worldModelCommit": "3d58c7545aba5e29d4a538cc9ba3fed4999d689e",
+  "manifestSha256": "60e25638d1218767ea9c4e2a92703748613f58962a3193bdc164ce66bd3a2de7",
+  "fresh": true,
+  "renderedSha256": "5cd5d424725fca497ed8435651abd0ff885a66e4efbe101486d6a3e25a619a4c",
+  "promptPath": "singularity/work-items/WRK-2090/context/prompts/specification-gen1.md",
+  "files": [
+    {
+      "path": "singularity/world-model/core/summary.brief.md",
+      "sha256": "8d5e9b892a3e04a970b1225c7b103d248b72aca52066a0fd286ce7dc39ccdf47",
+      "bytes": 689,
+      "injectedBytes": 689,
+      "truncated": false,
+      "category": "required",
+      "level": 0,
+      "reason": "shared repository core (brief)",
+      "evidenceId": null,
+      "mimeType": null,
+      "packageId": null,
+      "handle": null,
+      "previewSha256": null,
+      "previewBytes": null,
+      "renderer": null
+    },
+    {
+      "path": "singularity/world-model/views/business.md",
+      "sha256": "50637cafc1fda7e12ca18f0c0fae81629a6d9cc9f3899ace68ad0bd11788daa9",
+      "bytes": 903,
+      "injectedBytes": 903,
+      "truncated": false,
+      "category": "required",
+      "level": 1,
+      "reason": "specification view: business (full; phase+agent)",
+      "evidenceId": null,
+      "mimeType": null,
+      "packageId": null,
+      "handle": null,
+      "previewSha256": null,
+      "previewBytes": null,
+      "renderer": null
+    },
+    {
+      "path": "singularity/world-model/task-guides/a0a07a3a5e4d5da2.md",
+      "sha256": "0ce58406eec8bedfc6dee52a8a86b38310b820db243bfb945c3a187adae7de77",
+      "bytes": 280,
+      "injectedBytes": 280,
+      "truncated": false,
+      "category": "required",
+      "level": 2,
+      "reason": "task guide: task-a0a07a3a5e4d",
+      "evidenceId": null,
+      "mimeType": null,
+      "packageId": null,
+      "handle": null,
+      "previewSha256": null,
+      "previewBytes": null,
+      "renderer": null
+    }
+  ],
+  "injectedAt": "2026-08-17T00:10:20.120Z"
+}
