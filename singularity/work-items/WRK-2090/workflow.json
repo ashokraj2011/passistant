@@ -148,6 +148,114 @@
           },
           "status": "awaiting_review"
         }
+      },
+      {
+        "packetSha256": "87a3dde52f6317c5ba27b271d001a1428cea6be161f0596cb7ebdd51f3dd871c",
+        "phase": "planning",
+        "generation": 1,
+        "branch": "WRK-2090",
+        "sourceTreeSha256": "sha256:111cad2b35ad3fb88c0606a148a4cd50c9904bc615098b59c2081975cbdbf1b4",
+        "path": "singularity/work-items/WRK-2090/submissions/planning/87a3dde52f6317c5ba27b271d001a1428cea6be161f0596cb7ebdd51f3dd871c.json",
+        "submittedAt": "2026-08-17T00:29:01.767Z",
+        "projection": {
+          "schemaVersion": 1,
+          "workId": "WRK-2090",
+          "epicId": null,
+          "planId": null,
+          "jiraIssueId": "WRK-2090",
+          "initialJiraKey": null,
+          "currentJiraKey": null,
+          "canonicalBranch": "WRK-2090",
+          "submittedBranch": "WRK-2090",
+          "submissionCommit": "101c3120dd0b9180c15f16d596783743a5563297",
+          "sourceCommit": "101c3120dd0b9180c15f16d596783743a5563297",
+          "sourceTreeSha256": "sha256:111cad2b35ad3fb88c0606a148a4cd50c9904bc615098b59c2081975cbdbf1b4",
+          "phase": "planning",
+          "generation": 1,
+          "authorship": {
+            "schemaVersion": 1,
+            "producer": "governed-agent",
+            "channel": "copilot-host",
+            "actor": {
+              "name": "Ashok Raj",
+              "email": "88361104+ashokraj2011@users.noreply.github.com",
+              "login": "ashokraj2011",
+              "githubLookup": "resolved"
+            },
+            "governedAgentContext": {
+              "agentId": "product-owner"
+            },
+            "kernelModel": {
+              "invoked": false,
+              "status": "exact",
+              "invocationIds": []
+            },
+            "externalAiUse": {
+              "value": "unknown",
+              "status": "unavailable"
+            },
+            "source": {
+              "kind": "in-place",
+              "filename": "plan.md",
+              "mediaType": "text/markdown",
+              "sha256": "d14d7caefbffeaa08b186ed049c096801ca82be4325575469cc95714802698c0",
+              "bytes": 12331
+            },
+            "generation": 1,
+            "publishedAt": "2026-08-17T00:26:26.743Z"
+          },
+          "artifacts": [
+            {
+              "path": "singularity/work-items/WRK-2090/artifacts/planning/plan.md",
+              "kind": "document",
+              "sha256": "0ad0e3d5cdbd7846be0f45d52682c4906eb9fe29ec1e20c0d8332b2f2e7a76a8",
+              "size": 15393,
+              "reference": {
+                "handle": "sfref:v1:story:WRK-2090:bfb9cfb6d77c72385fadfdb5a047518af106659197868ce6b4204dd9d3629bf5",
+                "recordHash": "bfb9cfb6d77c72385fadfdb5a047518af106659197868ce6b4204dd9d3629bf5"
+              }
+            }
+          ],
+          "references": [
+            {
+              "handle": "sfref:v1:story:WRK-2090:bfb9cfb6d77c72385fadfdb5a047518af106659197868ce6b4204dd9d3629bf5",
+              "recordHash": "bfb9cfb6d77c72385fadfdb5a047518af106659197868ce6b4204dd9d3629bf5",
+              "purpose": "review-evidence",
+              "required": true
+            }
+          ],
+          "checks": [],
+          "usage": [
+            {
+              "status": "unavailable",
+              "source": "copilot-otel-unavailable",
+              "provider": null,
+              "model": null,
+              "inputTokens": null,
+              "outputTokens": null,
+              "cachedInputTokens": null,
+              "cacheWriteInputTokens": null,
+              "totalTokens": null,
+              "providerCost": null,
+              "costStatus": "unavailable",
+              "spans": null,
+              "startedAt": "2026-08-17T00:26:26.743Z",
+              "completedAt": "2026-08-17T00:26:26.743Z",
+              "agent": "product-owner",
+              "generation": 1
+            }
+          ],
+          "approvals": [],
+          "visualAssurance": null,
+          "submittedAt": "2026-08-17T00:29:01.767Z",
+          "submittedBy": {
+            "name": "Ashok Raj",
+            "email": "88361104+ashokraj2011@users.noreply.github.com",
+            "login": "ashokraj2011",
+            "githubLookup": "resolved"
+          },
+          "status": "awaiting_review"
+        }
       }
     ]
   },
@@ -1679,7 +1787,7 @@
       "label": "Planning",
       "order": 1,
       "defaultAgent": "architect",
-      "status": "in_progress",
+      "status": "awaiting_approval",
       "requiredArtifact": {
         "path": "artifacts/planning/plan.md",
         "kind": "design",
@@ -1732,7 +1840,7 @@
       },
       "qualityCommands": [],
       "startedAt": "2026-08-17T00:21:32.693Z",
-      "submittedAt": null,
+      "submittedAt": "2026-08-17T00:29:01.767Z",
       "approvedAt": null,
       "approvedBy": null,
       "rejectedAt": null,
@@ -1818,10 +1926,10 @@
           "kind": "document",
           "status": "pending",
           "exists": true,
-          "size": 15393,
-          "sha256": "0ad0e3d5cdbd7846be0f45d52682c4906eb9fe29ec1e20c0d8332b2f2e7a76a8",
+          "size": 15475,
+          "sha256": "06101aeef09ab220045245e47daf388a316bf106e8444acd464c0f466e7ab04d",
           "registeredAt": "2026-08-17T00:26:26.611Z",
-          "updatedAt": "2026-08-17T00:26:26.775Z"
+          "updatedAt": "2026-08-17T00:29:01.768Z"
         }
       ],
       "checks": [],
@@ -1877,7 +1985,9 @@
         "generation": 1,
         "preserved": [],
         "changed": []
-      }
+      },
+      "generationCommit": "101c3120dd0b9180c15f16d596783743a5563297",
+      "publicationCommit": "101c3120dd0b9180c15f16d596783743a5563297"
     },
     "implementation": {
       "id": "implementation",
@@ -2316,6 +2426,14 @@
       "event": "phase_generated",
       "phase": "planning",
       "detail": "generation 1"
+    },
+    {
+      "at": "2026-08-17T00:29:01.767Z",
+      "actor": "ashokraj2011",
+      "agent": "product-owner",
+      "event": "phase_submitted",
+      "phase": "planning",
+      "detail": "1 artifacts"
     }
   ],
   "measurement": {
@@ -2685,6 +2803,77 @@
           "templateSha256": "303b6402e8c2c925c3507ce1eafe95bb08a69d097509cb6f8a0b5e3bee1db23f"
         },
         "createdAt": "2026-08-17T00:26:26.642Z"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "event": {
+        "schemaVersion": 1,
+        "eventId": "93f24f5b-e4b7-4157-b2a6-06b495c77bd8",
+        "type": "approval-requested",
+        "subject": {
+          "kind": "story",
+          "id": "WRK-2090",
+          "branch": "WRK-2090"
+        },
+        "phaseId": "planning",
+        "generation": 1,
+        "actor": {
+          "name": "Ashok Raj",
+          "email": "88361104+ashokraj2011@users.noreply.github.com",
+          "login": "ashokraj2011",
+          "githubLookup": "resolved"
+        },
+        "agent": "product-owner",
+        "authorityGroup": null,
+        "payload": {
+          "decision": null,
+          "reviewPacketSha256": null
+        },
+        "sourceCommit": null,
+        "idempotencyKey": null,
+        "idempotencyHash": null,
+        "createdAt": "2026-08-17T00:29:01.705Z"
+      },
+      "ledgerIntent": {
+        "schemaVersion": 1,
+        "eventId": "93f24f5b-e4b7-4157-b2a6-06b495c77bd8",
+        "eventType": "approval-requested",
+        "capabilityId": "piassistnat",
+        "subject": {
+          "branch": "WRK-2090",
+          "generation": 1,
+          "phase": "planning",
+          "workId": "WRK-2090",
+          "workType": "spec-driven-standard"
+        },
+        "actor": {
+          "name": "Ashok Raj",
+          "email": "88361104+ashokraj2011@users.noreply.github.com",
+          "githubLogin": "ashokraj2011",
+          "identityAssurance": "configured-local"
+        },
+        "agent": "product-owner",
+        "authorityGroup": null,
+        "payload": {
+          "capabilityMapSha256": "78b522f1b6f41455d7a7359b80e1c92b89f3ab59ae47a4a4e6487ce2df1fe48a",
+          "capabilityPolicy": {
+            "protectedPaths": [],
+            "qualityCommands": [],
+            "requiredAuthorityGroups": [],
+            "requiredChecks": [],
+            "requiredWorldModelViews": []
+          },
+          "configPath": "singularity/workflow.yml",
+          "configSha256": "2cc8dc077f53562783446c7d4ad8d3dc1ff267bbbe2c06070cc5e77b02adf62c",
+          "lifecycleEventId": "93f24f5b-e4b7-4157-b2a6-06b495c77bd8",
+          "lifecyclePayload": {
+            "decision": null,
+            "reviewPacketSha256": null
+          },
+          "templateSha256": "303b6402e8c2c925c3507ce1eafe95bb08a69d097509cb6f8a0b5e3bee1db23f"
+        },
+        "createdAt": "2026-08-17T00:29:01.709Z"
       }
     }
   ],
