@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "workId": "WRK-2090",
+  "workType": "spec-driven-standard",
+  "phase": "planning",
+  "generation": 1,
+  "mode": "enforce",
+  "recordedAt": "2026-08-17T00:26:26.720Z",
+  "renderedSha256": "9b4f8df733054567bd8de47a7b99c363c41973338091789eee6c6b4458149c0b",
+  "warnings": [],
+  "inputs": [
+    {
+      "phase": "specification",
+      "path": "artifacts/specification/spec.md",
+      "optional": false,
+      "maxBytes": null,
+      "status": "captured",
+      "producerStatus": "approved",
+      "producerGeneration": 1,
+      "approvedAt": "2026-08-17T00:21:32.693Z",
+      "approvedBy": "ashokraj2011",
+      "approvedSha256": "7fa0c0bb229ccaee0e7d16d180d6289ff40f9a63a36085caf71e2c4c5c5d944f",
+      "sha256": "7fa0c0bb229ccaee0e7d16d180d6289ff40f9a63a36085caf71e2c4c5c5d944f",
+      "bytes": 8228,
+      "injectedBytes": 8228,
+      "truncated": false
+    }
+  ]
+}

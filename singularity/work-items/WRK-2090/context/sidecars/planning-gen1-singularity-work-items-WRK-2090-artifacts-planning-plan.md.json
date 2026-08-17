@@ -1,0 +1,41 @@
+{
+  "artifact": {
+    "bytes": 13923,
+    "path": "singularity/work-items/WRK-2090/artifacts/planning/plan.md",
+    "role": "document",
+    "sha256": "e3287b05a7d8a810c4d5bbb550e3c106cff5a930b41520450d6b6b80f71138e1"
+  },
+  "configuration": {
+    "revision": "9299f97da81c34213413949feb8dbbeea641e2ff",
+    "sha256": "2cc8dc077f53562783446c7d4ad8d3dc1ff267bbbe2c06070cc5e77b02adf62c"
+  },
+  "generation": 1,
+  "inputs": [
+    {
+      "kind": null,
+      "path": "artifacts/specification/spec.md",
+      "sha256": null
+    }
+  ],
+  "integritySha256": "43cb892f0591f7543b19a56e2961d06cdc1e42fb3af8dd077041d58ab67d5e55",
+  "phase": "planning",
+  "producer": {
+    "actor": "88361104+ashokraj2011@users.noreply.github.com",
+    "agent": "product-owner",
+    "kind": "governed-agent"
+  },
+  "publication": {
+    "branch": "WRK-2090",
+    "commit": null,
+    "publishedAt": "2026-08-17T00:26:26.743Z"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "id": "WRK-2090",
+    "kind": "story"
+  },
+  "template": {
+    "path": "singularity/templates/spec-driven/plan.md",
+    "sha256": "303b6402e8c2c925c3507ce1eafe95bb08a69d097509cb6f8a0b5e3bee1db23f"
+  }
+}
