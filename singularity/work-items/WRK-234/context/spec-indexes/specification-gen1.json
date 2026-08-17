@@ -1,0 +1,13 @@
+{
+  "clauses": [],
+  "generation": 1,
+  "indexSha256": "7da1275f997d934144ad57e53d41353b094ae1a622f793c936cba210b6e01aa7",
+  "phase": "specification",
+  "schemaVersion": 1,
+  "source": {
+    "bytes": 6890,
+    "path": "singularity/work-items/WRK-234/artifacts/specification/spec.md",
+    "sha256": "33df65229bf5c830071fd623adcc8c0b42831f0f313dce7c74664ccdf181a22a"
+  },
+  "workId": "WRK-234"
+}

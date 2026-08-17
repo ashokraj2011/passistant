@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "workId": "WRK-234",
+  "phase": "specification",
+  "generation": 1,
+  "mode": "required",
+  "promptPath": "singularity/work-items/WRK-234/context/prompts/specification-gen1.md",
+  "promptSha256": "13902c2f215217b1318abb1db07e53ae293af5134cc2a4d63af2df81a024238b",
+  "groundingRecordPath": "singularity/work-items/WRK-234/context/specification-gen1.json",
+  "groundingRecordSha256": "008445056764a5359e7c2a15ae7a9010fb462e9cf114d63c3ea8cc1aba04a519",
+  "responses": [
+    {
+      "id": "Q-001",
+      "question": "What outcome should the WRK-234 specification describe?",
+      "answer": "The app background should be green.",
+      "status": "answered",
+      "blocking": false
+    }
+  ],
+  "completed": true,
+  "recordedAt": "2026-08-17T09:50:13.439Z",
+  "recordedBy": {
+    "name": "Ashok Raj",
+    "email": "88361104+ashokraj2011@users.noreply.github.com",
+    "login": "ashokraj2011",
+    "githubLookup": "resolved"
+  },
+  "agent": "product-owner"
+}
