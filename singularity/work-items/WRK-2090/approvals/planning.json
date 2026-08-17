@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 2,
+  "phase": "planning",
+  "decisions": [
+    {
+      "decision": "approved",
+      "phase": "planning",
+      "at": "2026-08-17T01:39:21.612Z",
+      "actor": {
+        "name": "Ashok Raj",
+        "email": "88361104+ashokraj2011@users.noreply.github.com",
+        "login": "ashokraj2011",
+        "githubLookup": "resolved"
+      },
+      "agent": "architect",
+      "authorityGroup": "architecture-reviewers",
+      "identityAssurance": "configured-local",
+      "channel": "terminal",
+      "generation": 1,
+      "artifactSha256": [
+        {
+          "path": "singularity/work-items/WRK-2090/artifacts/planning/plan.md",
+          "sha256": "06101aeef09ab220045245e47daf388a316bf106e8444acd464c0f466e7ab04d"
+        }
+      ],
+      "artifactSet": "spec-driven-planning",
+      "bundleSha256": "a78462241f4a363973051835dcaa86ab8c98048c879e06edde7c2bbd1ab7bbdf",
+      "reviewPacketSha256": "87a3dde52f6317c5ba27b271d001a1428cea6be161f0596cb7ebdd51f3dd871c",
+      "selfApproval": true
+    }
+  ]
+}
