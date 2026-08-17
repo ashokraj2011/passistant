@@ -1,0 +1,106 @@
+{
+  "schema_version": "3.0",
+  "generated_at": "2026-08-17T00:10:03.564Z",
+  "generated_date": "17 August 2026",
+  "builder_version": "2.1-light",
+  "builder_prompt_sha256": "511654826223e40b93c54f48f9b773f155e3364326d41aa98108dea7217d75cd",
+  "repository_commit": "aef3af018d46c502bdfc3000dab834f9173008af",
+  "repository_branch": "WRK-2090",
+  "working_tree_clean": false,
+  "generated_for_phase": "specification",
+  "analysis_depth": "light",
+  "source_tree_sha256": "sha256:c7aa59a6a367e29754210d961325169ad8ca8277c07bdc5bc0ba03bcb0126938",
+  "generator": {
+    "type": "deterministic-local",
+    "model": null,
+    "model_tokens": 0
+  },
+  "core": {
+    "brief": "core/summary.brief.md",
+    "summary": "core/summary.md",
+    "model": {
+      "path": "core/model.json"
+    },
+    "tiers": {
+      "brief": {
+        "status": "ready",
+        "path": "core/summary.brief.md",
+        "bytes": 689,
+        "sha256": "8d5e9b892a3e04a970b1225c7b103d248b72aca52066a0fd286ce7dc39ccdf47"
+      },
+      "full": {
+        "status": "ready",
+        "path": "core/summary.md",
+        "bytes": 2760,
+        "sha256": "45ff559b76d9f21e56b7f1e417596712581e1156220312b0dce2a94e60073eab"
+      }
+    }
+  },
+  "path_index": {
+    "path": "index/path-map.json"
+  },
+  "views": {
+    "business": {
+      "path": "views/business.md",
+      "brief_path": "views/business.brief.md",
+      "generated": true,
+      "tiers": {
+        "brief": {
+          "status": "missing",
+          "path": "views/business.brief.md",
+          "bytes": 0,
+          "sha256": null
+        },
+        "full": {
+          "status": "ready",
+          "path": "views/business.md",
+          "bytes": 903,
+          "sha256": "50637cafc1fda7e12ca18f0c0fae81629a6d9cc9f3899ace68ad0bd11788daa9"
+        }
+      }
+    }
+  },
+  "views_generated": [
+    "business"
+  ],
+  "requested_views": [
+    "business"
+  ],
+  "domains": [],
+  "task_guides": [
+    {
+      "id": "task-a0a07a3a5e4d",
+      "path": "task-guides/a0a07a3a5e4d5da2.md",
+      "task": "Change the color to green"
+    }
+  ],
+  "evidence": {
+    "path": "evidence/evidence.jsonl"
+  },
+  "generation": {
+    "parallel": false,
+    "strategy": "deterministic-light",
+    "max_workers": 0,
+    "discovery_views": [],
+    "degraded_views": [],
+    "resumed_views": [],
+    "pending_views_at_start": []
+  },
+  "materializations": [
+    {
+      "id": "light-1786925404462",
+      "generated_at": "2026-08-17T00:10:03.564Z",
+      "source_tree_sha256": "sha256:c7aa59a6a367e29754210d961325169ad8ca8277c07bdc5bc0ba03bcb0126938",
+      "provider": null,
+      "requested": [
+        "business/full",
+        "core/brief"
+      ],
+      "produced": [
+        "business/full",
+        "core/brief"
+      ],
+      "reused": []
+    }
+  ]
+}
