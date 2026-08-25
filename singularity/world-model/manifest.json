@@ -1,15 +1,15 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-08-25T12:49:44.265Z",
+  "generated_at": "2026-08-25T13:26:02.007Z",
   "generated_date": "25 August 2026",
   "builder_version": "2.1-light",
   "builder_prompt_sha256": "511654826223e40b93c54f48f9b773f155e3364326d41aa98108dea7217d75cd",
-  "repository_commit": "3fab64a814548e6d8512f233ac14efc8a41643e1",
+  "repository_commit": "3eec0a4d99c77ca5436329ba873a66112dc201c4",
   "repository_branch": "COLOR-RED",
   "working_tree_clean": false,
-  "generated_for_phase": "requirements",
+  "generated_for_phase": "implementation",
   "analysis_depth": "light",
-  "source_tree_sha256": "sha256:e4a96014250c05be1d4bf2610c733bc5094ae733eab63c0443408e774ba1b4d3",
+  "source_tree_sha256": "sha256:79837ce82f34c71da5004a6f982de6f7a0f0bdd30d792e797bf80c2d487209e9",
   "generator": {
     "type": "deterministic-local",
     "model": null,
@@ -25,14 +25,14 @@
       "brief": {
         "status": "ready",
         "path": "core/summary.brief.md",
-        "bytes": 689,
-        "sha256": "a641f1727b8ab17e0972fa89a78d47d1af06e525cc970f58e9f249a01589457e"
+        "bytes": 705,
+        "sha256": "1fd968a6715b95b7384afaf8e78110b298d5b2ae9e0ed86ec0029ac425282f30"
       },
       "full": {
         "status": "ready",
         "path": "core/summary.md",
-        "bytes": 2761,
-        "sha256": "c1d888f098d7f57977810afc6d7b88d94c08a018c9d58c18f96b800ece5ca247"
+        "bytes": 2824,
+        "sha256": "586a470060b8a6f4092cc073bb71202953ce6d34e40ba79253cba7c78223851b"
       }
     }
   },
@@ -40,31 +40,52 @@
     "path": "index/path-map.json"
   },
   "views": {
-    "business": {
-      "path": "views/business.md",
-      "brief_path": "views/business.brief.md",
+    "development": {
+      "path": "views/development.md",
+      "brief_path": "views/development.brief.md",
       "generated": true,
       "tiers": {
         "brief": {
           "status": "missing",
-          "path": "views/business.brief.md",
+          "path": "views/development.brief.md",
           "bytes": 0,
           "sha256": null
         },
         "full": {
           "status": "ready",
-          "path": "views/business.md",
-          "bytes": 903,
-          "sha256": "6a099b20e88fbbe43ff2d75f456b2aa62ca59252ccabfb4b26c7b3747b76d105"
+          "path": "views/development.md",
+          "bytes": 1202,
+          "sha256": "62c5a6995bf47271d12ec714d1b2c80eee9f42d58cce34199cb6bbc985fefc2a"
+        }
+      }
+    },
+    "testing": {
+      "path": "views/testing.md",
+      "brief_path": "views/testing.brief.md",
+      "generated": true,
+      "tiers": {
+        "brief": {
+          "status": "ready",
+          "path": "views/testing.brief.md",
+          "bytes": 293,
+          "sha256": "0195675f407dba023f4175b275b755feaa5ed8bcd5ddcdf941b7ccb5e412d0e5"
+        },
+        "full": {
+          "status": "missing",
+          "path": "views/testing.md",
+          "bytes": 0,
+          "sha256": null
         }
       }
     }
   },
   "views_generated": [
-    "business"
+    "development",
+    "testing"
   ],
   "requested_views": [
-    "business"
+    "development",
+    "testing"
   ],
   "domains": [],
   "task_guides": [],
@@ -82,17 +103,19 @@
   },
   "materializations": [
     {
-      "id": "light-1787662185117",
-      "generated_at": "2026-08-25T12:49:44.265Z",
-      "source_tree_sha256": "sha256:e4a96014250c05be1d4bf2610c733bc5094ae733eab63c0443408e774ba1b4d3",
+      "id": "light-1787664362905",
+      "generated_at": "2026-08-25T13:26:02.007Z",
+      "source_tree_sha256": "sha256:79837ce82f34c71da5004a6f982de6f7a0f0bdd30d792e797bf80c2d487209e9",
       "provider": null,
       "requested": [
-        "business/full",
-        "core/brief"
+        "core/brief",
+        "development/full",
+        "testing/brief"
       ],
       "produced": [
-        "business/full",
-        "core/brief"
+        "core/brief",
+        "development/full",
+        "testing/brief"
       ],
       "reused": []
     }
