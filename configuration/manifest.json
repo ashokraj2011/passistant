@@ -3,23 +3,23 @@
   "layout": "canonical-paths",
   "source": {
     "branch": "sflow/config",
-    "commit": "508f16d86de07eca4ff8a5782f781db1a66e759e"
+    "commit": "a374b0891b817e3f8f5b9508480d314fd529e1dd"
   },
   "product": {
     "version": "0.9.0",
     "revision": "version-0.9.0"
   },
   "files": {
-    ".github/agents/architect.agent.md": "188198ceb7da73ef10814aaea2426dea127442f199fa16939f84a95415547ee5",
-    ".github/agents/developer.agent.md": "73ea37256ad3bd2c1b5cd176f99803bc66de49e6ace6063c52430e50e9b6ac16",
-    ".github/agents/mobile-architect.agent.md": "74dc5471afefcea6dee62fb5fc710ef019c809e51db3ab7eb203f238536fbf48",
+    ".github/agents/architect.agent.md": "da4f136ae11c0cb459500d4008a5629797f168ec4df87ba807da31c12a59c467",
+    ".github/agents/developer.agent.md": "669b82f0c0ddf8947dbccda1fd9f91ad2973e314e7a60d35012b94e103a3d72b",
+    ".github/agents/mobile-architect.agent.md": "afebe77fff23c5493852c2898a39410d115cae1f346256cbffcda9dd103bcf2b",
     ".github/agents/poc-analyst.agent.md": "a5e8b6d7bd4daaa7eed58f5b4d5aec4985f53e8cc6b79f8b353f31a59c9b2099",
     ".github/agents/poc-automation.agent.md": "293e8c404b05f4a2ba4465bbed0be5b828ae367df6e6263c7255235948e6bee2",
     ".github/agents/poc-explorer.agent.md": "e20eb9f019128dce8d1a92842e19b368b012965c1abc5322ae22e57e223abcb8",
     ".github/agents/poc-test-developer.agent.md": "c40ca16bd75bf3d201e4b324500a4623af322e707f25c5de46e64aebc49f4829",
     ".github/agents/poc-validator.agent.md": "a7f8cbf15a2474f2bf4a6f959a95a49917f7a1df3b96b9cf0222ab2a3f8fb4c0",
-    ".github/agents/product-designer.agent.md": "330f43cec8f05c22cef3fcec99be31daab818b36c2e7dabd25293c95b05acea4",
-    ".github/agents/product-owner.agent.md": "491241469786c77bf5f99384fdb7f9c0da7abf637fb5e8fc531992a6168f0027",
+    ".github/agents/product-designer.agent.md": "d865c816c41be1723bd2d3ef1e769f02821e2a45a75120119f50606a7a3d1fee",
+    ".github/agents/product-owner.agent.md": "54c7240d0b81c04e47c453fd19a29caf358c07d3d36a93b84ff84541e7f9aeb0",
     ".github/agents/qa.agent.md": "3c0c9560c422fc616b391277b38d409b004864449b1a9cf4aa06bd5e302233e5",
     "singularity/agent-mappings.yml": "1b39a4f4caa3242749889a291e2259a361c815712bd762abde3db3cbe9f8a688",
     "singularity/capabilities.yml": "78b522f1b6f41455d7a7359b80e1c92b89f3ab59ae47a4a4e6487ce2df1fe48a",
@@ -39,9 +39,9 @@
     "singularity/templates/bugfix/reproduction.md": "083e0361f6ffe9e84905b21558554c8335ab1a036719cb37f104e03f255f3567",
     "singularity/templates/chore/intake.md": "d4632690fa411f3926eee1bfd474f5907aae5efdd31313576acdac04e8934441",
     "singularity/templates/common/conformance.md": "dcb95249d8fef0dcdb87a6f012f09c481a47813e50f4e8dd96be207c81c15ada",
-    "singularity/templates/common/implementation.md": "5d0478b18c8fd14221e14c68e6238b909bccd6802a70262c416005354716c62c",
+    "singularity/templates/common/implementation.md": "61cd7cba79a0dd2914a25b53496b8bd9c575c36219597d65b8ec10010e801d9c",
     "singularity/templates/common/intake.md": "e16cd8b47f472973823a1a53294c77ac6551285c4df75e916c739611c3bc1d23",
-    "singularity/templates/common/verification.md": "ced4ce8d532e509658558f5bf848bd6df1a03d6c278c84ed8512ac667095fd98",
+    "singularity/templates/common/verification.md": "46a93cccc0edf7b3d878f05f212ed68350c26cedb33d96b3c447ac38bde20c40",
     "singularity/templates/feature/design.md": "8b7455f464a7025efa92942c272a04e3c0a3ab2a4d3eb438703cc14e230bc856",
     "singularity/templates/feature/implementation-spec.md": "f6b06a7e8c8dfa87a7f1289b2a80c0a6e98f5ee8e3cae2fe9faed501c031656c",
     "singularity/templates/feature/intake.md": "eb53814f46f12ea3d93d1629164bd7ff22a3a54feceff7f7dd55670caeb5dbab",
@@ -113,10 +113,10 @@
     "singularity/templates/poc-workflow/validation.md": "b1d121afbd49c09538d221cbac60b352a21f7eb7699bc4cba08d35b88ba47fb6",
     "singularity/templates/quick-fix/implement.md": "dff093133a1be4c93115cfbbb0d994c8ce391fc19279caee30b441ec27a05c0a",
     "singularity/templates/quick-fix/verify.md": "a21900d99d044d35de501f0e43888a8a3ebcfe860e702a5d1b3eec61fdd06f27",
-    "singularity/templates/spec-driven/convergence.md": "6901106457eec3b69da7bf60f290529079b7c9dfa4cb59db780ec5406920a832",
-    "singularity/templates/spec-driven/plan.md": "303b6402e8c2c925c3507ce1eafe95bb08a69d097509cb6f8a0b5e3bee1db23f",
-    "singularity/templates/spec-driven/release.md": "d79502d1b97d92cbd4527e548616a6d0154b8ef4083ed3d792b4f6c9ca9246a3",
-    "singularity/templates/spec-driven/spec.md": "9aa58420ffe1554fddf932aa9be333fd5283599895c2f6617262fd7e9e3e2be7",
-    "singularity/workflow.yml": "066ca41fcc51207f9fd5d0030660605cd0cccd34110fb6dd29bfe82c6710d18b"
+    "singularity/templates/spec-driven/convergence.md": "eb257477afca0229ed858875499736c57498015aaee0a527b714356819a9dde2",
+    "singularity/templates/spec-driven/plan.md": "3e0676d5a5c384fbc3bf3f3320f495017254c349fca42ef5f5c3c93ea94b2ec0",
+    "singularity/templates/spec-driven/release.md": "f091ec3cec891f0236a3a51a798dd43c401c992dfbcdc05b592eb119ebd2f692",
+    "singularity/templates/spec-driven/spec.md": "37c4fb807258773b3944399e2cf8dca7cc375dfcb2d906e0e72a9cae54efd8cf",
+    "singularity/workflow.yml": "18da9ffa3626deeba0e2aad1c7c75daffc2a60a82c2ca548426d9a48ce949ab8"
   }
 }
