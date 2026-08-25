@@ -1,15 +1,15 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-08-25T12:40:46.015Z",
+  "generated_at": "2026-08-25T12:49:44.265Z",
   "generated_date": "25 August 2026",
   "builder_version": "2.1-light",
   "builder_prompt_sha256": "511654826223e40b93c54f48f9b773f155e3364326d41aa98108dea7217d75cd",
-  "repository_commit": "1c578b72398c16e43a44810602e2d503c30ffceb",
+  "repository_commit": "3fab64a814548e6d8512f233ac14efc8a41643e1",
   "repository_branch": "COLOR-RED",
   "working_tree_clean": false,
-  "generated_for_phase": "intake",
+  "generated_for_phase": "requirements",
   "analysis_depth": "light",
-  "source_tree_sha256": "sha256:28f5c5aa63f42b68496d1e0dd6afa764fc66f7edab0c49ab1a630dc12d3d1e8f",
+  "source_tree_sha256": "sha256:e4a96014250c05be1d4bf2610c733bc5094ae733eab63c0443408e774ba1b4d3",
   "generator": {
     "type": "deterministic-local",
     "model": null,
@@ -26,13 +26,13 @@
         "status": "ready",
         "path": "core/summary.brief.md",
         "bytes": 689,
-        "sha256": "487529c7173b3bb50b664e902d1e3bada1649a59d7b42b52fdd9108117f2cabf"
+        "sha256": "a641f1727b8ab17e0972fa89a78d47d1af06e525cc970f58e9f249a01589457e"
       },
       "full": {
         "status": "ready",
         "path": "core/summary.md",
-        "bytes": 2762,
-        "sha256": "e36e950795e8a7e1364d994aed241322a7d8a33a6e52d4843e1fb7eda1f40312"
+        "bytes": 2761,
+        "sha256": "c1d888f098d7f57977810afc6d7b88d94c08a018c9d58c18f96b800ece5ca247"
       }
     }
   },
@@ -46,16 +46,16 @@
       "generated": true,
       "tiers": {
         "brief": {
-          "status": "ready",
-          "path": "views/business.brief.md",
-          "bytes": 267,
-          "sha256": "ada626b90d01d1432d72aa575940c0d6c46386abbbabbf0e341d884e277ffe41"
-        },
-        "full": {
           "status": "missing",
-          "path": "views/business.md",
+          "path": "views/business.brief.md",
           "bytes": 0,
           "sha256": null
+        },
+        "full": {
+          "status": "ready",
+          "path": "views/business.md",
+          "bytes": 903,
+          "sha256": "6a099b20e88fbbe43ff2d75f456b2aa62ca59252ccabfb4b26c7b3747b76d105"
         }
       }
     }
@@ -82,16 +82,16 @@
   },
   "materializations": [
     {
-      "id": "light-1787661646894",
-      "generated_at": "2026-08-25T12:40:46.015Z",
-      "source_tree_sha256": "sha256:28f5c5aa63f42b68496d1e0dd6afa764fc66f7edab0c49ab1a630dc12d3d1e8f",
+      "id": "light-1787662185117",
+      "generated_at": "2026-08-25T12:49:44.265Z",
+      "source_tree_sha256": "sha256:e4a96014250c05be1d4bf2610c733bc5094ae733eab63c0443408e774ba1b4d3",
       "provider": null,
       "requested": [
-        "business/brief",
+        "business/full",
         "core/brief"
       ],
       "produced": [
-        "business/brief",
+        "business/full",
         "core/brief"
       ],
       "reused": []

@@ -3,11 +3,11 @@
   "mode": "deterministic-light",
   "title": "personalization-conversational-intelligence",
   "repository": {
-    "commit": "1c578b72398c16e43a44810602e2d503c30ffceb",
+    "commit": "3fab64a814548e6d8512f233ac14efc8a41643e1",
     "branch": "COLOR-RED"
   },
   "counts": {
-    "files": 32,
+    "files": 31,
     "source": 16,
     "tests": 1,
     "manifests": 1,
@@ -18,7 +18,7 @@
   },
   "topDirectories": {
     "server": 13,
-    "(root)": 10,
+    "(root)": 9,
     "src": 8,
     "docs": 1
   },

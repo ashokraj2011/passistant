@@ -1,23 +1,23 @@
 # personalization-conversational-intelligence — deterministic light world model
 
-> Generated 25 August 2026 (2026-08-25T12:40:46.015Z) · source `1c578b72398c16e43a44810602e2d503c30ffceb` · branch `COLOR-RED`
+> Generated 25 August 2026 (2026-08-25T12:49:44.265Z) · source `3fab64a814548e6d8512f233ac14efc8a41643e1` · branch `COLOR-RED`
 
 ## Repository shape
 
-- Files indexed: 32
+- Files indexed: 31
 - Source-like files: 16
 - Test-like files: 1
 - Build manifests: 1
 - Deployment/operations files: 0
 - Languages: TypeScript (16)
-- Top-level areas: server (13), (root) (10), src (8), docs (1)
+- Top-level areas: server (13), (root) (9), src (8), docs (1)
 
 ## Facts {#core.facts}
 
 <!-- singularity-flow:repository-facts:start -->
 ```yaml
 # Derived from the repository, not inferred. Every path and line is checkable.
-files: 32
+files: 31
 languages_scanned: 16
 frameworks: [Angular, Express, TypeScript]
 commands:
