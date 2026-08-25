@@ -1,0 +1,28 @@
+{
+  "artifact": {
+    "generation": 1,
+    "mediaType": "text/markdown",
+    "outputId": "document",
+    "path": "singularity/work-items/COLOR-RED/artifacts/requirements/requirements.md",
+    "phaseId": "requirements"
+  },
+  "createdAt": "2026-08-25T12:52:49.669Z",
+  "kind": "governed-reference",
+  "repository": {
+    "id": "passistant",
+    "origin": "https://github.com/ashokraj2011/passistant.git"
+  },
+  "revision": {
+    "bytes": 7348,
+    "commitSha": "59ec0684ae746eb698e0afeec786c3f8d0b8c6ee",
+    "sha256": "e028c5766557b8ecfd4cbdf289f4ca160944f4425fde11ee2e7baee366cd5531"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "branch": "COLOR-RED",
+    "id": "COLOR-RED",
+    "kind": "story",
+    "subjectRevision": 1
+  },
+  "visibility": "model"
+}
