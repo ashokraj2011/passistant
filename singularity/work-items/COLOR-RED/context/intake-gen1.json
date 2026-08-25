@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 3,
+  "workId": "COLOR-RED",
+  "phase": "intake",
+  "generation": 1,
+  "agent": "product-owner",
+  "modelCommit": "08b1975a53c5400571bac603c4f9204e2e19b616",
+  "matchedRules": 0,
+  "mode": "append",
+  "applied": false,
+  "depth": "standard",
+  "evidence": false,
+  "requiredViews": [
+    "business"
+  ],
+  "requiredSelections": [
+    {
+      "kind": "core",
+      "tier": "brief",
+      "required": true
+    },
+    {
+      "kind": "view",
+      "view": "business",
+      "tier": "brief",
+      "required": true,
+      "origin": "phase+agent"
+    }
+  ],
+  "task": null,
+  "supportingEvidence": [],
+  "references": [],
+  "modelSourceTreeSha256": "sha256:28f5c5aa63f42b68496d1e0dd6afa764fc66f7edab0c49ab1a630dc12d3d1e8f",
+  "composedSourceTreeSha256": "sha256:28f5c5aa63f42b68496d1e0dd6afa764fc66f7edab0c49ab1a630dc12d3d1e8f",
+  "worldModelCommit": "08b1975a53c5400571bac603c4f9204e2e19b616",
+  "manifestSha256": "0125d34d6e97aa9ab16b3ed5b8073f7be34f76f71e140bedc1cdbbe8ad1f1dec",
+  "fresh": true,
+  "renderedSha256": "86fb819aadf7e286ab45b67deed2de1fb3706801979f39cf461161c62bfb0366",
+  "promptStudy": null,
+  "promptDefinition": null,
+  "structuralContext": null,
+  "promptBudget": {
+    "policy": {
+      "mode": "observe",
+      "profile": "standard",
+      "maximumBytes": 72000,
+      "maximumEstimatedPromptTokens": 18000,
+      "policyOnBudgetBreach": "refuse",
+      "assurance": "estimated-prompt-text"
+    },
+    "admission": {
+      "model": null,
+      "logicalPromptBytes": 6023,
+      "logicalPromptTokens": {
+        "value": 1506,
+        "assurance": "estimated"
+      },
+      "systemAndToolReserveTokens": {
+        "value": null,
+        "assurance": "unavailable"
+      },
+      "historyTokens": {
+        "value": null,
+        "assurance": "unavailable"
+      },
+      "totalAdmissionTokens": {
+        "value": 1506,
+        "assurance": "partial"
+      },
+      "maximumInputTokens": 18000,
+      "safeToEnforce": false,
+      "admitted": null,
+      "policyApprovedConservativeUpperBound": false
+    },
+    "compliance": "compliant",
+    "originalBytes": 6023,
+    "originalEstimatedTokens": 1506,
+    "finalBytes": 6023,
+    "finalEstimatedTokens": 1506,
+    "overflow": false,
+    "warnings": [],
+    "economics": {
+      "prompt": {
+        "candidatePromptBytes": 6023,
+        "deduplicatedPromptBytes": 0,
+        "budgetEvictedPromptBytes": 0,
+        "finalPromptBytes": 6023
+      },
+      "provider": {
+        "inputTokens": null,
+        "cachedInputTokens": null,
+        "uncachedInputTokens": null,
+        "assurance": "unavailable"
+      },
+      "system": {
+        "totalSystemTokens": null,
+        "assurance": "unavailable"
+      },
+      "source": {
+        "sourceBytes": 0,
+        "authoredSourceBytes": 0,
+        "managedSourceBytesExcluded": 0,
+        "deliveredSourceBytes": 0,
+        "assurance": "sflow-measured"
+      }
+    },
+    "sections": [
+      {
+        "id": "phase-contract",
+        "mandatory": true,
+        "priority": 0,
+        "bytes": 1560,
+        "estimatedTokens": 390,
+        "sha256": "3ee4fa35c0432d30bde96260639f6106db8b71b07bd4a0d20ea3f4d3767878fd",
+        "included": true,
+        "omissionReason": null,
+        "expandHandles": [],
+        "expandability": "unavailable"
+      },
+      {
+        "id": "clarification-protocol",
+        "mandatory": true,
+        "priority": 0,
+        "bytes": 2066,
+        "estimatedTokens": 517,
+        "sha256": "54628a73f533cb32a3169d3da2fee392d5bd683b5d26bd7aa82ab0c6e8153f90",
+        "included": true,
+        "omissionReason": null,
+        "expandHandles": [],
+        "expandability": "unavailable"
+      },
+      {
+        "id": "governed-agent-policy",
+        "mandatory": true,
+        "priority": 0,
+        "bytes": 1235,
+        "estimatedTokens": 309,
+        "sha256": "5829c6843196a6196f77963f56b8397732af3c38e83517275894f3816840d8ea",
+        "included": true,
+        "omissionReason": null,
+        "expandHandles": [],
+        "expandability": "unavailable"
+      },
+      {
+        "id": "world-model-grounding",
+        "mandatory": false,
+        "priority": 40,
+        "bytes": 1155,
+        "estimatedTokens": 289,
+        "sha256": "ac603937c73ae813cdd25a2c676464f3feff969c5703b436b1ebe4cc4e361d90",
+        "included": true,
+        "omissionReason": null,
+        "expandHandles": [],
+        "expandability": "unavailable"
+      }
+    ],
+    "omitted": [],
+    "deduplicatedReferences": [],
+    "inputLinearization": {
+      "sourceBytes": 0,
+      "authoredBytes": 0,
+      "managedBytesExcluded": 0,
+      "injectedBytes": 0
+    },
+    "structuralContext": null,
+    "activeClauseCapsule": {
+      "sha256": "sha256:ce4bd6334d9fec8e28ab4e7ada1d117332cbc13b2f15ac4acafd32bf4fb22559",
+      "clauses": 0,
+      "openRisks": 0,
+      "clarifications": 0
+    }
+  },
+  "remoteSkills": [],
+  "promptPath": "singularity/work-items/COLOR-RED/context/prompts/intake-gen1.md",
+  "files": [
+    {
+      "path": "singularity/world-model/core/summary.brief.md",
+      "sha256": "487529c7173b3bb50b664e902d1e3bada1649a59d7b42b52fdd9108117f2cabf",
+      "bytes": 689,
+      "injectedBytes": 689,
+      "truncated": false,
+      "category": "required",
+      "level": 0,
+      "reason": "shared repository core (brief)",
+      "evidenceId": null,
+      "mimeType": null,
+      "packageId": null,
+      "handle": null,
+      "previewSha256": null,
+      "previewBytes": null,
+      "renderer": null
+    },
+    {
+      "path": "singularity/world-model/views/business.brief.md",
+      "sha256": "ada626b90d01d1432d72aa575940c0d6c46386abbbabbf0e341d884e277ffe41",
+      "bytes": 267,
+      "injectedBytes": 267,
+      "truncated": false,
+      "category": "required",
+      "level": 1,
+      "reason": "intake view: business (brief; phase+agent)",
+      "evidenceId": null,
+      "mimeType": null,
+      "packageId": null,
+      "handle": null,
+      "previewSha256": null,
+      "previewBytes": null,
+      "renderer": null
+    }
+  ],
+  "injectedAt": "2026-08-25T12:41:03.242Z"
+}

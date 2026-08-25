@@ -1,0 +1,35 @@
+{
+  "artifact": {
+    "bytes": 2400,
+    "path": "singularity/work-items/COLOR-RED/artifacts/intake/intake.md",
+    "role": "document",
+    "sha256": "b6eb7bb56f5a2ea147ad12583ce5fb0ea22d51aae2d9d460d8b93247c0d1d6ce"
+  },
+  "configuration": {
+    "revision": "d656c73b11dc8bf991406c94dc1ab12a01aff612",
+    "sha256": "18da9ffa3626deeba0e2aad1c7c75daffc2a60a82c2ca548426d9a48ce949ab8"
+  },
+  "generation": 1,
+  "inputs": [],
+  "integritySha256": "c89076f8c483d4e24e16defbea4ac0ee3c4d2740462227b4e3519df936947767",
+  "phase": "intake",
+  "producer": {
+    "actor": "88361104+ashokraj2011@users.noreply.github.com",
+    "agent": "product-owner",
+    "kind": "governed-agent"
+  },
+  "publication": {
+    "branch": "COLOR-RED",
+    "commit": null,
+    "publishedAt": "2026-08-25T12:42:27.120Z"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "id": "COLOR-RED",
+    "kind": "story"
+  },
+  "template": {
+    "path": "singularity/templates/feature/intake.md",
+    "sha256": "eb53814f46f12ea3d93d1629164bd7ff22a3a54feceff7f7dd55670caeb5dbab"
+  }
+}

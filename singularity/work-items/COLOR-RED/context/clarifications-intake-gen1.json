@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "workId": "COLOR-RED",
+  "phase": "intake",
+  "generation": 1,
+  "mode": "required",
+  "promptPath": "singularity/work-items/COLOR-RED/context/prompts/intake-gen1.md",
+  "promptSha256": "86fb819aadf7e286ab45b67deed2de1fb3706801979f39cf461161c62bfb0366",
+  "groundingRecordPath": "singularity/work-items/COLOR-RED/context/intake-gen1.json",
+  "groundingRecordSha256": "cb2f74a55b7adf2302950fe3f0a24f6afeac487c5a00231e04cee8b62723dc02",
+  "responses": [
+    {
+      "id": "Q-001",
+      "question": "Which UI element should change color in the app?",
+      "answer": "the main screen",
+      "status": "answered",
+      "blocking": false
+    },
+    {
+      "id": "Q-002",
+      "question": "What color should it change to?",
+      "answer": "red",
+      "status": "answered",
+      "blocking": false
+    },
+    {
+      "id": "Q-003",
+      "question": "What user outcome or success criterion should this change support?",
+      "answer": "The main screen clearly presents the requested red styling and remains easy to use.",
+      "status": "answered",
+      "blocking": false
+    }
+  ],
+  "completed": true,
+  "recordedAt": "2026-08-25T12:41:04.312Z",
+  "recordedBy": {
+    "name": "Ashok Raj",
+    "email": "88361104+ashokraj2011@users.noreply.github.com",
+    "login": "ashokraj2011",
+    "githubLookup": "resolved"
+  },
+  "agent": "product-owner"
+}
