@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "kind": "return-locator",
+  "workId": "COLOR-RED",
+  "capabilityId": "piassistnat",
+  "originRepositoryId": "passistant",
+  "repositories": [
+    {
+      "id": "passistant",
+      "remote": "origin",
+      "required": true,
+      "url": "https://github.com/ashokraj2011/passistant.git",
+      "fingerprint": "b7e83e4cd2aa7449f2ee7d24f517bba90f0edc4af8e9c02e3304737254070e37",
+      "portability": "portable"
+    }
+  ],
+  "lifecycleRef": "refs/heads/COLOR-RED",
+  "workBranchRef": "refs/heads/COLOR-RED",
+  "configuration": {
+    "sha256": "18da9ffa3626deeba0e2aad1c7c75daffc2a60a82c2ca548426d9a48ce949ab8",
+    "branch": "sflow/config",
+    "commit": "d656c73b11dc8bf991406c94dc1ab12a01aff612"
+  },
+  "cloneStrategy": "existing-or-clone",
+  "integritySha256": "e5d63f48db5e6543c169d61685edacc05132f1e6f16568b4491fc8a1b86524ce"
+}
