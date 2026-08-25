@@ -3,11 +3,11 @@
   "layout": "canonical-paths",
   "source": {
     "branch": "sflow/config",
-    "commit": "2bf0f1ce1bf93cf2eb33b63629b8a53b7e521c3d"
+    "commit": "508f16d86de07eca4ff8a5782f781db1a66e759e"
   },
   "product": {
     "version": "0.9.0",
-    "revision": "c615e327651f345affd3501a3843abd8f6cd00bf"
+    "revision": "version-0.9.0"
   },
   "files": {
     ".github/agents/architect.agent.md": "188198ceb7da73ef10814aaea2426dea127442f199fa16939f84a95415547ee5",
@@ -20,7 +20,7 @@
     ".github/agents/poc-validator.agent.md": "a7f8cbf15a2474f2bf4a6f959a95a49917f7a1df3b96b9cf0222ab2a3f8fb4c0",
     ".github/agents/product-designer.agent.md": "330f43cec8f05c22cef3fcec99be31daab818b36c2e7dabd25293c95b05acea4",
     ".github/agents/product-owner.agent.md": "491241469786c77bf5f99384fdb7f9c0da7abf637fb5e8fc531992a6168f0027",
-    ".github/agents/qa.agent.md": "d9c946f4065ce087cb0c8ee2e47231a2bc2a308dee97a991297b4b2032ddd65a",
+    ".github/agents/qa.agent.md": "3c0c9560c422fc616b391277b38d409b004864449b1a9cf4aa06bd5e302233e5",
     "singularity/agent-mappings.yml": "1b39a4f4caa3242749889a291e2259a361c815712bd762abde3db3cbe9f8a688",
     "singularity/capabilities.yml": "78b522f1b6f41455d7a7359b80e1c92b89f3ab59ae47a4a4e6487ce2df1fe48a",
     "singularity/impact.yml": "01f0e5b259c920a4c6c2185d0d971a8ae53bd233fc9e36926666095eedf282cb",
