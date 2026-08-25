@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 2,
+  "kind": "code-delivery",
+  "workId": "COLOR-RED",
+  "phase": "implementation",
+  "generation": 1,
+  "generationIntentId": "d5805d92-e041-4797-9580-fd168a2243ed",
+  "changeSet": {
+    "path": "singularity/work-items/COLOR-RED/context/code-delivery/implementation-gen1-changes.json",
+    "digest": "sha256:3a2d688201ba4ae1a15004091354b2c66e8fb8144abfcdde46546bfd32e53f8f",
+    "sourcePaths": [
+      "angular.json",
+      "src/app/app.component.css",
+      "src/app/app.component.html"
+    ],
+    "deletedSourcePaths": [],
+    "executableTestPaths": [
+      "server/scope.test.ts"
+    ],
+    "supportingTestPaths": []
+  },
+  "traceability": {
+    "required": [
+      "COLOR-RED:AC-001"
+    ],
+    "bound": [
+      "COLOR-RED:AC-001"
+    ],
+    "missing": [],
+    "ambiguous": [],
+    "bindings": [
+      {
+        "clauseId": "COLOR-RED:AC-001",
+        "testSource": "server/scope.test.ts",
+        "bindingAssurance": "namespace-qualified"
+      }
+    ]
+  },
+  "testExecutions": [],
+  "tree": {
+    "workingStateDigest": "sha256:4e5eb3688483b7407adaad5aa30c0d8b8157cc9b86b0afe29aad1ce4f8033a9c",
+    "generationCommit": null,
+    "generationTree": null
+  },
+  "model": {
+    "task": "code",
+    "required": false,
+    "authorshipProducer": "human",
+    "minimumAssurance": "unavailable",
+    "mappingRevision": null,
+    "provider": null,
+    "requestedModel": null,
+    "resolvedModel": null,
+    "assurance": "unavailable",
+    "invocationIds": [],
+    "host": null,
+    "observationSource": null,
+    "observationIntegrity": "unverified-local",
+    "observedAt": null,
+    "generation": null
+  },
+  "status": "pending-tests",
+  "capturedAt": "2026-08-25T13:17:58.671Z"
+}

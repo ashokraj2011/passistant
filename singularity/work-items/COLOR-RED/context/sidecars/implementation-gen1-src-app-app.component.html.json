@@ -1,0 +1,46 @@
+{
+  "artifact": {
+    "bytes": 6990,
+    "path": "src/app/app.component.html",
+    "role": "code",
+    "sha256": "3e78bbf9076976f6a11a8b47847cd029d4de8b3a8dfcd4a357182a2e24c23a74"
+  },
+  "configuration": {
+    "revision": "d656c73b11dc8bf991406c94dc1ab12a01aff612",
+    "sha256": "18da9ffa3626deeba0e2aad1c7c75daffc2a60a82c2ca548426d9a48ce949ab8"
+  },
+  "generation": 1,
+  "inputs": [
+    {
+      "kind": null,
+      "path": "artifacts/design/design.md",
+      "sha256": null
+    },
+    {
+      "kind": null,
+      "path": "artifacts/implementation-spec/implementation-spec.md",
+      "sha256": null
+    }
+  ],
+  "integritySha256": "1426d22a800b7ecd30c594e094faf0cd4c28b4b1e4b0c07c4f400d1281563134",
+  "phase": "implementation",
+  "producer": {
+    "actor": "88361104+ashokraj2011@users.noreply.github.com",
+    "agent": null,
+    "kind": "human"
+  },
+  "publication": {
+    "branch": "COLOR-RED",
+    "commit": null,
+    "publishedAt": "2026-08-25T13:17:58.671Z"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "id": "COLOR-RED",
+    "kind": "story"
+  },
+  "template": {
+    "path": "singularity/templates/common/implementation.md",
+    "sha256": "5d0478b18c8fd14221e14c68e6238b909bccd6802a70262c416005354716c62c"
+  }
+}

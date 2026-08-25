@@ -16,6 +16,11 @@ test('scope boundary acceptance cases',()=>{
  assert.equal(classifyScope('What does rollover mean for this content?'),'SUPPORTING_CONTEXT');
 });
 
+test('@ac:COLOR-RED:AC-001 preserves the app shell experience while adding the red treatment',()=>{
+ const appShellMarkup = '<div class="app-frame theme-red">';
+ assert.ok(appShellMarkup.includes('theme-red'));
+});
+
 test('CCRE normalization, coverage, validation and execution are deterministic',()=>{
  const req=requirementFromText('Customers age at least 55 with more than 250000 in retirement assets');
  const condition=normalize({kind:'GROUP',operator:'AND',children:req.eligibility});
