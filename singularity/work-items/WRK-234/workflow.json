@@ -1493,8 +1493,8 @@
       }
     ]
   },
-  "status": "in_progress",
-  "currentPhase": "planning",
+  "status": "cancelled",
+  "currentPhase": null,
   "phaseOrder": [
     "specification",
     "planning",
@@ -1801,7 +1801,7 @@
       "label": "Planning",
       "order": 1,
       "defaultAgent": "architect",
-      "status": "in_progress",
+      "status": "cancelled",
       "requiredArtifact": {
         "path": "artifacts/planning/plan.md",
         "kind": "design",
@@ -1877,7 +1877,22 @@
       "artifacts": [],
       "checks": [],
       "remoteOutputs": [],
-      "sourceBoundary": "unrestricted"
+      "sourceBoundary": "unrestricted",
+      "inputContext": {
+        "generation": 1,
+        "path": "singularity/work-items/WRK-234/context/inputs-planning-gen1.json",
+        "sha256": "db878995b507d00d7fd438f4d446c2c0a9a3a4b9253121422f964f3a9f7ac7c2",
+        "renderedSha256": "369685557750c8b2548c5af1ac78083735d1fb9a11dfb24758e9a69794b3009b",
+        "mode": "enforce"
+      },
+      "cancelledAt": "2026-08-25T09:13:12.356Z",
+      "cancelledBy": {
+        "name": "Ashok Raj",
+        "email": "88361104+ashokraj2011@users.noreply.github.com",
+        "login": "ashokraj2011",
+        "githubLookup": "resolved"
+      },
+      "cancellationReason": "not required"
     },
     "implementation": {
       "id": "implementation",
@@ -1927,7 +1942,7 @@
           "governed-agent",
           "human"
         ],
-        "task": null,
+        "task": "code",
         "producer": "agent"
       },
       "approvalPolicy": {
@@ -2330,6 +2345,14 @@
       "event": "phase_self_approved",
       "phase": "specification",
       "detail": "threshold reached; advanced to planning"
+    },
+    {
+      "at": "2026-08-25T09:13:12.356Z",
+      "actor": "ashokraj2011",
+      "agent": "architect",
+      "event": "work_cancelled",
+      "phase": "planning",
+      "detail": "not required"
     }
   ],
   "measurement": {
@@ -2629,6 +2652,108 @@
         },
         "createdAt": "2026-08-19T07:15:49.906Z"
       }
+    },
+    {
+      "schemaVersion": 1,
+      "event": {
+        "schemaVersion": 1,
+        "eventId": "fe02bae1-b7cc-49cb-8f2c-4214fae8754a",
+        "type": "work-cancelled",
+        "subject": {
+          "kind": "story",
+          "id": "WRK-234",
+          "branch": "WRK-234"
+        },
+        "phaseId": "planning",
+        "generation": 0,
+        "actor": {
+          "name": "Ashok Raj",
+          "email": "88361104+ashokraj2011@users.noreply.github.com",
+          "login": "ashokraj2011",
+          "githubLookup": "resolved"
+        },
+        "agent": "architect",
+        "authorityGroup": null,
+        "payload": {
+          "reason": "not required",
+          "decision": null,
+          "reviewPacketSha256": null
+        },
+        "sourceCommit": null,
+        "idempotencyKey": null,
+        "idempotencyHash": null,
+        "createdAt": "2026-08-25T09:13:12.296Z"
+      },
+      "ledgerIntent": {
+        "schemaVersion": 1,
+        "eventId": "fe02bae1-b7cc-49cb-8f2c-4214fae8754a",
+        "eventType": "work-cancelled",
+        "capabilityId": "piassistnat",
+        "subject": {
+          "branch": "WRK-234",
+          "generation": 0,
+          "phase": "planning",
+          "workId": "WRK-234",
+          "workType": "spec-driven-standard"
+        },
+        "actor": {
+          "name": "Ashok Raj",
+          "email": "88361104+ashokraj2011@users.noreply.github.com",
+          "githubLogin": "ashokraj2011",
+          "identityAssurance": "configured-local"
+        },
+        "agent": "architect",
+        "authorityGroup": null,
+        "payload": {
+          "capabilityMapSha256": "78b522f1b6f41455d7a7359b80e1c92b89f3ab59ae47a4a4e6487ce2df1fe48a",
+          "capabilityPolicy": {
+            "protectedPaths": [],
+            "qualityCommands": [],
+            "requiredAuthorityGroups": [],
+            "requiredChecks": [],
+            "requiredWorldModelViews": []
+          },
+          "configPath": "singularity/workflow.yml",
+          "configSha256": "2cc8dc077f53562783446c7d4ad8d3dc1ff267bbbe2c06070cc5e77b02adf62c",
+          "lifecycleEventId": "fe02bae1-b7cc-49cb-8f2c-4214fae8754a",
+          "lifecyclePayload": {
+            "decision": null,
+            "reason": "not required",
+            "reviewPacketSha256": null
+          },
+          "templateSha256": "303b6402e8c2c925c3507ce1eafe95bb08a69d097509cb6f8a0b5e3bee1db23f",
+          "lifecycleEvent": {
+            "schemaVersion": 1,
+            "eventId": "fe02bae1-b7cc-49cb-8f2c-4214fae8754a",
+            "type": "work-cancelled",
+            "subject": {
+              "kind": "story",
+              "id": "WRK-234",
+              "branch": "WRK-234"
+            },
+            "phaseId": "planning",
+            "generation": 0,
+            "actor": {
+              "name": "Ashok Raj",
+              "email": "88361104+ashokraj2011@users.noreply.github.com",
+              "login": "ashokraj2011",
+              "githubLookup": "resolved"
+            },
+            "agent": "architect",
+            "authorityGroup": null,
+            "payload": {
+              "reason": "not required",
+              "decision": null,
+              "reviewPacketSha256": null
+            },
+            "sourceCommit": null,
+            "idempotencyKey": null,
+            "idempotencyHash": null,
+            "createdAt": "2026-08-25T09:13:12.296Z"
+          }
+        },
+        "createdAt": "2026-08-25T09:13:12.301Z"
+      }
     }
   ],
   "repairBudgets": {},
@@ -2637,5 +2762,21 @@
     "current": null,
     "history": [],
     "escalations": []
+  },
+  "cancellation": {
+    "schemaVersion": 1,
+    "status": "cancelled",
+    "phase": "planning",
+    "generation": 0,
+    "reason": "not required",
+    "cancelledAt": "2026-08-25T09:13:12.356Z",
+    "cancelledBy": {
+      "name": "Ashok Raj",
+      "email": "88361104+ashokraj2011@users.noreply.github.com",
+      "login": "ashokraj2011",
+      "githubLookup": "resolved"
+    },
+    "agent": "architect",
+    "channel": "terminal"
   }
 }
