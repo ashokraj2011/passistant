@@ -1,0 +1,28 @@
+{
+  "artifact": {
+    "generation": 1,
+    "mediaType": "text/markdown",
+    "outputId": "document",
+    "path": "singularity/work-items/COLOR-RED/artifacts/design/design.md",
+    "phaseId": "design"
+  },
+  "createdAt": "2026-08-25T13:02:11.408Z",
+  "kind": "governed-reference",
+  "repository": {
+    "id": "passistant",
+    "origin": "https://github.com/ashokraj2011/passistant.git"
+  },
+  "revision": {
+    "bytes": 8408,
+    "commitSha": "7a2afb58ce76bbb885bf4adcdfcc493e7e4e2f7f",
+    "sha256": "5f2ad18fe69fc4152750b3578afd055d7beffc24e7799bda3be32b76e8b2f519"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "branch": "COLOR-RED",
+    "id": "COLOR-RED",
+    "kind": "story",
+    "subjectRevision": 1
+  },
+  "visibility": "model"
+}
