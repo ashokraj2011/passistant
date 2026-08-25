@@ -9,7 +9,7 @@
       "namespace": "COLOR-RED",
       "number": 1,
       "source": {
-        "line": 129,
+        "line": 172,
         "path": "singularity/work-items/COLOR-RED/artifacts/requirements/requirements.md"
       },
       "type": "REQ"
@@ -23,7 +23,7 @@
       "namespace": "COLOR-RED",
       "number": 1,
       "source": {
-        "line": 133,
+        "line": 176,
         "path": "singularity/work-items/COLOR-RED/artifacts/requirements/requirements.md"
       },
       "type": "CON"
@@ -37,20 +37,20 @@
       "namespace": "COLOR-RED",
       "number": 1,
       "source": {
-        "line": 139,
+        "line": 182,
         "path": "singularity/work-items/COLOR-RED/artifacts/requirements/requirements.md"
       },
       "type": "AC"
     }
   ],
   "generation": 1,
-  "indexSha256": "7b4c8ba067e61ed9f37c64a8cddfec0bce1c819dbda9fe1fb65c085bc667c418",
+  "indexSha256": "a927ecf7850339b5c31dc1548b11a6952c10bab08572011a2a16d49afed35f0e",
   "phase": "requirements",
   "schemaVersion": 1,
   "source": {
-    "bytes": 7348,
+    "bytes": 9105,
     "path": "singularity/work-items/COLOR-RED/artifacts/requirements/requirements.md",
-    "sha256": "e028c5766557b8ecfd4cbdf289f4ca160944f4425fde11ee2e7baee366cd5531"
+    "sha256": "86c74b920e5b7a59ab5e2795276cc33826235763b481ba43dbcdc5a9de327ec9"
   },
   "workId": "COLOR-RED"
 }
