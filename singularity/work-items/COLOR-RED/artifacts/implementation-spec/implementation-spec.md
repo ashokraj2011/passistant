@@ -5,7 +5,7 @@
   "workType": "feature",
   "phase": "implementation-spec",
   "generation": 1,
-  "status": "awaiting_approval",
+  "status": "approved",
   "generatedBy": {
     "name": "Ashok Raj",
     "email": "88361104+ashokraj2011@users.noreply.github.com",
@@ -80,8 +80,51 @@
   "remoteOutputs": [],
   "usage": [],
   "sequenceOverrides": [],
-  "approvals": [],
-  "selfApproval": false,
+  "approvals": [
+    {
+      "decision": "approved",
+      "phase": "implementation-spec",
+      "at": "2026-08-25T13:12:16.621Z",
+      "actor": {
+        "name": "Ashok Raj",
+        "email": "88361104+ashokraj2011@users.noreply.github.com",
+        "login": "ashokraj2011",
+        "githubLookup": "resolved"
+      },
+      "agent": "architect",
+      "authorityGroup": "architecture-reviewers",
+      "identityAssurance": "configured-local",
+      "channel": "copilot-selection-receipt",
+      "generation": 1,
+      "artifactSha256": [
+        {
+          "path": "singularity/work-items/COLOR-RED/artifacts/implementation-spec/implementation-spec.md",
+          "sha256": "7d6cbb38f7de16d0c0fa91115621e802348b4745637248e58e61ceb04b3c98b7"
+        }
+      ],
+      "reviewPacketSha256": "0c0b69287337124cfdcf58399bb685e8e331dcfabdb77c50eb233671e3b4e82d",
+      "evidenceCommit": "6bbcc28993164d8b570ea5579624fa058e064c00",
+      "artifactSetSha256": "4e97d71a63878879a264a4390ea4fc92f7f338a24e82e16278c8af45c131c3c6",
+      "actionContext": {
+        "phase": "implementation-spec",
+        "label": "Implementation specification",
+        "generation": 1,
+        "submittedAt": "2026-08-25T13:09:00.045Z",
+        "artifacts": [
+          {
+            "path": "singularity/work-items/COLOR-RED/artifacts/implementation-spec/implementation-spec.md",
+            "sha256": "7d6cbb38f7de16d0c0fa91115621e802348b4745637248e58e61ceb04b3c98b7"
+          }
+        ],
+        "agentBriefs": [],
+        "reviewPacketSha256": "0c0b69287337124cfdcf58399bb685e8e331dcfabdb77c50eb233671e3b4e82d",
+        "submittedSourceCommit": "f4f80ea6647707a026c578900fefe05dc21d67f0",
+        "planId": "9fd959e7960d344d0ad08d62"
+      },
+      "selfApproval": true
+    }
+  ],
+  "selfApproval": true,
   "conformanceTree": null
 }
 -->

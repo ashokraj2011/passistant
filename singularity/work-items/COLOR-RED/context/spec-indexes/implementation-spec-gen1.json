@@ -9,7 +9,7 @@
       "namespace": "COLOR-RED",
       "number": 1,
       "source": {
-        "line": 99,
+        "line": 142,
         "path": "singularity/work-items/COLOR-RED/artifacts/implementation-spec/implementation-spec.md"
       },
       "type": "IFC"
@@ -27,20 +27,20 @@
       "namespace": "COLOR-RED",
       "number": 2,
       "source": {
-        "line": 110,
+        "line": 153,
         "path": "singularity/work-items/COLOR-RED/artifacts/implementation-spec/implementation-spec.md"
       },
       "type": "CON"
     }
   ],
   "generation": 1,
-  "indexSha256": "5451842f05a86647ef7d44af181141a45a8f62e7372db6ede502d6ed438f3932",
+  "indexSha256": "f25b8707c780c74299f8695fbe16a868579a570d17464c447d75a73a86e6e78f",
   "phase": "implementation-spec",
   "schemaVersion": 1,
   "source": {
-    "bytes": 11144,
+    "bytes": 12960,
     "path": "singularity/work-items/COLOR-RED/artifacts/implementation-spec/implementation-spec.md",
-    "sha256": "75954f103847a23894702f5d7f02a3d11afcc2a401b7df0b5ef9b997c27e4391"
+    "sha256": "c98415f571ad42a2ee8863fda693811c743c911b61f8efd11c9691fb2a41713e"
   },
   "workId": "COLOR-RED"
 }

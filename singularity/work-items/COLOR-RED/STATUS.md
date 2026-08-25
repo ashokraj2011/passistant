@@ -5,7 +5,7 @@
 - Capability: **pznassistant** (`piassistnat`)
 - Capability map: `78b522f1b6f41455d7a7359b80e1c92b89f3ab59ae47a4a4e6487ce2df1fe48a`
 - Overall status: **in_progress**
-- Current phase: **implementation-spec**
+- Current phase: **implementation**
 
 | # | Phase | Governed agent | Status | Generation | Approvals | Tokens |
 |---:|---|---|---|---:|---:|---:|
@@ -15,13 +15,16 @@
 |  | ⚠ self-approval | Ashok Raj via product-approvers; agent product-owner | **warning** |  |  |  |
 | 3 | Architecture and design (`design`) | architect | **approved** | 1 | 1 | unavailable |
 |  | ⚠ self-approval | Ashok Raj via architecture-reviewers; agent architect | **warning** |  |  |  |
-| 4 | Implementation specification (`implementation-spec`) | architect | **awaiting_approval** | 1 | 0 | unavailable |
-| 5 | Implementation (`implementation`) | developer | **not_started** | 0 | 0 | unavailable |
+| 4 | Implementation specification (`implementation-spec`) | architect | **approved** | 1 | 1 | unavailable |
+|  | ⚠ self-approval | Ashok Raj via architecture-reviewers; agent architect | **warning** |  |  |  |
+| 5 | Implementation (`implementation`) | developer | **in_progress** | 0 | 0 | unavailable |
 | 6 | Verification (`verification`) | qa | **not_started** | 0 | 0 | unavailable |
 | 7 | Spec-to-code conformance (`conformance`) | qa | **not_started** | 0 | 0 | unavailable |
 
 ## Recent history
 
+- 2026-08-25T13:12:16.635Z — **work_interval_started** (implementation) by system: baseline 765d9128e864 at 6bbcc2899316
+- 2026-08-25T13:12:16.621Z — **phase_self_approved** (implementation-spec) by ashokraj2011 · governed agent architect: threshold reached; advanced to implementation
 - 2026-08-25T13:09:00.045Z — **phase_submitted** (implementation-spec) by ashokraj2011 · governed agent architect: 1 artifacts
 - 2026-08-25T13:07:10.679Z — **phase_generated** (implementation-spec) by ashokraj2011 · governed agent architect: generation 1
 - 2026-08-25T13:03:48.393Z — **phase_self_approved** (design) by ashokraj2011 · governed agent architect: threshold reached; advanced to implementation-spec
