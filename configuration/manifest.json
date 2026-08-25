@@ -3,11 +3,11 @@
   "layout": "canonical-paths",
   "source": {
     "branch": "sflow/config",
-    "commit": "5a79422313145664bbe536647e1b13b23082fcc7"
+    "commit": "307e2daad942c330ee6d68239a934a5548e3740f"
   },
   "product": {
     "version": "0.9.0",
-    "revision": "c78e5b2d102d320a347a1046c0bc00e690889cf3"
+    "revision": "582e6e0d35b031a0e3513b888db1696a1427ae20"
   },
   "files": {
     ".github/agents/architect.agent.md": "188198ceb7da73ef10814aaea2426dea127442f199fa16939f84a95415547ee5",
@@ -117,6 +117,6 @@
     "singularity/templates/spec-driven/plan.md": "303b6402e8c2c925c3507ce1eafe95bb08a69d097509cb6f8a0b5e3bee1db23f",
     "singularity/templates/spec-driven/release.md": "d79502d1b97d92cbd4527e548616a6d0154b8ef4083ed3d792b4f6c9ca9246a3",
     "singularity/templates/spec-driven/spec.md": "9aa58420ffe1554fddf932aa9be333fd5283599895c2f6617262fd7e9e3e2be7",
-    "singularity/workflow.yml": "76495f548a3b3ad5bb4ad11cd5ffa024a099ce5cbb864653ec345151104a3ab2"
+    "singularity/workflow.yml": "152a0ccdd4627c9b01936f10db7bd503f23488710f64af4f27567d9be2e14431"
   }
 }
