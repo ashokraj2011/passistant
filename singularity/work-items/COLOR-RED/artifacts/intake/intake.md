@@ -5,7 +5,7 @@
   "workType": "feature",
   "phase": "intake",
   "generation": 1,
-  "status": "awaiting_approval",
+  "status": "approved",
   "generatedBy": {
     "name": "Ashok Raj",
     "email": "88361104+ashokraj2011@users.noreply.github.com",
@@ -110,8 +110,51 @@
     }
   ],
   "sequenceOverrides": [],
-  "approvals": [],
-  "selfApproval": false,
+  "approvals": [
+    {
+      "decision": "approved",
+      "phase": "intake",
+      "at": "2026-08-25T12:46:33.124Z",
+      "actor": {
+        "name": "Ashok Raj",
+        "email": "88361104+ashokraj2011@users.noreply.github.com",
+        "login": "ashokraj2011",
+        "githubLookup": "resolved"
+      },
+      "agent": "product-owner",
+      "authorityGroup": "product-approvers",
+      "identityAssurance": "configured-local",
+      "channel": "copilot-selection-receipt",
+      "generation": 1,
+      "artifactSha256": [
+        {
+          "path": "singularity/work-items/COLOR-RED/artifacts/intake/intake.md",
+          "sha256": "3b9addd188944280b84c30e8e448a7902ce113b1955db88bd3b228eda842c5df"
+        }
+      ],
+      "reviewPacketSha256": "4ce120e5449ab266b06ca09144819809e29a806e3b9aa3f13ea5f0cd3bd35184",
+      "evidenceCommit": "fafa4b96e7b138414d519b707b637d59c4287068",
+      "artifactSetSha256": "bf705883237156ee1aaf0dbef8bd9039c8ce3af0cd94d4a56c6c4167e8868f86",
+      "actionContext": {
+        "phase": "intake",
+        "label": "Intake",
+        "generation": 1,
+        "submittedAt": "2026-08-25T12:44:22.447Z",
+        "artifacts": [
+          {
+            "path": "singularity/work-items/COLOR-RED/artifacts/intake/intake.md",
+            "sha256": "3b9addd188944280b84c30e8e448a7902ce113b1955db88bd3b228eda842c5df"
+          }
+        ],
+        "agentBriefs": [],
+        "reviewPacketSha256": "4ce120e5449ab266b06ca09144819809e29a806e3b9aa3f13ea5f0cd3bd35184",
+        "submittedSourceCommit": "67e9c40c79c7e548aa2efa02fb2d98d80928aa18",
+        "planId": "801c3b24f0460b14999c27ff"
+      },
+      "selfApproval": true
+    }
+  ],
+  "selfApproval": true,
   "conformanceTree": null
 }
 -->
