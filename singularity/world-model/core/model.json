@@ -3,11 +3,11 @@
   "mode": "deterministic-light",
   "title": "personalization-conversational-intelligence",
   "repository": {
-    "commit": "aef3af018d46c502bdfc3000dab834f9173008af",
-    "branch": "WRK-2090"
+    "commit": "1c578b72398c16e43a44810602e2d503c30ffceb",
+    "branch": "COLOR-RED"
   },
   "counts": {
-    "files": 31,
+    "files": 32,
     "source": 16,
     "tests": 1,
     "manifests": 1,
@@ -18,7 +18,7 @@
   },
   "topDirectories": {
     "server": 13,
-    "(root)": 9,
+    "(root)": 10,
     "src": 8,
     "docs": 1
   },

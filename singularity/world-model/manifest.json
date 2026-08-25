@@ -1,15 +1,15 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-08-17T09:49:54.648Z",
-  "generated_date": "17 August 2026",
+  "generated_at": "2026-08-25T12:40:46.015Z",
+  "generated_date": "25 August 2026",
   "builder_version": "2.1-light",
   "builder_prompt_sha256": "511654826223e40b93c54f48f9b773f155e3364326d41aa98108dea7217d75cd",
-  "repository_commit": "5fafed697a1ee2d3815458c9e7fe2918d5c845f6",
-  "repository_branch": "WRK-234",
+  "repository_commit": "1c578b72398c16e43a44810602e2d503c30ffceb",
+  "repository_branch": "COLOR-RED",
   "working_tree_clean": false,
-  "generated_for_phase": "specification",
+  "generated_for_phase": "intake",
   "analysis_depth": "light",
-  "source_tree_sha256": "sha256:c7aa59a6a367e29754210d961325169ad8ca8277c07bdc5bc0ba03bcb0126938",
+  "source_tree_sha256": "sha256:28f5c5aa63f42b68496d1e0dd6afa764fc66f7edab0c49ab1a630dc12d3d1e8f",
   "generator": {
     "type": "deterministic-local",
     "model": null,
@@ -26,13 +26,13 @@
         "status": "ready",
         "path": "core/summary.brief.md",
         "bytes": 689,
-        "sha256": "8d5e9b892a3e04a970b1225c7b103d248b72aca52066a0fd286ce7dc39ccdf47"
+        "sha256": "487529c7173b3bb50b664e902d1e3bada1649a59d7b42b52fdd9108117f2cabf"
       },
       "full": {
         "status": "ready",
         "path": "core/summary.md",
-        "bytes": 2760,
-        "sha256": "45ff559b76d9f21e56b7f1e417596712581e1156220312b0dce2a94e60073eab"
+        "bytes": 2762,
+        "sha256": "e36e950795e8a7e1364d994aed241322a7d8a33a6e52d4843e1fb7eda1f40312"
       }
     }
   },
@@ -46,16 +46,16 @@
       "generated": true,
       "tiers": {
         "brief": {
-          "status": "missing",
+          "status": "ready",
           "path": "views/business.brief.md",
-          "bytes": 0,
-          "sha256": null
+          "bytes": 267,
+          "sha256": "ada626b90d01d1432d72aa575940c0d6c46386abbbabbf0e341d884e277ffe41"
         },
         "full": {
-          "status": "ready",
+          "status": "missing",
           "path": "views/business.md",
-          "bytes": 903,
-          "sha256": "50637cafc1fda7e12ca18f0c0fae81629a6d9cc9f3899ace68ad0bd11788daa9"
+          "bytes": 0,
+          "sha256": null
         }
       }
     }
@@ -67,18 +67,7 @@
     "business"
   ],
   "domains": [],
-  "task_guides": [
-    {
-      "id": "task-a0a07a3a5e4d",
-      "path": "task-guides/a0a07a3a5e4d5da2.md",
-      "task": "Change the color to green"
-    },
-    {
-      "id": "task-17cb8d1c6acc",
-      "path": "task-guides/17cb8d1c6accde88.md",
-      "task": "The app background should be green."
-    }
-  ],
+  "task_guides": [],
   "evidence": {
     "path": "evidence/evidence.jsonl"
   },
@@ -93,37 +82,19 @@
   },
   "materializations": [
     {
-      "id": "light-1786925404462",
-      "generated_at": "2026-08-17T00:10:03.564Z",
-      "source_tree_sha256": "sha256:c7aa59a6a367e29754210d961325169ad8ca8277c07bdc5bc0ba03bcb0126938",
+      "id": "light-1787661646894",
+      "generated_at": "2026-08-25T12:40:46.015Z",
+      "source_tree_sha256": "sha256:28f5c5aa63f42b68496d1e0dd6afa764fc66f7edab0c49ab1a630dc12d3d1e8f",
       "provider": null,
       "requested": [
-        "business/full",
+        "business/brief",
         "core/brief"
       ],
       "produced": [
-        "business/full",
+        "business/brief",
         "core/brief"
       ],
       "reused": []
-    },
-    {
-      "id": "light-1786960195638",
-      "generated_at": "2026-08-17T09:49:54.648Z",
-      "source_tree_sha256": "sha256:c7aa59a6a367e29754210d961325169ad8ca8277c07bdc5bc0ba03bcb0126938",
-      "provider": null,
-      "requested": [
-        "business/full",
-        "core/brief"
-      ],
-      "produced": [
-        "business/full",
-        "core/brief"
-      ],
-      "reused": [
-        "business/full",
-        "core/brief"
-      ]
     }
   ]
 }
