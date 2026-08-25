@@ -15,13 +15,14 @@
 |  | ⚠ self-approval | Ashok Raj via product-approvers; agent product-owner | **warning** |  |  |  |
 | 3 | Architecture and design (`design`) | architect | **approved** | 1 | 1 | unavailable |
 |  | ⚠ self-approval | Ashok Raj via architecture-reviewers; agent architect | **warning** |  |  |  |
-| 4 | Implementation specification (`implementation-spec`) | architect | **in_progress** | 1 | 0 | unavailable |
+| 4 | Implementation specification (`implementation-spec`) | architect | **awaiting_approval** | 1 | 0 | unavailable |
 | 5 | Implementation (`implementation`) | developer | **not_started** | 0 | 0 | unavailable |
 | 6 | Verification (`verification`) | qa | **not_started** | 0 | 0 | unavailable |
 | 7 | Spec-to-code conformance (`conformance`) | qa | **not_started** | 0 | 0 | unavailable |
 
 ## Recent history
 
+- 2026-08-25T13:09:00.045Z — **phase_submitted** (implementation-spec) by ashokraj2011 · governed agent architect: 1 artifacts
 - 2026-08-25T13:07:10.679Z — **phase_generated** (implementation-spec) by ashokraj2011 · governed agent architect: generation 1
 - 2026-08-25T13:03:48.393Z — **phase_self_approved** (design) by ashokraj2011 · governed agent architect: threshold reached; advanced to implementation-spec
 - 2026-08-25T13:02:11.372Z — **phase_submitted** (design) by ashokraj2011 · governed agent product-owner: 1 artifacts

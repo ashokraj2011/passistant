@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "workId": "COLOR-RED",
+  "epicId": null,
+  "planId": null,
+  "jiraIssueId": "COLOR-RED",
+  "initialJiraKey": null,
+  "currentJiraKey": null,
+  "canonicalBranch": "COLOR-RED",
+  "submittedBranch": "COLOR-RED",
+  "submissionCommit": "f4f80ea6647707a026c578900fefe05dc21d67f0",
+  "sourceCommit": "f4f80ea6647707a026c578900fefe05dc21d67f0",
+  "sourceTreeSha256": "sha256:93243c8e24b29d03d2aed1f2f35d561743b9fd0f7efcb281894a4ea19cd33af8",
+  "phase": "implementation-spec",
+  "generation": 1,
+  "authorship": {
+    "schemaVersion": 1,
+    "producer": "human",
+    "channel": "manual-in-place",
+    "actor": {
+      "name": "Ashok Raj",
+      "email": "88361104+ashokraj2011@users.noreply.github.com",
+      "login": "ashokraj2011",
+      "githubLookup": "resolved"
+    },
+    "governedAgentContext": {
+      "agentId": "architect"
+    },
+    "kernelModel": {
+      "invoked": false,
+      "status": "exact",
+      "invocationIds": []
+    },
+    "externalAiUse": {
+      "value": "unknown",
+      "status": "unavailable"
+    },
+    "source": {
+      "kind": "in-place",
+      "filename": "implementation-spec.md",
+      "mediaType": "text/markdown",
+      "sha256": "415bf2a87e543af5e30298f484be4e4fb2f2aceb1153ba920d3691e28e960b96",
+      "bytes": 1973
+    },
+    "generation": 1,
+    "publishedAt": "2026-08-25T13:07:10.645Z"
+  },
+  "artifacts": [
+    {
+      "path": "singularity/work-items/COLOR-RED/artifacts/implementation-spec/implementation-spec.md",
+      "kind": "implementation-spec",
+      "sha256": "7d6cbb38f7de16d0c0fa91115621e802348b4745637248e58e61ceb04b3c98b7",
+      "size": 11226,
+      "reference": {
+        "handle": "sfref:v1:story:COLOR-RED:50373de44f1b88716c4d98b2dea3cff251b0a75ca461621bfb3761ebd0271766",
+        "recordHash": "50373de44f1b88716c4d98b2dea3cff251b0a75ca461621bfb3761ebd0271766"
+      }
+    }
+  ],
+  "references": [
+    {
+      "handle": "sfref:v1:story:COLOR-RED:50373de44f1b88716c4d98b2dea3cff251b0a75ca461621bfb3761ebd0271766",
+      "recordHash": "50373de44f1b88716c4d98b2dea3cff251b0a75ca461621bfb3761ebd0271766",
+      "purpose": "review-evidence",
+      "required": true
+    }
+  ],
+  "agentBriefs": [],
+  "checks": [],
+  "usage": [],
+  "approvals": [],
+  "visualAssurance": null,
+  "submissionEvidence": {
+    "testExecutions": [],
+    "checksSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "artifactSetSha256": "4e97d71a63878879a264a4390ea4fc92f7f338a24e82e16278c8af45c131c3c6"
+  },
+  "submittedAt": "2026-08-25T13:09:00.045Z",
+  "submittedBy": {
+    "name": "Ashok Raj",
+    "email": "88361104+ashokraj2011@users.noreply.github.com",
+    "login": "ashokraj2011",
+    "githubLookup": "resolved"
+  },
+  "status": "awaiting_review",
+  "packetSha256": "0c0b69287337124cfdcf58399bb685e8e331dcfabdb77c50eb233671e3b4e82d"
+}
