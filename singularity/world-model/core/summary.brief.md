@@ -1,9 +1,9 @@
 # personalization-conversational-intelligence — light repository brief
 
-> Generated 25 August 2026 · zero model tokens · source `3fab64a81454`
+> Generated 25 August 2026 · zero model tokens · source `3eec0a4d99c7`
 
-- Files indexed: 31
-- Languages: TypeScript (16)
+- Files indexed: 35
+- Languages: TypeScript (16), JavaScript (1)
 - Likely entry points: `server/app.ts`, `server/index.ts`, `src/main.ts`
 - Validation commands: `npm run build`, `npm run build:api`, `npm run build:web`, `npm run dev`
 
