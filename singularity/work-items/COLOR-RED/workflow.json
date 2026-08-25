@@ -2005,7 +2005,7 @@
     ]
   },
   "status": "in_progress",
-  "currentPhase": "design",
+  "currentPhase": "implementation-spec",
   "phaseOrder": [
     "intake",
     "requirements",
@@ -2513,7 +2513,7 @@
       "label": "Architecture and design",
       "order": 2,
       "defaultAgent": "architect",
-      "status": "awaiting_approval",
+      "status": "approved",
       "requiredArtifact": {
         "path": "artifacts/design/design.md",
         "kind": "design",
@@ -2576,8 +2576,8 @@
       "qualityCommands": [],
       "startedAt": "2026-08-25T12:56:20.845Z",
       "submittedAt": "2026-08-25T13:02:11.372Z",
-      "approvedAt": null,
-      "approvedBy": null,
+      "approvedAt": "2026-08-25T13:03:48.393Z",
+      "approvedBy": "ashokraj2011",
       "rejectedAt": null,
       "rejectedBy": null,
       "rejectionReason": null,
@@ -2634,18 +2634,47 @@
           "providerCost": null
         }
       ],
-      "approvals": [],
+      "approvals": [
+        {
+          "decision": "approved",
+          "phase": "design",
+          "at": "2026-08-25T13:03:48.393Z",
+          "actor": {
+            "name": "Ashok Raj",
+            "email": "88361104+ashokraj2011@users.noreply.github.com",
+            "login": "ashokraj2011",
+            "githubLookup": "resolved"
+          },
+          "agent": "architect",
+          "authorityGroup": "architecture-reviewers",
+          "identityAssurance": "configured-local",
+          "channel": "terminal",
+          "generation": 1,
+          "artifactSha256": [
+            {
+              "path": "singularity/work-items/COLOR-RED/artifacts/design/design.md",
+              "sha256": "fc76ad47e71a650d14ee55d8bbfb295d69c2d27c0ff7a64508aea698c8158cc0"
+            }
+          ],
+          "reviewPacketSha256": "62cd1a088d2f408740a37f3794e3565c6fc7c5ef81c26ed0c59d2a92030e5be4",
+          "evidenceCommit": "1629269df1519b39f2be3c8dcfc8160cc4681fce",
+          "artifactSetSha256": "e57ffd503c96c8539d8da179d8a93c3e76d9431c43ce187d14d0d37a30e1eb97",
+          "selfApproval": true
+        }
+      ],
       "designSourceSets": [],
       "artifacts": [
         {
           "path": "singularity/work-items/COLOR-RED/artifacts/design/design.md",
           "kind": "document",
-          "status": "pending",
+          "status": "approved",
           "exists": true,
-          "size": 8490,
-          "sha256": "fc76ad47e71a650d14ee55d8bbfb295d69c2d27c0ff7a64508aea698c8158cc0",
+          "size": 9466,
+          "sha256": "bb902c8a9d1e7e1c7730bbe562d0c00ff3e2be9d0fae1bfda060cfddd827bf31",
           "registeredAt": "2026-08-25T13:00:20.305Z",
-          "updatedAt": "2026-08-25T13:02:11.373Z"
+          "updatedAt": "2026-08-25T13:02:11.373Z",
+          "approvedAt": "2026-08-25T13:03:48.393Z",
+          "approvedBy": "ashokraj2011"
         }
       ],
       "checks": [],
@@ -2680,7 +2709,7 @@
       "label": "Implementation specification",
       "order": 3,
       "defaultAgent": "architect",
-      "status": "not_started",
+      "status": "in_progress",
       "requiredArtifact": {
         "path": "artifacts/implementation-spec/implementation-spec.md",
         "kind": "implementation-spec",
@@ -2750,7 +2779,7 @@
         }
       },
       "qualityCommands": [],
-      "startedAt": null,
+      "startedAt": "2026-08-25T13:03:48.393Z",
       "submittedAt": null,
       "approvedAt": null,
       "approvedBy": null,
@@ -3201,6 +3230,14 @@
       "event": "phase_submitted",
       "phase": "design",
       "detail": "1 artifacts"
+    },
+    {
+      "at": "2026-08-25T13:03:48.393Z",
+      "actor": "ashokraj2011",
+      "agent": "architect",
+      "event": "phase_self_approved",
+      "phase": "design",
+      "detail": "threshold reached; advanced to implementation-spec"
     }
   ],
   "measurement": {
@@ -4120,6 +4157,111 @@
           }
         },
         "createdAt": "2026-08-25T13:02:11.251Z"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "event": {
+        "schemaVersion": 1,
+        "eventId": "e1e5190e-7182-4cc8-9f0c-a82a9af4e6cb",
+        "type": "phase-approved",
+        "subject": {
+          "kind": "story",
+          "id": "COLOR-RED",
+          "branch": "COLOR-RED"
+        },
+        "phaseId": "design",
+        "generation": 1,
+        "actor": {
+          "name": "Ashok Raj",
+          "email": "88361104+ashokraj2011@users.noreply.github.com",
+          "login": "ashokraj2011",
+          "githubLookup": "resolved"
+        },
+        "agent": "architect",
+        "authorityGroup": "architecture-reviewers",
+        "payload": {
+          "decision": "approved",
+          "reviewPacketSha256": "62cd1a088d2f408740a37f3794e3565c6fc7c5ef81c26ed0c59d2a92030e5be4",
+          "evidenceCommit": "1629269df1519b39f2be3c8dcfc8160cc4681fce",
+          "artifactSetSha256": "e57ffd503c96c8539d8da179d8a93c3e76d9431c43ce187d14d0d37a30e1eb97"
+        },
+        "sourceCommit": null,
+        "idempotencyKey": null,
+        "idempotencyHash": null,
+        "createdAt": "2026-08-25T13:03:48.288Z"
+      },
+      "ledgerIntent": {
+        "schemaVersion": 1,
+        "eventId": "e1e5190e-7182-4cc8-9f0c-a82a9af4e6cb",
+        "eventType": "phase-approved",
+        "capabilityId": "piassistnat",
+        "subject": {
+          "branch": "COLOR-RED",
+          "generation": 1,
+          "phase": "design",
+          "workId": "COLOR-RED",
+          "workType": "feature"
+        },
+        "actor": {
+          "name": "Ashok Raj",
+          "email": "88361104+ashokraj2011@users.noreply.github.com",
+          "githubLogin": "ashokraj2011",
+          "identityAssurance": "configured-local"
+        },
+        "agent": "architect",
+        "authorityGroup": "architecture-reviewers",
+        "payload": {
+          "capabilityMapSha256": "78b522f1b6f41455d7a7359b80e1c92b89f3ab59ae47a4a4e6487ce2df1fe48a",
+          "capabilityPolicy": {
+            "protectedPaths": [],
+            "qualityCommands": [],
+            "requiredAuthorityGroups": [],
+            "requiredChecks": [],
+            "requiredWorldModelViews": []
+          },
+          "configPath": "singularity/workflow.yml",
+          "configSha256": "18da9ffa3626deeba0e2aad1c7c75daffc2a60a82c2ca548426d9a48ce949ab8",
+          "lifecycleEventId": "e1e5190e-7182-4cc8-9f0c-a82a9af4e6cb",
+          "lifecyclePayload": {
+            "decision": "approved",
+            "reviewPacketSha256": "62cd1a088d2f408740a37f3794e3565c6fc7c5ef81c26ed0c59d2a92030e5be4",
+            "evidenceCommit": "1629269df1519b39f2be3c8dcfc8160cc4681fce",
+            "artifactSetSha256": "e57ffd503c96c8539d8da179d8a93c3e76d9431c43ce187d14d0d37a30e1eb97"
+          },
+          "templateSha256": "8b7455f464a7025efa92942c272a04e3c0a3ab2a4d3eb438703cc14e230bc856",
+          "lifecycleEvent": {
+            "schemaVersion": 1,
+            "eventId": "e1e5190e-7182-4cc8-9f0c-a82a9af4e6cb",
+            "type": "phase-approved",
+            "subject": {
+              "kind": "story",
+              "id": "COLOR-RED",
+              "branch": "COLOR-RED"
+            },
+            "phaseId": "design",
+            "generation": 1,
+            "actor": {
+              "name": "Ashok Raj",
+              "email": "88361104+ashokraj2011@users.noreply.github.com",
+              "login": "ashokraj2011",
+              "githubLookup": "resolved"
+            },
+            "agent": "architect",
+            "authorityGroup": "architecture-reviewers",
+            "payload": {
+              "decision": "approved",
+              "reviewPacketSha256": "62cd1a088d2f408740a37f3794e3565c6fc7c5ef81c26ed0c59d2a92030e5be4",
+              "evidenceCommit": "1629269df1519b39f2be3c8dcfc8160cc4681fce",
+              "artifactSetSha256": "e57ffd503c96c8539d8da179d8a93c3e76d9431c43ce187d14d0d37a30e1eb97"
+            },
+            "sourceCommit": null,
+            "idempotencyKey": null,
+            "idempotencyHash": null,
+            "createdAt": "2026-08-25T13:03:48.288Z"
+          }
+        },
+        "createdAt": "2026-08-25T13:03:48.296Z"
       }
     }
   ],

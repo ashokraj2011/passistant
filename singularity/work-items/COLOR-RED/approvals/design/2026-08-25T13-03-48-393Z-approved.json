@@ -1,0 +1,26 @@
+{
+  "decision": "approved",
+  "phase": "design",
+  "at": "2026-08-25T13:03:48.393Z",
+  "actor": {
+    "name": "Ashok Raj",
+    "email": "88361104+ashokraj2011@users.noreply.github.com",
+    "login": "ashokraj2011",
+    "githubLookup": "resolved"
+  },
+  "agent": "architect",
+  "authorityGroup": "architecture-reviewers",
+  "identityAssurance": "configured-local",
+  "channel": "terminal",
+  "generation": 1,
+  "artifactSha256": [
+    {
+      "path": "singularity/work-items/COLOR-RED/artifacts/design/design.md",
+      "sha256": "fc76ad47e71a650d14ee55d8bbfb295d69c2d27c0ff7a64508aea698c8158cc0"
+    }
+  ],
+  "reviewPacketSha256": "62cd1a088d2f408740a37f3794e3565c6fc7c5ef81c26ed0c59d2a92030e5be4",
+  "evidenceCommit": "1629269df1519b39f2be3c8dcfc8160cc4681fce",
+  "artifactSetSha256": "e57ffd503c96c8539d8da179d8a93c3e76d9431c43ce187d14d0d37a30e1eb97",
+  "selfApproval": true
+}
