@@ -1,0 +1,41 @@
+{
+  "artifact": {
+    "bytes": 5207,
+    "path": "singularity/work-items/COLOR-RED/artifacts/requirements/requirements.md",
+    "role": "document",
+    "sha256": "8c86dc79f64cbc6c025ab86fccad68cf2dad9180d9475f482eb374afa51685ff"
+  },
+  "configuration": {
+    "revision": "d656c73b11dc8bf991406c94dc1ab12a01aff612",
+    "sha256": "18da9ffa3626deeba0e2aad1c7c75daffc2a60a82c2ca548426d9a48ce949ab8"
+  },
+  "generation": 1,
+  "inputs": [
+    {
+      "kind": null,
+      "path": "artifacts/intake/intake.md",
+      "sha256": null
+    }
+  ],
+  "integritySha256": "f47b1cc7b24b27d18f540e25d59cdfecb7d87cbfe6766b59c03c29beb45e3c74",
+  "phase": "requirements",
+  "producer": {
+    "actor": "88361104+ashokraj2011@users.noreply.github.com",
+    "agent": "product-owner",
+    "kind": "governed-agent"
+  },
+  "publication": {
+    "branch": "COLOR-RED",
+    "commit": null,
+    "publishedAt": "2026-08-25T12:50:08.512Z"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "id": "COLOR-RED",
+    "kind": "story"
+  },
+  "template": {
+    "path": "singularity/templates/feature/requirements.md",
+    "sha256": "32016db8ed6fadd6596e7dc702647cff95cdee1a203b38395d7ba5626dd8134e"
+  }
+}

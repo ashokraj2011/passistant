@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "workId": "COLOR-RED",
+  "workType": "feature",
+  "phase": "requirements",
+  "generation": 1,
+  "mode": "enforce",
+  "recordedAt": "2026-08-25T12:50:08.448Z",
+  "renderedSha256": "cd41dfa0fa85c06dc697d8c61ad6b7911cd3f6bb20a36a3fe93e2563e3899f24",
+  "warnings": [],
+  "inputs": [
+    {
+      "phase": "intake",
+      "path": "artifacts/intake/intake.md",
+      "repositoryPath": "singularity/work-items/COLOR-RED/artifacts/intake/intake.md",
+      "optional": false,
+      "maxBytes": null,
+      "status": "captured",
+      "producerStatus": "approved",
+      "producerGeneration": 1,
+      "approvedAt": "2026-08-25T12:46:33.124Z",
+      "approvedBy": "ashokraj2011",
+      "approvedSha256": "cd55192355d28a364717efd774c174605c31cab4f5b9c959d0810b2698a0ed29",
+      "sha256": "cd55192355d28a364717efd774c174605c31cab4f5b9c959d0810b2698a0ed29",
+      "bytes": 6238,
+      "source": {
+        "path": "singularity/work-items/COLOR-RED/artifacts/intake/intake.md",
+        "rawSha256": "sha256:cd55192355d28a364717efd774c174605c31cab4f5b9c959d0810b2698a0ed29"
+      },
+      "representation": {
+        "kind": "full",
+        "sha256": "sha256:d54db1fce5837e59e9f880e684119d52967e3bf740d99b2e254289f22944cfe8",
+        "bytes": 1121,
+        "complete": true,
+        "expansionHandle": "sfref:v1:story:COLOR-RED:c618cae3813f420f7131a7ca92f7974624b45eaec31ce44a6408771c4324676b"
+      },
+      "injectedBytes": 1121,
+      "truncated": false,
+      "authoredBytes": 1121,
+      "managedBytesExcluded": 5117,
+      "projection": {
+        "kind": "full"
+      }
+    }
+  ]
+}

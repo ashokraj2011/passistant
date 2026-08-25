@@ -1,0 +1,56 @@
+{
+  "clauses": [
+    {
+      "anchor": "[COLOR-RED:REQ-001]",
+      "body": "## Scope\n\nThe implementation includes updating the main screen presentation to support the requested red visual treatment in the current app shell and ensuring the change is visible in the UI for review. It explicitly excludes broader redesign work, backend behavior changes, and unrelated page-level experience changes.",
+      "bodySha256": "fbc9d1f4106a4076df5d6fe5b540f9605b5db133e58834a57592299a8288e65e",
+      "dependsOn": [],
+      "id": "COLOR-RED:REQ-001",
+      "namespace": "COLOR-RED",
+      "number": 1,
+      "source": {
+        "line": 129,
+        "path": "singularity/work-items/COLOR-RED/artifacts/requirements/requirements.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[COLOR-RED:CON-001]",
+      "body": "## Acceptance criteria\n\n- The main screen renders the requested red visual treatment in a way that is immediately visible without breaking the current layout or component hierarchy.\n- The change is reviewable in the local app and does not require backend or data changes to demonstrate the requested treatment.\n- The experience remains usable: navigation, buttons, and text remain readable and functional with the red styling applied.",
+      "bodySha256": "59ed44c2ed5844320b74d5cea6e29fbe37a35142b86187cbf941f5bf3b190e07",
+      "dependsOn": [],
+      "id": "COLOR-RED:CON-001",
+      "namespace": "COLOR-RED",
+      "number": 1,
+      "source": {
+        "line": 133,
+        "path": "singularity/work-items/COLOR-RED/artifacts/requirements/requirements.md"
+      },
+      "type": "CON"
+    },
+    {
+      "anchor": "[COLOR-RED:AC-001]",
+      "body": "## Dependencies, risks, and open questions\n\n- Dependency: the implementation will rely on the existing Angular component structure and stylesheet system in src/app.\n- Risk: over-styling could reduce contrast or readability; visual verification is required.\n- Open question: whether the red treatment should be a single fixed color or a configurable token for future reuse. [COLOR-RED:OPN-001]\n\n<!-- singularity-flow:inputs:start -->\n\n# Approved phase inputs\n\n## Approved phase input: intake\n\n<!-- source=singularity/work-items/COLOR-RED/artifacts/intake/intake.md sha256=cd55192355d28a364717efd774c174605c31cab4f5b9c959d0810b2698a0ed29 status=captured projection=full representation-sha256=sha256:d54db1fce5837e59e9f880e684119d52967e3bf740d99b2e254289f22944cfe8 expansion=sfref:v1:story:COLOR-RED:c618cae3813f420f7131a7ca92f7974624b45eaec31ce44a6408771c4324676b -->\n\n# COLOR-RED — Feature Intake\n\n## User and outcome\n\nThe primary user is the person viewing the main screen of the assistant experience. The problem is that the current presentation does not clearly reflect the requested red visual treatment for that screen. The measurable outcome is that the main screen presents the requested red styling consistently and remains easy to use.\n\n## Proposed capability\n\nThe product should support a configurable visual treatment for the main screen so the interface can present the requested red styling without prescribing a specific implementation approach. This is a presentation change that should be easy to recognize and review in the UI.\n\n## Scope, constraints, and stakeholders\n\nScope includes the main screen experience in the current application UI. Out of scope is any broader redesign of the full product experience or backend behavior. The change is expected to be low-risk and should be validated visually in the app. Stakeholders include the product owner, the implementation team, and the reviewer who will confirm the requested color change and the user-facing outcome.\n\n> Exact source expansion: `sfref:v1:story:COLOR-RED:c618cae3813f420f7131a7ca92f7974624b45eaec31ce44a6408771c4324676b`. Use `singularity-flow show sfref:v1:story:COLOR-RED:c618cae3813f420f7131a7ca92f7974624b45eaec31ce44a6408771c4324676b --section \"<heading>\"` only when exact wording is needed.\n\n<!-- singularity-flow:inputs:end -->",
+      "bodySha256": "2b332b27a78dcb56c31794aade1a5baa7828d90acfd892bf5d0bd79209b64088",
+      "dependsOn": [],
+      "id": "COLOR-RED:AC-001",
+      "namespace": "COLOR-RED",
+      "number": 1,
+      "source": {
+        "line": 139,
+        "path": "singularity/work-items/COLOR-RED/artifacts/requirements/requirements.md"
+      },
+      "type": "AC"
+    }
+  ],
+  "generation": 1,
+  "indexSha256": "7b4c8ba067e61ed9f37c64a8cddfec0bce1c819dbda9fe1fb65c085bc667c418",
+  "phase": "requirements",
+  "schemaVersion": 1,
+  "source": {
+    "bytes": 7348,
+    "path": "singularity/work-items/COLOR-RED/artifacts/requirements/requirements.md",
+    "sha256": "e028c5766557b8ecfd4cbdf289f4ca160944f4425fde11ee2e7baee366cd5531"
+  },
+  "workId": "COLOR-RED"
+}
