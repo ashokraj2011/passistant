@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "workId": "COLOR-RED",
+  "workType": "feature",
+  "phase": "implementation-spec",
+  "generation": 1,
+  "mode": "enforce",
+  "recordedAt": "2026-08-25T13:07:10.614Z",
+  "renderedSha256": "12acbd04848f37e523ece87d62ee5d18b22dbf39bb5058c5a656374a409f720b",
+  "warnings": [],
+  "inputs": [
+    {
+      "phase": "requirements",
+      "path": "artifacts/requirements/requirements.md",
+      "repositoryPath": "singularity/work-items/COLOR-RED/artifacts/requirements/requirements.md",
+      "optional": false,
+      "maxBytes": null,
+      "status": "captured",
+      "producerStatus": "approved",
+      "producerGeneration": 1,
+      "approvedAt": "2026-08-25T12:56:20.845Z",
+      "approvedBy": "ashokraj2011",
+      "approvedSha256": "86c74b920e5b7a59ab5e2795276cc33826235763b481ba43dbcdc5a9de327ec9",
+      "sha256": "86c74b920e5b7a59ab5e2795276cc33826235763b481ba43dbcdc5a9de327ec9",
+      "bytes": 9105,
+      "source": {
+        "path": "singularity/work-items/COLOR-RED/artifacts/requirements/requirements.md",
+        "rawSha256": "sha256:86c74b920e5b7a59ab5e2795276cc33826235763b481ba43dbcdc5a9de327ec9"
+      },
+      "representation": {
+        "kind": "full",
+        "sha256": "sha256:640b5392b98eb380db518af55f59d22e9f3f83a800f060939d8bc62ca6f28e2a",
+        "bytes": 1688,
+        "complete": true,
+        "expansionHandle": "sfref:v1:story:COLOR-RED:a41f1d2a271299bd01e2b277dcaed792557a86c455c76711c8cd336c818be66a"
+      },
+      "injectedBytes": 1688,
+      "truncated": false,
+      "authoredBytes": 1688,
+      "managedBytesExcluded": 7417,
+      "projection": {
+        "kind": "full"
+      }
+    },
+    {
+      "phase": "design",
+      "path": "artifacts/design/design.md",
+      "repositoryPath": "singularity/work-items/COLOR-RED/artifacts/design/design.md",
+      "optional": false,
+      "maxBytes": null,
+      "status": "captured",
+      "producerStatus": "approved",
+      "producerGeneration": 1,
+      "approvedAt": "2026-08-25T13:03:48.393Z",
+      "approvedBy": "ashokraj2011",
+      "approvedSha256": "bb902c8a9d1e7e1c7730bbe562d0c00ff3e2be9d0fae1bfda060cfddd827bf31",
+      "sha256": "bb902c8a9d1e7e1c7730bbe562d0c00ff3e2be9d0fae1bfda060cfddd827bf31",
+      "bytes": 9466,
+      "source": {
+        "path": "singularity/work-items/COLOR-RED/artifacts/design/design.md",
+        "rawSha256": "sha256:bb902c8a9d1e7e1c7730bbe562d0c00ff3e2be9d0fae1bfda060cfddd827bf31"
+      },
+      "representation": {
+        "kind": "full",
+        "sha256": "sha256:0e41b74443947948461243d1f25f729cce4fa1ec0512f654f0159abd339dedbd",
+        "bytes": 3388,
+        "complete": true,
+        "expansionHandle": "sfref:v1:story:COLOR-RED:5b3f90d35d0fa4bfbe806a1225e11b48ded103809903c8a05f55ef87759dc64e"
+      },
+      "injectedBytes": 3388,
+      "truncated": false,
+      "authoredBytes": 3388,
+      "managedBytesExcluded": 6078,
+      "projection": {
+        "kind": "full"
+      }
+    }
+  ]
+}

@@ -2786,17 +2786,103 @@
       "rejectedAt": null,
       "rejectedBy": null,
       "rejectionReason": null,
-      "generation": 0,
-      "generatedBy": null,
+      "generation": 1,
+      "generatedBy": {
+        "name": "Ashok Raj",
+        "email": "88361104+ashokraj2011@users.noreply.github.com",
+        "login": "ashokraj2011",
+        "githubLookup": "resolved"
+      },
       "generatedAgent": null,
-      "authorship": [],
+      "authorship": [
+        {
+          "schemaVersion": 1,
+          "producer": "human",
+          "channel": "manual-in-place",
+          "actor": {
+            "name": "Ashok Raj",
+            "email": "88361104+ashokraj2011@users.noreply.github.com",
+            "login": "ashokraj2011",
+            "githubLookup": "resolved"
+          },
+          "governedAgentContext": {
+            "agentId": "architect"
+          },
+          "kernelModel": {
+            "invoked": false,
+            "status": "exact",
+            "invocationIds": []
+          },
+          "externalAiUse": {
+            "value": "unknown",
+            "status": "unavailable"
+          },
+          "source": {
+            "kind": "in-place",
+            "filename": "implementation-spec.md",
+            "mediaType": "text/markdown",
+            "sha256": "415bf2a87e543af5e30298f484be4e4fb2f2aceb1153ba920d3691e28e960b96",
+            "bytes": 1973
+          },
+          "generation": 1,
+          "publishedAt": "2026-08-25T13:07:10.645Z"
+        }
+      ],
       "usage": [],
-      "telemetry": [],
+      "telemetry": [
+        {
+          "generation": 1,
+          "path": "singularity/work-items/COLOR-RED/telemetry/implementation-spec-gen1.json",
+          "sha256": "4c03ff0a33960d01c0d85f2d0d63a90d1078c428105086122bb4a1ea9c47e6d4",
+          "status": "not-invoked",
+          "models": [],
+          "providerCost": null
+        }
+      ],
       "approvals": [],
       "designSourceSets": [],
-      "artifacts": [],
+      "artifacts": [
+        {
+          "path": "singularity/work-items/COLOR-RED/artifacts/implementation-spec/implementation-spec.md",
+          "kind": "implementation-spec",
+          "status": "pending",
+          "exists": true,
+          "size": 11144,
+          "sha256": "75954f103847a23894702f5d7f02a3d11afcc2a401b7df0b5ef9b997c27e4391",
+          "registeredAt": "2026-08-25T13:07:09.788Z",
+          "updatedAt": "2026-08-25T13:07:10.677Z"
+        }
+      ],
       "checks": [],
-      "remoteOutputs": []
+      "remoteOutputs": [],
+      "authoringBaseline": {
+        "generation": 1,
+        "path": "artifacts/implementation-spec/implementation-spec.md",
+        "fingerprint": "sha256:c9f5d241dae79f6d167e2a4be1473183573095d2b44855459f276c6ddf74f557",
+        "bytes": 735
+      },
+      "inputContext": {
+        "generation": 1,
+        "path": "singularity/work-items/COLOR-RED/context/inputs-implementation-spec-gen1.json",
+        "sha256": "bc38bf000741794e52a0016b789e565767ddec6ae1f91d623368f9a41342738a",
+        "renderedSha256": "12acbd04848f37e523ece87d62ee5d18b22dbf39bb5058c5a656374a409f720b",
+        "mode": "enforce"
+      },
+      "sidecars": [
+        {
+          "path": "singularity/work-items/COLOR-RED/context/sidecars/implementation-spec-gen1-singularity-work-items-COLOR-RED-artifacts-implementation-spec-implementation-spec.md.json",
+          "artifact": "singularity/work-items/COLOR-RED/artifacts/implementation-spec/implementation-spec.md",
+          "integritySha256": "0a0cd2b8b9a38425355a7110f22ccd9efc4eb6e6f39da8236038c8ff2b44e4c5"
+        }
+      ],
+      "sourceCommit": "a930aef2f6acf43a76d97237fe702f7ea0f09f7d",
+      "specIndex": {
+        "generation": 1,
+        "path": "singularity/work-items/COLOR-RED/context/spec-indexes/implementation-spec-gen1.json",
+        "clauses": 2,
+        "indexSha256": "5451842f05a86647ef7d44af181141a45a8f62e7372db6ede502d6ed438f3932",
+        "sourceSha256": "75954f103847a23894702f5d7f02a3d11afcc2a401b7df0b5ef9b997c27e4391"
+      }
     },
     "implementation": {
       "id": "implementation",
@@ -3238,6 +3324,14 @@
       "event": "phase_self_approved",
       "phase": "design",
       "detail": "threshold reached; advanced to implementation-spec"
+    },
+    {
+      "at": "2026-08-25T13:07:10.679Z",
+      "actor": "ashokraj2011",
+      "agent": "architect",
+      "event": "phase_generated",
+      "phase": "implementation-spec",
+      "detail": "generation 1"
     }
   ],
   "measurement": {
@@ -4262,6 +4356,105 @@
           }
         },
         "createdAt": "2026-08-25T13:03:48.296Z"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "event": {
+        "schemaVersion": 1,
+        "eventId": "723b2da1-10ac-415a-8911-90107e228aec",
+        "type": "artifact-generated",
+        "subject": {
+          "kind": "story",
+          "id": "COLOR-RED",
+          "branch": "COLOR-RED"
+        },
+        "phaseId": "implementation-spec",
+        "generation": 1,
+        "actor": {
+          "name": "Ashok Raj",
+          "email": "88361104+ashokraj2011@users.noreply.github.com",
+          "login": "ashokraj2011",
+          "githubLookup": "resolved"
+        },
+        "agent": null,
+        "authorityGroup": null,
+        "payload": {
+          "decision": null,
+          "reviewPacketSha256": null
+        },
+        "sourceCommit": null,
+        "idempotencyKey": null,
+        "idempotencyHash": null,
+        "createdAt": "2026-08-25T13:07:10.481Z"
+      },
+      "ledgerIntent": {
+        "schemaVersion": 1,
+        "eventId": "723b2da1-10ac-415a-8911-90107e228aec",
+        "eventType": "artifact-generated",
+        "capabilityId": "piassistnat",
+        "subject": {
+          "branch": "COLOR-RED",
+          "generation": 1,
+          "phase": "implementation-spec",
+          "workId": "COLOR-RED",
+          "workType": "feature"
+        },
+        "actor": {
+          "name": "Ashok Raj",
+          "email": "88361104+ashokraj2011@users.noreply.github.com",
+          "githubLogin": "ashokraj2011",
+          "identityAssurance": "configured-local"
+        },
+        "agent": null,
+        "authorityGroup": null,
+        "payload": {
+          "capabilityMapSha256": "78b522f1b6f41455d7a7359b80e1c92b89f3ab59ae47a4a4e6487ce2df1fe48a",
+          "capabilityPolicy": {
+            "protectedPaths": [],
+            "qualityCommands": [],
+            "requiredAuthorityGroups": [],
+            "requiredChecks": [],
+            "requiredWorldModelViews": []
+          },
+          "configPath": "singularity/workflow.yml",
+          "configSha256": "18da9ffa3626deeba0e2aad1c7c75daffc2a60a82c2ca548426d9a48ce949ab8",
+          "lifecycleEventId": "723b2da1-10ac-415a-8911-90107e228aec",
+          "lifecyclePayload": {
+            "decision": null,
+            "reviewPacketSha256": null
+          },
+          "templateSha256": "f6b06a7e8c8dfa87a7f1289b2a80c0a6e98f5ee8e3cae2fe9faed501c031656c",
+          "lifecycleEvent": {
+            "schemaVersion": 1,
+            "eventId": "723b2da1-10ac-415a-8911-90107e228aec",
+            "type": "artifact-generated",
+            "subject": {
+              "kind": "story",
+              "id": "COLOR-RED",
+              "branch": "COLOR-RED"
+            },
+            "phaseId": "implementation-spec",
+            "generation": 1,
+            "actor": {
+              "name": "Ashok Raj",
+              "email": "88361104+ashokraj2011@users.noreply.github.com",
+              "login": "ashokraj2011",
+              "githubLookup": "resolved"
+            },
+            "agent": null,
+            "authorityGroup": null,
+            "payload": {
+              "decision": null,
+              "reviewPacketSha256": null
+            },
+            "sourceCommit": null,
+            "idempotencyKey": null,
+            "idempotencyHash": null,
+            "createdAt": "2026-08-25T13:07:10.481Z"
+          }
+        },
+        "createdAt": "2026-08-25T13:07:10.487Z"
       }
     }
   ],
