@@ -123,20 +123,39 @@
       {
         "clauseId": "WRK-BLUE:AC-001",
         "testSource": "tests/primary-background.spec.ts",
-        "bindingAssurance": "namespace-qualified"
+        "bindingAssurance": "namespace-qualified",
+        "testIdentity": null,
+        "moduleRoot": ".",
+        "commandId": ".-node-tests",
+        "executionAssurance": "module-executed",
+        "testcaseExecutionProven": false,
+        "assuranceNotice": "module executed; tagged test execution not independently proven"
       },
       {
         "clauseId": "WRK-BLUE:AC-002",
         "testSource": "tests/primary-background.spec.ts",
-        "bindingAssurance": "namespace-qualified"
+        "bindingAssurance": "namespace-qualified",
+        "testIdentity": null,
+        "moduleRoot": ".",
+        "commandId": ".-node-tests",
+        "executionAssurance": "module-executed",
+        "testcaseExecutionProven": false,
+        "assuranceNotice": "module executed; tagged test execution not independently proven"
       }
     ]
   },
-  "testExecutions": [],
+  "testExecutions": [
+    {
+      "commandId": ".-node-tests",
+      "receiptPath": "singularity/work-items/WRK-BLUE/context/code-delivery/tests/implementation-gen1-.-node-tests.json",
+      "receiptSha256": "69870eb36a0be08274f26488f40b30c1f96713e70a2258bbf5db8801ae04c74a",
+      "status": "passed"
+    }
+  ],
   "tree": {
     "workingStateDigest": "sha256:e112583c742ba1aa572e95d44e5a72f10e7599b973a2013fc02098770adb61ea",
-    "generationCommit": null,
-    "generationTree": null
+    "generationCommit": "cb55b3a23e47fe47f1cac8871b05fab52d5bb60a",
+    "generationTree": "105ec19a884e1a75dea20df8c192e3f139dc512a"
   },
   "model": {
     "task": "code",
@@ -155,6 +174,7 @@
     "observedAt": null,
     "generation": null
   },
-  "status": "pending-tests",
-  "capturedAt": "2026-08-31T09:21:48.640Z"
+  "status": "ready",
+  "capturedAt": "2026-08-31T09:21:48.640Z",
+  "validatedAt": "2026-08-31T09:23:27.624Z"
 }

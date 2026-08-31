@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "kind": "work-reconciliation",
+  "workId": "WRK-BLUE",
+  "workType": "spec-driven-standard",
+  "intervalId": "INT-implementation-G1-001",
+  "phaseId": "implementation",
+  "generation": 1,
+  "baselineSha256": "95d809bef79d858b27b9fc861f7dbc23ca3e62d3777015b32163862c4709dff8",
+  "baseline": {
+    "path": "singularity/work-items/WRK-BLUE/context/work-intervals/implementation-gen1-baseline.json",
+    "sha256": "95d809bef79d858b27b9fc861f7dbc23ca3e62d3777015b32163862c4709dff8",
+    "verified": true,
+    "sourceBaseCommit": "aabc929a2decd73665defbdf531f1668f77c542c"
+  },
+  "sourceBaseCommit": "aabc929a2decd73665defbdf531f1668f77c542c",
+  "target": {
+    "branch": "WRK-BLUE",
+    "head": "cb55b3a23e47fe47f1cac8871b05fab52d5bb60a",
+    "includesWorktree": false,
+    "cleanApplicationTree": true,
+    "uncommittedApplicationPaths": []
+  },
+  "findings": [
+    {
+      "path": ".gitignore",
+      "status": "present",
+      "sha256": "d809a272235a0521cbf6fa2e7593504083989b9f4b6e4e63cfd5d517da204a0b",
+      "bytes": 112,
+      "verdict": "unplanned",
+      "clauseIds": [],
+      "protected": false
+    },
+    {
+      "path": "angular.json",
+      "status": "present",
+      "sha256": "137919836a0bf8871a9c86efb1cc9984479c0a37d4c063061ab228bf7f773840",
+      "bytes": 788,
+      "verdict": "unplanned",
+      "clauseIds": [],
+      "protected": false
+    },
+    {
+      "path": "package-lock.json",
+      "status": "present",
+      "sha256": "f3104f7f377742d23d41b14fc5be355ec21466578c5e86564c2f1898886edc08",
+      "bytes": 509408,
+      "verdict": "unplanned",
+      "clauseIds": [],
+      "protected": false
+    },
+    {
+      "path": "package.json",
+      "status": "present",
+      "sha256": "cfb1b5c1786ecac3a3e59d91ddd75ec81b6945dbc912e96ac94bf665bf9af330",
+      "bytes": 1540,
+      "verdict": "unplanned",
+      "clauseIds": [],
+      "protected": false
+    },
+    {
+      "path": "playwright.config.ts",
+      "status": "present",
+      "sha256": "c90751d49c76b44f945cb5b3572a4a982734760893bc68804d2dfe5b544a0159",
+      "bytes": 315,
+      "verdict": "unplanned",
+      "clauseIds": [],
+      "protected": false
+    },
+    {
+      "path": "src/app/app.component.css",
+      "status": "present",
+      "sha256": "7e1bda3c23387105391be0cef5d5ba8d649555913725334186e299518f37373c",
+      "bytes": 11166,
+      "verdict": "unplanned",
+      "clauseIds": [],
+      "protected": false
+    },
+    {
+      "path": "tests/primary-background.spec.ts",
+      "status": "present",
+      "sha256": "568da53745c74a4b4f7ba56b95e15b5e1506814b57cbc905d18646d61d824fd5",
+      "bytes": 374,
+      "verdict": "unplanned",
+      "clauseIds": [],
+      "protected": false
+    }
+  ],
+  "summary": {
+    "changedPaths": 7,
+    "planned": 0,
+    "unplanned": 7,
+    "protected": 0
+  },
+  "decision": {
+    "status": "review",
+    "summaryStatus": "attention",
+    "eligibleForSubmission": true,
+    "reasons": [],
+    "escalationTarget": null
+  },
+  "reconciliationSha256": "8667bfa728d1c508288684f3c1183a6e2b4e2b85cd3b6dfca917ad66aa01b285",
+  "reconciledAt": "2026-08-31T09:23:27.723Z",
+  "final": true,
+  "recordedAt": "2026-08-31T09:23:27.723Z",
+  "path": "singularity/work-items/WRK-BLUE/context/work-intervals/reconciliations/8667bfa728d1c508288684f3c1183a6e2b4e2b85cd3b6dfca917ad66aa01b285.json"
+}

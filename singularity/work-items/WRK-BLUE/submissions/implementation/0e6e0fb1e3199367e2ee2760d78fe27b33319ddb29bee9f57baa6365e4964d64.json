@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 2,
+  "workId": "WRK-BLUE",
+  "epicId": null,
+  "planId": null,
+  "jiraIssueId": "WRK-BLUE",
+  "initialJiraKey": null,
+  "currentJiraKey": null,
+  "canonicalBranch": "WRK-BLUE",
+  "submittedBranch": "WRK-BLUE",
+  "submissionCommit": "cb55b3a23e47fe47f1cac8871b05fab52d5bb60a",
+  "sourceCommit": "cb55b3a23e47fe47f1cac8871b05fab52d5bb60a",
+  "sourceTreeSha256": "sha256:e112583c742ba1aa572e95d44e5a72f10e7599b973a2013fc02098770adb61ea",
+  "phase": "implementation",
+  "generation": 1,
+  "authorship": {
+    "schemaVersion": 1,
+    "producer": "human",
+    "channel": "manual-in-place",
+    "actor": {
+      "name": "Ashok Raj",
+      "email": "88361104+ashokraj2011@users.noreply.github.com",
+      "login": "ashokraj2011",
+      "githubLookup": "resolved"
+    },
+    "governedAgentContext": {
+      "agentId": "developer"
+    },
+    "kernelModel": {
+      "invoked": false,
+      "status": "exact",
+      "invocationIds": []
+    },
+    "externalAiUse": {
+      "value": "unknown",
+      "status": "unavailable"
+    },
+    "changeOrigins": [
+      "human"
+    ],
+    "source": {
+      "kind": "in-place",
+      "filename": "implementation-summary.md",
+      "mediaType": "text/markdown",
+      "sha256": "823f99496496fe7aa8eca9b1c2689cbc0a7d7578c640913998b34187faed0abf",
+      "bytes": 3561
+    },
+    "generation": 1,
+    "publishedAt": "2026-08-31T09:21:48.640Z"
+  },
+  "artifacts": [
+    {
+      "path": ".gitignore",
+      "kind": "file",
+      "sha256": "d809a272235a0521cbf6fa2e7593504083989b9f4b6e4e63cfd5d517da204a0b",
+      "size": 112
+    },
+    {
+      "path": "angular.json",
+      "kind": "configuration",
+      "sha256": "137919836a0bf8871a9c86efb1cc9984479c0a37d4c063061ab228bf7f773840",
+      "size": 788
+    },
+    {
+      "path": "package-lock.json",
+      "kind": "configuration",
+      "sha256": "f3104f7f377742d23d41b14fc5be355ec21466578c5e86564c2f1898886edc08",
+      "size": 509408
+    },
+    {
+      "path": "package.json",
+      "kind": "configuration",
+      "sha256": "cfb1b5c1786ecac3a3e59d91ddd75ec81b6945dbc912e96ac94bf665bf9af330",
+      "size": 1540
+    },
+    {
+      "path": "playwright.config.ts",
+      "kind": "code",
+      "sha256": "c90751d49c76b44f945cb5b3572a4a982734760893bc68804d2dfe5b544a0159",
+      "size": 315
+    },
+    {
+      "path": "singularity/work-items/WRK-BLUE/artifacts/implementation/implementation-summary.md",
+      "kind": "document",
+      "sha256": "54558bc14519f126f8054591c60670a0c26e3efe1d6e797640f0262fa2c60939",
+      "size": 16009,
+      "reference": {
+        "handle": "sfref:v1:story:WRK-BLUE:f36931de1b597595c8575a572b66065a934653ebc398f72e1c321c8b7a024335",
+        "recordHash": "f36931de1b597595c8575a572b66065a934653ebc398f72e1c321c8b7a024335"
+      }
+    },
+    {
+      "path": "src/app/app.component.css",
+      "kind": "code",
+      "sha256": "7e1bda3c23387105391be0cef5d5ba8d649555913725334186e299518f37373c",
+      "size": 11166
+    },
+    {
+      "path": "tests/primary-background.spec.ts",
+      "kind": "test",
+      "sha256": "568da53745c74a4b4f7ba56b95e15b5e1506814b57cbc905d18646d61d824fd5",
+      "size": 374
+    }
+  ],
+  "references": [
+    {
+      "handle": "sfref:v1:story:WRK-BLUE:f36931de1b597595c8575a572b66065a934653ebc398f72e1c321c8b7a024335",
+      "recordHash": "f36931de1b597595c8575a572b66065a934653ebc398f72e1c321c8b7a024335",
+      "purpose": "review-evidence",
+      "required": true
+    }
+  ],
+  "agentBriefs": [],
+  "checks": [
+    {
+      "id": ".-node-tests",
+      "command": "npm test",
+      "kind": "test",
+      "requirement": "required",
+      "workingDirectory": ".",
+      "externalModelPolicy": "never",
+      "timeoutMs": 1800000,
+      "sourceCommit": "cb55b3a23e47fe47f1cac8871b05fab52d5bb60a",
+      "sourceTreeSha256": "sha256:e112583c742ba1aa572e95d44e5a72f10e7599b973a2013fc02098770adb61ea",
+      "startedAt": "2026-08-31T09:23:22.097Z",
+      "completedAt": "2026-08-31T09:23:27.580Z",
+      "status": "passed",
+      "exitCode": 0,
+      "stdout": "\n> personalization-conversational-intelligence@0.1.0 test\n> npm run test:server && npm run test:background\n\n\n> personalization-conversational-intelligence@0.1.0 test:server\n> DATA_MODE=demo DATABASE_PATH=/tmp/pzn-tests.sqlite node --import tsx --test server/**/*.test.ts\n\nTAP version 13\n# (node:51946) ExperimentalWarning: SQLite is an experimental feature and might change at any time\n# (Use `node --trace-warnings ...` to show where the warning was created)\n# Subtest: scope boundary acceptance cases\nok 1 - scope boundary acceptance cases\n  ---\n  duration_ms: 0.884584\n  ...\n# Subtest: CCRE normalization, coverage, validation and execution are deterministic\nok 2 - CCRE normalization, coverage, validation and execution are deterministic\n  ---\n  duration_ms: 6.641625\n  ...\n# Subtest: tool registry enforces intent allowlists and records evidence\nok 3 - tool registry enforces intent allowlists and records evidence\n  ---\n  duration_ms: 2.495375\n  ...\n# Subtest: full proposal cre\n… diagnostic output truncated …\n5\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 244.775083\n\n> personalization-conversational-intelligence@0.1.0 test:background\n> npm run build:web && playwright test\n\n\n> personalization-conversational-intelligence@0.1.0 build:web\n> ng build\n\n❯ Building...\n✔ Building...\nInitial chunk files | Names         |  Raw size | Estimated transfer size\nmain.js             | main          | 250.79 kB |                70.41 kB\nstyles.css          | styles        | 196 bytes |               196 bytes\n\n                    | Initial total | 250.99 kB |                70.61 kB\n\nApplication bundle generation complete. [1.474 seconds] - 2026-08-31T09:23:24.670Z\n\nOutput location: /Users/ashokraj/Downloads/piassist/piassist/.singularity-flow/story-worktrees/WRK-BLUE/repos/passistant/dist/web\n\n\nRunning 1 test using 1 worker\n\n  ✓  1 tests/primary-background.spec.ts:3:5 › @ac:WRK-BLUE:AC-001 @ac:WRK-BLUE:AC-002 renders the primary background as #2563EB (462ms)\n\n  1 passed (2.5s)\n",
+      "stderr": "[WebServer] (node:52130) [DEP0066] DeprecationWarning: OutgoingMessage.prototype._headers is deprecated\n[WebServer] (Use `node --trace-deprecation ...` to show where the warning was created)\n",
+      "stdoutBytes": 2372,
+      "stderrBytes": 191,
+      "stdoutTruncated": false,
+      "stderrTruncated": false
+    }
+  ],
+  "usage": [],
+  "approvals": [],
+  "visualAssurance": null,
+  "submissionEvidence": {
+    "codeDelivery": {
+      "path": "singularity/work-items/WRK-BLUE/context/code-delivery/implementation-gen1.json",
+      "sha256": "9141904542c8fc924d1f076b6f1160202e2220e467a4ced6ea56a7c57cb11f9c",
+      "changeSetPath": "singularity/work-items/WRK-BLUE/context/code-delivery/implementation-gen1-changes.json",
+      "changeSetDigest": "sha256:7966a99055d5db64dd5e3526420927b871c68664a6c4f62803ea40220c089c24",
+      "status": "ready"
+    },
+    "testExecutions": [
+      {
+        "commandId": ".-node-tests",
+        "path": "singularity/work-items/WRK-BLUE/context/code-delivery/tests/implementation-gen1-.-node-tests.json",
+        "sha256": "69870eb36a0be08274f26488f40b30c1f96713e70a2258bbf5db8801ae04c74a",
+        "status": "passed"
+      }
+    ],
+    "checksSha256": "2b7c8ad543f04115ba88d0ac87b5a566c138734744b793f767c2ef8c797b1fc9",
+    "artifactSetSha256": "06be5a996d3852488d71411474404ce06d5aacbce83a069c2ac65f8f86e88622"
+  },
+  "witnessReview": {
+    "enrollment": {
+      "schemaVersion": 1,
+      "mode": "disabled",
+      "witnessedClauses": {
+        "enabled": false,
+        "profiles": []
+      },
+      "testcaseExact": {
+        "mode": "disabled",
+        "profile": null,
+        "requiredAssurance": "unavailable",
+        "policySha256": "sha256:12b50a34a1f03338377ecd76f44b20cbee83e7b91a0b07392ef08e3d8fd60800"
+      },
+      "claimMapContractVersion": 1,
+      "cab": null,
+      "sgos": null,
+      "rollout": {
+        "id": "wel-v0.2-observe",
+        "version": 1,
+        "enrollment": "new-story-only"
+      },
+      "configurationAuthority": {
+        "repository": "https://github.com/ashokraj2011/passistant.git",
+        "branch": "sflow/config",
+        "commit": "ae1ed1914f459954090c2ed9d3afd64c05411634",
+        "projectionSha256": "93746ae868dde4f2abcacd7a843f9be92b99b4c5b7ec25aae842dd512571b916"
+      }
+    },
+    "enrollmentClassification": "enrolled",
+    "enrollmentReason": null,
+    "clauseMappings": [],
+    "testcaseObservations": [
+      {
+        "commandId": ".-node-tests",
+        "receiptSha256": "69870eb36a0be08274f26488f40b30c1f96713e70a2258bbf5db8801ae04c74a",
+        "status": "unavailable",
+        "assurance": "unavailable",
+        "exact": false,
+        "verdict": "inconclusive",
+        "profile": null,
+        "occurrences": 0,
+        "outcomes": {
+          "passed": 0,
+          "failed": 0,
+          "skipped": 0,
+          "inconclusive": 0,
+          "ambiguous": 0
+        },
+        "rawReports": [],
+        "notice": "testcase evidence did not satisfy the supported non-exact local-observation contract"
+      }
+    ]
+  },
+  "submittedAt": "2026-08-31T09:23:27.724Z",
+  "submittedBy": {
+    "name": "Ashok Raj",
+    "email": "88361104+ashokraj2011@users.noreply.github.com",
+    "login": "ashokraj2011",
+    "githubLookup": "resolved"
+  },
+  "status": "awaiting_review",
+  "packetSha256": "0e6e0fb1e3199367e2ee2760d78fe27b33319ddb29bee9f57baa6365e4964d64"
+}

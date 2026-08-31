@@ -1,0 +1,28 @@
+{
+  "artifact": {
+    "generation": 1,
+    "mediaType": "text/markdown",
+    "outputId": "document",
+    "path": "singularity/work-items/WRK-BLUE/artifacts/implementation/implementation-summary.md",
+    "phaseId": "implementation"
+  },
+  "createdAt": "2026-08-31T09:23:27.799Z",
+  "kind": "governed-reference",
+  "repository": {
+    "id": "passistant",
+    "origin": "https://github.com/ashokraj2011/passistant.git"
+  },
+  "revision": {
+    "bytes": 15927,
+    "commitSha": "cb55b3a23e47fe47f1cac8871b05fab52d5bb60a",
+    "sha256": "5ba206981daa583054659f7ba0d9a4f4c716d1d75397e93b80c47ede5ea42272"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "branch": "WRK-BLUE",
+    "id": "WRK-BLUE",
+    "kind": "story",
+    "subjectRevision": 1
+  },
+  "visibility": "model"
+}
