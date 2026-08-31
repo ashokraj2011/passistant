@@ -3,15 +3,15 @@
   "layout": "canonical-paths",
   "source": {
     "branch": "sflow/config",
-    "commit": "82ce9ef08f484693d5a9601a9eb0bfdacdd4058a"
+    "commit": "29698abd3cdcf0d20f2e40347408f6a378e0cf67"
   },
   "history": {
-    "branch": "sflow/config-history/82ce9ef08f484693d5a9601a9eb0bfdacdd4058a",
-    "commit": "82ce9ef08f484693d5a9601a9eb0bfdacdd4058a"
+    "branch": "sflow/config-history/29698abd3cdcf0d20f2e40347408f6a378e0cf67",
+    "commit": "29698abd3cdcf0d20f2e40347408f6a378e0cf67"
   },
   "product": {
     "version": "0.9.0",
-    "revision": "fb785cbb053405594c8fa910250595083469deb9"
+    "revision": "2bb51fa6eeccfda6f4dc6adf838d6db1521978c6"
   },
   "files": {
     ".github/agents/architect.agent.md": "28dceea24f5990cb48decf09cff11b29071febdf58a64f9253a09ec19e99d58b",
@@ -121,7 +121,7 @@
     "singularity/templates/spec-driven/plan.md": "e8af98405a723a55c572c705e34a5b2fc05a11b3efe632e169ba6becf6c1a04f",
     "singularity/templates/spec-driven/release.md": "ce6e1d1995c68158f4209063b3cb954eceab8576e1c8db76bfaed27a805a8908",
     "singularity/templates/spec-driven/spec.md": "27424a624b1dab57323fd7482ac62708bd42d11ba42e41c102f94e15182fe485",
-    "singularity/workflow.yml": "5d8f9e56fa4d758916085391ffebf2bc0abd32b87ece2cdd5125183dd92cfb98"
+    "singularity/workflow.yml": "ea0e757a53f73c65f735be57674a47a9ef45126102ae94a122a762201180fed0"
   },
   "assets": {
     ".github/agents/architect.agent.md": {
@@ -660,8 +660,8 @@
       "mode": "100644"
     },
     "singularity/workflow.yml": {
-      "sha256": "5d8f9e56fa4d758916085391ffebf2bc0abd32b87ece2cdd5125183dd92cfb98",
-      "object": "ce30a7eb008fcf265e07fa4379e8432ff63e5078",
+      "sha256": "ea0e757a53f73c65f735be57674a47a9ef45126102ae94a122a762201180fed0",
+      "object": "8387e3a458b4c51e5cbe4896d22d85c31e4f0482",
       "mode": "100644"
     }
   }
