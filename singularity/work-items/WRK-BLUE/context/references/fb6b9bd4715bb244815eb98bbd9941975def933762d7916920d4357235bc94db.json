@@ -1,0 +1,28 @@
+{
+  "artifact": {
+    "generation": 1,
+    "mediaType": "text/markdown",
+    "outputId": "document",
+    "path": "singularity/work-items/WRK-BLUE/artifacts/convergence/convergence.md",
+    "phaseId": "convergence"
+  },
+  "createdAt": "2026-08-31T09:32:05.594Z",
+  "kind": "governed-reference",
+  "repository": {
+    "id": "passistant",
+    "origin": "https://github.com/ashokraj2011/passistant.git"
+  },
+  "revision": {
+    "bytes": 17138,
+    "commitSha": "8d25d3e390fe142c75d58090dcda15aa4ebbad56",
+    "sha256": "584cd70ac3d1ead04d7cc2b84950c19d292ebf6a85398573ef06bc3f3548c8d7"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "branch": "WRK-BLUE",
+    "id": "WRK-BLUE",
+    "kind": "story",
+    "subjectRevision": 1
+  },
+  "visibility": "model"
+}
