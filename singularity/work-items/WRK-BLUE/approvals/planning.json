@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 2,
+  "phase": "planning",
+  "decisions": [
+    {
+      "decision": "approved",
+      "phase": "planning",
+      "at": "2026-08-31T08:14:18.931Z",
+      "actor": {
+        "name": "Ashok Raj",
+        "email": "88361104+ashokraj2011@users.noreply.github.com",
+        "login": "ashokraj2011",
+        "githubLookup": "resolved"
+      },
+      "agent": "architect",
+      "authorityGroup": "architecture-reviewers",
+      "identityAssurance": "configured-local",
+      "channel": "copilot-selection-receipt",
+      "generation": 1,
+      "artifactSha256": [
+        {
+          "path": "singularity/work-items/WRK-BLUE/artifacts/planning/plan.md",
+          "sha256": "23124ab15e1ff65ade8fdec9c920c02154735fcafaeb071a7cac740fca9b64b7"
+        }
+      ],
+      "artifactSet": "spec-driven-planning",
+      "bundleSha256": "e8634dd7a5f82648f6c57906a804e36a56ad92ac660c69efaaedc21ae267e69c",
+      "reviewPacketSha256": "9ce62a58b3a611a6730391922951fc030305f7bce62201889eba9e0097147061",
+      "evidenceCommit": "aabc929a2decd73665defbdf531f1668f77c542c",
+      "artifactSetSha256": "f351782c15c4eaa69c659631f8239485e2792301a5deb22d6526801a63d8e29f",
+      "actionContext": {
+        "phase": "planning",
+        "label": "Planning",
+        "generation": 1,
+        "submittedAt": "2026-08-31T08:11:34.270Z",
+        "artifacts": [
+          {
+            "path": "singularity/work-items/WRK-BLUE/artifacts/planning/plan.md",
+            "sha256": "23124ab15e1ff65ade8fdec9c920c02154735fcafaeb071a7cac740fca9b64b7"
+          }
+        ],
+        "agentBriefs": [],
+        "reviewPacketSha256": "9ce62a58b3a611a6730391922951fc030305f7bce62201889eba9e0097147061",
+        "submittedSourceCommit": "4c4c05690dac0eec3c1d2ba2547eed0d5430f158",
+        "planId": "a9b431d7134a5800bcade5b8"
+      },
+      "selfApproval": true
+    }
+  ]
+}
