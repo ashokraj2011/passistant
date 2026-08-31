@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "mode": "bounded-light-index",
+  "totalPaths": 31,
+  "representativePaths": [
+    "README.md",
+    "docs/integration.md",
+    "package.json",
+    "server/adapters.ts",
+    "server/app.ts",
+    "server/ccre.ts",
+    "server/config.ts",
+    "server/domain.ts",
+    "server/gateway.ts",
+    "server/index.ts",
+    "server/orchestrator.ts",
+    "server/repository.ts",
+    "server/scope.test.ts",
+    "server/scope.ts",
+    "server/tools.ts",
+    "src/app/app.component.ts",
+    "src/app/chat.service.ts",
+    "src/app/models.ts",
+    "src/main.ts"
+  ],
+  "omittedPathCount": 12
+}

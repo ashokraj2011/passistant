@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "mode": "deterministic-light",
+  "title": "personalization-conversational-intelligence",
+  "repository": {
+    "commit": "3fab64a814548e6d8512f233ac14efc8a41643e1",
+    "branch": "COLOR-RED"
+  },
+  "counts": {
+    "files": 31,
+    "source": 16,
+    "tests": 1,
+    "manifests": 1,
+    "deployment": 0
+  },
+  "languages": {
+    "TypeScript": 16
+  },
+  "topDirectories": {
+    "server": 13,
+    "(root)": 9,
+    "src": 8,
+    "docs": 1
+  },
+  "packages": [
+    {
+      "path": "package.json",
+      "name": "personalization-conversational-intelligence",
+      "scripts": [
+        "build",
+        "build:api",
+        "build:web",
+        "dev",
+        "dev:api",
+        "dev:demo",
+        "dev:web",
+        "test"
+      ],
+      "dependencies": [
+        "@ai-sdk/openai-compatible",
+        "@angular-devkit/build-angular",
+        "@angular/animations",
+        "@angular/cli",
+        "@angular/common",
+        "@angular/compiler",
+        "@angular/compiler-cli",
+        "@angular/core",
+        "@angular/forms",
+        "@angular/platform-browser",
+        "@angular/router",
+        "@types/cors",
+        "@types/express",
+        "ai",
+        "concurrently",
+        "cors",
+        "express",
+        "rxjs",
+        "tsx",
+        "typescript",
+        "zod",
+        "zone.js"
+      ]
+    }
+  ],
+  "commands": [
+    "npm run build",
+    "npm run build:api",
+    "npm run build:web",
+    "npm run dev",
+    "npm run dev:api",
+    "npm run dev:demo",
+    "npm run dev:web",
+    "npm run test"
+  ]
+}
