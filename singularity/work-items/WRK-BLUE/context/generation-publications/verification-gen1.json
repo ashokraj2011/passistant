@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "kind": "generation-publication",
+  "workId": "WRK-BLUE",
+  "phase": "verification",
+  "generation": 1,
+  "generationIntentId": null,
+  "generationStart": null,
+  "changeSet": {
+    "path": null,
+    "digest": null
+  },
+  "resultDigest": "sha256:002f3d432926e8ea453bd67050bfcb67aa3ba737ef906035ce81137cd8e46c9a",
+  "baseline": {
+    "commit": "6276db506f9036239cf8a42bf7c331e0ea4bbecc",
+    "tree": "4835ef09af2f7cca2c58a55fa9e655022acbcd4a"
+  },
+  "transactionId": "c62e3d79-f750-4146-bff3-94ad831962e5",
+  "eventId": "a44a9724-bf5f-46f4-acd1-4b8b84d5e6bb",
+  "eventSha256": "sha256:808a638a68ba9d89d869f08953fc71e12e6f3db7ce1f77720ad7ba0d5d8f1209",
+  "commitBinding": {
+    "method": "containing-governed-transaction",
+    "commit": "$self",
+    "tree": "$self",
+    "parent": "6276db506f9036239cf8a42bf7c331e0ea4bbecc"
+  },
+  "publishedAt": "2026-08-31T09:38:11.167Z",
+  "recordSha256": "sha256:5899ea3d97e4f2cfb56c875ee4124c29eacdad4a49de6691c4b767713224e145"
+}
