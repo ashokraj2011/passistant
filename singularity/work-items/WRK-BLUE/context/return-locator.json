@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "kind": "return-locator",
+  "workId": "WRK-BLUE",
+  "capabilityId": "piassistnat",
+  "originRepositoryId": "passistant",
+  "repositories": [
+    {
+      "id": "passistant",
+      "remote": "origin",
+      "required": true,
+      "url": "https://github.com/ashokraj2011/passistant.git",
+      "fingerprint": "b7e83e4cd2aa7449f2ee7d24f517bba90f0edc4af8e9c02e3304737254070e37",
+      "portability": "portable"
+    }
+  ],
+  "lifecycleRef": "refs/heads/WRK-BLUE",
+  "workBranchRef": "refs/heads/WRK-BLUE",
+  "configuration": {
+    "sha256": "dbd3a363975694f734708a438f0f26b7dea3c08f6dc9b846e091cc60a4e045fa",
+    "branch": "sflow/config",
+    "commit": "ae1ed1914f459954090c2ed9d3afd64c05411634"
+  },
+  "cloneStrategy": "existing-or-clone",
+  "integritySha256": "9ad82332effa840ddf9bff99980e112624acc4ebbaaa0262289729c5ddb8bb22"
+}
