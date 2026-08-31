@@ -3,25 +3,23 @@
   "mode": "deterministic-light",
   "title": "personalization-conversational-intelligence",
   "repository": {
-    "commit": "3eec0a4d99c77ca5436329ba873a66112dc201c4",
+    "commit": "3fab64a814548e6d8512f233ac14efc8a41643e1",
     "branch": "COLOR-RED"
   },
   "counts": {
-    "files": 35,
-    "source": 17,
-    "tests": 2,
+    "files": 31,
+    "source": 16,
+    "tests": 1,
     "manifests": 1,
     "deployment": 0
   },
   "languages": {
-    "TypeScript": 16,
-    "JavaScript": 1
+    "TypeScript": 16
   },
   "topDirectories": {
-    "server": 15,
+    "server": 13,
     "(root)": 9,
     "src": 8,
-    ".sflow": 2,
     "docs": 1
   },
   "packages": [

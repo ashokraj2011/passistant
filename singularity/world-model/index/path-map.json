@@ -1,13 +1,12 @@
 {
   "schemaVersion": 1,
   "mode": "bounded-light-index",
-  "totalPaths": 35,
+  "totalPaths": 31,
   "representativePaths": [
     "README.md",
     "docs/integration.md",
     "package.json",
     "server/adapters.ts",
-    "server/app-shell.acceptance.test.js",
     "server/app.ts",
     "server/ccre.ts",
     "server/config.ts",
@@ -24,5 +23,5 @@
     "src/app/models.ts",
     "src/main.ts"
   ],
-  "omittedPathCount": 15
+  "omittedPathCount": 12
 }
