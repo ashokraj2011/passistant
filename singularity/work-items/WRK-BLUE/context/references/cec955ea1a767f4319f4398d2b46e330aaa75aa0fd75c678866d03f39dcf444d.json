@@ -1,0 +1,28 @@
+{
+  "artifact": {
+    "generation": 1,
+    "mediaType": "text/markdown",
+    "outputId": "document",
+    "path": "singularity/work-items/WRK-BLUE/artifacts/verification/test-evidence.md",
+    "phaseId": "verification"
+  },
+  "createdAt": "2026-08-31T09:41:25.461Z",
+  "kind": "governed-reference",
+  "repository": {
+    "id": "passistant",
+    "origin": "https://github.com/ashokraj2011/passistant.git"
+  },
+  "revision": {
+    "bytes": 22023,
+    "commitSha": "7c0e0862e9536ec69482c217b4f3c05dc07f08e6",
+    "sha256": "0a8a4d6508f68468be1e50d83ae6ec190eb8c284d0ef68b82c10c0635da7a07c"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "branch": "WRK-BLUE",
+    "id": "WRK-BLUE",
+    "kind": "story",
+    "subjectRevision": 1
+  },
+  "visibility": "model"
+}
