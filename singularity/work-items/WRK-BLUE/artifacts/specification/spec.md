@@ -4,27 +4,51 @@
   "workId": "WRK-BLUE",
   "workType": "spec-driven-standard",
   "phase": "specification",
-  "generation": 0,
+  "generation": 1,
   "status": "in_progress",
-  "generatedBy": null,
+  "generatedBy": {
+    "name": "Ashok Raj",
+    "email": "88361104+ashokraj2011@users.noreply.github.com",
+    "login": "ashokraj2011",
+    "githubLookup": "resolved"
+  },
   "generatedAgent": null,
   "authorship": {
     "schemaVersion": 1,
-    "producer": "legacy-unspecified",
-    "channel": "legacy",
-    "governedAgentContext": null,
+    "producer": "human",
+    "channel": "manual-in-place",
+    "actor": {
+      "name": "Ashok Raj",
+      "email": "88361104+ashokraj2011@users.noreply.github.com",
+      "login": "ashokraj2011",
+      "githubLookup": "resolved"
+    },
+    "governedAgentContext": {
+      "agentId": "product-owner"
+    },
     "kernelModel": {
       "invoked": false,
-      "status": "unavailable",
+      "status": "exact",
       "invocationIds": []
     },
     "externalAiUse": {
       "value": "unknown",
       "status": "unavailable"
     },
-    "source": null
+    "changeOrigins": [
+      "human"
+    ],
+    "source": {
+      "kind": "in-place",
+      "filename": "spec.md",
+      "mediaType": "text/markdown",
+      "sha256": "f71f27895f64300b52722b5271c7d4f30ea715efdf6bd2987dfd4aee3eba9ac2",
+      "bytes": 3194
+    },
+    "generation": 1,
+    "publishedAt": "2026-08-31T07:38:26.438Z"
   },
-  "sourceCommit": null,
+  "sourceCommit": "5590aa9ab4657c51e94dbe305372ceb1f7557458",
   "generationCommit": null,
   "publicationCommit": null,
   "configSha256": "dbd3a363975694f734708a438f0f26b7dea3c08f6dc9b846e091cc60a4e045fa",
@@ -40,7 +64,16 @@
   },
   "remoteAgent": null,
   "clarification": null,
-  "telemetry": [],
+  "telemetry": [
+    {
+      "generation": 1,
+      "path": "singularity/work-items/WRK-BLUE/telemetry/specification-gen1.json",
+      "sha256": "3599c19ebb4ae1825d68eaad445f965926313db39d35878235b4f65713835a87",
+      "status": "not-invoked",
+      "models": [],
+      "providerCost": null
+    }
+  ],
   "remoteOutputs": [],
   "usage": [],
   "sequenceOverrides": [],
@@ -50,111 +83,78 @@
 }
 -->
 
-# Specification — WRK-BLUE
-
-<!--
-Scenarios come first, and general requirements come after them `[SPK:REQ-068]`. That ordering is the
-template's opinion: a requirement written before anyone has described the situation it serves tends
-to describe the system instead of the need, and nobody notices until verification.
-
-Where the current Story evidence leaves something material unknown, say so with a marker rather
-than guessing. Use this syntax:
-
-    [NEEDS CLARIFICATION: <one question grounded in the current Story evidence>]
-
-Replace the angle-bracketed placeholder; never copy or ask it as written. The question must be one
-non-empty line and must arise from the pinned sources, approved upstream artifacts, repository world
-model, or a contradiction among them. Markers are extracted the same way clauses are, so a marker
-inside fenced or inline code is ignored `[SPK:REQ-063]`. This phase blocks publication while any
-marker is unresolved, and a marker is only resolved when a later generation removes it *and* records
-the answer `[SPK:REQ-067]` — deleting the text alone is an integrity failure, not an answer.
--->
+# Specification - WRK-BLUE
 
 ## Agent brief
 
-<!--
-Summarize the approved intent for downstream agents in a compact, standalone form. Include the
-problem, intended outcome, principal actors, most important scenarios, hard constraints, and major
-exclusions. Do not introduce claims that are absent from the sections below. Exact requirements and
-boundary conditions are preserved separately by the governed projection.
--->
+Update the primary application background to blue. The background must resolve to `#2563EB`, and an automated check must verify the computed CSS color. This change applies to the primary app background only; it does not redefine other visual tokens or application behavior.
 
 ## Actors
 
-Who uses this, and what authority does each hold?
+- **Application user:** Views the application with the updated primary background.
+- **Developer or verifier:** Confirms the rendered primary background resolves to the required color.
 
 ## User scenarios
 
-Prioritized. Each scenario leads with the situation, then its acceptance cases.
-
-### S1 — <the most important situation, in the user's words>
+### S1 - View the application with the updated background
 
 **Priority:** P1
-**Actor:** <role>
-**Context:** <what is true before this begins>
+**Actor:** Application user
+**Context:** The application is loaded in a supported browser.
 
-- **Given** <the starting state>
-  **When** <the actor does this>
-  **Then** <the observable outcome>
+- **Given** the primary application background is rendered
+  **When** the user views the application
+  **Then** the primary application background appears blue with the value `#2563EB`.
 
-- **Given** <a variation worth stating>
-  **When** <…>
-  **Then** <…>
-
-### S2 — <the next situation>
+### S2 - Verify the background color
 
 **Priority:** P2
+**Actor:** Developer or verifier
+**Context:** The application can be rendered for automated testing.
 
-- **Given** … **When** … **Then** …
+- **Given** the application is rendered
+  **When** the automated color check reads the computed CSS color of the primary application background
+  **Then** the computed color represents `#2563EB`.
 
 ## Failure and empty states
 
-What happens the first time, with nothing there yet, and when each step fails. These are where
-specifications are usually silent and implementations usually improvise.
-
-- **Empty:** <no records yet>
-- **Failure:** <the dependency is unavailable>
-- **Partial:** <some of it worked>
+- **Empty:** Not applicable; this change does not introduce records or an empty-data state.
+- **Failure:** If the rendered background does not resolve to `#2563EB`, the automated check fails.
+- **Partial:** A change to a child surface without changing the primary application background does not satisfy this specification.
 
 ## Permissions
 
-Who may do each thing, and what a reader without that authority sees instead.
+No application permission changes are required. All application users see the updated primary background.
 
 ## Boundary conditions
 
-Limits, sizes, counts, timeouts, and what happens exactly at and beyond each one.
+- The required color value is exactly `#2563EB`.
+- The target is the primary application background, not a button, text color, icon, border, or secondary panel.
+- The automated assertion must inspect the computed CSS color after rendering.
 
 ## Requirements
 
-Numbered, testable, one obligation each. Cite the scenario each serves.
+- The application shall set its primary background color to `#2563EB`. *(S1)* [WRK-BLUE:REQ-001]
+- The project shall include an automated check that renders the application and verifies the computed CSS color of the primary background represents `#2563EB`. *(S2)* [WRK-BLUE:REQ-002]
 
-- <requirement>. *(S1)* [WRK-BLUE:REQ-001]
-- <requirement>. *(S1, S2)* [WRK-BLUE:REQ-002]
+## Acceptance criteria
 
-Acceptance criteria use the same stable, namespaced form:
-
-- <observable acceptance outcome>. *(S1)* [WRK-BLUE:AC-001]
+- A rendered application shows the primary background as `#2563EB`. *(S1)* [WRK-BLUE:AC-001]
+- The automated color check passes only when the primary background's computed CSS color represents `#2563EB`. *(S2)* [WRK-BLUE:AC-002]
 
 ## Non-functional requirements
 
-Latency, throughput, availability, accessibility, privacy, retention. State the number and how it
-will be measured; "fast" is not a requirement.
-
-Use governed requirement anchors here too (for example `[WRK-BLUE:REQ-003]`); `NFR-001` by
-itself is only a display label and is not a stable clause identity.
+- The automated color check must be deterministic: it shall compare the computed color against the single specified `#2563EB` value after the application renders. [WRK-BLUE:REQ-003]
 
 ## Constitution articles
 
-Cite the article IDs this specification is bound by `[SPK:REQ-100]`. The kernel validates that each
-cited ID exists at the pinned revision before publication `[SPK:REQ-101]`.
-
-- <ART-…>
+No constitution article IDs were provided by the governed inputs for this work item.
 
 ## Assumptions
 
-What this specification takes as true without proving. An assumption that turns out false is a
-change request, not a defect — which is only true if it was written down.
+- The primary application background is represented by a renderable CSS-styled element that an automated test can inspect.
 
 ## Out of scope
 
-Named explicitly, so the boundary is reviewable rather than inferred.
+- Changing any visual surface other than the primary application background.
+- Redesigning the application's color system, layout, typography, behavior, or permissions.

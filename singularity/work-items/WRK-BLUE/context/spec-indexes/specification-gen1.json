@@ -1,0 +1,84 @@
+{
+  "clauses": [
+    {
+      "anchor": "[WRK-BLUE:REQ-001]",
+      "body": "- The project shall include an automated check that renders the application and verifies the computed CSS color of the primary background represents `#2563EB`. *(S2)*",
+      "bodySha256": "aa0ec0adf509bbcdf18339957a4fbefcf003f9472c3757a7ec10eaf15a333ad4",
+      "dependsOn": [],
+      "id": "WRK-BLUE:REQ-001",
+      "namespace": "WRK-BLUE",
+      "number": 1,
+      "source": {
+        "line": 137,
+        "path": "singularity/work-items/WRK-BLUE/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[WRK-BLUE:REQ-002]",
+      "body": "## Acceptance criteria\n\n- A rendered application shows the primary background as `#2563EB`. *(S1)*",
+      "bodySha256": "23284f5e564da4e057399813009c6a6ca675be4f6c8b8f1a050da1773336e82f",
+      "dependsOn": [],
+      "id": "WRK-BLUE:REQ-002",
+      "namespace": "WRK-BLUE",
+      "number": 2,
+      "source": {
+        "line": 138,
+        "path": "singularity/work-items/WRK-BLUE/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[WRK-BLUE:AC-001]",
+      "body": "- The automated color check passes only when the primary background's computed CSS color represents `#2563EB`. *(S2)*",
+      "bodySha256": "6c77eda32488decc532fda423520c4560e8abfccb104014a7c2ff2f47ed5d9c5",
+      "dependsOn": [],
+      "id": "WRK-BLUE:AC-001",
+      "namespace": "WRK-BLUE",
+      "number": 1,
+      "source": {
+        "line": 142,
+        "path": "singularity/work-items/WRK-BLUE/artifacts/specification/spec.md"
+      },
+      "type": "AC"
+    },
+    {
+      "anchor": "[WRK-BLUE:AC-002]",
+      "body": "## Non-functional requirements\n\n- The automated color check must be deterministic: it shall compare the computed color against the single specified `#2563EB` value after the application renders.",
+      "bodySha256": "431a8326b8ec056cdfd4aad11d98c0465b36a5403bcfa2be7f793b97f6f8a65c",
+      "dependsOn": [],
+      "id": "WRK-BLUE:AC-002",
+      "namespace": "WRK-BLUE",
+      "number": 2,
+      "source": {
+        "line": 143,
+        "path": "singularity/work-items/WRK-BLUE/artifacts/specification/spec.md"
+      },
+      "type": "AC"
+    },
+    {
+      "anchor": "[WRK-BLUE:REQ-003]",
+      "body": "## Constitution articles\n\nNo constitution article IDs were provided by the governed inputs for this work item.\n\n## Assumptions\n\n- The primary application background is represented by a renderable CSS-styled element that an automated test can inspect.\n\n## Out of scope\n\n- Changing any visual surface other than the primary application background.\n- Redesigning the application's color system, layout, typography, behavior, or permissions.",
+      "bodySha256": "ecef0d72c39e47dd0b0a2e53b84548f2173ed7d01adae45c3486b25dc88a3ab6",
+      "dependsOn": [],
+      "id": "WRK-BLUE:REQ-003",
+      "namespace": "WRK-BLUE",
+      "number": 3,
+      "source": {
+        "line": 147,
+        "path": "singularity/work-items/WRK-BLUE/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    }
+  ],
+  "generation": 1,
+  "indexSha256": "c8cf90b6bd7b343f0b82c5a3bf6189d2a631fb92d8dd3eeaa9de63c9f3f455ad",
+  "phase": "specification",
+  "schemaVersion": 1,
+  "source": {
+    "bytes": 5478,
+    "path": "singularity/work-items/WRK-BLUE/artifacts/specification/spec.md",
+    "sha256": "2847dbf556febfce03525f0b231a30b0a2ea17d121a76dea4358dc7865c6a7d0"
+  },
+  "workId": "WRK-BLUE"
+}

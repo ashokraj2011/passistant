@@ -1,0 +1,35 @@
+{
+  "artifact": {
+    "bytes": 4385,
+    "path": "singularity/work-items/WRK-BLUE/artifacts/specification/spec.md",
+    "role": "document",
+    "sha256": "7f360777998e06e91498b8a2e1860e7a99959cfc1f242e2ccca8476fbe94750c"
+  },
+  "configuration": {
+    "revision": "ae1ed1914f459954090c2ed9d3afd64c05411634",
+    "sha256": "dbd3a363975694f734708a438f0f26b7dea3c08f6dc9b846e091cc60a4e045fa"
+  },
+  "generation": 1,
+  "inputs": [],
+  "integritySha256": "f94dbfe4296052b57d1a07529cf8076359eae8524606a80aea547f1952d9c6cb",
+  "phase": "specification",
+  "producer": {
+    "actor": "88361104+ashokraj2011@users.noreply.github.com",
+    "agent": null,
+    "kind": "human"
+  },
+  "publication": {
+    "branch": "WRK-BLUE",
+    "commit": null,
+    "publishedAt": "2026-08-31T07:38:26.438Z"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "id": "WRK-BLUE",
+    "kind": "story"
+  },
+  "template": {
+    "path": "singularity/templates/spec-driven/spec.md",
+    "sha256": "27424a624b1dab57323fd7482ac62708bd42d11ba42e41c102f94e15182fe485"
+  }
+}
