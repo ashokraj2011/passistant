@@ -1,0 +1,28 @@
+{
+  "artifact": {
+    "generation": 1,
+    "mediaType": "text/markdown",
+    "outputId": "document",
+    "path": "singularity/work-items/WRK-BLUE/artifacts/release/conformance.md",
+    "phaseId": "release"
+  },
+  "createdAt": "2026-08-31T10:05:48.986Z",
+  "kind": "governed-reference",
+  "repository": {
+    "id": "passistant",
+    "origin": "https://github.com/ashokraj2011/passistant.git"
+  },
+  "revision": {
+    "bytes": 10008,
+    "commitSha": "fe1bf12fb751b6ce4e507f5da8b940dfda8b43ba",
+    "sha256": "cd190ec5372915946b1ea9e9ac74404a0a98fcd462c32fc9182b20184b61b531"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "branch": "WRK-BLUE",
+    "id": "WRK-BLUE",
+    "kind": "story",
+    "subjectRevision": 1
+  },
+  "visibility": "model"
+}
