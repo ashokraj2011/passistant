@@ -1,0 +1,41 @@
+{
+  "artifact": {
+    "bytes": 431,
+    "path": "singularity/work-items/WRK-BLUE/artifacts/release/verification/README.md",
+    "role": "document",
+    "sha256": "b9bb665442df64a7db9996f3297c6f7fa608e777594fe557a95f5fb35c301585"
+  },
+  "configuration": {
+    "revision": "ae1ed1914f459954090c2ed9d3afd64c05411634",
+    "sha256": "dbd3a363975694f734708a438f0f26b7dea3c08f6dc9b846e091cc60a4e045fa"
+  },
+  "generation": 1,
+  "inputs": [
+    {
+      "kind": null,
+      "path": "artifacts/verification/test-evidence.md",
+      "sha256": null
+    }
+  ],
+  "integritySha256": "e5bb53a6c9c893124aa3b650063e7d56a4a55f01a7548a7d6fa2977d8c3e0825",
+  "phase": "release",
+  "producer": {
+    "actor": "88361104+ashokraj2011@users.noreply.github.com",
+    "agent": null,
+    "kind": "human"
+  },
+  "publication": {
+    "branch": "WRK-BLUE",
+    "commit": null,
+    "publishedAt": "2026-08-31T10:05:03.427Z"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "id": "WRK-BLUE",
+    "kind": "story"
+  },
+  "template": {
+    "path": "singularity/templates/spec-driven/release.md",
+    "sha256": "ce6e1d1995c68158f4209063b3cb954eceab8576e1c8db76bfaed27a805a8908"
+  }
+}
