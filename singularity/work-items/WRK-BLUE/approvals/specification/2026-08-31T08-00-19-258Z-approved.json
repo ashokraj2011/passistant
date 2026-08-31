@@ -1,0 +1,55 @@
+{
+  "decision": "approved",
+  "phase": "specification",
+  "at": "2026-08-31T08:00:19.258Z",
+  "actor": {
+    "name": "Ashok Raj",
+    "email": "88361104+ashokraj2011@users.noreply.github.com",
+    "login": "ashokraj2011",
+    "githubLookup": "resolved"
+  },
+  "agent": "product-owner",
+  "authorityGroup": "product-approvers",
+  "identityAssurance": "configured-local",
+  "channel": "terminal",
+  "generation": 1,
+  "artifactSha256": [
+    {
+      "path": "singularity/work-items/WRK-BLUE/artifacts/specification/spec.md",
+      "sha256": "71ff4521597226d32497d88f15c4ef32fcab314642f684546dd459d706ccb381"
+    }
+  ],
+  "artifactSet": "spec-driven-specification",
+  "bundleSha256": "a47e352c08987381c2f851554fd6fa903145fb8db27c25ee9d9cf23a440e9335",
+  "reviewPacketSha256": "84cd89967c57db5e9a048f5125837c5e0c3ef3141a7f4f6271344d71420854bf",
+  "evidenceCommit": "d4caf85981b421eff0aa3bf1668503156f5c24cc",
+  "artifactSetSha256": "d964a8c76c9b5522facca9670053147d518619814b7dee54ff3e94c67bb494fb",
+  "checklist": [
+    {
+      "article": "completeness",
+      "decision": "satisfied"
+    },
+    {
+      "article": "ambiguity",
+      "decision": "satisfied"
+    },
+    {
+      "article": "consistency",
+      "decision": "satisfied"
+    },
+    {
+      "article": "verifiability",
+      "decision": "satisfied"
+    },
+    {
+      "article": "boundary-conditions",
+      "decision": "satisfied"
+    },
+    {
+      "article": "non-functional",
+      "decision": "satisfied"
+    }
+  ],
+  "checklistSha256": "f52b980ffcaf26cf59e2d5c7fb15b38c1bb7fef7e37f4a81603bdfe0b55006ab",
+  "selfApproval": true
+}
