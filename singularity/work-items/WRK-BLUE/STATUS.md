@@ -5,7 +5,7 @@
 - Capability: **pznassistant** (`piassistnat`)
 - Capability map: `78b522f1b6f41455d7a7359b80e1c92b89f3ab59ae47a4a4e6487ce2df1fe48a`
 - Overall status: **in_progress**
-- Current phase: **convergence**
+- Current phase: **verification**
 
 | # | Phase | Governed agent | Status | Generation | Approvals | Tokens |
 |---:|---|---|---|---:|---:|---:|
@@ -15,12 +15,15 @@
 |  | ⚠ self-approval | Ashok Raj via architecture-reviewers; agent architect | **warning** |  |  |  |
 | 3 | Implementation (`implementation`) | developer | **approved** | 1 | 1 | unavailable |
 |  | ⚠ self-approval | Ashok Raj via engineering-reviewers; agent developer | **warning** |  |  |  |
-| 4 | Convergence (`convergence`) | architect | **awaiting_approval** | 1 | 0 | unavailable |
-| 5 | Verification (`verification`) | qa | **not_started** | 0 | 0 | unavailable |
+| 4 | Convergence (`convergence`) | architect | **approved** | 1 | 1 | unavailable |
+|  | ⚠ self-approval | Ashok Raj via architecture-reviewers; agent architect | **warning** |  |  |  |
+| 5 | Verification (`verification`) | qa | **in_progress** | 0 | 0 | unavailable |
 | 6 | Release (`release`) | qa | **not_started** | 0 | 0 | unavailable |
 
 ## Recent history
 
+- 2026-08-31T09:35:26.385Z — **work_interval_started** (verification) by system: baseline 931ed0e67bcd at d9b54f6bd9d2
+- 2026-08-31T09:35:26.371Z — **phase_self_approved** (convergence) by ashokraj2011 · governed agent architect: threshold reached; advanced to verification
 - 2026-08-31T09:32:05.525Z — **phase_submitted** (convergence) by ashokraj2011 · governed agent developer: 1 artifacts
 - 2026-08-31T09:30:50.809Z — **phase_generated** (convergence) by ashokraj2011 · governed agent developer: generation 1
 - 2026-08-31T09:27:07.832Z — **phase_self_approved** (implementation) by ashokraj2011 · governed agent developer: threshold reached; advanced to convergence
@@ -34,5 +37,3 @@
 - 2026-08-31T08:10:45.829Z — **phase_generated** (planning) by ashokraj2011 · governed agent architect: generation 1
 - 2026-08-31T08:00:19.258Z — **phase_self_approved** (specification) by ashokraj2011 · governed agent product-owner: threshold reached; advanced to planning
 - 2026-08-31T07:42:02.014Z — **phase_submitted** (specification) by ashokraj2011 · governed agent product-owner: 1 artifacts
-- 2026-08-31T07:38:26.511Z — **phase_generated** (specification) by ashokraj2011 · governed agent product-owner: generation 1
-- 2026-08-31T07:28:01.317Z — **work_started** (specification) by ashokraj2011 · governed agent product-owner: Created spec-driven-standard branch WRK-BLUE
