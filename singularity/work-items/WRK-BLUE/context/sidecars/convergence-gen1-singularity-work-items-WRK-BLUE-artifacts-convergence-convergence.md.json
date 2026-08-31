@@ -1,0 +1,51 @@
+{
+  "artifact": {
+    "bytes": 16136,
+    "path": "singularity/work-items/WRK-BLUE/artifacts/convergence/convergence.md",
+    "role": "document",
+    "sha256": "e6780832fbaa524f4a16a8d55bc9f00048c1ede12d3b36d28dd4e18e1f5c4cd6"
+  },
+  "configuration": {
+    "revision": "ae1ed1914f459954090c2ed9d3afd64c05411634",
+    "sha256": "dbd3a363975694f734708a438f0f26b7dea3c08f6dc9b846e091cc60a4e045fa"
+  },
+  "generation": 1,
+  "inputs": [
+    {
+      "kind": null,
+      "path": "artifacts/implementation/implementation-summary.md",
+      "sha256": null
+    },
+    {
+      "kind": null,
+      "path": "artifacts/planning/plan.md",
+      "sha256": null
+    },
+    {
+      "kind": null,
+      "path": "artifacts/specification/spec.md",
+      "sha256": null
+    }
+  ],
+  "integritySha256": "8caa434d9be336e02259fe7123fe9339c0e291af69fed4698e72890c6dfff9bb",
+  "phase": "convergence",
+  "producer": {
+    "actor": "88361104+ashokraj2011@users.noreply.github.com",
+    "agent": null,
+    "kind": "deterministic"
+  },
+  "publication": {
+    "branch": "WRK-BLUE",
+    "commit": null,
+    "publishedAt": "2026-08-31T09:30:50.736Z"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "id": "WRK-BLUE",
+    "kind": "story"
+  },
+  "template": {
+    "path": "singularity/templates/spec-driven/convergence.md",
+    "sha256": "eb257477afca0229ed858875499736c57498015aaee0a527b714356819a9dde2"
+  }
+}

@@ -4338,18 +4338,107 @@
       "rejectedAt": null,
       "rejectedBy": null,
       "rejectionReason": null,
-      "generation": 0,
-      "generatedBy": null,
+      "generation": 1,
+      "generatedBy": {
+        "name": "Ashok Raj",
+        "email": "88361104+ashokraj2011@users.noreply.github.com",
+        "login": "ashokraj2011",
+        "githubLookup": "resolved"
+      },
       "generatedAgent": null,
-      "authorship": [],
+      "authorship": [
+        {
+          "schemaVersion": 1,
+          "producer": "deterministic",
+          "channel": "kernel-generator",
+          "actor": {
+            "name": "Ashok Raj",
+            "email": "88361104+ashokraj2011@users.noreply.github.com",
+            "login": "ashokraj2011",
+            "githubLookup": "resolved"
+          },
+          "governedAgentContext": {
+            "agentId": "developer"
+          },
+          "kernelModel": {
+            "invoked": false,
+            "status": "exact",
+            "invocationIds": []
+          },
+          "externalAiUse": {
+            "value": "unknown",
+            "status": "unavailable"
+          },
+          "changeOrigins": [
+            "code-generator"
+          ],
+          "source": {
+            "kind": "in-place",
+            "filename": "convergence.md",
+            "mediaType": "text/markdown",
+            "sha256": "422c667b4af567dc294c2ff7724c36d1e51a7bda0cb5b6585348a6cea46daba6",
+            "bytes": 482
+          },
+          "generation": 1,
+          "publishedAt": "2026-08-31T09:30:50.736Z"
+        }
+      ],
       "usage": [],
-      "telemetry": [],
+      "telemetry": [
+        {
+          "generation": 1,
+          "path": "singularity/work-items/WRK-BLUE/telemetry/convergence-gen1.json",
+          "sha256": "7f8974ab5c2f8cb1fa1e41ea022e2ffdc1dc3cb4f76cca094c7e20a16c488669",
+          "status": "not-invoked",
+          "models": [],
+          "providerCost": null
+        }
+      ],
       "approvals": [],
       "designSourceSets": [],
       "artifactRegistrationRepairs": [],
-      "artifacts": [],
+      "artifacts": [
+        {
+          "path": "singularity/work-items/WRK-BLUE/artifacts/convergence/convergence.md",
+          "kind": "document",
+          "status": "pending",
+          "exists": true,
+          "size": 17138,
+          "sha256": "584cd70ac3d1ead04d7cc2b84950c19d292ebf6a85398573ef06bc3f3548c8d7",
+          "registeredAt": "2026-08-31T09:30:50.077Z",
+          "updatedAt": "2026-08-31T09:30:50.770Z"
+        }
+      ],
       "checks": [],
-      "remoteOutputs": []
+      "remoteOutputs": [],
+      "inputContext": {
+        "generation": 1,
+        "path": "singularity/work-items/WRK-BLUE/context/inputs-convergence-gen1.json",
+        "sha256": "57ac41b53e43de175635f3cc79b4d8bc594ac3f4d1673557dfeaf0c57d55378b",
+        "renderedSha256": "35114fc2016c669b2cfd9e1cc62f0e2a04a10c2d28100fc1d8b2155302f6b969",
+        "mode": "enforce"
+      },
+      "sidecars": [
+        {
+          "path": "singularity/work-items/WRK-BLUE/context/sidecars/convergence-gen1-singularity-work-items-WRK-BLUE-artifacts-convergence-convergence.md.json",
+          "artifact": "singularity/work-items/WRK-BLUE/artifacts/convergence/convergence.md",
+          "integritySha256": "8caa434d9be336e02259fe7123fe9339c0e291af69fed4698e72890c6dfff9bb"
+        }
+      ],
+      "sourceCommit": "a8ad009ea8f833ddca795e4c95899e9d52d92699",
+      "generationPublications": [
+        {
+          "generation": 1,
+          "publishedAt": "2026-08-31T09:30:50.736Z",
+          "changeSetDigest": null,
+          "resultDigest": "sha256:989a693fb8c374853509517ba029539e919115a81c216d4656f7a12f4c3742e1",
+          "resultDigestVersion": 2,
+          "record": {
+            "path": "singularity/work-items/WRK-BLUE/context/generation-publications/convergence-gen1.json",
+            "sha256": "sha256:985c7842b216ad0a7ec7240efaecb3c3e75d7922a1c6ac421e12867c51d1263f"
+          }
+        }
+      ]
     },
     "verification": {
       "id": "verification",
@@ -4668,6 +4757,14 @@
       "event": "phase_self_approved",
       "phase": "implementation",
       "detail": "threshold reached; advanced to convergence"
+    },
+    {
+      "at": "2026-08-31T09:30:50.809Z",
+      "actor": "ashokraj2011",
+      "agent": "developer",
+      "event": "phase_generated",
+      "phase": "convergence",
+      "detail": "generation 1"
     }
   ],
   "measurement": {
@@ -5713,6 +5810,105 @@
           }
         },
         "createdAt": "2026-08-31T09:27:07.583Z"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "event": {
+        "schemaVersion": 1,
+        "eventId": "aa598783-75c0-4f47-919a-729b8ef09240",
+        "type": "artifact-generated",
+        "subject": {
+          "kind": "story",
+          "id": "WRK-BLUE",
+          "branch": "WRK-BLUE"
+        },
+        "phaseId": "convergence",
+        "generation": 1,
+        "actor": {
+          "name": "Ashok Raj",
+          "email": "88361104+ashokraj2011@users.noreply.github.com",
+          "login": "ashokraj2011",
+          "githubLookup": "resolved"
+        },
+        "agent": null,
+        "authorityGroup": null,
+        "payload": {
+          "decision": null,
+          "reviewPacketSha256": null
+        },
+        "sourceCommit": null,
+        "idempotencyKey": null,
+        "idempotencyHash": null,
+        "createdAt": "2026-08-31T09:30:50.514Z"
+      },
+      "ledgerIntent": {
+        "schemaVersion": 1,
+        "eventId": "aa598783-75c0-4f47-919a-729b8ef09240",
+        "eventType": "artifact-generated",
+        "capabilityId": "piassistnat",
+        "subject": {
+          "branch": "WRK-BLUE",
+          "generation": 1,
+          "phase": "convergence",
+          "workId": "WRK-BLUE",
+          "workType": "spec-driven-standard"
+        },
+        "actor": {
+          "name": "Ashok Raj",
+          "email": "88361104+ashokraj2011@users.noreply.github.com",
+          "githubLogin": "ashokraj2011",
+          "identityAssurance": "configured-local"
+        },
+        "agent": null,
+        "authorityGroup": null,
+        "payload": {
+          "capabilityMapSha256": "78b522f1b6f41455d7a7359b80e1c92b89f3ab59ae47a4a4e6487ce2df1fe48a",
+          "capabilityPolicy": {
+            "protectedPaths": [],
+            "qualityCommands": [],
+            "requiredAuthorityGroups": [],
+            "requiredChecks": [],
+            "requiredWorldModelViews": []
+          },
+          "configPath": "singularity/workflow.yml",
+          "configSha256": "dbd3a363975694f734708a438f0f26b7dea3c08f6dc9b846e091cc60a4e045fa",
+          "lifecycleEventId": "aa598783-75c0-4f47-919a-729b8ef09240",
+          "lifecyclePayload": {
+            "decision": null,
+            "reviewPacketSha256": null
+          },
+          "templateSha256": "eb257477afca0229ed858875499736c57498015aaee0a527b714356819a9dde2",
+          "lifecycleEvent": {
+            "schemaVersion": 1,
+            "eventId": "aa598783-75c0-4f47-919a-729b8ef09240",
+            "type": "artifact-generated",
+            "subject": {
+              "kind": "story",
+              "id": "WRK-BLUE",
+              "branch": "WRK-BLUE"
+            },
+            "phaseId": "convergence",
+            "generation": 1,
+            "actor": {
+              "name": "Ashok Raj",
+              "email": "88361104+ashokraj2011@users.noreply.github.com",
+              "login": "ashokraj2011",
+              "githubLookup": "resolved"
+            },
+            "agent": null,
+            "authorityGroup": null,
+            "payload": {
+              "decision": null,
+              "reviewPacketSha256": null
+            },
+            "sourceCommit": null,
+            "idempotencyKey": null,
+            "idempotencyHash": null,
+            "createdAt": "2026-08-31T09:30:50.514Z"
+          }
+        },
+        "createdAt": "2026-08-31T09:30:50.526Z"
       }
     }
   ],
