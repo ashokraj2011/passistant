@@ -1,0 +1,29 @@
+{
+  "decision": "reopened",
+  "phase": "release",
+  "target": "implementation",
+  "reason": "Governance recovery: gate.validation.failed",
+  "changeRequestId": "CR-001",
+  "at": "2026-08-31T10:18:59.321Z",
+  "actor": {
+    "name": "Ashok Raj",
+    "email": "88361104+ashokraj2011@users.noreply.github.com",
+    "login": "ashokraj2011",
+    "githubLookup": "resolved"
+  },
+  "agent": "qa",
+  "authorityGroup": "quality-reviewers",
+  "identityAssurance": "configured-local",
+  "channel": "terminal",
+  "generation": 1,
+  "artifactSha256": [
+    {
+      "path": "singularity/work-items/WRK-BLUE/artifacts/release/conformance.md",
+      "sha256": "6340851ff78971276df4df891d539c15e39616bd859e80bf4c0fce25770ac1d0"
+    },
+    {
+      "path": "singularity/work-items/WRK-BLUE/artifacts/release/verification/README.md",
+      "sha256": "b9bb665442df64a7db9996f3297c6f7fa608e777594fe557a95f5fb35c301585"
+    }
+  ]
+}

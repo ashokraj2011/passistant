@@ -4,8 +4,8 @@
 - Work type: **spec-driven-standard**
 - Capability: **pznassistant** (`piassistnat`)
 - Capability map: `78b522f1b6f41455d7a7359b80e1c92b89f3ab59ae47a4a4e6487ce2df1fe48a`
-- Overall status: **complete**
-- Current phase: **complete**
+- Overall status: **in_progress**
+- Current phase: **implementation**
 
 | # | Phase | Governed agent | Status | Generation | Approvals | Tokens |
 |---:|---|---|---|---:|---:|---:|
@@ -13,17 +13,20 @@
 |  | ⚠ self-approval | Ashok Raj via product-approvers; agent product-owner | **warning** |  |  |  |
 | 2 | Planning (`planning`) | architect | **approved** | 1 | 1 | unavailable |
 |  | ⚠ self-approval | Ashok Raj via architecture-reviewers; agent architect | **warning** |  |  |  |
-| 3 | Implementation (`implementation`) | developer | **approved** | 1 | 1 | unavailable |
-|  | ⚠ self-approval | Ashok Raj via engineering-reviewers; agent developer | **warning** |  |  |  |
-| 4 | Convergence (`convergence`) | architect | **approved** | 1 | 1 | unavailable |
-|  | ⚠ self-approval | Ashok Raj via architecture-reviewers; agent architect | **warning** |  |  |  |
-| 5 | Verification (`verification`) | qa | **approved** | 1 | 1 | unavailable |
-|  | ⚠ self-approval | Ashok Raj via quality-reviewers; agent qa | **warning** |  |  |  |
-| 6 | Release (`release`) | qa | **approved** | 1 | 1 | unavailable |
-|  | ⚠ self-approval | Ashok Raj via quality-reviewers; agent qa | **warning** |  |  |  |
+| 3 | Implementation (`implementation`) | developer | **in_progress** | 1 | 0 | unavailable |
+| 4 | Convergence (`convergence`) | architect | **not_started** | 1 | 0 | unavailable |
+| 5 | Verification (`verification`) | qa | **not_started** | 1 | 0 | unavailable |
+| 6 | Release (`release`) | qa | **not_started** | 1 | 1 | unavailable |
+
+## Open stakeholder change requests
+
+- **CR-001** — return `release` to `implementation`: Governance recovery: gate.validation.failed _(requested by Ashok Raj at 2026-08-31T10:18:59.321Z)_
+  - Reversible checkpoint: `RFW-CR-001` — preview with `singularity-flow story rework roll-forward --work-id WRK-BLUE --change-request CR-001 --json`.
 
 ## Recent history
 
+- 2026-08-31T10:18:59.321Z — **workflow_reopened** (release) by ashokraj2011 · governed agent qa: CR-001 returned completed work to implementation: Governance recovery: gate.validation.failed
+- 2026-08-31T10:18:59.405Z — **work_interval_started** (implementation) by system: baseline fea5c6da1e98 at da39594c6570
 - 2026-08-31T10:11:05.012Z — **phase_self_approved** (release) by ashokraj2011 · governed agent qa: threshold reached; complete
 - 2026-08-31T10:05:48.912Z — **phase_submitted** (release) by ashokraj2011 · governed agent qa: 2 artifacts
 - 2026-08-31T10:05:03.511Z — **phase_generated** (release) by ashokraj2011 · governed agent qa: generation 1
@@ -37,5 +40,3 @@
 - 2026-08-31T09:32:05.525Z — **phase_submitted** (convergence) by ashokraj2011 · governed agent developer: 1 artifacts
 - 2026-08-31T09:30:50.809Z — **phase_generated** (convergence) by ashokraj2011 · governed agent developer: generation 1
 - 2026-08-31T09:27:07.832Z — **phase_self_approved** (implementation) by ashokraj2011 · governed agent developer: threshold reached; advanced to convergence
-- 2026-08-31T09:27:07.832Z — **work_interval_closed** (implementation) by ashokraj2011 · governed agent developer: interval INT-implementation-G1-001 closed after phase approval
-- 2026-08-31T09:23:27.724Z — **phase_submitted** (implementation) by ashokraj2011 · governed agent developer: 8 artifacts
