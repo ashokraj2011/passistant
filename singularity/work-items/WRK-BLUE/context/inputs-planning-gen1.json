@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "workId": "WRK-BLUE",
+  "workType": "spec-driven-standard",
+  "phase": "planning",
+  "generation": 1,
+  "mode": "enforce",
+  "recordedAt": "2026-08-31T08:10:45.716Z",
+  "renderedSha256": "645b6a50f4592875176c0288bcafad218b3b3718a55d9fd7c50cbf64b7217953",
+  "warnings": [],
+  "inputs": [
+    {
+      "phase": "specification",
+      "path": "artifacts/specification/spec.md",
+      "repositoryPath": "singularity/work-items/WRK-BLUE/artifacts/specification/spec.md",
+      "optional": false,
+      "maxBytes": null,
+      "status": "captured",
+      "producerStatus": "approved",
+      "producerGeneration": 1,
+      "approvedAt": "2026-08-31T08:00:19.258Z",
+      "approvedBy": "ashokraj2011",
+      "approvedSha256": "d37584d6caa2177ecd82f0318167462dce165b6c60af7cde732e98ee61cede4d",
+      "sha256": "d37584d6caa2177ecd82f0318167462dce165b6c60af7cde732e98ee61cede4d",
+      "bytes": 7366,
+      "source": {
+        "path": "singularity/work-items/WRK-BLUE/artifacts/specification/spec.md",
+        "rawSha256": "sha256:d37584d6caa2177ecd82f0318167462dce165b6c60af7cde732e98ee61cede4d"
+      },
+      "representation": {
+        "kind": "full",
+        "sha256": "sha256:f71f27895f64300b52722b5271c7d4f30ea715efdf6bd2987dfd4aee3eba9ac2",
+        "bytes": 3194,
+        "complete": true,
+        "expansionHandle": "sfref:v1:story:WRK-BLUE:32e83cb416d936e46aa55aefefcaaaa76817414296e61d3775df3256de29ad0f"
+      },
+      "injectedBytes": 3194,
+      "truncated": false,
+      "authoredBytes": 3194,
+      "managedBytesExcluded": 4172,
+      "projection": {
+        "kind": "full"
+      }
+    }
+  ]
+}

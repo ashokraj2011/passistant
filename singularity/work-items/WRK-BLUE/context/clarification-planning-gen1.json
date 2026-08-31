@@ -1,0 +1,1 @@
+{"responses":[{"question":"Should the plan use the repository's existing test tooling for the computed CSS color check, or do you require a browser-test framework?","answer":"Use existing tooling"}]}

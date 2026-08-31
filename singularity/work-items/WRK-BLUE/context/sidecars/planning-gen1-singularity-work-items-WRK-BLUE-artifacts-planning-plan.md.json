@@ -1,0 +1,41 @@
+{
+  "artifact": {
+    "bytes": 10650,
+    "path": "singularity/work-items/WRK-BLUE/artifacts/planning/plan.md",
+    "role": "document",
+    "sha256": "10d24e90ef676b9789dee2e4e7a96f44caa69c01934f7b3a272c641d51c7b2ee"
+  },
+  "configuration": {
+    "revision": "ae1ed1914f459954090c2ed9d3afd64c05411634",
+    "sha256": "dbd3a363975694f734708a438f0f26b7dea3c08f6dc9b846e091cc60a4e045fa"
+  },
+  "generation": 1,
+  "inputs": [
+    {
+      "kind": null,
+      "path": "artifacts/specification/spec.md",
+      "sha256": null
+    }
+  ],
+  "integritySha256": "875bc3057974a38077542970cd4ed20370da24f3494f75974ce166dd0cd53bc3",
+  "phase": "planning",
+  "producer": {
+    "actor": "88361104+ashokraj2011@users.noreply.github.com",
+    "agent": null,
+    "kind": "human"
+  },
+  "publication": {
+    "branch": "WRK-BLUE",
+    "commit": null,
+    "publishedAt": "2026-08-31T08:10:45.750Z"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "id": "WRK-BLUE",
+    "kind": "story"
+  },
+  "template": {
+    "path": "singularity/templates/spec-driven/plan.md",
+    "sha256": "069190d022b9423a996c7c8a88de3d7ef457336398a8e3d5bb639115eb6d674a"
+  }
+}
