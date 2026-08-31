@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "workId": "WRK-BLUE",
+  "epicId": null,
+  "planId": null,
+  "jiraIssueId": "WRK-BLUE",
+  "initialJiraKey": null,
+  "currentJiraKey": null,
+  "canonicalBranch": "WRK-BLUE",
+  "submittedBranch": "WRK-BLUE",
+  "submissionCommit": "8a49144a4e3aaf72128f3b7c297b9be08f5e8d4f",
+  "sourceCommit": "8a49144a4e3aaf72128f3b7c297b9be08f5e8d4f",
+  "sourceTreeSha256": "sha256:93243c8e24b29d03d2aed1f2f35d561743b9fd0f7efcb281894a4ea19cd33af8",
+  "phase": "specification",
+  "generation": 1,
+  "authorship": {
+    "schemaVersion": 1,
+    "producer": "human",
+    "channel": "manual-in-place",
+    "actor": {
+      "name": "Ashok Raj",
+      "email": "88361104+ashokraj2011@users.noreply.github.com",
+      "login": "ashokraj2011",
+      "githubLookup": "resolved"
+    },
+    "governedAgentContext": {
+      "agentId": "product-owner"
+    },
+    "kernelModel": {
+      "invoked": false,
+      "status": "exact",
+      "invocationIds": []
+    },
+    "externalAiUse": {
+      "value": "unknown",
+      "status": "unavailable"
+    },
+    "changeOrigins": [
+      "human"
+    ],
+    "source": {
+      "kind": "in-place",
+      "filename": "spec.md",
+      "mediaType": "text/markdown",
+      "sha256": "f71f27895f64300b52722b5271c7d4f30ea715efdf6bd2987dfd4aee3eba9ac2",
+      "bytes": 3194
+    },
+    "generation": 1,
+    "publishedAt": "2026-08-31T07:38:26.438Z"
+  },
+  "artifacts": [
+    {
+      "path": "singularity/work-items/WRK-BLUE/artifacts/specification/spec.md",
+      "kind": "document",
+      "sha256": "71ff4521597226d32497d88f15c4ef32fcab314642f684546dd459d706ccb381",
+      "size": 5560,
+      "reference": {
+        "handle": "sfref:v1:story:WRK-BLUE:32e83cb416d936e46aa55aefefcaaaa76817414296e61d3775df3256de29ad0f",
+        "recordHash": "32e83cb416d936e46aa55aefefcaaaa76817414296e61d3775df3256de29ad0f"
+      }
+    }
+  ],
+  "references": [
+    {
+      "handle": "sfref:v1:story:WRK-BLUE:32e83cb416d936e46aa55aefefcaaaa76817414296e61d3775df3256de29ad0f",
+      "recordHash": "32e83cb416d936e46aa55aefefcaaaa76817414296e61d3775df3256de29ad0f",
+      "purpose": "review-evidence",
+      "required": true
+    }
+  ],
+  "agentBriefs": [],
+  "checks": [],
+  "usage": [],
+  "approvals": [],
+  "visualAssurance": null,
+  "submissionEvidence": {
+    "testExecutions": [],
+    "checksSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "artifactSetSha256": "d964a8c76c9b5522facca9670053147d518619814b7dee54ff3e94c67bb494fb"
+  },
+  "witnessReview": {
+    "enrollment": {
+      "schemaVersion": 1,
+      "mode": "disabled",
+      "witnessedClauses": {
+        "enabled": false,
+        "profiles": []
+      },
+      "testcaseExact": {
+        "mode": "disabled",
+        "profile": null,
+        "requiredAssurance": "unavailable",
+        "policySha256": "sha256:12b50a34a1f03338377ecd76f44b20cbee83e7b91a0b07392ef08e3d8fd60800"
+      },
+      "claimMapContractVersion": 1,
+      "cab": null,
+      "sgos": null,
+      "rollout": {
+        "id": "wel-v0.2-observe",
+        "version": 1,
+        "enrollment": "new-story-only"
+      },
+      "configurationAuthority": {
+        "repository": "https://github.com/ashokraj2011/passistant.git",
+        "branch": "sflow/config",
+        "commit": "ae1ed1914f459954090c2ed9d3afd64c05411634",
+        "projectionSha256": "93746ae868dde4f2abcacd7a843f9be92b99b4c5b7ec25aae842dd512571b916"
+      }
+    },
+    "enrollmentClassification": "enrolled",
+    "enrollmentReason": null,
+    "clauseMappings": [],
+    "testcaseObservations": []
+  },
+  "submittedAt": "2026-08-31T07:42:02.014Z",
+  "submittedBy": {
+    "name": "Ashok Raj",
+    "email": "88361104+ashokraj2011@users.noreply.github.com",
+    "login": "ashokraj2011",
+    "githubLookup": "resolved"
+  },
+  "status": "awaiting_review",
+  "packetSha256": "84cd89967c57db5e9a048f5125837c5e0c3ef3141a7f4f6271344d71420854bf"
+}
