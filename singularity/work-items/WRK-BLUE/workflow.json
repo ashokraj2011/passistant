@@ -3088,8 +3088,8 @@
     },
     "policySha256": "sha256:39a6c9cb0c53d8b0fa8cba4ce8cf84fa9d1092470006c81bb44d654be1c649c6"
   },
-  "status": "in_progress",
-  "currentPhase": "release",
+  "status": "complete",
+  "currentPhase": null,
   "phaseOrder": [
     "specification",
     "planning",
@@ -5219,7 +5219,7 @@
       "label": "Release",
       "order": 5,
       "defaultAgent": "qa",
-      "status": "awaiting_approval",
+      "status": "approved",
       "requiredArtifact": {
         "path": "artifacts/release/conformance.md",
         "kind": "conformance-report",
@@ -5283,8 +5283,8 @@
       "qualityCommands": [],
       "startedAt": "2026-08-31T09:45:54.994Z",
       "submittedAt": "2026-08-31T10:05:48.912Z",
-      "approvedAt": null,
-      "approvedBy": null,
+      "approvedAt": "2026-08-31T10:11:05.012Z",
+      "approvedBy": "ashokraj2011",
       "rejectedAt": null,
       "rejectedBy": null,
       "rejectionReason": null,
@@ -5344,19 +5344,74 @@
           "providerCost": null
         }
       ],
-      "approvals": [],
+      "approvals": [
+        {
+          "decision": "approved",
+          "phase": "release",
+          "at": "2026-08-31T10:11:05.012Z",
+          "actor": {
+            "name": "Ashok Raj",
+            "email": "88361104+ashokraj2011@users.noreply.github.com",
+            "login": "ashokraj2011",
+            "githubLookup": "resolved"
+          },
+          "agent": "qa",
+          "authorityGroup": "quality-reviewers",
+          "identityAssurance": "configured-local",
+          "channel": "copilot-selection-receipt",
+          "generation": 1,
+          "artifactSha256": [
+            {
+              "path": "singularity/work-items/WRK-BLUE/artifacts/release/conformance.md",
+              "sha256": "9bab88722a771a10f59176cc2677e91283699ed12aecced202a729877e6d1d29"
+            },
+            {
+              "path": "singularity/work-items/WRK-BLUE/artifacts/release/verification/README.md",
+              "sha256": "b9bb665442df64a7db9996f3297c6f7fa608e777594fe557a95f5fb35c301585"
+            }
+          ],
+          "artifactSet": "spec-driven-verification",
+          "bundleSha256": "1069178b07410170948e8d77c8dbe9bef0e062077dc24571912c7dff2514260e",
+          "reviewPacketSha256": "2bd1466f61a4e3fff9d4bab5eb89b0cbbce25e5d9f70781809d3667367ab84f8",
+          "evidenceCommit": "9876ce274903b29fb79cc04c8f70889401a5a49d",
+          "artifactSetSha256": "1f9c4252b2e0096341e004f39e4e769097e1bd3adeea99787763461a726b1e93",
+          "actionContext": {
+            "phase": "release",
+            "label": "Release",
+            "generation": 1,
+            "submittedAt": "2026-08-31T10:05:48.912Z",
+            "artifacts": [
+              {
+                "path": "singularity/work-items/WRK-BLUE/artifacts/release/conformance.md",
+                "sha256": "9bab88722a771a10f59176cc2677e91283699ed12aecced202a729877e6d1d29"
+              },
+              {
+                "path": "singularity/work-items/WRK-BLUE/artifacts/release/verification/README.md",
+                "sha256": "b9bb665442df64a7db9996f3297c6f7fa608e777594fe557a95f5fb35c301585"
+              }
+            ],
+            "agentBriefs": [],
+            "reviewPacketSha256": "2bd1466f61a4e3fff9d4bab5eb89b0cbbce25e5d9f70781809d3667367ab84f8",
+            "submittedSourceCommit": "fe1bf12fb751b6ce4e507f5da8b940dfda8b43ba",
+            "planId": "112b97d53cceb4b564bb152b"
+          },
+          "selfApproval": true
+        }
+      ],
       "designSourceSets": [],
       "artifactRegistrationRepairs": [],
       "artifacts": [
         {
           "path": "singularity/work-items/WRK-BLUE/artifacts/release/conformance.md",
           "kind": "document",
-          "status": "pending",
+          "status": "approved",
           "exists": true,
-          "size": 10090,
-          "sha256": "9bab88722a771a10f59176cc2677e91283699ed12aecced202a729877e6d1d29",
+          "size": 12276,
+          "sha256": "6340851ff78971276df4df891d539c15e39616bd859e80bf4c0fce25770ac1d0",
           "registeredAt": "2026-08-31T10:05:02.539Z",
-          "updatedAt": "2026-08-31T10:05:48.913Z"
+          "updatedAt": "2026-08-31T10:11:05.014Z",
+          "approvedAt": "2026-08-31T10:11:05.012Z",
+          "approvedBy": "ashokraj2011"
         },
         {
           "path": "singularity/work-items/WRK-BLUE/artifacts/release/verification/README.md",
@@ -5438,8 +5493,8 @@
         "generation": 1,
         "path": "singularity/work-items/WRK-BLUE/context/spec-indexes/release-gen1.json",
         "clauses": 6,
-        "indexSha256": "2db90fcb7f34815b49af5810c48c863ea01a34d09cbdfa6161f2cf0e1a0853c5",
-        "sourceSha256": "cd190ec5372915946b1ea9e9ac74404a0a98fcd462c32fc9182b20184b61b531"
+        "indexSha256": "bfac458d2e8babda36206d9f58b11fe5d9a4fa11b20bf46b018955ba0ccc0c8b",
+        "sourceSha256": "6340851ff78971276df4df891d539c15e39616bd859e80bf4c0fce25770ac1d0"
       },
       "generationPublications": [
         {
@@ -5704,6 +5759,14 @@
       "event": "phase_submitted",
       "phase": "release",
       "detail": "2 artifacts"
+    },
+    {
+      "at": "2026-08-31T10:11:05.012Z",
+      "actor": "ashokraj2011",
+      "agent": "qa",
+      "event": "phase_self_approved",
+      "phase": "release",
+      "detail": "threshold reached; complete"
     }
   ],
   "measurement": {
@@ -7553,6 +7616,111 @@
           }
         },
         "createdAt": "2026-08-31T10:05:48.683Z"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "event": {
+        "schemaVersion": 1,
+        "eventId": "9b55f068-b18c-4663-8686-f2ee8ca3256c",
+        "type": "phase-approved",
+        "subject": {
+          "kind": "story",
+          "id": "WRK-BLUE",
+          "branch": "WRK-BLUE"
+        },
+        "phaseId": "release",
+        "generation": 1,
+        "actor": {
+          "name": "Ashok Raj",
+          "email": "88361104+ashokraj2011@users.noreply.github.com",
+          "login": "ashokraj2011",
+          "githubLookup": "resolved"
+        },
+        "agent": "qa",
+        "authorityGroup": "quality-reviewers",
+        "payload": {
+          "decision": "approved",
+          "reviewPacketSha256": "2bd1466f61a4e3fff9d4bab5eb89b0cbbce25e5d9f70781809d3667367ab84f8",
+          "evidenceCommit": "9876ce274903b29fb79cc04c8f70889401a5a49d",
+          "artifactSetSha256": "1f9c4252b2e0096341e004f39e4e769097e1bd3adeea99787763461a726b1e93"
+        },
+        "sourceCommit": null,
+        "idempotencyKey": null,
+        "idempotencyHash": null,
+        "createdAt": "2026-08-31T10:11:04.858Z"
+      },
+      "ledgerIntent": {
+        "schemaVersion": 1,
+        "eventId": "9b55f068-b18c-4663-8686-f2ee8ca3256c",
+        "eventType": "phase-approved",
+        "capabilityId": "piassistnat",
+        "subject": {
+          "branch": "WRK-BLUE",
+          "generation": 1,
+          "phase": "release",
+          "workId": "WRK-BLUE",
+          "workType": "spec-driven-standard"
+        },
+        "actor": {
+          "name": "Ashok Raj",
+          "email": "88361104+ashokraj2011@users.noreply.github.com",
+          "githubLogin": "ashokraj2011",
+          "identityAssurance": "configured-local"
+        },
+        "agent": "qa",
+        "authorityGroup": "quality-reviewers",
+        "payload": {
+          "capabilityMapSha256": "78b522f1b6f41455d7a7359b80e1c92b89f3ab59ae47a4a4e6487ce2df1fe48a",
+          "capabilityPolicy": {
+            "protectedPaths": [],
+            "qualityCommands": [],
+            "requiredAuthorityGroups": [],
+            "requiredChecks": [],
+            "requiredWorldModelViews": []
+          },
+          "configPath": "singularity/workflow.yml",
+          "configSha256": "dbd3a363975694f734708a438f0f26b7dea3c08f6dc9b846e091cc60a4e045fa",
+          "lifecycleEventId": "9b55f068-b18c-4663-8686-f2ee8ca3256c",
+          "lifecyclePayload": {
+            "decision": "approved",
+            "reviewPacketSha256": "2bd1466f61a4e3fff9d4bab5eb89b0cbbce25e5d9f70781809d3667367ab84f8",
+            "evidenceCommit": "9876ce274903b29fb79cc04c8f70889401a5a49d",
+            "artifactSetSha256": "1f9c4252b2e0096341e004f39e4e769097e1bd3adeea99787763461a726b1e93"
+          },
+          "templateSha256": "ce6e1d1995c68158f4209063b3cb954eceab8576e1c8db76bfaed27a805a8908",
+          "lifecycleEvent": {
+            "schemaVersion": 1,
+            "eventId": "9b55f068-b18c-4663-8686-f2ee8ca3256c",
+            "type": "phase-approved",
+            "subject": {
+              "kind": "story",
+              "id": "WRK-BLUE",
+              "branch": "WRK-BLUE"
+            },
+            "phaseId": "release",
+            "generation": 1,
+            "actor": {
+              "name": "Ashok Raj",
+              "email": "88361104+ashokraj2011@users.noreply.github.com",
+              "login": "ashokraj2011",
+              "githubLookup": "resolved"
+            },
+            "agent": "qa",
+            "authorityGroup": "quality-reviewers",
+            "payload": {
+              "decision": "approved",
+              "reviewPacketSha256": "2bd1466f61a4e3fff9d4bab5eb89b0cbbce25e5d9f70781809d3667367ab84f8",
+              "evidenceCommit": "9876ce274903b29fb79cc04c8f70889401a5a49d",
+              "artifactSetSha256": "1f9c4252b2e0096341e004f39e4e769097e1bd3adeea99787763461a726b1e93"
+            },
+            "sourceCommit": null,
+            "idempotencyKey": null,
+            "idempotencyHash": null,
+            "createdAt": "2026-08-31T10:11:04.858Z"
+          }
+        },
+        "createdAt": "2026-08-31T10:11:04.864Z"
       }
     }
   ],

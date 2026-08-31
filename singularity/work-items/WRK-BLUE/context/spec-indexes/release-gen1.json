@@ -9,7 +9,7 @@
       "namespace": "WRK-BLUE",
       "number": 1,
       "source": {
-        "line": 102,
+        "line": 155,
         "path": "singularity/work-items/WRK-BLUE/artifacts/release/conformance.md"
       },
       "type": "REQ"
@@ -23,7 +23,7 @@
       "namespace": "WRK-BLUE",
       "number": 2,
       "source": {
-        "line": 103,
+        "line": 156,
         "path": "singularity/work-items/WRK-BLUE/artifacts/release/conformance.md"
       },
       "type": "REQ"
@@ -37,7 +37,7 @@
       "namespace": "WRK-BLUE",
       "number": 3,
       "source": {
-        "line": 104,
+        "line": 157,
         "path": "singularity/work-items/WRK-BLUE/artifacts/release/conformance.md"
       },
       "type": "REQ"
@@ -51,7 +51,7 @@
       "namespace": "WRK-BLUE",
       "number": 1,
       "source": {
-        "line": 105,
+        "line": 158,
         "path": "singularity/work-items/WRK-BLUE/artifacts/release/conformance.md"
       },
       "type": "AC"
@@ -67,7 +67,7 @@
       "namespace": "WRK-BLUE",
       "number": 2,
       "source": {
-        "line": 106,
+        "line": 159,
         "path": "singularity/work-items/WRK-BLUE/artifacts/release/conformance.md"
       },
       "type": "AC"
@@ -81,20 +81,20 @@
       "namespace": "WRK-BLUE",
       "number": 44,
       "source": {
-        "line": 114,
+        "line": 167,
         "path": "singularity/work-items/WRK-BLUE/artifacts/release/conformance.md"
       },
       "type": "CON"
     }
   ],
   "generation": 1,
-  "indexSha256": "2db90fcb7f34815b49af5810c48c863ea01a34d09cbdfa6161f2cf0e1a0853c5",
+  "indexSha256": "bfac458d2e8babda36206d9f58b11fe5d9a4fa11b20bf46b018955ba0ccc0c8b",
   "phase": "release",
   "schemaVersion": 1,
   "source": {
-    "bytes": 10008,
+    "bytes": 12276,
     "path": "singularity/work-items/WRK-BLUE/artifacts/release/conformance.md",
-    "sha256": "cd190ec5372915946b1ea9e9ac74404a0a98fcd462c32fc9182b20184b61b531"
+    "sha256": "6340851ff78971276df4df891d539c15e39616bd859e80bf4c0fce25770ac1d0"
   },
   "workId": "WRK-BLUE"
 }

@@ -4,8 +4,8 @@
 - Work type: **spec-driven-standard**
 - Capability: **pznassistant** (`piassistnat`)
 - Capability map: `78b522f1b6f41455d7a7359b80e1c92b89f3ab59ae47a4a4e6487ce2df1fe48a`
-- Overall status: **in_progress**
-- Current phase: **release**
+- Overall status: **complete**
+- Current phase: **complete**
 
 | # | Phase | Governed agent | Status | Generation | Approvals | Tokens |
 |---:|---|---|---|---:|---:|---:|
@@ -19,10 +19,12 @@
 |  | ⚠ self-approval | Ashok Raj via architecture-reviewers; agent architect | **warning** |  |  |  |
 | 5 | Verification (`verification`) | qa | **approved** | 1 | 1 | unavailable |
 |  | ⚠ self-approval | Ashok Raj via quality-reviewers; agent qa | **warning** |  |  |  |
-| 6 | Release (`release`) | qa | **awaiting_approval** | 1 | 0 | unavailable |
+| 6 | Release (`release`) | qa | **approved** | 1 | 1 | unavailable |
+|  | ⚠ self-approval | Ashok Raj via quality-reviewers; agent qa | **warning** |  |  |  |
 
 ## Recent history
 
+- 2026-08-31T10:11:05.012Z — **phase_self_approved** (release) by ashokraj2011 · governed agent qa: threshold reached; complete
 - 2026-08-31T10:05:48.912Z — **phase_submitted** (release) by ashokraj2011 · governed agent qa: 2 artifacts
 - 2026-08-31T10:05:03.511Z — **phase_generated** (release) by ashokraj2011 · governed agent qa: generation 1
 - 2026-08-31T09:45:54.994Z — **phase_self_approved** (verification) by ashokraj2011 · governed agent qa: threshold reached; advanced to release
@@ -37,4 +39,3 @@
 - 2026-08-31T09:27:07.832Z — **phase_self_approved** (implementation) by ashokraj2011 · governed agent developer: threshold reached; advanced to convergence
 - 2026-08-31T09:27:07.832Z — **work_interval_closed** (implementation) by ashokraj2011 · governed agent developer: interval INT-implementation-G1-001 closed after phase approval
 - 2026-08-31T09:23:27.724Z — **phase_submitted** (implementation) by ashokraj2011 · governed agent developer: 8 artifacts
-- 2026-08-31T09:23:27.723Z — **work_interval_reconciled** (implementation) by system: review; 7 changed path(s)

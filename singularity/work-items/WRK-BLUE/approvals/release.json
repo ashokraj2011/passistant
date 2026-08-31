@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 2,
+  "phase": "release",
+  "decisions": [
+    {
+      "decision": "approved",
+      "phase": "release",
+      "at": "2026-08-31T10:11:05.012Z",
+      "actor": {
+        "name": "Ashok Raj",
+        "email": "88361104+ashokraj2011@users.noreply.github.com",
+        "login": "ashokraj2011",
+        "githubLookup": "resolved"
+      },
+      "agent": "qa",
+      "authorityGroup": "quality-reviewers",
+      "identityAssurance": "configured-local",
+      "channel": "copilot-selection-receipt",
+      "generation": 1,
+      "artifactSha256": [
+        {
+          "path": "singularity/work-items/WRK-BLUE/artifacts/release/conformance.md",
+          "sha256": "9bab88722a771a10f59176cc2677e91283699ed12aecced202a729877e6d1d29"
+        },
+        {
+          "path": "singularity/work-items/WRK-BLUE/artifacts/release/verification/README.md",
+          "sha256": "b9bb665442df64a7db9996f3297c6f7fa608e777594fe557a95f5fb35c301585"
+        }
+      ],
+      "artifactSet": "spec-driven-verification",
+      "bundleSha256": "1069178b07410170948e8d77c8dbe9bef0e062077dc24571912c7dff2514260e",
+      "reviewPacketSha256": "2bd1466f61a4e3fff9d4bab5eb89b0cbbce25e5d9f70781809d3667367ab84f8",
+      "evidenceCommit": "9876ce274903b29fb79cc04c8f70889401a5a49d",
+      "artifactSetSha256": "1f9c4252b2e0096341e004f39e4e769097e1bd3adeea99787763461a726b1e93",
+      "actionContext": {
+        "phase": "release",
+        "label": "Release",
+        "generation": 1,
+        "submittedAt": "2026-08-31T10:05:48.912Z",
+        "artifacts": [
+          {
+            "path": "singularity/work-items/WRK-BLUE/artifacts/release/conformance.md",
+            "sha256": "9bab88722a771a10f59176cc2677e91283699ed12aecced202a729877e6d1d29"
+          },
+          {
+            "path": "singularity/work-items/WRK-BLUE/artifacts/release/verification/README.md",
+            "sha256": "b9bb665442df64a7db9996f3297c6f7fa608e777594fe557a95f5fb35c301585"
+          }
+        ],
+        "agentBriefs": [],
+        "reviewPacketSha256": "2bd1466f61a4e3fff9d4bab5eb89b0cbbce25e5d9f70781809d3667367ab84f8",
+        "submittedSourceCommit": "fe1bf12fb751b6ce4e507f5da8b940dfda8b43ba",
+        "planId": "112b97d53cceb4b564bb152b"
+      },
+      "selfApproval": true
+    }
+  ]
+}
