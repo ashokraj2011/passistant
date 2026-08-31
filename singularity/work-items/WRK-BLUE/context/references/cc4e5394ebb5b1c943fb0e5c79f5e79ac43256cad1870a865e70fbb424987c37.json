@@ -1,0 +1,28 @@
+{
+  "artifact": {
+    "generation": 1,
+    "mediaType": "text/markdown",
+    "outputId": "document",
+    "path": "singularity/work-items/WRK-BLUE/artifacts/planning/plan.md",
+    "phaseId": "planning"
+  },
+  "createdAt": "2026-08-31T08:11:34.343Z",
+  "kind": "governed-reference",
+  "repository": {
+    "id": "passistant",
+    "origin": "https://github.com/ashokraj2011/passistant.git"
+  },
+  "revision": {
+    "bytes": 11625,
+    "commitSha": "4c4c05690dac0eec3c1d2ba2547eed0d5430f158",
+    "sha256": "26efdf992ada69d45e5960c6f300e43b875c40306ee7a93826c753fcf1b49ac5"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "branch": "WRK-BLUE",
+    "id": "WRK-BLUE",
+    "kind": "story",
+    "subjectRevision": 1
+  },
+  "visibility": "model"
+}
