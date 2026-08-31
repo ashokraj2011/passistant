@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "workId": "WRK-BLUE",
+  "workType": "spec-driven-standard",
+  "phase": "implementation",
+  "generation": 1,
+  "mode": "enforce",
+  "recordedAt": "2026-08-31T09:21:48.638Z",
+  "renderedSha256": "e426aa455c5817ce8400b490cff6facc257e0cc50c15c64b4e046d6937017307",
+  "warnings": [],
+  "inputs": [
+    {
+      "phase": "specification",
+      "path": "artifacts/specification/spec.md",
+      "repositoryPath": "singularity/work-items/WRK-BLUE/artifacts/specification/spec.md",
+      "optional": false,
+      "maxBytes": null,
+      "status": "captured",
+      "producerStatus": "approved",
+      "producerGeneration": 1,
+      "approvedAt": "2026-08-31T08:00:19.258Z",
+      "approvedBy": "ashokraj2011",
+      "approvedSha256": "d37584d6caa2177ecd82f0318167462dce165b6c60af7cde732e98ee61cede4d",
+      "sha256": "d37584d6caa2177ecd82f0318167462dce165b6c60af7cde732e98ee61cede4d",
+      "bytes": 7366,
+      "source": {
+        "path": "singularity/work-items/WRK-BLUE/artifacts/specification/spec.md",
+        "rawSha256": "sha256:d37584d6caa2177ecd82f0318167462dce165b6c60af7cde732e98ee61cede4d"
+      },
+      "representation": {
+        "kind": "full",
+        "sha256": "sha256:f71f27895f64300b52722b5271c7d4f30ea715efdf6bd2987dfd4aee3eba9ac2",
+        "bytes": 3194,
+        "complete": true,
+        "expansionHandle": "sfref:v1:story:WRK-BLUE:32e83cb416d936e46aa55aefefcaaaa76817414296e61d3775df3256de29ad0f"
+      },
+      "injectedBytes": 3194,
+      "truncated": false,
+      "authoredBytes": 3194,
+      "managedBytesExcluded": 4172,
+      "projection": {
+        "kind": "full"
+      }
+    },
+    {
+      "phase": "planning",
+      "path": "artifacts/planning/plan.md",
+      "repositoryPath": "singularity/work-items/WRK-BLUE/artifacts/planning/plan.md",
+      "optional": false,
+      "maxBytes": null,
+      "status": "captured",
+      "producerStatus": "approved",
+      "producerGeneration": 1,
+      "approvedAt": "2026-08-31T08:14:18.931Z",
+      "approvedBy": "ashokraj2011",
+      "approvedSha256": "7dfabe6dd11a199533655bceb1d6fd8f31943b41fb8573d128ab2c545789e005",
+      "sha256": "7dfabe6dd11a199533655bceb1d6fd8f31943b41fb8573d128ab2c545789e005",
+      "bytes": 13480,
+      "source": {
+        "path": "singularity/work-items/WRK-BLUE/artifacts/planning/plan.md",
+        "rawSha256": "sha256:7dfabe6dd11a199533655bceb1d6fd8f31943b41fb8573d128ab2c545789e005"
+      },
+      "representation": {
+        "kind": "full",
+        "sha256": "sha256:314fa4a96ed838330ea370eacf50c417de9c2315a5921361094c5b0a5a531b6f",
+        "bytes": 5051,
+        "complete": true,
+        "expansionHandle": "sfref:v1:story:WRK-BLUE:cc4e5394ebb5b1c943fb0e5c79f5e79ac43256cad1870a865e70fbb424987c37"
+      },
+      "injectedBytes": 5051,
+      "truncated": false,
+      "authoredBytes": 5051,
+      "managedBytesExcluded": 8429,
+      "projection": {
+        "kind": "full"
+      }
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 2,
+  "kind": "code-delivery",
+  "workId": "WRK-BLUE",
+  "phase": "implementation",
+  "generation": 1,
+  "generationIntentId": "eea830d4-4c54-43cd-90cb-ebdacd816850",
+  "changeSet": {
+    "path": "singularity/work-items/WRK-BLUE/context/code-delivery/implementation-gen1-changes.json",
+    "digest": "sha256:7966a99055d5db64dd5e3526420927b871c68664a6c4f62803ea40220c089c24",
+    "sourcePaths": [
+      ".gitignore",
+      "angular.json",
+      "package-lock.json",
+      "package.json",
+      "src/app/app.component.css"
+    ],
+    "deletedSourcePaths": [],
+    "executableTestPaths": [
+      "tests/primary-background.spec.ts"
+    ],
+    "supportingTestPaths": [
+      "playwright.config.ts"
+    ]
+  },
+  "changeClassification": {
+    "schemaVersion": 1,
+    "inference": "path-policy",
+    "declaredOrigins": [
+      "human"
+    ],
+    "generatedRoots": [],
+    "counts": {
+      "build-configuration": 1,
+      "product-source": 4,
+      "test-source": 2
+    },
+    "entries": [
+      {
+        "changeId": "sha256:ad2fa10bd135d883b4aef172f4598329c32473f2a94bbd61806cee01d5da1904",
+        "status": "added",
+        "oldPath": null,
+        "newPath": "playwright.config.ts",
+        "role": "test-source",
+        "generated": false,
+        "likelyOrigin": "authorship-declared",
+        "inference": "path-policy"
+      },
+      {
+        "changeId": "sha256:e239edb767fdb0cd084ab085199fa1e5b260aa97fcc83eb0ca110330c4cab3d4",
+        "status": "added",
+        "oldPath": null,
+        "newPath": "tests/primary-background.spec.ts",
+        "role": "test-source",
+        "generated": false,
+        "likelyOrigin": "authorship-declared",
+        "inference": "path-policy"
+      },
+      {
+        "changeId": "sha256:6a627ebaf4e71d5da33b02d11d7621dd8c649f63a94d4efa200c14cc4a4d71c3",
+        "status": "modified",
+        "oldPath": ".gitignore",
+        "newPath": ".gitignore",
+        "role": "product-source",
+        "generated": false,
+        "likelyOrigin": "authorship-declared",
+        "inference": "path-policy"
+      },
+      {
+        "changeId": "sha256:c46e3f7cebfc7d80ac9d41d4af4edfa7d5da5036ba23122103be40609e45f467",
+        "status": "modified",
+        "oldPath": "angular.json",
+        "newPath": "angular.json",
+        "role": "product-source",
+        "generated": false,
+        "likelyOrigin": "authorship-declared",
+        "inference": "path-policy"
+      },
+      {
+        "changeId": "sha256:a26a86867651b0b17707e2504c09ccf7d5a30cc66413f9ac9b929eaa74e6f3cf",
+        "status": "modified",
+        "oldPath": "package-lock.json",
+        "newPath": "package-lock.json",
+        "role": "product-source",
+        "generated": false,
+        "likelyOrigin": "authorship-declared",
+        "inference": "path-policy"
+      },
+      {
+        "changeId": "sha256:a266d498ed1eb2f8f1e1443fa67c8fb542498954c3b1bc3e3aceaee691548651",
+        "status": "modified",
+        "oldPath": "package.json",
+        "newPath": "package.json",
+        "role": "build-configuration",
+        "generated": false,
+        "likelyOrigin": "authorship-declared",
+        "inference": "path-policy"
+      },
+      {
+        "changeId": "sha256:9ad58c37148e69881774696e084b460a9aaf63ad1c674a1ec7bc5a8ba5caa8ed",
+        "status": "modified",
+        "oldPath": "src/app/app.component.css",
+        "newPath": "src/app/app.component.css",
+        "role": "product-source",
+        "generated": false,
+        "likelyOrigin": "authorship-declared",
+        "inference": "path-policy"
+      }
+    ]
+  },
+  "traceability": {
+    "required": [
+      "WRK-BLUE:AC-001",
+      "WRK-BLUE:AC-002"
+    ],
+    "bound": [
+      "WRK-BLUE:AC-001",
+      "WRK-BLUE:AC-002"
+    ],
+    "missing": [],
+    "ambiguous": [],
+    "bindings": [
+      {
+        "clauseId": "WRK-BLUE:AC-001",
+        "testSource": "tests/primary-background.spec.ts",
+        "bindingAssurance": "namespace-qualified"
+      },
+      {
+        "clauseId": "WRK-BLUE:AC-002",
+        "testSource": "tests/primary-background.spec.ts",
+        "bindingAssurance": "namespace-qualified"
+      }
+    ]
+  },
+  "testExecutions": [],
+  "tree": {
+    "workingStateDigest": "sha256:e112583c742ba1aa572e95d44e5a72f10e7599b973a2013fc02098770adb61ea",
+    "generationCommit": null,
+    "generationTree": null
+  },
+  "model": {
+    "task": "code",
+    "required": false,
+    "authorshipProducer": "human",
+    "minimumAssurance": "unavailable",
+    "mappingRevision": null,
+    "provider": null,
+    "requestedModel": null,
+    "resolvedModel": null,
+    "assurance": "unavailable",
+    "invocationIds": [],
+    "host": null,
+    "observationSource": null,
+    "observationIntegrity": "unverified-local",
+    "observedAt": null,
+    "generation": null
+  },
+  "status": "pending-tests",
+  "capturedAt": "2026-08-31T09:21:48.640Z"
+}

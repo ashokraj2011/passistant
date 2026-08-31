@@ -10,7 +10,9 @@
     "build": "npm run build:web && npm run build:api",
     "build:web": "ng build",
     "build:api": "tsc -p server/tsconfig.json",
-    "test": "DATA_MODE=demo DATABASE_PATH=/tmp/pzn-tests.sqlite node --import tsx --test server/**/*.test.ts"
+    "test": "npm run test:server && npm run test:background",
+    "test:server": "DATA_MODE=demo DATABASE_PATH=/tmp/pzn-tests.sqlite node --import tsx --test server/**/*.test.ts",
+    "test:background": "npm run build:web && playwright test"
   },
   "dependencies": {
     "@ai-sdk/openai-compatible": "^3.0.5",
@@ -32,9 +34,11 @@
     "@angular-devkit/build-angular": "^20.2.0",
     "@angular/cli": "^20.2.0",
     "@angular/compiler-cli": "^20.2.0",
+    "@playwright/test": "^1.62.1",
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.3",
     "concurrently": "^9.2.1",
+    "http-server": "^14.1.1",
     "tsx": "^4.20.5",
     "typescript": "~5.9.2"
   }

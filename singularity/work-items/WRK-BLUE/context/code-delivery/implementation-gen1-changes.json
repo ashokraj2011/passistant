@@ -1,0 +1,335 @@
+{
+  "schemaVersion": 1,
+  "kind": "repository-change-set",
+  "subject": {
+    "workId": "WRK-BLUE",
+    "phase": "implementation",
+    "generation": 1,
+    "generationIntentId": "eea830d4-4c54-43cd-90cb-ebdacd816850"
+  },
+  "base": {
+    "commit": "aabc929a2decd73665defbdf531f1668f77c542c",
+    "tree": "3d72725aafc56e7e98eb7db5dea485b2e364d543"
+  },
+  "target": {
+    "head": "37d5f9d6ffafe16d6c31e1fadf06bf3b3e764cfc",
+    "includesIndex": true,
+    "includesWorktree": true,
+    "includesUntracked": true,
+    "caseInsensitivePaths": true
+  },
+  "entries": [
+    {
+      "status": "added",
+      "similarity": null,
+      "oldPath": null,
+      "newPath": "playwright.config.ts",
+      "oldMode": "000000",
+      "newMode": "100644",
+      "oldObject": null,
+      "newObject": null,
+      "untracked": true,
+      "newContent": {
+        "kind": "regular-file",
+        "sha256": "sha256:c90751d49c76b44f945cb5b3572a4a982734760893bc68804d2dfe5b544a0159",
+        "bytes": 315
+      },
+      "changeId": "sha256:ad2fa10bd135d883b4aef172f4598329c32473f2a94bbd61806cee01d5da1904"
+    },
+    {
+      "status": "added",
+      "similarity": null,
+      "oldPath": null,
+      "newPath": "singularity/work-items/WRK-BLUE/approvals/planning.json",
+      "oldMode": "000000",
+      "newMode": "100644",
+      "oldObject": null,
+      "newObject": "73600c7bcd7f395d42c829fa76c4c113d278e055",
+      "newContent": {
+        "kind": "regular-file",
+        "sha256": "sha256:356433ee6e092626843d6793a185f42bf36b1ce9178c80ecbd21f38bad9e2b28",
+        "bytes": 1850
+      },
+      "changeId": "sha256:f48c151ed0a546ade20279d21fa126b9a294245614cd0014a8659185c34be0e2"
+    },
+    {
+      "status": "added",
+      "similarity": null,
+      "oldPath": null,
+      "newPath": "singularity/work-items/WRK-BLUE/approvals/planning/2026-08-31T08-14-18-931Z-approved.json",
+      "oldMode": "000000",
+      "newMode": "100644",
+      "oldObject": null,
+      "newObject": "d0c1a9da6b4d882f7b2cf2ac22468cd5af1e9bc5",
+      "newContent": {
+        "kind": "regular-file",
+        "sha256": "sha256:fa7d17475870b1b8e6be2815f2898690c4742e57220e1bebb2765cb520a05b88",
+        "bytes": 1604
+      },
+      "changeId": "sha256:e2eb7e1db44a4bf1667a2714b6d0112187ea1639650e45c556068df3d9550ed1"
+    },
+    {
+      "status": "added",
+      "similarity": null,
+      "oldPath": null,
+      "newPath": "singularity/work-items/WRK-BLUE/artifacts/implementation/implementation-summary.md",
+      "oldMode": "000000",
+      "newMode": "100644",
+      "oldObject": null,
+      "newObject": null,
+      "untracked": true,
+      "newContent": {
+        "kind": "regular-file",
+        "sha256": "sha256:3e7b7e9e58055739dc2ca456e43d34cf1b9c6139ef5dadc61f7c2f2196209cf2",
+        "bytes": 14928
+      },
+      "changeId": "sha256:9a571d0727939cbe3a15ba25cf53bd9081151710380790c7592135c41bd02d8a"
+    },
+    {
+      "status": "added",
+      "similarity": null,
+      "oldPath": null,
+      "newPath": "singularity/work-items/WRK-BLUE/context/generation-start/implementation-gen1.json",
+      "oldMode": "000000",
+      "newMode": "100644",
+      "oldObject": null,
+      "newObject": null,
+      "untracked": true,
+      "newContent": {
+        "kind": "regular-file",
+        "sha256": "sha256:e44700d5c0d3bd2f80037c4bed1f3aff5032a3e948d32571ab6e505e96a471df",
+        "bytes": 1243
+      },
+      "changeId": "sha256:606810dcbbb02929da048c6e8e5e413986da06a07b2a0ca5dc27974a47c25464"
+    },
+    {
+      "status": "added",
+      "similarity": null,
+      "oldPath": null,
+      "newPath": "singularity/work-items/WRK-BLUE/context/implementation-gen1.json",
+      "oldMode": "000000",
+      "newMode": "100644",
+      "oldObject": null,
+      "newObject": null,
+      "untracked": true,
+      "newContent": {
+        "kind": "regular-file",
+        "sha256": "sha256:5646dd7226862bbc3dcf7099455742898825cce912a5ba7b81d0b674a7353b76",
+        "bytes": 9098
+      },
+      "changeId": "sha256:c4e2e1681b320437e4eb885d09aa1daa58f04fdd215465d1a63ea9e0d5fe1095"
+    },
+    {
+      "status": "added",
+      "similarity": null,
+      "oldPath": null,
+      "newPath": "singularity/work-items/WRK-BLUE/context/inputs-implementation-gen1.json",
+      "oldMode": "000000",
+      "newMode": "100644",
+      "oldObject": null,
+      "newObject": null,
+      "untracked": true,
+      "newContent": {
+        "kind": "regular-file",
+        "sha256": "sha256:f483baa9133168584f352c42d907e04568f86f76eb1f259d2e2b75b5e918c0f5",
+        "bytes": 2919
+      },
+      "changeId": "sha256:5aab8da23ac4373a125498453ff2df002879dede32327ec48f079c572e33437f"
+    },
+    {
+      "status": "added",
+      "similarity": null,
+      "oldPath": null,
+      "newPath": "singularity/work-items/WRK-BLUE/context/ledger-intents/01b34eaf-41ea-4885-a78a-98c5a17fac10.json",
+      "oldMode": "000000",
+      "newMode": "100644",
+      "oldObject": null,
+      "newObject": "1ae4ec7a805d2ad24261e29827c8712deaed1a14",
+      "newContent": {
+        "kind": "regular-file",
+        "sha256": "sha256:d823997876cf9106bf2f194a3425c061f3c5bc467ddee0e6a5c243aa6dcfe36e",
+        "bytes": 2064
+      },
+      "changeId": "sha256:ba6bcfe15dfcc97eb5e802504aed2970caee8fc52555b8a29f4817e76ed40e2f"
+    },
+    {
+      "status": "added",
+      "similarity": null,
+      "oldPath": null,
+      "newPath": "singularity/work-items/WRK-BLUE/context/prompts/implementation-gen1.md",
+      "oldMode": "000000",
+      "newMode": "100644",
+      "oldObject": null,
+      "newObject": null,
+      "untracked": true,
+      "newContent": {
+        "kind": "regular-file",
+        "sha256": "sha256:ac22d70a567526bb7e88d7e2c7d0d68ff938bc0118a63ab883e6bb1307ba64c5",
+        "bytes": 22884
+      },
+      "changeId": "sha256:b4bb50082e474a462c1b665de45fafb9bfbb68d87df75cd0047f6473134d1bf6"
+    },
+    {
+      "status": "added",
+      "similarity": null,
+      "oldPath": null,
+      "newPath": "singularity/work-items/WRK-BLUE/context/work-intervals/implementation-gen1-baseline.json",
+      "oldMode": "000000",
+      "newMode": "100644",
+      "oldObject": null,
+      "newObject": "33965dcf74de5ce40dfaa8037aedc3b1dc12ae94",
+      "newContent": {
+        "kind": "regular-file",
+        "sha256": "sha256:60152f26d85f6aa5923b8e6e425181b031386c8c472cbe0e41791ea3dbf00474",
+        "bytes": 1670
+      },
+      "changeId": "sha256:5a682c1bc6761e5b122b2ae9c07e43473946a628a29fd2474dac1f979846d2aa"
+    },
+    {
+      "status": "added",
+      "similarity": null,
+      "oldPath": null,
+      "newPath": "tests/primary-background.spec.ts",
+      "oldMode": "000000",
+      "newMode": "100644",
+      "oldObject": null,
+      "newObject": null,
+      "untracked": true,
+      "newContent": {
+        "kind": "regular-file",
+        "sha256": "sha256:568da53745c74a4b4f7ba56b95e15b5e1506814b57cbc905d18646d61d824fd5",
+        "bytes": 374
+      },
+      "changeId": "sha256:e239edb767fdb0cd084ab085199fa1e5b260aa97fcc83eb0ca110330c4cab3d4"
+    },
+    {
+      "status": "modified",
+      "similarity": null,
+      "oldPath": ".gitignore",
+      "newPath": ".gitignore",
+      "oldMode": "100644",
+      "newMode": "100644",
+      "oldObject": "cab627e8e2190f7da676dbd72a96bdc2d50b6efd",
+      "newObject": null,
+      "newContent": {
+        "kind": "regular-file",
+        "sha256": "sha256:d809a272235a0521cbf6fa2e7593504083989b9f4b6e4e63cfd5d517da204a0b",
+        "bytes": 112
+      },
+      "changeId": "sha256:6a627ebaf4e71d5da33b02d11d7621dd8c649f63a94d4efa200c14cc4a4d71c3"
+    },
+    {
+      "status": "modified",
+      "similarity": null,
+      "oldPath": "angular.json",
+      "newPath": "angular.json",
+      "oldMode": "100644",
+      "newMode": "100644",
+      "oldObject": "b39a2b6b1612c7648fadfca2c602dcf58a8e9f21",
+      "newObject": null,
+      "newContent": {
+        "kind": "regular-file",
+        "sha256": "sha256:137919836a0bf8871a9c86efb1cc9984479c0a37d4c063061ab228bf7f773840",
+        "bytes": 788
+      },
+      "changeId": "sha256:c46e3f7cebfc7d80ac9d41d4af4edfa7d5da5036ba23122103be40609e45f467"
+    },
+    {
+      "status": "modified",
+      "similarity": null,
+      "oldPath": "package-lock.json",
+      "newPath": "package-lock.json",
+      "oldMode": "100644",
+      "newMode": "100644",
+      "oldObject": "02bd982fb1835133d2cc6c647d28c7a12bd24156",
+      "newObject": null,
+      "newContent": {
+        "kind": "regular-file",
+        "sha256": "sha256:f3104f7f377742d23d41b14fc5be355ec21466578c5e86564c2f1898886edc08",
+        "bytes": 509408
+      },
+      "changeId": "sha256:a26a86867651b0b17707e2504c09ccf7d5a30cc66413f9ac9b929eaa74e6f3cf"
+    },
+    {
+      "status": "modified",
+      "similarity": null,
+      "oldPath": "package.json",
+      "newPath": "package.json",
+      "oldMode": "100644",
+      "newMode": "100644",
+      "oldObject": "12c4c93739d9e98a0329a042cbb14a6391ce9b2f",
+      "newObject": null,
+      "newContent": {
+        "kind": "regular-file",
+        "sha256": "sha256:cfb1b5c1786ecac3a3e59d91ddd75ec81b6945dbc912e96ac94bf665bf9af330",
+        "bytes": 1540
+      },
+      "changeId": "sha256:a266d498ed1eb2f8f1e1443fa67c8fb542498954c3b1bc3e3aceaee691548651"
+    },
+    {
+      "status": "modified",
+      "similarity": null,
+      "oldPath": "singularity/work-items/WRK-BLUE/artifacts/planning/plan.md",
+      "newPath": "singularity/work-items/WRK-BLUE/artifacts/planning/plan.md",
+      "oldMode": "100644",
+      "newMode": "100644",
+      "oldObject": "e0d8d746362d23c75827f1fdcdb3354f38a40c26",
+      "newObject": "354af317466e630a3d33f366839c8c6b761eb825",
+      "newContent": {
+        "kind": "regular-file",
+        "sha256": "sha256:7dfabe6dd11a199533655bceb1d6fd8f31943b41fb8573d128ab2c545789e005",
+        "bytes": 13480
+      },
+      "changeId": "sha256:9ffc0398e9483cac39a16f2a944e2eef487efd37537aa8f6f6553f8b3f028113"
+    },
+    {
+      "status": "modified",
+      "similarity": null,
+      "oldPath": "singularity/work-items/WRK-BLUE/STATUS.md",
+      "newPath": "singularity/work-items/WRK-BLUE/STATUS.md",
+      "oldMode": "100644",
+      "newMode": "100644",
+      "oldObject": "0428b3de5b451c956068d31d4329a73861c735fc",
+      "newObject": "66454639b351cd3a44773515fe98a396d4ed403b",
+      "newContent": {
+        "kind": "regular-file",
+        "sha256": "sha256:55ca791dbe8099845803f466f97012f07376dcf23bce40bd7754733b67de936f",
+        "bytes": 2222
+      },
+      "changeId": "sha256:f61364877669955c4b5a61601746c115305a098ed1cc8006f6a845921c14bacf"
+    },
+    {
+      "status": "modified",
+      "similarity": null,
+      "oldPath": "singularity/work-items/WRK-BLUE/workflow.json",
+      "newPath": "singularity/work-items/WRK-BLUE/workflow.json",
+      "oldMode": "100644",
+      "newMode": "100644",
+      "oldObject": "5302e53c92f00c8eb796179f331d2467ebebcc18",
+      "newObject": null,
+      "newContent": {
+        "kind": "regular-file",
+        "sha256": "sha256:c4e6da35b35ee10b951fe6db0461d0f2a3863a29f98b2581c9f994655496215d",
+        "bytes": 153045
+      },
+      "changeId": "sha256:e7e0956b481fdb026ba37a328f0185e8b2d9566eac3c1ae58b5bf529f0a91051"
+    },
+    {
+      "status": "modified",
+      "similarity": null,
+      "oldPath": "src/app/app.component.css",
+      "newPath": "src/app/app.component.css",
+      "oldMode": "100644",
+      "newMode": "100644",
+      "oldObject": "889095f2d45686d576931c57d6622b8a42589626",
+      "newObject": null,
+      "newContent": {
+        "kind": "regular-file",
+        "sha256": "sha256:7e1bda3c23387105391be0cef5d5ba8d649555913725334186e299518f37373c",
+        "bytes": 11166
+      },
+      "changeId": "sha256:9ad58c37148e69881774696e084b460a9aaf63ad1c674a1ec7bc5a8ba5caa8ed"
+    }
+  ],
+  "digest": "sha256:7966a99055d5db64dd5e3526420927b871c68664a6c4f62803ea40220c089c24"
+}
