@@ -204,6 +204,146 @@
           },
           "status": "awaiting_review"
         }
+      },
+      {
+        "packetSha256": "56da5287f1295852427bf2fa85ebaf4bd4909983b2670486fef5d18babea36ce",
+        "phase": "planning",
+        "generation": 1,
+        "branch": "WRK-169",
+        "sourceTreeSha256": "sha256:a1bae47cd47d16002ed7b9125be8450638ebd9f379e641e7a88414bd52c0e3bf",
+        "path": "singularity/work-items/WRK-169/submissions/planning/56da5287f1295852427bf2fa85ebaf4bd4909983b2670486fef5d18babea36ce.json",
+        "submittedAt": "2026-09-02T14:25:10.393Z",
+        "projection": {
+          "schemaVersion": 2,
+          "workId": "WRK-169",
+          "epicId": null,
+          "planId": null,
+          "jiraIssueId": "WRK-169",
+          "initialJiraKey": null,
+          "currentJiraKey": null,
+          "canonicalBranch": "WRK-169",
+          "submittedBranch": "WRK-169",
+          "submissionCommit": "6a93ff4d1198cf1ad3a8fea55f2b0597de4afffa",
+          "sourceCommit": "6a93ff4d1198cf1ad3a8fea55f2b0597de4afffa",
+          "sourceTreeSha256": "sha256:a1bae47cd47d16002ed7b9125be8450638ebd9f379e641e7a88414bd52c0e3bf",
+          "phase": "planning",
+          "generation": 1,
+          "authorship": {
+            "schemaVersion": 1,
+            "producer": "human",
+            "channel": "manual-in-place",
+            "actor": {
+              "name": "Ashok Raj",
+              "email": "88361104+ashokraj2011@users.noreply.github.com",
+              "login": "ashokraj2011",
+              "githubLookup": "resolved"
+            },
+            "governedAgentContext": {
+              "agentId": "product-owner"
+            },
+            "kernelModel": {
+              "invoked": false,
+              "status": "exact",
+              "invocationIds": []
+            },
+            "externalAiUse": {
+              "value": "unknown",
+              "status": "unavailable"
+            },
+            "changeOrigins": [
+              "human"
+            ],
+            "source": {
+              "kind": "in-place",
+              "filename": "plan.md",
+              "mediaType": "text/markdown",
+              "sha256": "8731387419ccb366083575e96c7e331b5c858e019c82d28b82117ae4201e810b",
+              "bytes": 6953
+            },
+            "generation": 1,
+            "publishedAt": "2026-09-02T09:21:01.768Z"
+          },
+          "artifacts": [
+            {
+              "path": "singularity/work-items/WRK-169/artifacts/planning/plan.md",
+              "kind": "document",
+              "sha256": "0f4037a7c09769496f32835463c6d40b3cc99d55d7fd9cff2525e8798af64ec9",
+              "size": 21604,
+              "reference": {
+                "handle": "sfref:v1:story:WRK-169:156ca876e12eef921cae60e5a03d234e1b6ed86c1369043f6d96a3af0bebce05",
+                "recordHash": "156ca876e12eef921cae60e5a03d234e1b6ed86c1369043f6d96a3af0bebce05"
+              }
+            }
+          ],
+          "references": [
+            {
+              "handle": "sfref:v1:story:WRK-169:156ca876e12eef921cae60e5a03d234e1b6ed86c1369043f6d96a3af0bebce05",
+              "recordHash": "156ca876e12eef921cae60e5a03d234e1b6ed86c1369043f6d96a3af0bebce05",
+              "purpose": "review-evidence",
+              "required": true
+            }
+          ],
+          "agentBriefs": [],
+          "checks": [],
+          "usage": [],
+          "approvals": [],
+          "visualAssurance": null,
+          "submissionEvidence": {
+            "testExecutions": [],
+            "claimMaps": [
+              {
+                "kind": "planned",
+                "generation": 1,
+                "path": "singularity/work-items/WRK-169/context/claims/planning-gen1-planned.json",
+                "sha256": "262cf48b693dac809cc99e30a310ba9b7ebf962299fcffcc22a672fa3fe5f5fc"
+              }
+            ],
+            "checksSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "artifactSetSha256": "fdd2796054d1e653b2f0fa1942eb1fe0d98926dcc219eb4fa56406c26a6ffca4"
+          },
+          "witnessReview": {
+            "enrollment": {
+              "schemaVersion": 1,
+              "mode": "disabled",
+              "witnessedClauses": {
+                "enabled": false,
+                "profiles": []
+              },
+              "testcaseExact": {
+                "mode": "disabled",
+                "profile": null,
+                "requiredAssurance": "unavailable",
+                "policySha256": "sha256:12b50a34a1f03338377ecd76f44b20cbee83e7b91a0b07392ef08e3d8fd60800"
+              },
+              "claimMapContractVersion": 2,
+              "cab": null,
+              "sgos": null,
+              "rollout": {
+                "id": "wel-v0.2-observe",
+                "version": 1,
+                "enrollment": "new-story-only"
+              },
+              "configurationAuthority": {
+                "repository": "https://github.com/ashokraj2011/passistant.git",
+                "branch": "sflow/config",
+                "commit": "f0939d8b09d48db132a688fc6627ea55ca7f6fb0",
+                "projectionSha256": "79a4e55fba67a268e8b68cd41844968ac5cbed714bd40e3fa4ea2daaf7669565"
+              }
+            },
+            "enrollmentClassification": "enrolled",
+            "enrollmentReason": null,
+            "clauseMappings": [],
+            "testcaseObservations": []
+          },
+          "submittedAt": "2026-09-02T14:25:10.393Z",
+          "submittedBy": {
+            "name": "Ashok Raj",
+            "email": "88361104+ashokraj2011@users.noreply.github.com",
+            "login": "ashokraj2011",
+            "githubLookup": "resolved"
+          },
+          "status": "awaiting_review"
+        }
       }
     ]
   },
@@ -2679,7 +2819,7 @@
       "label": "Planning",
       "order": 1,
       "defaultAgent": "architect",
-      "status": "in_progress",
+      "status": "awaiting_approval",
       "requiredArtifact": {
         "path": "artifacts/planning/plan.md",
         "kind": "design",
@@ -2740,7 +2880,7 @@
       },
       "qualityCommands": [],
       "startedAt": "2026-09-02T09:15:16.856Z",
-      "submittedAt": null,
+      "submittedAt": "2026-09-02T14:25:10.393Z",
       "approvedAt": null,
       "approvedBy": null,
       "rejectedAt": null,
@@ -2811,10 +2951,10 @@
           "kind": "document",
           "status": "pending",
           "exists": true,
-          "size": 21522,
-          "sha256": "ae83abb4a2331a827f15d5be3c2e4a29aa8969a0f88a8327eaaafa84eb3905f2",
+          "size": 21604,
+          "sha256": "0f4037a7c09769496f32835463c6d40b3cc99d55d7fd9cff2525e8798af64ec9",
           "registeredAt": "2026-09-02T09:21:00.984Z",
-          "updatedAt": "2026-09-02T09:21:01.812Z"
+          "updatedAt": "2026-09-02T14:25:10.394Z"
         }
       ],
       "checks": [],
@@ -2896,7 +3036,10 @@
             "sha256": "sha256:1d7739c2d06c27d16c208ac579290c17c66a7ff1565c7d98edff42374989091f"
           }
         }
-      ]
+      ],
+      "generationCommit": "6a93ff4d1198cf1ad3a8fea55f2b0597de4afffa",
+      "publicationCommit": "6a93ff4d1198cf1ad3a8fea55f2b0597de4afffa",
+      "validationVerdict": "not-required"
     },
     "implementation": {
       "id": "implementation",
@@ -3365,6 +3508,14 @@
       "event": "phase_generated",
       "phase": "planning",
       "detail": "generation 1"
+    },
+    {
+      "at": "2026-09-02T14:25:10.393Z",
+      "actor": "ashokraj2011",
+      "agent": "architect",
+      "event": "phase_submitted",
+      "phase": "planning",
+      "detail": "1 artifacts"
     }
   ],
   "measurement": {
@@ -3882,6 +4033,105 @@
           }
         },
         "createdAt": "2026-09-02T09:21:01.603Z"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "event": {
+        "schemaVersion": 1,
+        "eventId": "91f5dfbe-64b5-470c-b4c7-9104cbc85c2d",
+        "type": "approval-requested",
+        "subject": {
+          "kind": "story",
+          "id": "WRK-169",
+          "branch": "WRK-169"
+        },
+        "phaseId": "planning",
+        "generation": 1,
+        "actor": {
+          "name": "Ashok Raj",
+          "email": "88361104+ashokraj2011@users.noreply.github.com",
+          "login": "ashokraj2011",
+          "githubLookup": "resolved"
+        },
+        "agent": null,
+        "authorityGroup": null,
+        "payload": {
+          "decision": null,
+          "reviewPacketSha256": null
+        },
+        "sourceCommit": null,
+        "idempotencyKey": null,
+        "idempotencyHash": null,
+        "createdAt": "2026-09-02T14:25:10.174Z"
+      },
+      "ledgerIntent": {
+        "schemaVersion": 1,
+        "eventId": "91f5dfbe-64b5-470c-b4c7-9104cbc85c2d",
+        "eventType": "approval-requested",
+        "capabilityId": "piassistnat",
+        "subject": {
+          "branch": "WRK-169",
+          "generation": 1,
+          "phase": "planning",
+          "workId": "WRK-169",
+          "workType": "spec-driven-standard"
+        },
+        "actor": {
+          "name": "Ashok Raj",
+          "email": "88361104+ashokraj2011@users.noreply.github.com",
+          "githubLogin": "ashokraj2011",
+          "identityAssurance": "configured-local"
+        },
+        "agent": null,
+        "authorityGroup": null,
+        "payload": {
+          "capabilityMapSha256": "78b522f1b6f41455d7a7359b80e1c92b89f3ab59ae47a4a4e6487ce2df1fe48a",
+          "capabilityPolicy": {
+            "protectedPaths": [],
+            "qualityCommands": [],
+            "requiredAuthorityGroups": [],
+            "requiredChecks": [],
+            "requiredWorldModelViews": []
+          },
+          "configPath": "singularity/workflow.yml",
+          "configSha256": "b2a3f27c7de49182448552fc8f7ee0673a3de47442dda9fefdf56959b4c1596f",
+          "lifecycleEventId": "91f5dfbe-64b5-470c-b4c7-9104cbc85c2d",
+          "lifecyclePayload": {
+            "decision": null,
+            "reviewPacketSha256": null
+          },
+          "templateSha256": "e8af98405a723a55c572c705e34a5b2fc05a11b3efe632e169ba6becf6c1a04f",
+          "lifecycleEvent": {
+            "schemaVersion": 1,
+            "eventId": "91f5dfbe-64b5-470c-b4c7-9104cbc85c2d",
+            "type": "approval-requested",
+            "subject": {
+              "kind": "story",
+              "id": "WRK-169",
+              "branch": "WRK-169"
+            },
+            "phaseId": "planning",
+            "generation": 1,
+            "actor": {
+              "name": "Ashok Raj",
+              "email": "88361104+ashokraj2011@users.noreply.github.com",
+              "login": "ashokraj2011",
+              "githubLookup": "resolved"
+            },
+            "agent": null,
+            "authorityGroup": null,
+            "payload": {
+              "decision": null,
+              "reviewPacketSha256": null
+            },
+            "sourceCommit": null,
+            "idempotencyKey": null,
+            "idempotencyHash": null,
+            "createdAt": "2026-09-02T14:25:10.174Z"
+          }
+        },
+        "createdAt": "2026-09-02T14:25:10.185Z"
       }
     }
   ],
