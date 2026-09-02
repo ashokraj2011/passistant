@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 2,
+  "phase": "specification",
+  "decisions": [
+    {
+      "decision": "approved",
+      "phase": "specification",
+      "at": "2026-09-02T09:15:16.856Z",
+      "actor": {
+        "name": "Ashok Raj",
+        "email": "88361104+ashokraj2011@users.noreply.github.com",
+        "login": "ashokraj2011",
+        "githubLookup": "resolved"
+      },
+      "agent": "product-owner",
+      "authorityGroup": "product-approvers",
+      "identityAssurance": "configured-local",
+      "channel": "copilot-selection-receipt",
+      "generation": 1,
+      "artifactSha256": [
+        {
+          "path": "singularity/work-items/WRK-169/artifacts/specification/spec.md",
+          "sha256": "79cd4e699e870f5d81bfbcafffa6b881f872d8e0a255f2dece9ad179566bab01"
+        }
+      ],
+      "artifactSet": "spec-driven-specification",
+      "bundleSha256": "53873780c567af838297fd1acd88439831f2df367413284ec05e9dd4c8999850",
+      "reviewPacketSha256": "be0171bbeddb17f3e5fa4d6f16db163ef3f94c4d7592b09c2e5ce3b521578c45",
+      "evidenceCommit": "5240c642a02df02e0f7298f3a223660acfd53955",
+      "artifactSetSha256": "49b545147d16432eca51e61d7d8f299a7908cdcb54d419d7bc81cc6a9df1bd34",
+      "checklist": [
+        {
+          "article": "completeness",
+          "decision": "satisfied"
+        },
+        {
+          "article": "ambiguity",
+          "decision": "satisfied"
+        },
+        {
+          "article": "consistency",
+          "decision": "satisfied"
+        },
+        {
+          "article": "verifiability",
+          "decision": "satisfied"
+        },
+        {
+          "article": "boundary-conditions",
+          "decision": "satisfied"
+        },
+        {
+          "article": "non-functional",
+          "decision": "satisfied"
+        }
+      ],
+      "checklistSha256": "f52b980ffcaf26cf59e2d5c7fb15b38c1bb7fef7e37f4a81603bdfe0b55006ab",
+      "actionContext": {
+        "phase": "specification",
+        "label": "Specification",
+        "generation": 1,
+        "submittedAt": "2026-09-02T09:06:10.558Z",
+        "artifacts": [
+          {
+            "path": "singularity/work-items/WRK-169/artifacts/specification/spec.md",
+            "sha256": "79cd4e699e870f5d81bfbcafffa6b881f872d8e0a255f2dece9ad179566bab01"
+          }
+        ],
+        "agentBriefs": [],
+        "reviewPacketSha256": "be0171bbeddb17f3e5fa4d6f16db163ef3f94c4d7592b09c2e5ce3b521578c45",
+        "submittedSourceCommit": "d5221f35fed4e527c9b2d36e17cffbc0763799e3",
+        "planId": "9d5d6d0de2b9faa31770558e"
+      },
+      "selfApproval": true
+    }
+  ]
+}

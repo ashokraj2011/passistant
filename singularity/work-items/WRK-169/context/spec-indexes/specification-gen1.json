@@ -9,7 +9,7 @@
       "namespace": "WRK-169",
       "number": 1,
       "source": {
-        "line": 232,
+        "line": 304,
         "path": "singularity/work-items/WRK-169/artifacts/specification/spec.md"
       },
       "type": "REQ"
@@ -23,7 +23,7 @@
       "namespace": "WRK-169",
       "number": 2,
       "source": {
-        "line": 237,
+        "line": 309,
         "path": "singularity/work-items/WRK-169/artifacts/specification/spec.md"
       },
       "type": "REQ"
@@ -37,7 +37,7 @@
       "namespace": "WRK-169",
       "number": 3,
       "source": {
-        "line": 239,
+        "line": 311,
         "path": "singularity/work-items/WRK-169/artifacts/specification/spec.md"
       },
       "type": "REQ"
@@ -51,7 +51,7 @@
       "namespace": "WRK-169",
       "number": 4,
       "source": {
-        "line": 241,
+        "line": 313,
         "path": "singularity/work-items/WRK-169/artifacts/specification/spec.md"
       },
       "type": "REQ"
@@ -65,7 +65,7 @@
       "namespace": "WRK-169",
       "number": 5,
       "source": {
-        "line": 243,
+        "line": 315,
         "path": "singularity/work-items/WRK-169/artifacts/specification/spec.md"
       },
       "type": "REQ"
@@ -79,7 +79,7 @@
       "namespace": "WRK-169",
       "number": 6,
       "source": {
-        "line": 244,
+        "line": 316,
         "path": "singularity/work-items/WRK-169/artifacts/specification/spec.md"
       },
       "type": "REQ"
@@ -93,7 +93,7 @@
       "namespace": "WRK-169",
       "number": 7,
       "source": {
-        "line": 246,
+        "line": 318,
         "path": "singularity/work-items/WRK-169/artifacts/specification/spec.md"
       },
       "type": "REQ"
@@ -107,7 +107,7 @@
       "namespace": "WRK-169",
       "number": 1,
       "source": {
-        "line": 252,
+        "line": 324,
         "path": "singularity/work-items/WRK-169/artifacts/specification/spec.md"
       },
       "type": "AC"
@@ -121,7 +121,7 @@
       "namespace": "WRK-169",
       "number": 2,
       "source": {
-        "line": 254,
+        "line": 326,
         "path": "singularity/work-items/WRK-169/artifacts/specification/spec.md"
       },
       "type": "AC"
@@ -135,7 +135,7 @@
       "namespace": "WRK-169",
       "number": 3,
       "source": {
-        "line": 257,
+        "line": 329,
         "path": "singularity/work-items/WRK-169/artifacts/specification/spec.md"
       },
       "type": "AC"
@@ -149,7 +149,7 @@
       "namespace": "WRK-169",
       "number": 4,
       "source": {
-        "line": 259,
+        "line": 331,
         "path": "singularity/work-items/WRK-169/artifacts/specification/spec.md"
       },
       "type": "AC"
@@ -163,7 +163,7 @@
       "namespace": "WRK-169",
       "number": 5,
       "source": {
-        "line": 261,
+        "line": 333,
         "path": "singularity/work-items/WRK-169/artifacts/specification/spec.md"
       },
       "type": "AC"
@@ -177,7 +177,7 @@
       "namespace": "WRK-169",
       "number": 8,
       "source": {
-        "line": 270,
+        "line": 342,
         "path": "singularity/work-items/WRK-169/artifacts/specification/spec.md"
       },
       "type": "REQ"
@@ -191,7 +191,7 @@
       "namespace": "WRK-169",
       "number": 9,
       "source": {
-        "line": 274,
+        "line": 346,
         "path": "singularity/work-items/WRK-169/artifacts/specification/spec.md"
       },
       "type": "REQ"
@@ -205,20 +205,20 @@
       "namespace": "WRK-169",
       "number": 10,
       "source": {
-        "line": 278,
+        "line": 350,
         "path": "singularity/work-items/WRK-169/artifacts/specification/spec.md"
       },
       "type": "REQ"
     }
   ],
   "generation": 1,
-  "indexSha256": "808973c3200cdb9c06bbf9b13fb0826f616171b1d9ecd4c6e88823285ef46ab8",
+  "indexSha256": "2f00609dea611161109c9ac9bcec92deb9497623094bd595ec24c41843cc6bb8",
   "phase": "specification",
   "schemaVersion": 1,
   "source": {
-    "bytes": 14670,
+    "bytes": 17232,
     "path": "singularity/work-items/WRK-169/artifacts/specification/spec.md",
-    "sha256": "81165a17aab064233345a4751f18c9d2e490a332049c31184d6941ee3205df14"
+    "sha256": "b8e5554003f995987c3e848cb1addc50870439382daae357e69f3485a51fbd63"
   },
   "workId": "WRK-169"
 }
