@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "workId": "WRK-169",
+  "phase": "specification",
+  "generation": 1,
+  "mode": "required",
+  "promptPath": "singularity/work-items/WRK-169/context/prompts/specification-gen1.md",
+  "promptSha256": "896143dbac0a30ebd35dda09b33ed9c122d27627fe3992cfa24b5705747d0b1e",
+  "groundingRecordPath": "singularity/work-items/WRK-169/context/specification-gen1.json",
+  "groundingRecordSha256": "a122096f6af28f0a9010742e22f2e50ada73f5db720312273539a6d8e9f7af3a",
+  "responses": [
+    {
+      "id": "Q-001",
+      "question": "Which surfaces must turn blue: all green accents app-wide (tokens plus hard-coded greens), only the theme tokens, or a single named element?",
+      "answer": "All green accents app-wide: the :host tokens --green, --green-dark, --mint and every hard-coded green hex value in src/app/app.component.css (gradients, status dot, hover borders, shadows, icon accents).",
+      "status": "answered",
+      "blocking": false
+    },
+    {
+      "id": "Q-002",
+      "question": "Which blue palette replaces the greens (current --green:#087b66, --green-dark:#075f52, --mint:#e6f4ef)?",
+      "answer": "Use a standard blue palette: primary #0b5cad, dark #084a8a, tint #e6eef7. Remaining hard-coded greens map to the nearest of these three roles.",
+      "status": "answered",
+      "blocking": false
+    },
+    {
+      "id": "Q-003",
+      "question": "Should non-green colors stay unchanged (neutral ink #17252d, warning banner ambers, page backgrounds #f7f9f8)?",
+      "answer": "Yes. Non-green colors remain unchanged; only green-family values are recolored.",
+      "status": "answered",
+      "blocking": false
+    },
+    {
+      "id": "Q-004",
+      "question": "Is a measurable contrast requirement in scope?",
+      "answer": "Yes. WCAG 2.1 AA is required: at least 4.5:1 contrast for text on blue surfaces and at least 3:1 for UI component borders and boundaries.",
+      "status": "answered",
+      "blocking": false
+    },
+    {
+      "id": "Q-005",
+      "question": "The pinned acceptance criteria is only 'screen shot'. What screenshot evidence proves done?",
+      "answer": "One screenshot of the main chat screen captured after running npm run dev, showing the blue theme applied.",
+      "status": "answered",
+      "blocking": false
+    }
+  ],
+  "completed": true,
+  "recordedAt": "2026-09-02T09:00:30.016Z",
+  "recordedBy": {
+    "name": "Ashok Raj",
+    "email": "88361104+ashokraj2011@users.noreply.github.com",
+    "login": "ashokraj2011",
+    "githubLookup": "resolved"
+  },
+  "agent": "product-owner"
+}

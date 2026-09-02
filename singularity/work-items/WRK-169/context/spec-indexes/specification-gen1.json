@@ -1,0 +1,224 @@
+{
+  "clauses": [
+    {
+      "anchor": "[WRK-169:REQ-001]",
+      "body": "- Every hard-coded green hex value in `src/app/app.component.css` shall be replaced by the blue of\n  the equivalent role, including the brand-mark and assistant-icon gradient, the status dot and its\n  halo, the starter-grid hover border, the result-card hover treatment, the breadcrumb, the chip\n  and badge accents, the thinking-indicator bullets, and the avatar foreground. *(S1)*",
+      "bodySha256": "31a9bfef1ad8b04b1d5b98a01d47070b9b4da19493007703a4227ab874a0aaec",
+      "dependsOn": [],
+      "id": "WRK-169:REQ-001",
+      "namespace": "WRK-169",
+      "number": 1,
+      "source": {
+        "line": 232,
+        "path": "singularity/work-items/WRK-169/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[WRK-169:REQ-002]",
+      "body": "- Green hex values carrying an alpha suffix shall retain that suffix unchanged and change only the\n  base hue. *(S1)*",
+      "bodySha256": "0f41d53d89ed67c7e9b0383eda019b1ca27541db0aa0040d3f4c5f650297ce88",
+      "dependsOn": [],
+      "id": "WRK-169:REQ-002",
+      "namespace": "WRK-169",
+      "number": 2,
+      "source": {
+        "line": 237,
+        "path": "singularity/work-items/WRK-169/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[WRK-169:REQ-003]",
+      "body": "- No colour outside the green family shall be modified: neutral ink, muted greys, line borders, the\n  amber connection banner, and the page backgrounds remain byte-identical. *(S2)*",
+      "bodySha256": "f9f7871a1042654ba42eb686928c32cdeb432dd1138cfe4fc5d1d8d31522ca5d",
+      "dependsOn": [],
+      "id": "WRK-169:REQ-003",
+      "namespace": "WRK-169",
+      "number": 3,
+      "source": {
+        "line": 239,
+        "path": "singularity/work-items/WRK-169/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[WRK-169:REQ-004]",
+      "body": "- The change shall be confined to stylesheet declarations; no template markup, component class,\n  service, server module, or dependency shall be modified. *(S2)*",
+      "bodySha256": "78f30b06d81f60fd79eb2920f5c84f9df52890070ef60b4acd70d60e1d5fa2ee",
+      "dependsOn": [],
+      "id": "WRK-169:REQ-004",
+      "namespace": "WRK-169",
+      "number": 4,
+      "source": {
+        "line": 241,
+        "path": "singularity/work-items/WRK-169/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[WRK-169:REQ-005]",
+      "body": "- `npm run build` shall continue to succeed after the change. *(S2)*",
+      "bodySha256": "8de17e82914881e6dab48c0bf7f60c1d20485d1a1712801f546bb98351463717",
+      "dependsOn": [],
+      "id": "WRK-169:REQ-005",
+      "namespace": "WRK-169",
+      "number": 5,
+      "source": {
+        "line": 243,
+        "path": "singularity/work-items/WRK-169/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[WRK-169:REQ-006]",
+      "body": "- A screenshot of the main chat screen, captured from a running `npm run dev` session after the\n  change, shall be attached as phase evidence. *(S3)*",
+      "bodySha256": "17cbb7407547c70e9088705f103fd3c18cd6b7b175cb9cd348d0d4355a028e3b",
+      "dependsOn": [],
+      "id": "WRK-169:REQ-006",
+      "namespace": "WRK-169",
+      "number": 6,
+      "source": {
+        "line": 244,
+        "path": "singularity/work-items/WRK-169/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[WRK-169:REQ-007]",
+      "body": "Acceptance criteria use the same stable, namespaced form:\n\n- On the main chat screen served by `npm run dev`, no rendered element displays a green accent; the\n  brand mark, \"New chat\" button, breadcrumb, status dot, starter-card icons, and result-card\n  accents all render blue. *(S1)*",
+      "bodySha256": "743de56b4b4f07bb6bc185b6d12d99ee497d81079b934f541c62a6c2d78ddb69",
+      "dependsOn": [],
+      "id": "WRK-169:REQ-007",
+      "namespace": "WRK-169",
+      "number": 7,
+      "source": {
+        "line": 246,
+        "path": "singularity/work-items/WRK-169/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[WRK-169:AC-001]",
+      "body": "- Hovering a starter-grid button and a result card produces a blue border and blue-tinted shadow.\n  *(S1)*",
+      "bodySha256": "45ff2e70d380d1400cccc84b38677224c95c6a2243de9b90c85fa30beec5fa3a",
+      "dependsOn": [],
+      "id": "WRK-169:AC-001",
+      "namespace": "WRK-169",
+      "number": 1,
+      "source": {
+        "line": 252,
+        "path": "singularity/work-items/WRK-169/artifacts/specification/spec.md"
+      },
+      "type": "AC"
+    },
+    {
+      "anchor": "[WRK-169:AC-002]",
+      "body": "- A diff of the change shows modifications only to colour values within `src/app/app.component.css`\n  (and `src/styles.css` only if it contained a green value); layout, typography, spacing, and\n  markup are untouched. *(S2)*",
+      "bodySha256": "552c3e64a1b87d0cc884d087ae2bbd557b9d4002aff14da2baa6c61951997d83",
+      "dependsOn": [],
+      "id": "WRK-169:AC-002",
+      "namespace": "WRK-169",
+      "number": 2,
+      "source": {
+        "line": 254,
+        "path": "singularity/work-items/WRK-169/artifacts/specification/spec.md"
+      },
+      "type": "AC"
+    },
+    {
+      "anchor": "[WRK-169:AC-003]",
+      "body": "- The amber connection banner, neutral text `#17252d`, and page background `#f7f9f8` are unchanged\n  in the diff. *(S2)*",
+      "bodySha256": "c32dd72f879fcc779885505ddbd188a189deb11f82be58c936d9af222e699ec9",
+      "dependsOn": [],
+      "id": "WRK-169:AC-003",
+      "namespace": "WRK-169",
+      "number": 3,
+      "source": {
+        "line": 257,
+        "path": "singularity/work-items/WRK-169/artifacts/specification/spec.md"
+      },
+      "type": "AC"
+    },
+    {
+      "anchor": "[WRK-169:AC-004]",
+      "body": "- A screenshot of the main chat screen showing the blue theme is attached to the phase.\n  *(S3)*",
+      "bodySha256": "196de55d69a050824a139c709b043cbe15ddbd244828981567829e9daea64e02",
+      "dependsOn": [],
+      "id": "WRK-169:AC-004",
+      "namespace": "WRK-169",
+      "number": 4,
+      "source": {
+        "line": 259,
+        "path": "singularity/work-items/WRK-169/artifacts/specification/spec.md"
+      },
+      "type": "AC"
+    },
+    {
+      "anchor": "[WRK-169:AC-005]",
+      "body": "## Non-functional requirements\n\n- **Accessibility.** Text rendered on any blue surface introduced by this change shall measure at\n  least 4.5:1 contrast against that surface, and blue UI component boundaries (button edges, the\n  status dot against its halo and surface, focus and hover borders) shall measure at least 3:1.\n  Measurement method: compute the WCAG 2.1 relative-luminance contrast ratio for each foreground /\n  background pairing introduced by the palette, using the exact hex values in the stylesheet.\n  *(S1)*",
+      "bodySha256": "8e21f863a7e208e55a8d29cd40f0276ebbb0abdcee8a98638d52eae4a8e27c9c",
+      "dependsOn": [],
+      "id": "WRK-169:AC-005",
+      "namespace": "WRK-169",
+      "number": 5,
+      "source": {
+        "line": 261,
+        "path": "singularity/work-items/WRK-169/artifacts/specification/spec.md"
+      },
+      "type": "AC"
+    },
+    {
+      "anchor": "[WRK-169:REQ-008]",
+      "body": "- **Performance.** No new stylesheet rule, selector, font, image, or network request is added, so\n  the rendered bundle size shall not increase by more than 0 bytes attributable to new declarations;\n  only existing declaration values change. Measurement: compare `npm run build` output declaration\n  count before and after. *(S2)*",
+      "bodySha256": "3eeaf515ced76e53d34dae1cf19faf53d2b70e99eda92e05204bd843e2935c94",
+      "dependsOn": [],
+      "id": "WRK-169:REQ-008",
+      "namespace": "WRK-169",
+      "number": 8,
+      "source": {
+        "line": 270,
+        "path": "singularity/work-items/WRK-169/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[WRK-169:REQ-009]",
+      "body": "- **Consistency.** No fourth blue shall be introduced. Every blue value in the stylesheet after the\n  change shall be one of `#0b5cad`, `#084a8a`, `#e6eef7`, or one of those three with a preserved\n  alpha suffix. Measurement: grep the stylesheet for hex literals and confirm each blue matches.\n  *(S1)*",
+      "bodySha256": "ec8dae25b2fbd5d133e567915cd338cb917ae649681e702a211ff2c0d9d33d8e",
+      "dependsOn": [],
+      "id": "WRK-169:REQ-009",
+      "namespace": "WRK-169",
+      "number": 9,
+      "source": {
+        "line": 274,
+        "path": "singularity/work-items/WRK-169/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    },
+    {
+      "anchor": "[WRK-169:REQ-010]",
+      "body": "## Constitution articles\n\nNo constitution is defined for this repository at the pinned revision:\n`singularity-flow constitution show` reports no `singularity/constitution.md`, and work type\n`spec-driven-standard` sets constitution mode `warn`. This specification therefore cites no article\nIDs. Fabricating an `ART-…` identifier here would fail kernel validation, and none exists to cite.\n\n## Assumptions\n\n- The green family in `src/app/app.component.css` is the complete definition of the application's\n  colour identity; no green is injected at runtime from the server, from `src/app/models.ts`, or\n  from an inline style in `src/app/app.component.html`.\n- \"Colour\" in the pinned Story `change color to blue` means the application's accent/brand colour,\n  not the page background or the text colour. This reading was confirmed at the clarification\n  checkpoint for generation 1.\n- The approved blues `#0b5cad` / `#084a8a` / `#e6eef7` are acceptable as brand colours; no external\n  brand guideline constrains the exact hue.\n- A single screenshot of the main chat screen is sufficient acceptance evidence, as confirmed at the\n  clarification checkpoint; per-surface screenshots and automated visual regression were explicitly\n  declined for this Story.\n- The reviewer can run `npm run dev` locally, which the repository world model lists as an available\n  validation command.\n\n## Out of scope\n\n- Any dark mode, user-selectable theme, or runtime theme switching.\n- Changing backgrounds, neutral text colours, borders, or the amber connection-banner palette.\n- Typography, spacing, layout, iconography, copy, or component structure.\n- Server code under `server/`, the API contract in `docs/integration.md`, and all TypeScript\n  behaviour.\n- Automated visual-regression tests or Playwright evidence for this Story.\n- Establishing a design-token system or extracting the remaining hard-coded hex values into\n  variables beyond the three existing theme properties.",
+      "bodySha256": "9edddcadda996ceafcfa1055889a15d0deecf95482fed594bbd14a3e80f9ace1",
+      "dependsOn": [],
+      "id": "WRK-169:REQ-010",
+      "namespace": "WRK-169",
+      "number": 10,
+      "source": {
+        "line": 278,
+        "path": "singularity/work-items/WRK-169/artifacts/specification/spec.md"
+      },
+      "type": "REQ"
+    }
+  ],
+  "generation": 1,
+  "indexSha256": "808973c3200cdb9c06bbf9b13fb0826f616171b1d9ecd4c6e88823285ef46ab8",
+  "phase": "specification",
+  "schemaVersion": 1,
+  "source": {
+    "bytes": 14670,
+    "path": "singularity/work-items/WRK-169/artifacts/specification/spec.md",
+    "sha256": "81165a17aab064233345a4751f18c9d2e490a332049c31184d6941ee3205df14"
+  },
+  "workId": "WRK-169"
+}
