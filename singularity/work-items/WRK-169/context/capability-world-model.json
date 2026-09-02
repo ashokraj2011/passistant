@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "capabilityId": "piassistnat",
+  "capabilityPath": [
+    "piassistnat"
+  ],
+  "capabilityMapSha256": "78b522f1b6f41455d7a7359b80e1c92b89f3ab59ae47a4a4e6487ce2df1fe48a",
+  "requiredViews": [
+    "business",
+    "architecture",
+    "development",
+    "testing",
+    "security",
+    "release"
+  ],
+  "maxBytes": 262144,
+  "bytes": 0,
+  "repositories": [
+    {
+      "id": "passistant",
+      "status": "local-grounding"
+    }
+  ],
+  "files": [],
+  "warnings": [],
+  "recordedAt": "2026-09-02T08:52:59.605Z"
+}

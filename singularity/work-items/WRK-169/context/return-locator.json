@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "kind": "return-locator",
+  "workId": "WRK-169",
+  "capabilityId": "piassistnat",
+  "originRepositoryId": "passistant",
+  "repositories": [
+    {
+      "id": "passistant",
+      "remote": "origin",
+      "required": true,
+      "url": "https://github.com/ashokraj2011/passistant.git",
+      "fingerprint": "b7e83e4cd2aa7449f2ee7d24f517bba90f0edc4af8e9c02e3304737254070e37",
+      "portability": "portable"
+    }
+  ],
+  "lifecycleRef": "refs/heads/WRK-169",
+  "workBranchRef": "refs/heads/WRK-169",
+  "configuration": {
+    "sha256": "b2a3f27c7de49182448552fc8f7ee0673a3de47442dda9fefdf56959b4c1596f",
+    "branch": "sflow/config",
+    "commit": "f0939d8b09d48db132a688fc6627ea55ca7f6fb0"
+  },
+  "cloneStrategy": "existing-or-clone",
+  "integritySha256": "22238b9855e41484173f6bd440a5d17e32f71dc2be9583eecc25d24b92ac418f"
+}
