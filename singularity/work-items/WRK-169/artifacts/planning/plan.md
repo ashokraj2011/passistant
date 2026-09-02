@@ -5,7 +5,7 @@
   "workType": "spec-driven-standard",
   "phase": "planning",
   "generation": 1,
-  "status": "awaiting_approval",
+  "status": "approved",
   "generatedBy": {
     "name": "Ashok Raj",
     "email": "88361104+ashokraj2011@users.noreply.github.com",
@@ -83,8 +83,53 @@
   "remoteOutputs": [],
   "usage": [],
   "sequenceOverrides": [],
-  "approvals": [],
-  "selfApproval": false,
+  "approvals": [
+    {
+      "decision": "approved",
+      "phase": "planning",
+      "at": "2026-09-02T14:52:47.601Z",
+      "actor": {
+        "name": "Ashok Raj",
+        "email": "88361104+ashokraj2011@users.noreply.github.com",
+        "login": "ashokraj2011",
+        "githubLookup": "resolved"
+      },
+      "agent": "architect",
+      "authorityGroup": "architecture-reviewers",
+      "identityAssurance": "configured-local",
+      "channel": "copilot-selection-receipt",
+      "generation": 1,
+      "artifactSha256": [
+        {
+          "path": "singularity/work-items/WRK-169/artifacts/planning/plan.md",
+          "sha256": "0f4037a7c09769496f32835463c6d40b3cc99d55d7fd9cff2525e8798af64ec9"
+        }
+      ],
+      "artifactSet": "spec-driven-planning",
+      "bundleSha256": "cae72522f2b6ce0d61e772d645e434862d7c9ed0ef4a5a619a063070903c3e6b",
+      "reviewPacketSha256": "56da5287f1295852427bf2fa85ebaf4bd4909983b2670486fef5d18babea36ce",
+      "evidenceCommit": "e98ea53f334dbc9ed777eced57619a98b0ba4012",
+      "artifactSetSha256": "fdd2796054d1e653b2f0fa1942eb1fe0d98926dcc219eb4fa56406c26a6ffca4",
+      "actionContext": {
+        "phase": "planning",
+        "label": "Planning",
+        "generation": 1,
+        "submittedAt": "2026-09-02T14:25:10.393Z",
+        "artifacts": [
+          {
+            "path": "singularity/work-items/WRK-169/artifacts/planning/plan.md",
+            "sha256": "0f4037a7c09769496f32835463c6d40b3cc99d55d7fd9cff2525e8798af64ec9"
+          }
+        ],
+        "agentBriefs": [],
+        "reviewPacketSha256": "56da5287f1295852427bf2fa85ebaf4bd4909983b2670486fef5d18babea36ce",
+        "submittedSourceCommit": "6a93ff4d1198cf1ad3a8fea55f2b0597de4afffa",
+        "planId": "76de14d0df1d568f05a150c4"
+      },
+      "selfApproval": true
+    }
+  ],
+  "selfApproval": true,
   "conformanceTree": null
 }
 -->

@@ -2466,7 +2466,7 @@
     "policySha256": "sha256:9da1d6cb89db4ba7081439bac1b64e6325e4542e52750c710c8a07cbf1586ffd"
   },
   "status": "in_progress",
-  "currentPhase": "planning",
+  "currentPhase": "implementation",
   "phaseOrder": [
     "specification",
     "planning",
@@ -2819,7 +2819,7 @@
       "label": "Planning",
       "order": 1,
       "defaultAgent": "architect",
-      "status": "awaiting_approval",
+      "status": "approved",
       "requiredArtifact": {
         "path": "artifacts/planning/plan.md",
         "kind": "design",
@@ -2881,8 +2881,8 @@
       "qualityCommands": [],
       "startedAt": "2026-09-02T09:15:16.856Z",
       "submittedAt": "2026-09-02T14:25:10.393Z",
-      "approvedAt": null,
-      "approvedBy": null,
+      "approvedAt": "2026-09-02T14:52:47.601Z",
+      "approvedBy": "ashokraj2011",
       "rejectedAt": null,
       "rejectedBy": null,
       "rejectionReason": null,
@@ -2942,19 +2942,66 @@
           "providerCost": null
         }
       ],
-      "approvals": [],
+      "approvals": [
+        {
+          "decision": "approved",
+          "phase": "planning",
+          "at": "2026-09-02T14:52:47.601Z",
+          "actor": {
+            "name": "Ashok Raj",
+            "email": "88361104+ashokraj2011@users.noreply.github.com",
+            "login": "ashokraj2011",
+            "githubLookup": "resolved"
+          },
+          "agent": "architect",
+          "authorityGroup": "architecture-reviewers",
+          "identityAssurance": "configured-local",
+          "channel": "copilot-selection-receipt",
+          "generation": 1,
+          "artifactSha256": [
+            {
+              "path": "singularity/work-items/WRK-169/artifacts/planning/plan.md",
+              "sha256": "0f4037a7c09769496f32835463c6d40b3cc99d55d7fd9cff2525e8798af64ec9"
+            }
+          ],
+          "artifactSet": "spec-driven-planning",
+          "bundleSha256": "cae72522f2b6ce0d61e772d645e434862d7c9ed0ef4a5a619a063070903c3e6b",
+          "reviewPacketSha256": "56da5287f1295852427bf2fa85ebaf4bd4909983b2670486fef5d18babea36ce",
+          "evidenceCommit": "e98ea53f334dbc9ed777eced57619a98b0ba4012",
+          "artifactSetSha256": "fdd2796054d1e653b2f0fa1942eb1fe0d98926dcc219eb4fa56406c26a6ffca4",
+          "actionContext": {
+            "phase": "planning",
+            "label": "Planning",
+            "generation": 1,
+            "submittedAt": "2026-09-02T14:25:10.393Z",
+            "artifacts": [
+              {
+                "path": "singularity/work-items/WRK-169/artifacts/planning/plan.md",
+                "sha256": "0f4037a7c09769496f32835463c6d40b3cc99d55d7fd9cff2525e8798af64ec9"
+              }
+            ],
+            "agentBriefs": [],
+            "reviewPacketSha256": "56da5287f1295852427bf2fa85ebaf4bd4909983b2670486fef5d18babea36ce",
+            "submittedSourceCommit": "6a93ff4d1198cf1ad3a8fea55f2b0597de4afffa",
+            "planId": "76de14d0df1d568f05a150c4"
+          },
+          "selfApproval": true
+        }
+      ],
       "designSourceSets": [],
       "artifactRegistrationRepairs": [],
       "artifacts": [
         {
           "path": "singularity/work-items/WRK-169/artifacts/planning/plan.md",
           "kind": "document",
-          "status": "pending",
+          "status": "approved",
           "exists": true,
-          "size": 21604,
-          "sha256": "0f4037a7c09769496f32835463c6d40b3cc99d55d7fd9cff2525e8798af64ec9",
+          "size": 23375,
+          "sha256": "5685c21cab170b6f9969136f485454ebb75c925ed6b862bf38d5fa8da737f17d",
           "registeredAt": "2026-09-02T09:21:00.984Z",
-          "updatedAt": "2026-09-02T14:25:10.394Z"
+          "updatedAt": "2026-09-02T14:52:47.606Z",
+          "approvedAt": "2026-09-02T14:52:47.601Z",
+          "approvedBy": "ashokraj2011"
         }
       ],
       "checks": [],
@@ -3046,7 +3093,7 @@
       "label": "Implementation",
       "order": 2,
       "defaultAgent": "developer",
-      "status": "not_started",
+      "status": "in_progress",
       "requiredArtifact": {
         "path": "artifacts/implementation/implementation-summary.md",
         "kind": "implementation-summary",
@@ -3112,7 +3159,7 @@
         }
       },
       "qualityCommands": [],
-      "startedAt": null,
+      "startedAt": "2026-09-02T14:52:47.601Z",
       "submittedAt": null,
       "approvedAt": null,
       "approvedBy": null,
@@ -3516,6 +3563,22 @@
       "event": "phase_submitted",
       "phase": "planning",
       "detail": "1 artifacts"
+    },
+    {
+      "at": "2026-09-02T14:52:47.601Z",
+      "actor": "ashokraj2011",
+      "agent": "architect",
+      "event": "phase_self_approved",
+      "phase": "planning",
+      "detail": "threshold reached; advanced to implementation"
+    },
+    {
+      "at": "2026-09-02T14:52:47.621Z",
+      "actor": "system",
+      "agent": null,
+      "event": "work_interval_started",
+      "phase": "implementation",
+      "detail": "baseline 4942907753d8 at e98ea53f334d"
     }
   ],
   "measurement": {
@@ -4133,13 +4196,138 @@
         },
         "createdAt": "2026-09-02T14:25:10.185Z"
       }
+    },
+    {
+      "schemaVersion": 1,
+      "event": {
+        "schemaVersion": 1,
+        "eventId": "ab61ce48-6936-451b-8c4e-56f9fe0aa38e",
+        "type": "phase-approved",
+        "subject": {
+          "kind": "story",
+          "id": "WRK-169",
+          "branch": "WRK-169"
+        },
+        "phaseId": "planning",
+        "generation": 1,
+        "actor": {
+          "name": "Ashok Raj",
+          "email": "88361104+ashokraj2011@users.noreply.github.com",
+          "login": "ashokraj2011",
+          "githubLookup": "resolved"
+        },
+        "agent": "architect",
+        "authorityGroup": "architecture-reviewers",
+        "payload": {
+          "decision": "approved",
+          "reviewPacketSha256": "56da5287f1295852427bf2fa85ebaf4bd4909983b2670486fef5d18babea36ce",
+          "evidenceCommit": "e98ea53f334dbc9ed777eced57619a98b0ba4012",
+          "artifactSetSha256": "fdd2796054d1e653b2f0fa1942eb1fe0d98926dcc219eb4fa56406c26a6ffca4"
+        },
+        "sourceCommit": null,
+        "idempotencyKey": null,
+        "idempotencyHash": null,
+        "createdAt": "2026-09-02T14:52:47.415Z"
+      },
+      "ledgerIntent": {
+        "schemaVersion": 1,
+        "eventId": "ab61ce48-6936-451b-8c4e-56f9fe0aa38e",
+        "eventType": "phase-approved",
+        "capabilityId": "piassistnat",
+        "subject": {
+          "branch": "WRK-169",
+          "generation": 1,
+          "phase": "planning",
+          "workId": "WRK-169",
+          "workType": "spec-driven-standard"
+        },
+        "actor": {
+          "name": "Ashok Raj",
+          "email": "88361104+ashokraj2011@users.noreply.github.com",
+          "githubLogin": "ashokraj2011",
+          "identityAssurance": "configured-local"
+        },
+        "agent": "architect",
+        "authorityGroup": "architecture-reviewers",
+        "payload": {
+          "capabilityMapSha256": "78b522f1b6f41455d7a7359b80e1c92b89f3ab59ae47a4a4e6487ce2df1fe48a",
+          "capabilityPolicy": {
+            "protectedPaths": [],
+            "qualityCommands": [],
+            "requiredAuthorityGroups": [],
+            "requiredChecks": [],
+            "requiredWorldModelViews": []
+          },
+          "configPath": "singularity/workflow.yml",
+          "configSha256": "b2a3f27c7de49182448552fc8f7ee0673a3de47442dda9fefdf56959b4c1596f",
+          "lifecycleEventId": "ab61ce48-6936-451b-8c4e-56f9fe0aa38e",
+          "lifecyclePayload": {
+            "decision": "approved",
+            "reviewPacketSha256": "56da5287f1295852427bf2fa85ebaf4bd4909983b2670486fef5d18babea36ce",
+            "evidenceCommit": "e98ea53f334dbc9ed777eced57619a98b0ba4012",
+            "artifactSetSha256": "fdd2796054d1e653b2f0fa1942eb1fe0d98926dcc219eb4fa56406c26a6ffca4"
+          },
+          "templateSha256": "e8af98405a723a55c572c705e34a5b2fc05a11b3efe632e169ba6becf6c1a04f",
+          "lifecycleEvent": {
+            "schemaVersion": 1,
+            "eventId": "ab61ce48-6936-451b-8c4e-56f9fe0aa38e",
+            "type": "phase-approved",
+            "subject": {
+              "kind": "story",
+              "id": "WRK-169",
+              "branch": "WRK-169"
+            },
+            "phaseId": "planning",
+            "generation": 1,
+            "actor": {
+              "name": "Ashok Raj",
+              "email": "88361104+ashokraj2011@users.noreply.github.com",
+              "login": "ashokraj2011",
+              "githubLookup": "resolved"
+            },
+            "agent": "architect",
+            "authorityGroup": "architecture-reviewers",
+            "payload": {
+              "decision": "approved",
+              "reviewPacketSha256": "56da5287f1295852427bf2fa85ebaf4bd4909983b2670486fef5d18babea36ce",
+              "evidenceCommit": "e98ea53f334dbc9ed777eced57619a98b0ba4012",
+              "artifactSetSha256": "fdd2796054d1e653b2f0fa1942eb1fe0d98926dcc219eb4fa56406c26a6ffca4"
+            },
+            "sourceCommit": null,
+            "idempotencyKey": null,
+            "idempotencyHash": null,
+            "createdAt": "2026-09-02T14:52:47.415Z"
+          }
+        },
+        "createdAt": "2026-09-02T14:52:47.428Z"
+      }
     }
   ],
   "repairBudgets": {},
   "workIntervals": {
     "schemaVersion": 1,
-    "current": null,
-    "history": [],
+    "current": {
+      "intervalId": "INT-implementation-G1-001",
+      "phaseId": "implementation",
+      "generation": 1,
+      "baselineSha256": "4942907753d8b02a81775a12e2f0dab2eda9f57ee8496a569f8b47534ae4ea36",
+      "sourceBaseCommit": "e98ea53f334dbc9ed777eced57619a98b0ba4012",
+      "escalationTarget": null,
+      "path": "singularity/work-items/WRK-169/context/work-intervals/implementation-gen1-baseline.json",
+      "status": "open"
+    },
+    "history": [
+      {
+        "intervalId": "INT-implementation-G1-001",
+        "phaseId": "implementation",
+        "generation": 1,
+        "baselineSha256": "4942907753d8b02a81775a12e2f0dab2eda9f57ee8496a569f8b47534ae4ea36",
+        "sourceBaseCommit": "e98ea53f334dbc9ed777eced57619a98b0ba4012",
+        "escalationTarget": null,
+        "path": "singularity/work-items/WRK-169/context/work-intervals/implementation-gen1-baseline.json",
+        "status": "open"
+      }
+    ],
     "escalations": []
   }
 }
