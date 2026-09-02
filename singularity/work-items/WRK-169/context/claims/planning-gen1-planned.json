@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 2,
+  "kind": "planned",
+  "recordedAt": "2026-09-02T09:21:01.815Z",
+  "claims": {
+    "WRK-169:REQ-001": {
+      "expectedPaths": [
+        "src/app/app.component.css"
+      ],
+      "tests": [],
+      "testDisposition": "not-applicable",
+      "testReason": "inspect the three custom-property declarations and compare their exact values with the approved palette.",
+      "deviation": null
+    },
+    "WRK-169:REQ-002": {
+      "expectedPaths": [
+        "src/app/app.component.css"
+      ],
+      "tests": [],
+      "testDisposition": "not-applicable",
+      "testReason": "search all stylesheet hex literals and inspect the named accent, hover, chip, indicator, and avatar roles.",
+      "deviation": null
+    },
+    "WRK-169:REQ-003": {
+      "expectedPaths": [
+        "src/app/app.component.css"
+      ],
+      "tests": [],
+      "testDisposition": "not-applicable",
+      "testReason": "compare alpha-suffixed hex declarations before and after the value-only edit.",
+      "deviation": null
+    },
+    "WRK-169:REQ-004": {
+      "expectedPaths": [
+        "src/app/app.component.css"
+      ],
+      "tests": [],
+      "testDisposition": "not-applicable",
+      "testReason": "review the CSS diff to confirm neutral, amber, border, and background literals are byte-identical.",
+      "deviation": null
+    },
+    "WRK-169:REQ-005": {
+      "expectedPaths": [
+        "src/app/app.component.css"
+      ],
+      "tests": [],
+      "testDisposition": "not-applicable",
+      "testReason": "review `git diff --name-only` and the stylesheet-only declaration diff.",
+      "deviation": null
+    },
+    "WRK-169:REQ-006": {
+      "expectedPaths": [
+        "src/app/app.component.css"
+      ],
+      "tests": [],
+      "testDisposition": "not-applicable",
+      "testReason": "run `npm run build`; this repository has no automated test path for a value-only CSS change.",
+      "deviation": null
+    },
+    "WRK-169:REQ-007": {
+      "expectedPaths": [
+        "singularity/work-items/WRK-169/artifacts/verification/main-chat-blue.png"
+      ],
+      "tests": [],
+      "testDisposition": "not-applicable",
+      "testReason": "open the captured evidence image and confirm it was taken from the running main chat screen.",
+      "deviation": null
+    },
+    "WRK-169:REQ-008": {
+      "expectedPaths": [
+        "src/app/app.component.css"
+      ],
+      "tests": [],
+      "testDisposition": "not-applicable",
+      "testReason": "calculate WCAG 2.1 contrast ratios from the exact foreground and background hex pairs.",
+      "deviation": null
+    },
+    "WRK-169:REQ-009": {
+      "expectedPaths": [
+        "src/app/app.component.css"
+      ],
+      "tests": [],
+      "testDisposition": "not-applicable",
+      "testReason": "compare declaration count and build output to confirm no stylesheet rule or asset was added.",
+      "deviation": null
+    },
+    "WRK-169:REQ-010": {
+      "expectedPaths": [
+        "src/app/app.component.css"
+      ],
+      "tests": [],
+      "testDisposition": "not-applicable",
+      "testReason": "search blue hex literals and confirm each is an approved base hue or retains its original alpha suffix.",
+      "deviation": null
+    },
+    "WRK-169:AC-001": {
+      "expectedPaths": [
+        "src/app/app.component.css"
+      ],
+      "tests": [],
+      "testDisposition": "not-applicable",
+      "testReason": "inspect the running main chat screen and the evidence image for zero green accents.",
+      "deviation": null
+    },
+    "WRK-169:AC-002": {
+      "expectedPaths": [
+        "src/app/app.component.css"
+      ],
+      "tests": [],
+      "testDisposition": "not-applicable",
+      "testReason": "hover a starter-grid button and result card in the running client and inspect their border and shadow tint.",
+      "deviation": null
+    },
+    "WRK-169:AC-003": {
+      "expectedPaths": [
+        "src/app/app.component.css"
+      ],
+      "tests": [],
+      "testDisposition": "not-applicable",
+      "testReason": "inspect the final diff for CSS colour-value-only changes in the permitted file.",
+      "deviation": null
+    },
+    "WRK-169:AC-004": {
+      "expectedPaths": [
+        "src/app/app.component.css"
+      ],
+      "tests": [],
+      "testDisposition": "not-applicable",
+      "testReason": "inspect the final diff for unchanged amber, neutral ink, and page-background literals.",
+      "deviation": null
+    },
+    "WRK-169:AC-005": {
+      "expectedPaths": [
+        "singularity/work-items/WRK-169/artifacts/verification/main-chat-blue.png"
+      ],
+      "tests": [],
+      "testDisposition": "not-applicable",
+      "testReason": "attach and review the required post-change screenshot.",
+      "deviation": null
+    }
+  },
+  "workId": "WRK-169",
+  "phase": "planning",
+  "generation": 1,
+  "source": {
+    "path": "singularity/work-items/WRK-169/artifacts/planning/plan.md",
+    "sha256": "ae83abb4a2331a827f15d5be3c2e4a29aa8969a0f88a8327eaaafa84eb3905f2",
+    "bytes": 21522
+  }
+}
