@@ -1,0 +1,46 @@
+{
+  "artifact": {
+    "bytes": 57641,
+    "path": "singularity/work-items/WRK-169/artifacts/verification/main-chat-blue.png",
+    "role": "file",
+    "sha256": "d1bce6d43aa9fc2146747ef6fda7794727acba0e644f041a417c83870c308c15"
+  },
+  "configuration": {
+    "revision": "f0939d8b09d48db132a688fc6627ea55ca7f6fb0",
+    "sha256": "b2a3f27c7de49182448552fc8f7ee0673a3de47442dda9fefdf56959b4c1596f"
+  },
+  "generation": 2,
+  "inputs": [
+    {
+      "kind": null,
+      "path": "artifacts/planning/plan.md",
+      "sha256": null
+    },
+    {
+      "kind": null,
+      "path": "artifacts/specification/spec.md",
+      "sha256": null
+    }
+  ],
+  "integritySha256": "9421d59265ab5fd82effba4040ac3c40c2684aea93ceea45b32f1b3dc7304bc2",
+  "phase": "implementation",
+  "producer": {
+    "actor": "88361104+ashokraj2011@users.noreply.github.com",
+    "agent": null,
+    "kind": "human"
+  },
+  "publication": {
+    "branch": "WRK-169",
+    "commit": null,
+    "publishedAt": "2026-09-02T15:11:18.235Z"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "id": "WRK-169",
+    "kind": "story"
+  },
+  "template": {
+    "path": "singularity/templates/common/implementation.md",
+    "sha256": "61cd7cba79a0dd2914a25b53496b8bd9c575c36219597d65b8ec10010e801d9c"
+  }
+}

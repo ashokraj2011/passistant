@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "kind": "repository-change-set",
+  "subject": {
+    "workId": "WRK-169",
+    "phase": "implementation",
+    "generation": 2,
+    "generationIntentId": "ba698fc1-2cf6-4fbd-a035-5eb6bb33ea7d"
+  },
+  "base": {
+    "commit": "3c4705475ebc51dc00903ccd04709c75bc4c8c02",
+    "tree": "832937c55638b76dcada68347a3b3a2749fc4678"
+  },
+  "target": {
+    "head": "3c4705475ebc51dc00903ccd04709c75bc4c8c02",
+    "includesIndex": true,
+    "includesWorktree": true,
+    "includesUntracked": true,
+    "caseInsensitivePaths": true
+  },
+  "entries": [
+    {
+      "status": "added",
+      "similarity": null,
+      "oldPath": null,
+      "newPath": "singularity/work-items/WRK-169/context/generation-start/implementation-gen2.json",
+      "oldMode": "000000",
+      "newMode": "100644",
+      "oldObject": null,
+      "newObject": null,
+      "untracked": true,
+      "newContent": {
+        "kind": "regular-file",
+        "sha256": "sha256:e448810427cf47e7dd9ef32f33a270fd34477c77c3c121afb56147633846ba58",
+        "bytes": 1395
+      },
+      "changeId": "sha256:4937637b3fedc15ed02b9034b06a276b26c883a0385d54f45ecb8ebb42d58f27"
+    },
+    {
+      "status": "added",
+      "similarity": null,
+      "oldPath": null,
+      "newPath": "singularity/work-items/WRK-169/context/work-intervals/implementation-gen2-baseline.json",
+      "oldMode": "000000",
+      "newMode": "100644",
+      "oldObject": null,
+      "newObject": null,
+      "untracked": true,
+      "newContent": {
+        "kind": "regular-file",
+        "sha256": "sha256:030d68ce4c0f0e2d9d79f9a84526b4be00422a181db06f17afa759a524eced8a",
+        "bytes": 1667
+      },
+      "changeId": "sha256:d42c77f2d15202c63937a634572b737e591c1ccc537f79471070485d6c37aec3"
+    },
+    {
+      "status": "modified",
+      "similarity": null,
+      "oldPath": "angular.json",
+      "newPath": "angular.json",
+      "oldMode": "100644",
+      "newMode": "100644",
+      "oldObject": "489790555f2c10ba75ad80f13d4615bc21673bdd",
+      "newObject": null,
+      "newContent": {
+        "kind": "regular-file",
+        "sha256": "sha256:16542e98c68b89b3c263898017c0c12965a6e9b1a55427811d83f78425e0fd07",
+        "bytes": 749
+      },
+      "changeId": "sha256:3992579d4bdc91bc4710e93d92a65ff7da74c9fc4ec71dd034f5b41ec6d5a760"
+    },
+    {
+      "status": "modified",
+      "similarity": null,
+      "oldPath": "singularity/work-items/WRK-169/STATUS.md",
+      "newPath": "singularity/work-items/WRK-169/STATUS.md",
+      "oldMode": "100644",
+      "newMode": "100644",
+      "oldObject": "19ee1255b1b30bc9e58d93b92c78a5cb61e5cd86",
+      "newObject": null,
+      "newContent": {
+        "kind": "regular-file",
+        "sha256": "sha256:c4c9b4cfc2b59db87c2295966afa6f11e73e5713b6b92f4258bfd645ba9cc0c9",
+        "bytes": 2488
+      },
+      "changeId": "sha256:b266256eefff1bdd138eae484e1c6ed2cddada36b8b9b1bb32b24b37c8b296e9"
+    },
+    {
+      "status": "modified",
+      "similarity": null,
+      "oldPath": "singularity/work-items/WRK-169/workflow.json",
+      "newPath": "singularity/work-items/WRK-169/workflow.json",
+      "oldMode": "100644",
+      "newMode": "100644",
+      "oldObject": "3fbec36fe62bca26d3f7739bb3ae48d48694d99d",
+      "newObject": null,
+      "newContent": {
+        "kind": "regular-file",
+        "sha256": "sha256:f49be86fe2b23e85846396249ffabc21782cb3cb67735f6b756b2425dfb9acdf",
+        "bytes": 185193
+      },
+      "changeId": "sha256:6b8b8c7e38c945089c4a23d5d796d115332df5d88fa7a12af73adfca79a8e016"
+    }
+  ],
+  "digest": "sha256:f1ce20414b75dea26a4cda516c442d874f396e33494206fdc4598dd304a5bc01"
+}
