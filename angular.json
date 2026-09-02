@@ -21,5 +21,8 @@
         "serve": { "builder": "@angular-devkit/build-angular:dev-server", "options": { "buildTarget": "pzn:build" } }
       }
     }
+  },
+  "cli": {
+    "analytics": "e7c48260-9065-4914-a352-adcd02f7cfd6"
   }
-}
+    }
