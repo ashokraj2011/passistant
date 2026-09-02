@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 2,
+  "workId": "WRK-169",
+  "epicId": null,
+  "planId": null,
+  "jiraIssueId": "WRK-169",
+  "initialJiraKey": null,
+  "currentJiraKey": null,
+  "canonicalBranch": "WRK-169",
+  "submittedBranch": "WRK-169",
+  "submissionCommit": "43c430bcaf72203ab9d572a41d9eea0cc9acddde",
+  "sourceCommit": "43c430bcaf72203ab9d572a41d9eea0cc9acddde",
+  "sourceTreeSha256": "sha256:d3b36a52732ecfefaf9ae063ab9bd01a81739594ddba8f5d7dd34b86de6adc68",
+  "phase": "implementation",
+  "generation": 2,
+  "authorship": {
+    "schemaVersion": 1,
+    "producer": "human",
+    "channel": "manual-in-place",
+    "actor": {
+      "name": "Ashok Raj",
+      "email": "88361104+ashokraj2011@users.noreply.github.com",
+      "login": "ashokraj2011",
+      "githubLookup": "resolved"
+    },
+    "governedAgentContext": {
+      "agentId": "architect"
+    },
+    "kernelModel": {
+      "invoked": false,
+      "status": "exact",
+      "invocationIds": []
+    },
+    "externalAiUse": {
+      "value": "unknown",
+      "status": "unavailable"
+    },
+    "changeOrigins": [
+      "human"
+    ],
+    "source": {
+      "kind": "in-place",
+      "filename": "implementation-summary.md",
+      "mediaType": "text/markdown",
+      "sha256": "275a82b081c650b9e00d06050ddb16254ac8b1b82df83f8d7bbd735d45b0aaaa",
+      "bytes": 4772
+    },
+    "generation": 2,
+    "publishedAt": "2026-09-02T15:11:18.235Z"
+  },
+  "artifacts": [
+    {
+      "path": "angular.json",
+      "kind": "configuration",
+      "sha256": "16542e98c68b89b3c263898017c0c12965a6e9b1a55427811d83f78425e0fd07",
+      "size": 749
+    },
+    {
+      "path": "server/theme.test.ts",
+      "kind": "test",
+      "sha256": "292fc30f71a1dec9b0c9fa1f6a8f70c2a4bcab780510ef653aa6e714537e4765",
+      "size": 3230
+    },
+    {
+      "path": "singularity/work-items/WRK-169/artifacts/implementation/implementation-summary.md",
+      "kind": "document",
+      "sha256": "e2ff823944b66945f8651438f0d25f15692a30042707d219e5cd87501110aefc",
+      "size": 27390,
+      "reference": {
+        "handle": "sfref:v1:story:WRK-169:9e1ad6b0e7c368d078a0bac1e7dba4666f8a366a4c8869299b7473274eea0a74",
+        "recordHash": "9e1ad6b0e7c368d078a0bac1e7dba4666f8a366a4c8869299b7473274eea0a74"
+      }
+    },
+    {
+      "path": "singularity/work-items/WRK-169/artifacts/verification/main-chat-blue.png",
+      "kind": "file",
+      "sha256": "d1bce6d43aa9fc2146747ef6fda7794727acba0e644f041a417c83870c308c15",
+      "size": 57641,
+      "reference": {
+        "handle": "sfref:v1:story:WRK-169:c09e6aa4ad720f0ee4c69b64d4204b3350e3e8b9ffcc03bb9a42bd139d3fd76b",
+        "recordHash": "c09e6aa4ad720f0ee4c69b64d4204b3350e3e8b9ffcc03bb9a42bd139d3fd76b"
+      }
+    },
+    {
+      "path": "src/app/app.component.css",
+      "kind": "code",
+      "sha256": "1de6ce7b57d4d2cc4901ae63f92b2da9fad2a228eca5bb9201a83a0dde0d4500",
+      "size": 11166
+    }
+  ],
+  "references": [
+    {
+      "handle": "sfref:v1:story:WRK-169:9e1ad6b0e7c368d078a0bac1e7dba4666f8a366a4c8869299b7473274eea0a74",
+      "recordHash": "9e1ad6b0e7c368d078a0bac1e7dba4666f8a366a4c8869299b7473274eea0a74",
+      "purpose": "review-evidence",
+      "required": true
+    },
+    {
+      "handle": "sfref:v1:story:WRK-169:c09e6aa4ad720f0ee4c69b64d4204b3350e3e8b9ffcc03bb9a42bd139d3fd76b",
+      "recordHash": "c09e6aa4ad720f0ee4c69b64d4204b3350e3e8b9ffcc03bb9a42bd139d3fd76b",
+      "purpose": "review-evidence",
+      "required": true
+    }
+  ],
+  "agentBriefs": [],
+  "checks": [
+    {
+      "id": ".-node-tests",
+      "command": "npm test",
+      "kind": "test",
+      "requirement": "required",
+      "workingDirectory": ".",
+      "externalModelPolicy": "never",
+      "timeoutMs": 1800000,
+      "sourceCommit": "43c430bcaf72203ab9d572a41d9eea0cc9acddde",
+      "sourceTreeSha256": "sha256:d3b36a52732ecfefaf9ae063ab9bd01a81739594ddba8f5d7dd34b86de6adc68",
+      "startedAt": "2026-09-02T15:13:08.537Z",
+      "completedAt": "2026-09-02T15:13:09.053Z",
+      "status": "passed",
+      "exitCode": 0,
+      "stdout": "\n> personalization-conversational-intelligence@0.1.0 test\n> DATA_MODE=demo DATABASE_PATH=/tmp/pzn-tests.sqlite node --import tsx --test server/**/*.test.ts\n\nTAP version 13\n# (node:44931) ExperimentalWarning: SQLite is an experimental feature and might change at any time\n# (Use `node --trace-warnings ...` to show where the warning was created)\n# Subtest: scope boundary acceptance cases\nok 1 - scope boundary acceptance cases\n  ---\n  duration_ms: 0.435041\n  ...\n# Subtest: CCRE normalization, coverage, validation and execution are deterministic\nok 2 - CCRE normalization, coverage, validation and execution are deterministic\n  ---\n  duration_ms: 7.784834\n  ...\n# Subtest: tool registry enforces intent allowlists and records evidence\nok 3 - tool registry enforces intent allowlists and records evidence\n  ---\n  duration_ms: 2.377458\n  ...\n# Subtest: full proposal creates validated artifact and confirmed-action proposal\nok 4 - full proposal creates validated artifact and confirmed\n… diagnostic output truncated …\n  duration_ms: 0.774125\n  ...\n# Subtest: @ac:WRK-169:AC-002 hover treatments use approved blue borders and preserved blue shadow tints\nok 7 - @ac:WRK-169:AC-002 hover treatments use approved blue borders and preserved blue shadow tints\n  ---\n  duration_ms: 0.084666\n  ...\n# Subtest: @ac:WRK-169:AC-003 stylesheet scope stays color-value only for approved files\nok 8 - @ac:WRK-169:AC-003 stylesheet scope stays color-value only for approved files\n  ---\n  duration_ms: 0.086292\n  ...\n# Subtest: @ac:WRK-169:AC-004 amber banner, neutral ink, and page backgrounds are unchanged\nok 9 - @ac:WRK-169:AC-004 amber banner, neutral ink, and page backgrounds are unchanged\n  ---\n  duration_ms: 0.08475\n  ...\n# Subtest: @ac:WRK-169:AC-005 blue theme screenshot evidence is attached\nok 10 - @ac:WRK-169:AC-005 blue theme screenshot evidence is attached\n  ---\n  duration_ms: 0.059042\n  ...\n1..10\n# tests 10\n# suites 0\n# pass 10\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 291.984125\n",
+      "stderr": "",
+      "stdoutBytes": 2404,
+      "stderrBytes": 0,
+      "stdoutTruncated": false,
+      "stderrTruncated": false
+    }
+  ],
+  "usage": [],
+  "approvals": [],
+  "visualAssurance": null,
+  "submissionEvidence": {
+    "codeDelivery": {
+      "path": "singularity/work-items/WRK-169/context/code-delivery/implementation-gen2.json",
+      "sha256": "02a04a6a94ca99bbb19ae2a86711cd125b91e98f2ca10f1f561f698c43458936",
+      "changeSetPath": "singularity/work-items/WRK-169/context/code-delivery/implementation-gen2-changes.json",
+      "changeSetDigest": "sha256:f1ce20414b75dea26a4cda516c442d874f396e33494206fdc4598dd304a5bc01",
+      "status": "ready",
+      "autoCandidate": null,
+      "autoCandidateVerification": null
+    },
+    "testExecutions": [
+      {
+        "commandId": ".-node-tests",
+        "path": "singularity/work-items/WRK-169/context/code-delivery/tests/implementation-gen2-.-node-tests.json",
+        "sha256": "f1c640c926dd3ba828c5f565c06a26f84f727ae7c75efbd56e0fb795c8f57b58",
+        "status": "passed"
+      }
+    ],
+    "claimMaps": [
+      {
+        "kind": "observed",
+        "generation": 2,
+        "path": "singularity/work-items/WRK-169/context/claims/implementation-gen2-observed.json",
+        "sha256": "90415eb1083f4c023d044ce0b78457e3cd6678fe858ddf866a693979803a0bdc"
+      }
+    ],
+    "checksSha256": "42b7065ec88c3add796019761fb1ef066d6b0fbcb35ce3a9ce5bf8c8e6ca88bf",
+    "artifactSetSha256": "e7dae01025c440ce4d91b03eec0bdfa1db1b60b69ff7e7d3c0f6c04ef81053db"
+  },
+  "witnessReview": {
+    "enrollment": {
+      "schemaVersion": 1,
+      "mode": "disabled",
+      "witnessedClauses": {
+        "enabled": false,
+        "profiles": []
+      },
+      "testcaseExact": {
+        "mode": "disabled",
+        "profile": null,
+        "requiredAssurance": "unavailable",
+        "policySha256": "sha256:12b50a34a1f03338377ecd76f44b20cbee83e7b91a0b07392ef08e3d8fd60800"
+      },
+      "claimMapContractVersion": 2,
+      "cab": null,
+      "sgos": null,
+      "rollout": {
+        "id": "wel-v0.2-observe",
+        "version": 1,
+        "enrollment": "new-story-only"
+      },
+      "configurationAuthority": {
+        "repository": "https://github.com/ashokraj2011/passistant.git",
+        "branch": "sflow/config",
+        "commit": "f0939d8b09d48db132a688fc6627ea55ca7f6fb0",
+        "projectionSha256": "79a4e55fba67a268e8b68cd41844968ac5cbed714bd40e3fa4ea2daaf7669565"
+      }
+    },
+    "enrollmentClassification": "enrolled",
+    "enrollmentReason": null,
+    "clauseMappings": [],
+    "testcaseObservations": [
+      {
+        "commandId": ".-node-tests",
+        "receiptSha256": "f1c640c926dd3ba828c5f565c06a26f84f727ae7c75efbd56e0fb795c8f57b58",
+        "status": "unavailable",
+        "assurance": "unavailable",
+        "exact": false,
+        "verdict": "inconclusive",
+        "profile": null,
+        "occurrences": 0,
+        "outcomes": {
+          "passed": 0,
+          "failed": 0,
+          "skipped": 0,
+          "inconclusive": 0,
+          "ambiguous": 0
+        },
+        "rawReports": [],
+        "notice": "testcase evidence did not satisfy the supported non-exact local-observation contract"
+      }
+    ]
+  },
+  "submittedAt": "2026-09-02T15:13:09.393Z",
+  "submittedBy": {
+    "name": "Ashok Raj",
+    "email": "88361104+ashokraj2011@users.noreply.github.com",
+    "login": "ashokraj2011",
+    "githubLookup": "resolved"
+  },
+  "status": "awaiting_review",
+  "packetSha256": "a580c8afd31ddfd11296425049171568dbaecafa9e50d8d5e048dd0c498b9b94"
+}

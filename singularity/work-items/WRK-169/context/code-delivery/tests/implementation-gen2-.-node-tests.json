@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 2,
+  "kind": "test-execution",
+  "commandId": ".-node-tests",
+  "argvSha256": "527c484bcc3bb219e92ed61f99ff968f31143f89e53fda93d09b74c0ce3177d4",
+  "platform": "darwin",
+  "workingDirectory": ".",
+  "affectedRoots": [
+    "."
+  ],
+  "adapter": "node-tap",
+  "status": "passed",
+  "exitCode": 0,
+  "timedOut": false,
+  "skipped": false,
+  "suppressed": false,
+  "tests": {
+    "discovered": 10,
+    "passed": 10,
+    "failed": 0,
+    "skipped": 0
+  },
+  "result": {
+    "path": ".sflow/results/node-tests.tap",
+    "sha256": "1ce9f271e15e19cb9bcff9608e80003c0104e2af78fefe7c9a32c97c1203dfbd",
+    "bytes": 2404,
+    "files": [
+      {
+        "sourcePath": ".sflow/results/node-tests.tap",
+        "sha256": "1ce9f271e15e19cb9bcff9608e80003c0104e2af78fefe7c9a32c97c1203dfbd",
+        "bytes": 2404
+      }
+    ]
+  },
+  "candidate": null,
+  "program": null,
+  "attempt": null,
+  "localExecution": null,
+  "adapterIdentity": null,
+  "testcaseObservation": {
+    "status": "unavailable",
+    "assurance": "unavailable",
+    "exact": false,
+    "verdict": "inconclusive",
+    "profile": null,
+    "parser": null,
+    "occurrences": [],
+    "rawReports": [],
+    "bindingGaps": [],
+    "notice": "exact-test observation was not enrolled for this Story"
+  },
+  "assurance": "module-executed",
+  "testcaseExecutionProven": false,
+  "assuranceNotice": "module executed; tagged test execution not independently proven"
+}

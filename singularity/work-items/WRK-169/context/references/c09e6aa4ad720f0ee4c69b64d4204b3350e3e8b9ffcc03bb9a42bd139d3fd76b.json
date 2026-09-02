@@ -1,0 +1,28 @@
+{
+  "artifact": {
+    "generation": 2,
+    "mediaType": "image/png",
+    "outputId": "file",
+    "path": "singularity/work-items/WRK-169/artifacts/verification/main-chat-blue.png",
+    "phaseId": "implementation"
+  },
+  "createdAt": "2026-09-02T15:13:09.679Z",
+  "kind": "governed-reference",
+  "repository": {
+    "id": "passistant",
+    "origin": "https://github.com/ashokraj2011/passistant.git"
+  },
+  "revision": {
+    "bytes": 57641,
+    "commitSha": "43c430bcaf72203ab9d572a41d9eea0cc9acddde",
+    "sha256": "d1bce6d43aa9fc2146747ef6fda7794727acba0e644f041a417c83870c308c15"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "branch": "WRK-169",
+    "id": "WRK-169",
+    "kind": "story",
+    "subjectRevision": 2
+  },
+  "visibility": "model"
+}

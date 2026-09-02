@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "kind": "work-reconciliation",
+  "workId": "WRK-169",
+  "workType": "spec-driven-standard",
+  "intervalId": "INT-implementation-G2-002",
+  "phaseId": "implementation",
+  "generation": 2,
+  "baselineSha256": "c0a8aecb830847c35c45357ac7caf89e79bae59858acdd7d23c256069544a2be",
+  "baseline": {
+    "path": "singularity/work-items/WRK-169/context/work-intervals/implementation-gen2-baseline.json",
+    "sha256": "c0a8aecb830847c35c45357ac7caf89e79bae59858acdd7d23c256069544a2be",
+    "verified": true,
+    "sourceBaseCommit": "3c4705475ebc51dc00903ccd04709c75bc4c8c02"
+  },
+  "sourceBaseCommit": "3c4705475ebc51dc00903ccd04709c75bc4c8c02",
+  "target": {
+    "branch": "WRK-169",
+    "head": "43c430bcaf72203ab9d572a41d9eea0cc9acddde",
+    "includesWorktree": false,
+    "cleanApplicationTree": true,
+    "uncommittedApplicationPaths": []
+  },
+  "findings": [
+    {
+      "path": "angular.json",
+      "status": "present",
+      "sha256": "16542e98c68b89b3c263898017c0c12965a6e9b1a55427811d83f78425e0fd07",
+      "bytes": 749,
+      "verdict": "unplanned",
+      "clauseIds": [],
+      "protected": false
+    }
+  ],
+  "summary": {
+    "changedPaths": 1,
+    "planned": 0,
+    "unplanned": 1,
+    "protected": 0
+  },
+  "decision": {
+    "status": "review",
+    "summaryStatus": "attention",
+    "eligibleForSubmission": true,
+    "reasons": [],
+    "escalationTarget": null
+  },
+  "reconciliationSha256": "7e387e8a862918119b95c9995febf6abafd4b73fdc7c7e098d248b8bdb02511d",
+  "reconciledAt": "2026-09-02T15:13:09.390Z",
+  "final": true,
+  "recordedAt": "2026-09-02T15:13:09.391Z",
+  "path": "singularity/work-items/WRK-169/context/work-intervals/reconciliations/7e387e8a862918119b95c9995febf6abafd4b73fdc7c7e098d248b8bdb02511d.json"
+}

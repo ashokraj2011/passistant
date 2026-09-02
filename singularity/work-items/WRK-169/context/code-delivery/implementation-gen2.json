@@ -61,35 +61,72 @@
       {
         "clauseId": "WRK-169:AC-001",
         "testSource": "server/theme.test.ts",
-        "bindingAssurance": "namespace-qualified"
+        "bindingAssurance": "namespace-qualified",
+        "testIdentity": null,
+        "moduleRoot": ".",
+        "commandId": ".-node-tests",
+        "executionAssurance": "module-executed",
+        "testcaseExecutionProven": false,
+        "assuranceNotice": "module executed; tagged test execution not independently proven"
       },
       {
         "clauseId": "WRK-169:AC-002",
         "testSource": "server/theme.test.ts",
-        "bindingAssurance": "namespace-qualified"
+        "bindingAssurance": "namespace-qualified",
+        "testIdentity": null,
+        "moduleRoot": ".",
+        "commandId": ".-node-tests",
+        "executionAssurance": "module-executed",
+        "testcaseExecutionProven": false,
+        "assuranceNotice": "module executed; tagged test execution not independently proven"
       },
       {
         "clauseId": "WRK-169:AC-003",
         "testSource": "server/theme.test.ts",
-        "bindingAssurance": "namespace-qualified"
+        "bindingAssurance": "namespace-qualified",
+        "testIdentity": null,
+        "moduleRoot": ".",
+        "commandId": ".-node-tests",
+        "executionAssurance": "module-executed",
+        "testcaseExecutionProven": false,
+        "assuranceNotice": "module executed; tagged test execution not independently proven"
       },
       {
         "clauseId": "WRK-169:AC-004",
         "testSource": "server/theme.test.ts",
-        "bindingAssurance": "namespace-qualified"
+        "bindingAssurance": "namespace-qualified",
+        "testIdentity": null,
+        "moduleRoot": ".",
+        "commandId": ".-node-tests",
+        "executionAssurance": "module-executed",
+        "testcaseExecutionProven": false,
+        "assuranceNotice": "module executed; tagged test execution not independently proven"
       },
       {
         "clauseId": "WRK-169:AC-005",
         "testSource": "server/theme.test.ts",
-        "bindingAssurance": "namespace-qualified"
+        "bindingAssurance": "namespace-qualified",
+        "testIdentity": null,
+        "moduleRoot": ".",
+        "commandId": ".-node-tests",
+        "executionAssurance": "module-executed",
+        "testcaseExecutionProven": false,
+        "assuranceNotice": "module executed; tagged test execution not independently proven"
       }
     ]
   },
-  "testExecutions": [],
+  "testExecutions": [
+    {
+      "commandId": ".-node-tests",
+      "receiptPath": "singularity/work-items/WRK-169/context/code-delivery/tests/implementation-gen2-.-node-tests.json",
+      "receiptSha256": "f1c640c926dd3ba828c5f565c06a26f84f727ae7c75efbd56e0fb795c8f57b58",
+      "status": "passed"
+    }
+  ],
   "tree": {
     "workingStateDigest": "sha256:d3b36a52732ecfefaf9ae063ab9bd01a81739594ddba8f5d7dd34b86de6adc68",
-    "generationCommit": null,
-    "generationTree": null
+    "generationCommit": "43c430bcaf72203ab9d572a41d9eea0cc9acddde",
+    "generationTree": "c3127450ca06a65d446634067fd9ccba2f56070e"
   },
   "model": {
     "task": "code",
@@ -108,6 +145,7 @@
     "observedAt": null,
     "generation": null
   },
-  "status": "pending-tests",
-  "capturedAt": "2026-09-02T15:11:18.235Z"
+  "status": "ready",
+  "capturedAt": "2026-09-02T15:11:18.235Z",
+  "validatedAt": "2026-09-02T15:13:09.113Z"
 }

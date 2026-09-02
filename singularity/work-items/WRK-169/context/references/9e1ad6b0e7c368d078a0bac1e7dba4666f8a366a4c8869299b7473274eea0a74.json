@@ -1,0 +1,28 @@
+{
+  "artifact": {
+    "generation": 2,
+    "mediaType": "text/markdown",
+    "outputId": "document",
+    "path": "singularity/work-items/WRK-169/artifacts/implementation/implementation-summary.md",
+    "phaseId": "implementation"
+  },
+  "createdAt": "2026-09-02T15:13:09.593Z",
+  "kind": "governed-reference",
+  "repository": {
+    "id": "passistant",
+    "origin": "https://github.com/ashokraj2011/passistant.git"
+  },
+  "revision": {
+    "bytes": 27308,
+    "commitSha": "43c430bcaf72203ab9d572a41d9eea0cc9acddde",
+    "sha256": "c9f137bafc99eb2f46956fe6ffa524d118cd4302c7e699ead4fab865dd85a64c"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "branch": "WRK-169",
+    "id": "WRK-169",
+    "kind": "story",
+    "subjectRevision": 2
+  },
+  "visibility": "model"
+}

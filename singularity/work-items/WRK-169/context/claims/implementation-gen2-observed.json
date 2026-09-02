@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 2,
+  "kind": "observed",
+  "recordedAt": "2026-09-02T15:13:09.120Z",
+  "claims": {},
+  "workId": "WRK-169",
+  "phase": "implementation",
+  "generation": 2,
+  "source": {
+    "path": "singularity/work-items/WRK-169/context/code-delivery/implementation-gen2.json",
+    "sha256": "02a04a6a94ca99bbb19ae2a86711cd125b91e98f2ca10f1f561f698c43458936",
+    "changeSetDigest": "sha256:f1ce20414b75dea26a4cda516c442d874f396e33494206fdc4598dd304a5bc01"
+  }
+}
