@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 2,
+  "phase": "release",
+  "decisions": [
+    {
+      "decision": "approved",
+      "phase": "release",
+      "at": "2026-09-03T01:27:45.488Z",
+      "actor": {
+        "name": "Ashok Raj",
+        "email": "88361104+ashokraj2011@users.noreply.github.com",
+        "login": "ashokraj2011",
+        "githubLookup": "resolved"
+      },
+      "agent": "qa",
+      "authorityGroup": "quality-reviewers",
+      "identityAssurance": "configured-local",
+      "channel": "copilot-selection-receipt",
+      "generation": 2,
+      "artifactSha256": [
+        {
+          "path": "singularity/work-items/WRK-169/artifacts/release/conformance.md",
+          "sha256": "dbd07164e245389663947ec47f7ac56fd3381e2c5911bcf6f1ef89dd3d4691a2"
+        },
+        {
+          "path": "singularity/work-items/WRK-169/artifacts/release/verification/main-chat-blue.png",
+          "sha256": "d1bce6d43aa9fc2146747ef6fda7794727acba0e644f041a417c83870c308c15"
+        },
+        {
+          "path": "singularity/work-items/WRK-169/artifacts/release/verification/test-evidence.md",
+          "sha256": "5b4a27a6786c2e47f7cd249d4af23abb525f5cfb89c5a5dde879e0c6074f1438"
+        }
+      ],
+      "artifactSet": "spec-driven-verification",
+      "bundleSha256": "c0d6da757c53bee47e068318fd862d674662e924f3cc2d37280b25962ce7d308",
+      "reviewPacketSha256": "4ac7b683d4d3e3504751bd10122f4da3b9d3ab85b14e7d8bc62b15602f827d6b",
+      "evidenceCommit": "7d1dc3f53666c6893d10874bbe26ee8bcd1ab486",
+      "artifactSetSha256": "507610c88467be7c179b14ff967a0efb5339be223cd92b914907e972f9595509",
+      "actionContext": {
+        "phase": "release",
+        "label": "Release",
+        "generation": 2,
+        "submittedAt": "2026-09-03T01:23:34.947Z",
+        "artifacts": [
+          {
+            "path": "singularity/work-items/WRK-169/artifacts/release/conformance.md",
+            "sha256": "dbd07164e245389663947ec47f7ac56fd3381e2c5911bcf6f1ef89dd3d4691a2"
+          },
+          {
+            "path": "singularity/work-items/WRK-169/artifacts/release/verification/main-chat-blue.png",
+            "sha256": "d1bce6d43aa9fc2146747ef6fda7794727acba0e644f041a417c83870c308c15"
+          },
+          {
+            "path": "singularity/work-items/WRK-169/artifacts/release/verification/test-evidence.md",
+            "sha256": "5b4a27a6786c2e47f7cd249d4af23abb525f5cfb89c5a5dde879e0c6074f1438"
+          }
+        ],
+        "agentBriefs": [],
+        "reviewPacketSha256": "4ac7b683d4d3e3504751bd10122f4da3b9d3ab85b14e7d8bc62b15602f827d6b",
+        "submittedSourceCommit": "8784841066a2462a0c808c15b76392a8bfa68878",
+        "planId": "d500e249fa861b486a2985f2"
+      },
+      "selfApproval": true
+    }
+  ]
+}
