@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 2,
+  "workId": "WRK-169",
+  "epicId": null,
+  "planId": null,
+  "jiraIssueId": "WRK-169",
+  "initialJiraKey": null,
+  "currentJiraKey": null,
+  "canonicalBranch": "WRK-169",
+  "submittedBranch": "WRK-169",
+  "submissionCommit": "ff5da14a8e21e74d59b211fd1ab692f7e8155751",
+  "sourceCommit": "ff5da14a8e21e74d59b211fd1ab692f7e8155751",
+  "sourceTreeSha256": "sha256:d3b36a52732ecfefaf9ae063ab9bd01a81739594ddba8f5d7dd34b86de6adc68",
+  "phase": "verification",
+  "generation": 1,
+  "authorship": {
+    "schemaVersion": 1,
+    "producer": "governed-agent",
+    "channel": "copilot-host",
+    "actor": {
+      "name": "Ashok Raj",
+      "email": "88361104+ashokraj2011@users.noreply.github.com",
+      "login": "ashokraj2011",
+      "githubLookup": "resolved"
+    },
+    "governedAgentContext": {
+      "agentId": "architect"
+    },
+    "kernelModel": {
+      "invoked": false,
+      "status": "exact",
+      "invocationIds": []
+    },
+    "externalAiUse": {
+      "value": "unknown",
+      "status": "unavailable"
+    },
+    "changeOrigins": [
+      "copilot"
+    ],
+    "source": {
+      "kind": "in-place",
+      "filename": "test-evidence.md",
+      "mediaType": "text/markdown",
+      "sha256": "30eee555caabd7d3cf488b8510d6e936292eccb95ed8e4a09cd1953ada2a89d2",
+      "bytes": 7952
+    },
+    "generation": 1,
+    "publishedAt": "2026-09-03T01:04:27.370Z"
+  },
+  "artifacts": [
+    {
+      "path": "singularity/work-items/WRK-169/artifacts/verification/test-evidence.md",
+      "kind": "document",
+      "sha256": "262923ac1b4f63d26701efae91e9e47ce70cc15cb7d960e6c2dc4cad3044ef22",
+      "size": 36404,
+      "reference": {
+        "handle": "sfref:v1:story:WRK-169:e2494bc7212ded36b6978cd6bd63d5cee665d5bf72040d1f024d4a53eedc91cb",
+        "recordHash": "e2494bc7212ded36b6978cd6bd63d5cee665d5bf72040d1f024d4a53eedc91cb"
+      }
+    }
+  ],
+  "references": [
+    {
+      "handle": "sfref:v1:story:WRK-169:e2494bc7212ded36b6978cd6bd63d5cee665d5bf72040d1f024d4a53eedc91cb",
+      "recordHash": "e2494bc7212ded36b6978cd6bd63d5cee665d5bf72040d1f024d4a53eedc91cb",
+      "purpose": "review-evidence",
+      "required": true
+    }
+  ],
+  "agentBriefs": [],
+  "checks": [],
+  "usage": [
+    {
+      "status": "unavailable",
+      "source": "copilot-otel-unavailable",
+      "provider": null,
+      "model": null,
+      "requestedModel": null,
+      "resolvedModel": null,
+      "resolvedModelAssurance": "unavailable",
+      "inputTokens": null,
+      "outputTokens": null,
+      "cachedInputTokens": null,
+      "cacheWriteInputTokens": null,
+      "totalTokens": null,
+      "providerCost": null,
+      "costStatus": "unavailable",
+      "spans": null,
+      "startedAt": "2026-09-03T01:04:27.370Z",
+      "completedAt": "2026-09-03T01:04:27.370Z",
+      "agent": "architect",
+      "generation": 1
+    }
+  ],
+  "approvals": [],
+  "visualAssurance": null,
+  "submissionEvidence": {
+    "testExecutions": [],
+    "claimMaps": [],
+    "checksSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "artifactSetSha256": "61453d656d6d0b12a17d40b68ae420a3ef408b968c26a0cc90b3170884813f2f"
+  },
+  "witnessReview": {
+    "enrollment": {
+      "schemaVersion": 1,
+      "mode": "disabled",
+      "witnessedClauses": {
+        "enabled": false,
+        "profiles": []
+      },
+      "testcaseExact": {
+        "mode": "disabled",
+        "profile": null,
+        "requiredAssurance": "unavailable",
+        "policySha256": "sha256:12b50a34a1f03338377ecd76f44b20cbee83e7b91a0b07392ef08e3d8fd60800"
+      },
+      "claimMapContractVersion": 2,
+      "cab": null,
+      "sgos": null,
+      "rollout": {
+        "id": "wel-v0.2-observe",
+        "version": 1,
+        "enrollment": "new-story-only"
+      },
+      "configurationAuthority": {
+        "repository": "https://github.com/ashokraj2011/passistant.git",
+        "branch": "sflow/config",
+        "commit": "f0939d8b09d48db132a688fc6627ea55ca7f6fb0",
+        "projectionSha256": "79a4e55fba67a268e8b68cd41844968ac5cbed714bd40e3fa4ea2daaf7669565"
+      }
+    },
+    "enrollmentClassification": "enrolled",
+    "enrollmentReason": null,
+    "clauseMappings": [],
+    "testcaseObservations": []
+  },
+  "submittedAt": "2026-09-03T01:06:31.589Z",
+  "submittedBy": {
+    "name": "Ashok Raj",
+    "email": "88361104+ashokraj2011@users.noreply.github.com",
+    "login": "ashokraj2011",
+    "githubLookup": "resolved"
+  },
+  "status": "awaiting_review",
+  "packetSha256": "a3c29553286dc12f6c319343cff1ca7b8e7a03887003aabf0d522f4c40d8874d"
+}
