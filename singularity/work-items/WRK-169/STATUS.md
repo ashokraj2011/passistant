@@ -15,12 +15,13 @@
 |  | ⚠ self-approval | Ashok Raj via architecture-reviewers; agent architect | **warning** |  |  |  |
 | 3 | Implementation (`implementation`) | developer | **approved** | 2 | 1 | unavailable |
 |  | ⚠ self-approval | Ashok Raj via engineering-reviewers; agent developer | **warning** |  |  |  |
-| 4 | Convergence (`convergence`) | architect | **in_progress** | 1 | 0 | unavailable |
+| 4 | Convergence (`convergence`) | architect | **awaiting_approval** | 1 | 0 | unavailable |
 | 5 | Verification (`verification`) | qa | **not_started** | 0 | 0 | unavailable |
 | 6 | Release (`release`) | qa | **not_started** | 0 | 0 | unavailable |
 
 ## Recent history
 
+- 2026-09-03T00:48:29.125Z — **phase_submitted** (convergence) by ashokraj2011 · governed agent architect: 1 artifacts
 - 2026-09-03T00:45:56.795Z — **phase_generated** (convergence) by ashokraj2011 · governed agent architect: generation 1
 - 2026-09-02T15:23:14.116Z — **phase_self_approved** (implementation) by ashokraj2011 · governed agent developer: threshold reached; advanced to convergence
 - 2026-09-02T15:23:14.116Z — **work_interval_closed** (implementation) by ashokraj2011 · governed agent developer: interval INT-implementation-G2-002 closed after phase approval
@@ -35,4 +36,3 @@
 - 2026-09-02T09:21:01.865Z — **phase_generated** (planning) by ashokraj2011 · governed agent product-owner: generation 1
 - 2026-09-02T09:15:16.856Z — **phase_self_approved** (specification) by ashokraj2011 · governed agent product-owner: threshold reached; advanced to planning
 - 2026-09-02T09:06:10.558Z — **phase_submitted** (specification) by ashokraj2011 · governed agent product-owner: 1 artifacts
-- 2026-09-02T09:02:43.497Z — **phase_generated** (specification) by ashokraj2011 · governed agent product-owner: generation 1
