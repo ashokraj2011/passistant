@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 2,
+  "workId": "WRK-169",
+  "epicId": null,
+  "planId": null,
+  "jiraIssueId": "WRK-169",
+  "initialJiraKey": null,
+  "currentJiraKey": null,
+  "canonicalBranch": "WRK-169",
+  "submittedBranch": "WRK-169",
+  "submissionCommit": "8784841066a2462a0c808c15b76392a8bfa68878",
+  "sourceCommit": "8784841066a2462a0c808c15b76392a8bfa68878",
+  "sourceTreeSha256": "sha256:d3b36a52732ecfefaf9ae063ab9bd01a81739594ddba8f5d7dd34b86de6adc68",
+  "phase": "release",
+  "generation": 2,
+  "authorship": {
+    "schemaVersion": 1,
+    "producer": "human",
+    "channel": "manual-in-place",
+    "actor": {
+      "name": "Ashok Raj",
+      "email": "88361104+ashokraj2011@users.noreply.github.com",
+      "login": "ashokraj2011",
+      "githubLookup": "resolved"
+    },
+    "governedAgentContext": {
+      "agentId": "qa"
+    },
+    "kernelModel": {
+      "invoked": false,
+      "status": "exact",
+      "invocationIds": []
+    },
+    "externalAiUse": {
+      "value": "unknown",
+      "status": "unavailable"
+    },
+    "changeOrigins": [
+      "human"
+    ],
+    "source": {
+      "kind": "in-place",
+      "filename": "conformance.md",
+      "mediaType": "text/markdown",
+      "sha256": "42e55ecf412bff6f3b94379776ab3fee25b50722bcb50ebcd66402334769b35c",
+      "bytes": 3804
+    },
+    "generation": 2,
+    "publishedAt": "2026-09-03T01:21:43.113Z"
+  },
+  "artifacts": [
+    {
+      "path": "singularity/work-items/WRK-169/artifacts/release/conformance.md",
+      "kind": "document",
+      "sha256": "dbd07164e245389663947ec47f7ac56fd3381e2c5911bcf6f1ef89dd3d4691a2",
+      "size": 15490,
+      "reference": {
+        "handle": "sfref:v1:story:WRK-169:2a1ccdc02068b07b934e52deb43897945325df90696f6a9f40c14df4c820a121",
+        "recordHash": "2a1ccdc02068b07b934e52deb43897945325df90696f6a9f40c14df4c820a121"
+      }
+    },
+    {
+      "path": "singularity/work-items/WRK-169/artifacts/release/verification/main-chat-blue.png",
+      "kind": "file",
+      "sha256": "d1bce6d43aa9fc2146747ef6fda7794727acba0e644f041a417c83870c308c15",
+      "size": 57641,
+      "reference": {
+        "handle": "sfref:v1:story:WRK-169:3138ff2dccb80aa2d64080bccc9ee3467bb8c3e3d17f2cd3801fb985bc0db0c7",
+        "recordHash": "3138ff2dccb80aa2d64080bccc9ee3467bb8c3e3d17f2cd3801fb985bc0db0c7"
+      }
+    },
+    {
+      "path": "singularity/work-items/WRK-169/artifacts/release/verification/test-evidence.md",
+      "kind": "document",
+      "sha256": "5b4a27a6786c2e47f7cd249d4af23abb525f5cfb89c5a5dde879e0c6074f1438",
+      "size": 38066,
+      "reference": {
+        "handle": "sfref:v1:story:WRK-169:08ab7624b587be4a00df242be30289733c51c31b81a3ab57a6ae5436aa95b2f4",
+        "recordHash": "08ab7624b587be4a00df242be30289733c51c31b81a3ab57a6ae5436aa95b2f4"
+      }
+    }
+  ],
+  "references": [
+    {
+      "handle": "sfref:v1:story:WRK-169:2a1ccdc02068b07b934e52deb43897945325df90696f6a9f40c14df4c820a121",
+      "recordHash": "2a1ccdc02068b07b934e52deb43897945325df90696f6a9f40c14df4c820a121",
+      "purpose": "review-evidence",
+      "required": true
+    },
+    {
+      "handle": "sfref:v1:story:WRK-169:3138ff2dccb80aa2d64080bccc9ee3467bb8c3e3d17f2cd3801fb985bc0db0c7",
+      "recordHash": "3138ff2dccb80aa2d64080bccc9ee3467bb8c3e3d17f2cd3801fb985bc0db0c7",
+      "purpose": "review-evidence",
+      "required": true
+    },
+    {
+      "handle": "sfref:v1:story:WRK-169:08ab7624b587be4a00df242be30289733c51c31b81a3ab57a6ae5436aa95b2f4",
+      "recordHash": "08ab7624b587be4a00df242be30289733c51c31b81a3ab57a6ae5436aa95b2f4",
+      "purpose": "review-evidence",
+      "required": true
+    }
+  ],
+  "agentBriefs": [],
+  "checks": [],
+  "usage": [],
+  "approvals": [],
+  "visualAssurance": null,
+  "submissionEvidence": {
+    "testExecutions": [],
+    "claimMaps": [],
+    "checksSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "artifactSetSha256": "507610c88467be7c179b14ff967a0efb5339be223cd92b914907e972f9595509"
+  },
+  "witnessReview": {
+    "enrollment": {
+      "schemaVersion": 1,
+      "mode": "disabled",
+      "witnessedClauses": {
+        "enabled": false,
+        "profiles": []
+      },
+      "testcaseExact": {
+        "mode": "disabled",
+        "profile": null,
+        "requiredAssurance": "unavailable",
+        "policySha256": "sha256:12b50a34a1f03338377ecd76f44b20cbee83e7b91a0b07392ef08e3d8fd60800"
+      },
+      "claimMapContractVersion": 2,
+      "cab": null,
+      "sgos": null,
+      "rollout": {
+        "id": "wel-v0.2-observe",
+        "version": 1,
+        "enrollment": "new-story-only"
+      },
+      "configurationAuthority": {
+        "repository": "https://github.com/ashokraj2011/passistant.git",
+        "branch": "sflow/config",
+        "commit": "f0939d8b09d48db132a688fc6627ea55ca7f6fb0",
+        "projectionSha256": "79a4e55fba67a268e8b68cd41844968ac5cbed714bd40e3fa4ea2daaf7669565"
+      }
+    },
+    "enrollmentClassification": "enrolled",
+    "enrollmentReason": null,
+    "clauseMappings": [],
+    "testcaseObservations": []
+  },
+  "submittedAt": "2026-09-03T01:23:34.947Z",
+  "submittedBy": {
+    "name": "Ashok Raj",
+    "email": "88361104+ashokraj2011@users.noreply.github.com",
+    "login": "ashokraj2011",
+    "githubLookup": "resolved"
+  },
+  "status": "awaiting_review",
+  "packetSha256": "4ac7b683d4d3e3504751bd10122f4da3b9d3ab85b14e7d8bc62b15602f827d6b"
+}
