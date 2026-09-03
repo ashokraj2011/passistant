@@ -1,0 +1,41 @@
+{
+  "artifact": {
+    "bytes": 14161,
+    "path": "singularity/work-items/WRK-169/artifacts/release/conformance.md",
+    "role": "document",
+    "sha256": "c206c3180f000ef44a167dd67a5f4f4958ffce06d4b04b8f8312ee5838924ae4"
+  },
+  "configuration": {
+    "revision": "f0939d8b09d48db132a688fc6627ea55ca7f6fb0",
+    "sha256": "b2a3f27c7de49182448552fc8f7ee0673a3de47442dda9fefdf56959b4c1596f"
+  },
+  "generation": 1,
+  "inputs": [
+    {
+      "kind": null,
+      "path": "artifacts/verification/test-evidence.md",
+      "sha256": null
+    }
+  ],
+  "integritySha256": "6fee0ef6ec4d96583211dd3f0b6f7b3d121177ede4a12d36dc91409f0b23f3e9",
+  "phase": "release",
+  "producer": {
+    "actor": "88361104+ashokraj2011@users.noreply.github.com",
+    "agent": null,
+    "kind": "human"
+  },
+  "publication": {
+    "branch": "WRK-169",
+    "commit": null,
+    "publishedAt": "2026-09-03T01:14:58.182Z"
+  },
+  "schemaVersion": 1,
+  "subject": {
+    "id": "WRK-169",
+    "kind": "story"
+  },
+  "template": {
+    "path": "singularity/templates/spec-driven/release.md",
+    "sha256": "ce6e1d1995c68158f4209063b3cb954eceab8576e1c8db76bfaed27a805a8908"
+  }
+}
