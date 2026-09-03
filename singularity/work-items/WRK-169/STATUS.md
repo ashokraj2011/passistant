@@ -19,10 +19,11 @@
 |  | ⚠ self-approval | Ashok Raj via architecture-reviewers; agent architect | **warning** |  |  |  |
 | 5 | Verification (`verification`) | qa | **approved** | 1 | 1 | unavailable |
 |  | ⚠ self-approval | Ashok Raj via quality-reviewers; agent qa | **warning** |  |  |  |
-| 6 | Release (`release`) | qa | **in_progress** | 1 | 0 | unavailable |
+| 6 | Release (`release`) | qa | **in_progress** | 2 | 0 | unavailable |
 
 ## Recent history
 
+- 2026-09-03T01:21:43.332Z — **phase_generated** (release) by ashokraj2011 · governed agent qa: generation 2
 - 2026-09-03T01:14:58.288Z — **phase_generated** (release) by ashokraj2011 · governed agent qa: generation 1
 - 2026-09-03T01:11:30.437Z — **phase_self_approved** (verification) by ashokraj2011 · governed agent qa: threshold reached; advanced to release
 - 2026-09-03T01:11:30.437Z — **work_interval_closed** (verification) by ashokraj2011 · governed agent qa: interval INT-verification-G1-003 closed after phase approval
@@ -37,4 +38,3 @@
 - 2026-09-02T15:23:14.116Z — **work_interval_closed** (implementation) by ashokraj2011 · governed agent developer: interval INT-implementation-G2-002 closed after phase approval
 - 2026-09-02T15:13:09.393Z — **phase_submitted** (implementation) by ashokraj2011 · governed agent architect: 5 artifacts
 - 2026-09-02T15:13:09.391Z — **work_interval_reconciled** (implementation) by system: review; 1 changed path(s)
-- 2026-09-02T15:11:18.349Z — **phase_generated** (implementation) by ashokraj2011 · governed agent architect: generation 2

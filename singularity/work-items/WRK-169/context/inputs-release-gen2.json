@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "workId": "WRK-169",
+  "workType": "spec-driven-standard",
+  "phase": "release",
+  "generation": 2,
+  "mode": "enforce",
+  "recordedAt": "2026-09-03T01:21:43.025Z",
+  "renderedSha256": "30011959ca61ba250329e721e8d903ce02ab4074614b68ff15bc9ccf21cb4937",
+  "warnings": [],
+  "inputs": [
+    {
+      "phase": "verification",
+      "path": "artifacts/verification/test-evidence.md",
+      "repositoryPath": "singularity/work-items/WRK-169/artifacts/verification/test-evidence.md",
+      "optional": false,
+      "maxBytes": null,
+      "status": "captured",
+      "producerStatus": "approved",
+      "producerGeneration": 1,
+      "approvedAt": "2026-09-03T01:11:30.437Z",
+      "approvedBy": "ashokraj2011",
+      "approvedSha256": "5b4a27a6786c2e47f7cd249d4af23abb525f5cfb89c5a5dde879e0c6074f1438",
+      "sha256": "5b4a27a6786c2e47f7cd249d4af23abb525f5cfb89c5a5dde879e0c6074f1438",
+      "bytes": 38066,
+      "source": {
+        "path": "singularity/work-items/WRK-169/artifacts/verification/test-evidence.md",
+        "rawSha256": "sha256:5b4a27a6786c2e47f7cd249d4af23abb525f5cfb89c5a5dde879e0c6074f1438"
+      },
+      "representation": {
+        "kind": "full",
+        "sha256": "sha256:30eee555caabd7d3cf488b8510d6e936292eccb95ed8e4a09cd1953ada2a89d2",
+        "bytes": 7952,
+        "complete": true,
+        "expansionHandle": "sfref:v1:story:WRK-169:e2494bc7212ded36b6978cd6bd63d5cee665d5bf72040d1f024d4a53eedc91cb"
+      },
+      "injectedBytes": 7952,
+      "truncated": false,
+      "authoredBytes": 7952,
+      "managedBytesExcluded": 30114,
+      "projection": {
+        "kind": "full"
+      }
+    }
+  ]
+}

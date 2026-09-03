@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "kind": "generation-publication",
+  "workId": "WRK-169",
+  "phase": "release",
+  "generation": 2,
+  "generationIntentId": null,
+  "generationStart": null,
+  "changeSet": {
+    "path": null,
+    "digest": null
+  },
+  "resultDigest": "sha256:e9ed606d9bca273ca5de2683290b866a70331e59925153a7d414ca719fe32448",
+  "baseline": {
+    "commit": "f599f7eab131dd6f1b50b649cc814cc989de0ceb",
+    "tree": "bc474f0a5063c3655f5573798578c9e5e8f0562d"
+  },
+  "transactionId": "6a71fc86-55cd-49ee-9995-b373c52cda52",
+  "eventId": "6e59622f-c697-417f-ab3f-0174fefbbd5b",
+  "eventSha256": "sha256:2bf558c508c7124c7636eded469c80a4f4707d00bc46c5aa3789e39648190bc6",
+  "commitBinding": {
+    "method": "containing-governed-transaction",
+    "commit": "$self",
+    "tree": "$self",
+    "parent": "f599f7eab131dd6f1b50b649cc814cc989de0ceb"
+  },
+  "publishedAt": "2026-09-03T01:21:43.113Z",
+  "recordSha256": "sha256:e7aa63e469b24a326444f90f693a9040ef96ec4055ed401ab597d9a73b078d1e"
+}

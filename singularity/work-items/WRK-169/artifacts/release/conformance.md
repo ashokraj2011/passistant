@@ -4,7 +4,7 @@
   "workId": "WRK-169",
   "workType": "spec-driven-standard",
   "phase": "release",
-  "generation": 1,
+  "generation": 2,
   "status": "in_progress",
   "generatedBy": {
     "name": "Ashok Raj",
@@ -45,10 +45,10 @@
       "sha256": "42e55ecf412bff6f3b94379776ab3fee25b50722bcb50ebcd66402334769b35c",
       "bytes": 3804
     },
-    "generation": 1,
-    "publishedAt": "2026-09-03T01:14:58.182Z"
+    "generation": 2,
+    "publishedAt": "2026-09-03T01:21:43.113Z"
   },
-  "sourceCommit": "6666f906fa224df69c2558554e45ff169e47363e",
+  "sourceCommit": "f599f7eab131dd6f1b50b649cc814cc989de0ceb",
   "generationCommit": null,
   "publicationCommit": null,
   "configSha256": "b2a3f27c7de49182448552fc8f7ee0673a3de47442dda9fefdf56959b4c1596f",
@@ -58,9 +58,9 @@
     "sha256": "ce6e1d1995c68158f4209063b3cb954eceab8576e1c8db76bfaed27a805a8908"
   },
   "inputs": {
-    "generation": 1,
-    "path": "singularity/work-items/WRK-169/context/inputs-release-gen1.json",
-    "sha256": "3f9ac13b711e9897c87c1b82fa10c8bf47e2ce0580fa97e04923c4af0bc1569c",
+    "generation": 2,
+    "path": "singularity/work-items/WRK-169/context/inputs-release-gen2.json",
+    "sha256": "ed50164d5ffb9c025393d05ea50e25a5accef182ac1a34821118d9e68145e4a1",
     "renderedSha256": "30011959ca61ba250329e721e8d903ce02ab4074614b68ff15bc9ccf21cb4937",
     "mode": "enforce"
   },
@@ -75,6 +75,14 @@
       "generation": 1,
       "path": "singularity/work-items/WRK-169/telemetry/release-gen1.json",
       "sha256": "7e67c95290ec89a48429ff26569259bb4f4478d02bad90dd24b58cbbbf6b2928",
+      "status": "not-invoked",
+      "models": [],
+      "providerCost": null
+    },
+    {
+      "generation": 2,
+      "path": "singularity/work-items/WRK-169/telemetry/release-gen2.json",
+      "sha256": "fc0981e7606172ba3702ffa16c1f2a3dc836ad2c5ac6185ae7510098f2f90e30",
       "status": "not-invoked",
       "models": [],
       "providerCost": null
