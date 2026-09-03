@@ -5,7 +5,7 @@
   "workType": "spec-driven-standard",
   "phase": "verification",
   "generation": 1,
-  "status": "awaiting_approval",
+  "status": "approved",
   "generatedBy": {
     "name": "Ashok Raj",
     "email": "88361104+ashokraj2011@users.noreply.github.com",
@@ -105,8 +105,51 @@
     }
   ],
   "sequenceOverrides": [],
-  "approvals": [],
-  "selfApproval": false,
+  "approvals": [
+    {
+      "decision": "approved",
+      "phase": "verification",
+      "at": "2026-09-03T01:11:30.437Z",
+      "actor": {
+        "name": "Ashok Raj",
+        "email": "88361104+ashokraj2011@users.noreply.github.com",
+        "login": "ashokraj2011",
+        "githubLookup": "resolved"
+      },
+      "agent": "qa",
+      "authorityGroup": "quality-reviewers",
+      "identityAssurance": "configured-local",
+      "channel": "copilot-selection-receipt",
+      "generation": 1,
+      "artifactSha256": [
+        {
+          "path": "singularity/work-items/WRK-169/artifacts/verification/test-evidence.md",
+          "sha256": "262923ac1b4f63d26701efae91e9e47ce70cc15cb7d960e6c2dc4cad3044ef22"
+        }
+      ],
+      "reviewPacketSha256": "a3c29553286dc12f6c319343cff1ca7b8e7a03887003aabf0d522f4c40d8874d",
+      "evidenceCommit": "7508b9ff49c8419db2b670a0081967be5782d4a3",
+      "artifactSetSha256": "61453d656d6d0b12a17d40b68ae420a3ef408b968c26a0cc90b3170884813f2f",
+      "actionContext": {
+        "phase": "verification",
+        "label": "Verification",
+        "generation": 1,
+        "submittedAt": "2026-09-03T01:06:31.589Z",
+        "artifacts": [
+          {
+            "path": "singularity/work-items/WRK-169/artifacts/verification/test-evidence.md",
+            "sha256": "262923ac1b4f63d26701efae91e9e47ce70cc15cb7d960e6c2dc4cad3044ef22"
+          }
+        ],
+        "agentBriefs": [],
+        "reviewPacketSha256": "a3c29553286dc12f6c319343cff1ca7b8e7a03887003aabf0d522f4c40d8874d",
+        "submittedSourceCommit": "ff5da14a8e21e74d59b211fd1ab692f7e8155751",
+        "planId": "d431807a17d39e20b0830913"
+      },
+      "selfApproval": true
+    }
+  ],
+  "selfApproval": true,
   "conformanceTree": null
 }
 -->
