@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "workId": "WRK-169",
+  "workType": "spec-driven-standard",
+  "phase": "convergence",
+  "generation": 1,
+  "mode": "enforce",
+  "recordedAt": "2026-09-03T00:45:56.622Z",
+  "renderedSha256": "f10458478cbccaf6a2e83dace08cd24da98ef4b79a82aa9aab2b75c1dab267fa",
+  "warnings": [],
+  "inputs": [
+    {
+      "phase": "specification",
+      "path": "artifacts/specification/spec.md",
+      "repositoryPath": "singularity/work-items/WRK-169/artifacts/specification/spec.md",
+      "optional": false,
+      "maxBytes": null,
+      "status": "captured",
+      "producerStatus": "approved",
+      "producerGeneration": 1,
+      "approvedAt": "2026-09-02T09:15:16.856Z",
+      "approvedBy": "ashokraj2011",
+      "approvedSha256": "b8e5554003f995987c3e848cb1addc50870439382daae357e69f3485a51fbd63",
+      "sha256": "b8e5554003f995987c3e848cb1addc50870439382daae357e69f3485a51fbd63",
+      "bytes": 17232,
+      "source": {
+        "path": "singularity/work-items/WRK-169/artifacts/specification/spec.md",
+        "rawSha256": "sha256:b8e5554003f995987c3e848cb1addc50870439382daae357e69f3485a51fbd63"
+      },
+      "representation": {
+        "kind": "full",
+        "sha256": "sha256:952407c9e930ad06e26d757ae6416806255a1e638f3dacbe52f4b3289b0b3c96",
+        "bytes": 11193,
+        "complete": true,
+        "expansionHandle": "sfref:v1:story:WRK-169:bf1712879d6730756cfaec76e014cd7e6abc74e9299f910f71a3d4f2d5549e9c"
+      },
+      "injectedBytes": 11193,
+      "truncated": false,
+      "authoredBytes": 11193,
+      "managedBytesExcluded": 6039,
+      "projection": {
+        "kind": "full"
+      }
+    },
+    {
+      "phase": "planning",
+      "path": "artifacts/planning/plan.md",
+      "repositoryPath": "singularity/work-items/WRK-169/artifacts/planning/plan.md",
+      "optional": false,
+      "maxBytes": null,
+      "status": "captured",
+      "producerStatus": "approved",
+      "producerGeneration": 1,
+      "approvedAt": "2026-09-02T14:52:47.601Z",
+      "approvedBy": "ashokraj2011",
+      "approvedSha256": "5685c21cab170b6f9969136f485454ebb75c925ed6b862bf38d5fa8da737f17d",
+      "sha256": "5685c21cab170b6f9969136f485454ebb75c925ed6b862bf38d5fa8da737f17d",
+      "bytes": 23375,
+      "source": {
+        "path": "singularity/work-items/WRK-169/artifacts/planning/plan.md",
+        "rawSha256": "sha256:5685c21cab170b6f9969136f485454ebb75c925ed6b862bf38d5fa8da737f17d"
+      },
+      "representation": {
+        "kind": "full",
+        "sha256": "sha256:8731387419ccb366083575e96c7e331b5c858e019c82d28b82117ae4201e810b",
+        "bytes": 6953,
+        "complete": true,
+        "expansionHandle": "sfref:v1:story:WRK-169:156ca876e12eef921cae60e5a03d234e1b6ed86c1369043f6d96a3af0bebce05"
+      },
+      "injectedBytes": 6953,
+      "truncated": false,
+      "authoredBytes": 6953,
+      "managedBytesExcluded": 16422,
+      "projection": {
+        "kind": "full"
+      }
+    },
+    {
+      "phase": "implementation",
+      "path": "artifacts/implementation/implementation-summary.md",
+      "repositoryPath": "singularity/work-items/WRK-169/artifacts/implementation/implementation-summary.md",
+      "optional": false,
+      "maxBytes": null,
+      "status": "captured",
+      "producerStatus": "approved",
+      "producerGeneration": 2,
+      "approvedAt": "2026-09-02T15:23:14.116Z",
+      "approvedBy": "ashokraj2011",
+      "approvedSha256": "1f73a55e3512d2e6efab7d33ef434744e995db3ddd60a4e6660fdb0659a7e000",
+      "sha256": "1f73a55e3512d2e6efab7d33ef434744e995db3ddd60a4e6660fdb0659a7e000",
+      "bytes": 30495,
+      "source": {
+        "path": "singularity/work-items/WRK-169/artifacts/implementation/implementation-summary.md",
+        "rawSha256": "sha256:1f73a55e3512d2e6efab7d33ef434744e995db3ddd60a4e6660fdb0659a7e000"
+      },
+      "representation": {
+        "kind": "full",
+        "sha256": "sha256:275a82b081c650b9e00d06050ddb16254ac8b1b82df83f8d7bbd735d45b0aaaa",
+        "bytes": 4772,
+        "complete": true,
+        "expansionHandle": "sfref:v1:story:WRK-169:9e1ad6b0e7c368d078a0bac1e7dba4666f8a366a4c8869299b7473274eea0a74"
+      },
+      "injectedBytes": 4772,
+      "truncated": false,
+      "authoredBytes": 4772,
+      "managedBytesExcluded": 25723,
+      "projection": {
+        "kind": "full"
+      }
+    }
+  ]
+}

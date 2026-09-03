@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "workId": "WRK-169",
+  "workType": "spec-driven-standard",
+  "phase": "convergence",
+  "generation": 1,
+  "capturedAt": "2026-09-03T00:45:56.667Z",
+  "source": "not-invoked",
+  "rawTraceCommitted": false,
+  "spanCount": 0,
+  "rawBytesRead": 0,
+  "startedAt": null,
+  "completedAt": null,
+  "pending": false,
+  "warnings": [],
+  "privacyDiagnostics": [],
+  "launches": [],
+  "usage": []
+}
