@@ -1,7 +1,7 @@
 format: singularity-flow-configuration-baseline/v1
 product:
   version: 0.9.0
-  revision: 3a9de7c23c814277dd30b2ccad66fd24621bc2ce
+  revision: 97530dc0fd8d103e14bd6d4db9a5e26acfc35e8d
 workflow:
   version: 2
   inputsMode: enforce
@@ -2977,6 +2977,7 @@ ownership:
       poc-workflow: framework
       reference-driven-build: framework
       spec-driven-standard: repository
+      benchmarking-a-copy: repository
     phases:
       intake: framework
       requirements: framework
@@ -3014,6 +3015,23 @@ ownership:
       planning: framework
       convergence: framework
       release: framework
+      intake-imported: repository
+      design-imported: repository
+      implementation-imported: repository
+      testing-imported: repository
+      conformance-imported: repository
+      design-intake-imported: repository
+      design-inventory-imported: repository
+      verification-imported: repository
+      visual-verification-imported: repository
+      poc-ui-exploration-imported: repository
+      poc-validation-imported: repository
+      scenario-check-imported: repository
+      scenario-retest-imported: repository
+      document-intake-imported: repository
+      scenario-repair-imported: repository
+      component-mapping-imported: repository
+      mobile-spec-imported: repository
     artifactSets:
       spec-driven-specification: framework
       spec-driven-planning: framework
@@ -3021,6 +3039,8 @@ ownership:
     mcpServers:
       playwright: repository
       figma: framework
+      playwright-imported: repository
+      figma-imported: repository
   assets:
     .github/agents/architect.agent.md: framework
     .github/agents/developer.agent.md: framework
