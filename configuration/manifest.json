@@ -3,33 +3,45 @@
   "layout": "canonical-paths",
   "source": {
     "branch": "sflow/config",
-    "commit": "39e0b06436bb3840d4c4ac6e914928829c02065d"
+    "commit": "59b0614407dc9d583df9879ffe5b7e542a944ffd"
   },
   "history": {
-    "branch": "sflow/config-history/39e0b06436bb3840d4c4ac6e914928829c02065d",
-    "commit": "39e0b06436bb3840d4c4ac6e914928829c02065d"
+    "branch": "sflow/config-history/59b0614407dc9d583df9879ffe5b7e542a944ffd",
+    "commit": "59b0614407dc9d583df9879ffe5b7e542a944ffd"
   },
   "product": {
     "version": "0.9.0",
-    "revision": "3a9de7c23c814277dd30b2ccad66fd24621bc2ce"
+    "revision": "97530dc0fd8d103e14bd6d4db9a5e26acfc35e8d"
   },
   "files": {
+    ".github/agents/architect-imported.agent.md": "4d45ec36e62e49fcbd596dcc256831303e62b96ee7eb2cd944a7075e4812fbcf",
     ".github/agents/architect.agent.md": "184ad9effaad2977008687601def19a0677bb72c6a02365ef81b945f54ae6443",
+    ".github/agents/developer-imported.agent.md": "f02b5e9bed9619e973bdad3991771c8319779a6bebfdb3b7e64957abcc9f252c",
     ".github/agents/developer.agent.md": "319bdfa6ac51ff128d8caad683f637f76c04818dc5fc7b05224d5275a76b8c41",
+    ".github/agents/document-analyst-imported.agent.md": "72f96142611d3e07a4d063655ce9954c83785eba670ebdc4b296f394f060f493",
     ".github/agents/document-analyst.agent.md": "d889e7a7ea57b049a0a1a97f778cfbcc66d22f8a2f1768ee36b2e87849b5431c",
+    ".github/agents/mobile-architect-imported.agent.md": "f5b9dad2c770cb826a8bedb1b4565393f90998843b4e0611cab9fa8096ed2d23",
     ".github/agents/mobile-architect.agent.md": "06685d32114d1278a825dfc9313d2c1ca6e4b84de9cf1c112b4b84f82367176d",
     ".github/agents/poc-analyst.agent.md": "94623517e943daa5cbab969fa1a50887319e34e68d826d06e23d17bd171ad2d9",
+    ".github/agents/poc-automation-imported.agent.md": "b65bade30edbe649cab04b0d4278a92e5f5ef9579ac63926ae403e80a272e45a",
     ".github/agents/poc-automation.agent.md": "a45c1645749fe9595d5b8bca9c620583f60a9fa34798e492764932d5411c435f",
+    ".github/agents/poc-explorer-imported.agent.md": "79edb1b0f188cab0da06064bc05dfa52513ac32106dcbc60dae3f9b4bc1a34d3",
     ".github/agents/poc-explorer.agent.md": "fc8ecbccd7fbfdcfcd318c45a1219bcb3354a09a87a30e941153df43ea390667",
     ".github/agents/poc-lite-implementer.agent.md": "f97cc8d1cfb1b920e4643337fcc6d5a2b44428249c39a475565015c28ba68a04",
     ".github/agents/poc-lite-planner.agent.md": "dbe9682cf65511b5d5ea77fecbb2abb1c3ea691c20961ab2faa046924ab16689",
     ".github/agents/poc-lite-verifier.agent.md": "e6d98806f989c1d6e284223d97725cfc69523ef531c0d2805b32b71d8a42bbc6",
     ".github/agents/poc-test-developer.agent.md": "da7785d620f669c41fa07921bcc6ef8bb26bc5fbb7eaca81f470b3fdf1feef8c",
+    ".github/agents/poc-validator-imported.agent.md": "671a34afe145ea8afe234780b5132eec4721c0f3a3aed2a65cbfa73b094fafa5",
     ".github/agents/poc-validator.agent.md": "b2bed98021cfb9dd5a9b8ae31d9f0fbea0fee920d0bf968f7d3f9217dd89719d",
+    ".github/agents/product-designer-imported.agent.md": "f9b647c274c4f388e2198221f946f57d4a017e24f5aa0258515e589bda1ca319",
     ".github/agents/product-designer.agent.md": "0f5fe7ec6f8e75d85493266f0982db49bac9fb20673867d119ff8e65cc3b54cf",
+    ".github/agents/product-owner-imported.agent.md": "985b647db962c373c5e82936938cc0a781d95e04b94b78baf04986e50ba0cc96",
     ".github/agents/product-owner.agent.md": "84bba38e1fe4dfa812b213255283c202c8a96b81179841bb3cb909f073b99b39",
+    ".github/agents/qa-imported.agent.md": "b11c7d779a739a1fd2be7c64507729289639196cac2a86bf9fbd19202bf349e0",
     ".github/agents/qa.agent.md": "1e1500d7ce6ccf22197bf77d7983f16ac7ad2617de2fa6bcd9dd08aae02ddf71",
+    ".github/agents/scenario-developer-imported.agent.md": "f361731c2b22be8dcb4c42d93cc2eb281aa4bee6f519859eb648db381a3ca376",
     ".github/agents/scenario-developer.agent.md": "3e17401a1e2aaa531456145dfa765445cc937e210ede38fad08d89c10185133b",
+    ".github/agents/scenario-tester-imported.agent.md": "e24ebbca0a7e0405c2ad39eb6504956133d510db21503255ecca31f12a46ce18",
     ".github/agents/scenario-tester.agent.md": "075a2f13c8867245d11729dc9c0b304a40683d88424c8bed9587d7a4dc1aa3f1",
     "singularity/agent-mappings.yml": "1b39a4f4caa3242749889a291e2259a361c815712bd762abde3db3cbe9f8a688",
     "singularity/capabilities.yml": "78b522f1b6f41455d7a7359b80e1c92b89f3ab59ae47a4a4e6487ce2df1fe48a",
@@ -38,10 +50,15 @@
     "singularity/portfolio.yml": "5f80d373b57b951407494b34c10660314907891a73a57989d265580647ea9487",
     "singularity/prompts/copilot-planning.md": "4128acc6930949e4ba1e50e8b8c7c4f7beb23f4361c2e8428475b081712b77db",
     "singularity/prompts/worldmodel-builder.md": "cd93d41ccc98e4ccc09550c60cc79ad6c5a6004d7f8ea66cec596640ab73ffb4",
+    "singularity/templates/benchmark/conformance-imported.md": "6a767297e22cab241d2dfff38c6c5b3fe8298e21c65399825c657f014411ced8",
     "singularity/templates/benchmark/conformance.md": "6a767297e22cab241d2dfff38c6c5b3fe8298e21c65399825c657f014411ced8",
+    "singularity/templates/benchmark/design-imported.md": "e0bf570cf7f35a123025a41d7b3d3b3977fdc17acc06d8ab85399cb233345fdc",
     "singularity/templates/benchmark/design.md": "e0bf570cf7f35a123025a41d7b3d3b3977fdc17acc06d8ab85399cb233345fdc",
+    "singularity/templates/benchmark/implementation-imported.md": "e25ab3d9104c4ddaef541191d544ea032c35f551b9538ad77a38628ca1a58db6",
     "singularity/templates/benchmark/implementation.md": "e25ab3d9104c4ddaef541191d544ea032c35f551b9538ad77a38628ca1a58db6",
+    "singularity/templates/benchmark/intake-imported.md": "49107281e2e461ede0e000edb51bf9f22aec85ddc84acbd1781680076f795f5c",
     "singularity/templates/benchmark/intake.md": "49107281e2e461ede0e000edb51bf9f22aec85ddc84acbd1781680076f795f5c",
+    "singularity/templates/benchmark/testing-imported.md": "a9338f04dbe1be3ad988c331f9b45bab335a4661fb367f2c4f110609049fb9a8",
     "singularity/templates/benchmark/testing.md": "a9338f04dbe1be3ad988c331f9b45bab335a4661fb367f2c4f110609049fb9a8",
     "singularity/templates/bugfix/fix-design.md": "cee7774777fd55a3740ebd9f2cafd100702d52617ae307f80e35764229c7867e",
     "singularity/templates/bugfix/fix-spec.md": "22558a91a03dbb58569863c24b4d25aee092d1a04138e0285d587d0dab267343",
@@ -51,23 +68,36 @@
     "singularity/templates/classic-delivery/code-checking.md": "cb2a69e08768ab6d38ef3ee3e4326f47f854ec80d9012362d5765f88f58ecda1",
     "singularity/templates/classic-delivery/intake.md": "556120c9a16a8b6b57df8e001b27a8c769a4ee1c9a783251b1e9f4c47146310e",
     "singularity/templates/classic-delivery/testing.md": "d84b65e54ff4210a7fab6cc1af3a2ea45bbba61fbee383a1ef985f31848ff177",
+    "singularity/templates/common/conformance-imported.md": "4d0d9502b65b257e2d8b315634b7e6c17c64c531a9efe42849c37be1b3366b1b",
     "singularity/templates/common/conformance.md": "4d0d9502b65b257e2d8b315634b7e6c17c64c531a9efe42849c37be1b3366b1b",
+    "singularity/templates/common/implementation-imported.md": "cf46a21cdcb12035defbb5b6a74c7acd6c6d1e751556964f416f27bb5acb5482",
     "singularity/templates/common/implementation.md": "cf46a21cdcb12035defbb5b6a74c7acd6c6d1e751556964f416f27bb5acb5482",
+    "singularity/templates/common/intake-imported.md": "e16cd8b47f472973823a1a53294c77ac6551285c4df75e916c739611c3bc1d23",
     "singularity/templates/common/intake.md": "e16cd8b47f472973823a1a53294c77ac6551285c4df75e916c739611c3bc1d23",
+    "singularity/templates/common/verification-imported.md": "31e8dc7c915c96c7bce79e3138af0537875f077350a13af5250e50c4c571728b",
     "singularity/templates/common/verification.md": "31e8dc7c915c96c7bce79e3138af0537875f077350a13af5250e50c4c571728b",
+    "singularity/templates/document-test-repair/check-imported.md": "2dcb5121d1577a3a26ca6527f9107336b632600dab21c5fe4c215c23cb84f438",
     "singularity/templates/document-test-repair/check.md": "2dcb5121d1577a3a26ca6527f9107336b632600dab21c5fe4c215c23cb84f438",
+    "singularity/templates/document-test-repair/intake-imported.md": "93554c5483a2b117dfb48612a432531950b6c0c96c122d83d023344b23e37906",
     "singularity/templates/document-test-repair/intake.md": "93554c5483a2b117dfb48612a432531950b6c0c96c122d83d023344b23e37906",
+    "singularity/templates/document-test-repair/repair-imported.md": "51f9d673c5614e202ff9e40aa5e5dd2ba8042fbe87354dd502a0e5497bca2628",
     "singularity/templates/document-test-repair/repair.md": "51f9d673c5614e202ff9e40aa5e5dd2ba8042fbe87354dd502a0e5497bca2628",
+    "singularity/templates/feature/design-imported.md": "8b7455f464a7025efa92942c272a04e3c0a3ab2a4d3eb438703cc14e230bc856",
     "singularity/templates/feature/design.md": "8b7455f464a7025efa92942c272a04e3c0a3ab2a4d3eb438703cc14e230bc856",
     "singularity/templates/feature/implementation-spec.md": "39f379c3e28aad96d421aa179a2478457f6903a86ba01aa642bf55791fa5c2fb",
     "singularity/templates/feature/intake.md": "eb53814f46f12ea3d93d1629164bd7ff22a3a54feceff7f7dd55670caeb5dbab",
     "singularity/templates/feature/requirements.md": "32016db8ed6fadd6596e7dc702647cff95cdee1a203b38395d7ba5626dd8134e",
+    "singularity/templates/figma-mobile/component-mapping-imported.md": "cdea8a1e3defa73ade72bdaaac162ecd9b8b43817aa319d7e712e2de2eb296a3",
     "singularity/templates/figma-mobile/component-mapping.md": "cdea8a1e3defa73ade72bdaaac162ecd9b8b43817aa319d7e712e2de2eb296a3",
     "singularity/templates/figma-mobile/conformance.md": "f96e5271156d2dadca7cbf5687599724c4e47e328db6635ccf46b4adacaac147",
+    "singularity/templates/figma-mobile/design-intake-imported.md": "5cb9495b64189d9f73d6aae23201197d7634cbf46d03176544badfc7683518ef",
     "singularity/templates/figma-mobile/design-intake.md": "5cb9495b64189d9f73d6aae23201197d7634cbf46d03176544badfc7683518ef",
+    "singularity/templates/figma-mobile/design-inventory-imported.md": "822ea61a75a25ec5a6b42dd887c842d5126233b36f7f0fc875402f9a43125079",
     "singularity/templates/figma-mobile/design-inventory.md": "822ea61a75a25ec5a6b42dd887c842d5126233b36f7f0fc875402f9a43125079",
     "singularity/templates/figma-mobile/implementation.md": "69b5b75886dcc41da4e3063c7ceb6ff805251f98dd40ee41b2bf5de660dc74da",
+    "singularity/templates/figma-mobile/mobile-spec-imported.md": "cdb4cc328b7a60c87fe5e00818f6b04ee8f066ed7dd2840c56bd5c78d413b4e4",
     "singularity/templates/figma-mobile/mobile-spec.md": "cdb4cc328b7a60c87fe5e00818f6b04ee8f066ed7dd2840c56bd5c78d413b4e4",
+    "singularity/templates/figma-mobile/visual-verification-imported.md": "aca2f864d6cc1b5321e466f80d0751ab4874049271b2fabab03dde7b0ec0e835",
     "singularity/templates/figma-mobile/visual-verification.md": "aca2f864d6cc1b5321e466f80d0751ab4874049271b2fabab03dde7b0ec0e835",
     "singularity/templates/initiatives/adr-log.md": "4ece55ac194e15395cbc331d382d6464f76e013b33576050895092a5dcebce12",
     "singularity/templates/initiatives/business-case.md": "155faec79961574f8dd12556f0874ec8bb396f5a546ca792b2ab41dc34aa6a17",
@@ -129,7 +159,9 @@
     "singularity/templates/poc-workflow/intake.md": "511fa3a7c281bf8a4c84977668478392b5f73d14273d3149db6392eeba3b805d",
     "singularity/templates/poc-workflow/publication-review.md": "e5d0e59595e5dd01899883adf781a728bdc6636a07efe4290b57c55b808288d1",
     "singularity/templates/poc-workflow/test-generation.md": "6fa0c17056fe263eb9f47699a84a0759a899b8e67c35a3d53df8961f1ca59b25",
+    "singularity/templates/poc-workflow/ui-exploration-imported.md": "f0b14cf81aa72451e3cbf0de71a2dad050200177d66622d0f575541066d6ddf9",
     "singularity/templates/poc-workflow/ui-exploration.md": "f0b14cf81aa72451e3cbf0de71a2dad050200177d66622d0f575541066d6ddf9",
+    "singularity/templates/poc-workflow/validation-imported.md": "b1d121afbd49c09538d221cbac60b352a21f7eb7699bc4cba08d35b88ba47fb6",
     "singularity/templates/poc-workflow/validation.md": "b1d121afbd49c09538d221cbac60b352a21f7eb7699bc4cba08d35b88ba47fb6",
     "singularity/templates/quick-fix/implement.md": "dff093133a1be4c93115cfbbb0d994c8ce391fc19279caee30b441ec27a05c0a",
     "singularity/templates/quick-fix/intake.md": "0b69eba907e67c38617d1ced288986f9ce13a5e9c9ceb2e2be7f942d362d54d9",
@@ -143,12 +175,22 @@
     "singularity/templates/spec-driven/spec.md": "55b0d6c4c9aa5ba19739493825f6c993f03d63bed9e1a5e2bb7d5c099b8b91bb",
     "singularity/templates/starter-packs/skp-team-notes/draft-input.json": "fbc136911e7dfecf14be06091b6d759770fa72c133c39de74710511bfee57410",
     "singularity/templates/starter-packs/skp-team-notes/README.md": "ab3e66d1654df81922a6022c491ac85868cb3b644e0eace77c4f9089c4f599ea",
-    "singularity/workflow.yml": "ef05b8dd92f72a3718c5829dc533963d04a7819998cdf89df0406f4f15d895ae"
+    "singularity/workflow.yml": "8ac5717f5dd28ab16957740c983ef50618446e8ef9add402bb307b6336cbe3b6"
   },
   "assets": {
+    ".github/agents/architect-imported.agent.md": {
+      "sha256": "4d45ec36e62e49fcbd596dcc256831303e62b96ee7eb2cd944a7075e4812fbcf",
+      "object": "aebf5343c00714233cf955a4cdeb8cfec87218b7",
+      "mode": "100644"
+    },
     ".github/agents/architect.agent.md": {
       "sha256": "184ad9effaad2977008687601def19a0677bb72c6a02365ef81b945f54ae6443",
       "object": "103d78c244c6127d95488ec9f7efdd9dd9b950a2",
+      "mode": "100644"
+    },
+    ".github/agents/developer-imported.agent.md": {
+      "sha256": "f02b5e9bed9619e973bdad3991771c8319779a6bebfdb3b7e64957abcc9f252c",
+      "object": "bcfef5eb45248074735ccd50949b38d54bcfe3e7",
       "mode": "100644"
     },
     ".github/agents/developer.agent.md": {
@@ -156,9 +198,19 @@
       "object": "73b6786aff6392a15f340ecd3558efd4369efe0b",
       "mode": "100644"
     },
+    ".github/agents/document-analyst-imported.agent.md": {
+      "sha256": "72f96142611d3e07a4d063655ce9954c83785eba670ebdc4b296f394f060f493",
+      "object": "827e2b56b20d13fabe6fc4fdad9ed4e20934d219",
+      "mode": "100644"
+    },
     ".github/agents/document-analyst.agent.md": {
       "sha256": "d889e7a7ea57b049a0a1a97f778cfbcc66d22f8a2f1768ee36b2e87849b5431c",
       "object": "08d4ae400558dc2120cdee17dde0283f8f114d9b",
+      "mode": "100644"
+    },
+    ".github/agents/mobile-architect-imported.agent.md": {
+      "sha256": "f5b9dad2c770cb826a8bedb1b4565393f90998843b4e0611cab9fa8096ed2d23",
+      "object": "632b35a8ea5b0aed9b10ff3aa5ff22c19aa766e9",
       "mode": "100644"
     },
     ".github/agents/mobile-architect.agent.md": {
@@ -171,9 +223,19 @@
       "object": "353470d2d5950f156b78f8258d9ec55b9c09090c",
       "mode": "100644"
     },
+    ".github/agents/poc-automation-imported.agent.md": {
+      "sha256": "b65bade30edbe649cab04b0d4278a92e5f5ef9579ac63926ae403e80a272e45a",
+      "object": "29fcbad454b9ba61c782406edeeb49107e56a316",
+      "mode": "100644"
+    },
     ".github/agents/poc-automation.agent.md": {
       "sha256": "a45c1645749fe9595d5b8bca9c620583f60a9fa34798e492764932d5411c435f",
       "object": "e2516d0a8b400c0320670ae1464db54532f26e88",
+      "mode": "100644"
+    },
+    ".github/agents/poc-explorer-imported.agent.md": {
+      "sha256": "79edb1b0f188cab0da06064bc05dfa52513ac32106dcbc60dae3f9b4bc1a34d3",
+      "object": "0e9d67d9bb5c15bd5977a67c96c56a9bab91670c",
       "mode": "100644"
     },
     ".github/agents/poc-explorer.agent.md": {
@@ -201,9 +263,19 @@
       "object": "e45fd72c7bfbc078aa646f8ffc2a7af70cd8d948",
       "mode": "100644"
     },
+    ".github/agents/poc-validator-imported.agent.md": {
+      "sha256": "671a34afe145ea8afe234780b5132eec4721c0f3a3aed2a65cbfa73b094fafa5",
+      "object": "e2032ffd266e4f70f879ee42d0362cf82ee04933",
+      "mode": "100644"
+    },
     ".github/agents/poc-validator.agent.md": {
       "sha256": "b2bed98021cfb9dd5a9b8ae31d9f0fbea0fee920d0bf968f7d3f9217dd89719d",
       "object": "47a0c60bcf0775bee6ed70ca5e4111ff1e94204b",
+      "mode": "100644"
+    },
+    ".github/agents/product-designer-imported.agent.md": {
+      "sha256": "f9b647c274c4f388e2198221f946f57d4a017e24f5aa0258515e589bda1ca319",
+      "object": "fb756ca4046c3205c9a056432b014a5d5de51453",
       "mode": "100644"
     },
     ".github/agents/product-designer.agent.md": {
@@ -211,9 +283,19 @@
       "object": "21cb884bafb0cad9deab3553ce8b219d02a88f29",
       "mode": "100644"
     },
+    ".github/agents/product-owner-imported.agent.md": {
+      "sha256": "985b647db962c373c5e82936938cc0a781d95e04b94b78baf04986e50ba0cc96",
+      "object": "1f5264e6deb9e2685be5373a6460db1f61ff114a",
+      "mode": "100644"
+    },
     ".github/agents/product-owner.agent.md": {
       "sha256": "84bba38e1fe4dfa812b213255283c202c8a96b81179841bb3cb909f073b99b39",
       "object": "e62c636869950fb69a5bcd0ea8778d71ba985323",
+      "mode": "100644"
+    },
+    ".github/agents/qa-imported.agent.md": {
+      "sha256": "b11c7d779a739a1fd2be7c64507729289639196cac2a86bf9fbd19202bf349e0",
+      "object": "4fdd0ed896dcbb0fc1fbd4e58a6ca5a0fc9a8322",
       "mode": "100644"
     },
     ".github/agents/qa.agent.md": {
@@ -221,9 +303,19 @@
       "object": "d5fa2368c6a74c892f04d76f681509a79a2baaf3",
       "mode": "100644"
     },
+    ".github/agents/scenario-developer-imported.agent.md": {
+      "sha256": "f361731c2b22be8dcb4c42d93cc2eb281aa4bee6f519859eb648db381a3ca376",
+      "object": "21b98ac340072b605ecb8c00304c9fcc7751103c",
+      "mode": "100644"
+    },
     ".github/agents/scenario-developer.agent.md": {
       "sha256": "3e17401a1e2aaa531456145dfa765445cc937e210ede38fad08d89c10185133b",
       "object": "ea71dd26a0e890d240a4133b2e9f978e5742a1f4",
+      "mode": "100644"
+    },
+    ".github/agents/scenario-tester-imported.agent.md": {
+      "sha256": "e24ebbca0a7e0405c2ad39eb6504956133d510db21503255ecca31f12a46ce18",
+      "object": "c905ac8a1ee6c25b1e09730c1ba19d0f4d39b3b9",
       "mode": "100644"
     },
     ".github/agents/scenario-tester.agent.md": {
@@ -266,9 +358,19 @@
       "object": "8cbd534258fb0bf3bc8d5a2739892a2b6bd0e943",
       "mode": "100644"
     },
+    "singularity/templates/benchmark/conformance-imported.md": {
+      "sha256": "6a767297e22cab241d2dfff38c6c5b3fe8298e21c65399825c657f014411ced8",
+      "object": "c04ee2ecc66a239415f924e87c796d351ba41c91",
+      "mode": "100644"
+    },
     "singularity/templates/benchmark/conformance.md": {
       "sha256": "6a767297e22cab241d2dfff38c6c5b3fe8298e21c65399825c657f014411ced8",
       "object": "c04ee2ecc66a239415f924e87c796d351ba41c91",
+      "mode": "100644"
+    },
+    "singularity/templates/benchmark/design-imported.md": {
+      "sha256": "e0bf570cf7f35a123025a41d7b3d3b3977fdc17acc06d8ab85399cb233345fdc",
+      "object": "712a40abc1383ac508bc1f365f6fb74da3d9da87",
       "mode": "100644"
     },
     "singularity/templates/benchmark/design.md": {
@@ -276,14 +378,29 @@
       "object": "712a40abc1383ac508bc1f365f6fb74da3d9da87",
       "mode": "100644"
     },
+    "singularity/templates/benchmark/implementation-imported.md": {
+      "sha256": "e25ab3d9104c4ddaef541191d544ea032c35f551b9538ad77a38628ca1a58db6",
+      "object": "a98648f553459a338918478a4e5ded57745aa23d",
+      "mode": "100644"
+    },
     "singularity/templates/benchmark/implementation.md": {
       "sha256": "e25ab3d9104c4ddaef541191d544ea032c35f551b9538ad77a38628ca1a58db6",
       "object": "a98648f553459a338918478a4e5ded57745aa23d",
       "mode": "100644"
     },
+    "singularity/templates/benchmark/intake-imported.md": {
+      "sha256": "49107281e2e461ede0e000edb51bf9f22aec85ddc84acbd1781680076f795f5c",
+      "object": "8131af3dedc5e19e845df8e9b9d8281939d5ebbd",
+      "mode": "100644"
+    },
     "singularity/templates/benchmark/intake.md": {
       "sha256": "49107281e2e461ede0e000edb51bf9f22aec85ddc84acbd1781680076f795f5c",
       "object": "8131af3dedc5e19e845df8e9b9d8281939d5ebbd",
+      "mode": "100644"
+    },
+    "singularity/templates/benchmark/testing-imported.md": {
+      "sha256": "a9338f04dbe1be3ad988c331f9b45bab335a4661fb367f2c4f110609049fb9a8",
+      "object": "c0527d5ab81535622fc177c853a1cb3c531701db",
       "mode": "100644"
     },
     "singularity/templates/benchmark/testing.md": {
@@ -331,9 +448,19 @@
       "object": "5805ffc22545b221c6d5c5604a46fb138278f9f2",
       "mode": "100644"
     },
+    "singularity/templates/common/conformance-imported.md": {
+      "sha256": "4d0d9502b65b257e2d8b315634b7e6c17c64c531a9efe42849c37be1b3366b1b",
+      "object": "7c6da1f4d34481b786fad5ac808ee180637dc370",
+      "mode": "100644"
+    },
     "singularity/templates/common/conformance.md": {
       "sha256": "4d0d9502b65b257e2d8b315634b7e6c17c64c531a9efe42849c37be1b3366b1b",
       "object": "7c6da1f4d34481b786fad5ac808ee180637dc370",
+      "mode": "100644"
+    },
+    "singularity/templates/common/implementation-imported.md": {
+      "sha256": "cf46a21cdcb12035defbb5b6a74c7acd6c6d1e751556964f416f27bb5acb5482",
+      "object": "262f55a2c6e848b7f49a40bbb1d63d26798636d5",
       "mode": "100644"
     },
     "singularity/templates/common/implementation.md": {
@@ -341,9 +468,19 @@
       "object": "262f55a2c6e848b7f49a40bbb1d63d26798636d5",
       "mode": "100644"
     },
+    "singularity/templates/common/intake-imported.md": {
+      "sha256": "e16cd8b47f472973823a1a53294c77ac6551285c4df75e916c739611c3bc1d23",
+      "object": "ecb861131e07e115b7c3832bddd5edee08c1e2fa",
+      "mode": "100644"
+    },
     "singularity/templates/common/intake.md": {
       "sha256": "e16cd8b47f472973823a1a53294c77ac6551285c4df75e916c739611c3bc1d23",
       "object": "ecb861131e07e115b7c3832bddd5edee08c1e2fa",
+      "mode": "100644"
+    },
+    "singularity/templates/common/verification-imported.md": {
+      "sha256": "31e8dc7c915c96c7bce79e3138af0537875f077350a13af5250e50c4c571728b",
+      "object": "abb73cd7d3a4f918fd755511b82cb2462b78017c",
       "mode": "100644"
     },
     "singularity/templates/common/verification.md": {
@@ -351,9 +488,19 @@
       "object": "abb73cd7d3a4f918fd755511b82cb2462b78017c",
       "mode": "100644"
     },
+    "singularity/templates/document-test-repair/check-imported.md": {
+      "sha256": "2dcb5121d1577a3a26ca6527f9107336b632600dab21c5fe4c215c23cb84f438",
+      "object": "4bd2d932f550c9972106f568998bcba37f0abe95",
+      "mode": "100644"
+    },
     "singularity/templates/document-test-repair/check.md": {
       "sha256": "2dcb5121d1577a3a26ca6527f9107336b632600dab21c5fe4c215c23cb84f438",
       "object": "4bd2d932f550c9972106f568998bcba37f0abe95",
+      "mode": "100644"
+    },
+    "singularity/templates/document-test-repair/intake-imported.md": {
+      "sha256": "93554c5483a2b117dfb48612a432531950b6c0c96c122d83d023344b23e37906",
+      "object": "1e07e254079f7d5a3f5d91cc5fd32f2fff65e53d",
       "mode": "100644"
     },
     "singularity/templates/document-test-repair/intake.md": {
@@ -361,9 +508,19 @@
       "object": "1e07e254079f7d5a3f5d91cc5fd32f2fff65e53d",
       "mode": "100644"
     },
+    "singularity/templates/document-test-repair/repair-imported.md": {
+      "sha256": "51f9d673c5614e202ff9e40aa5e5dd2ba8042fbe87354dd502a0e5497bca2628",
+      "object": "b43619e6619b95f62914791edb90080d54e364a3",
+      "mode": "100644"
+    },
     "singularity/templates/document-test-repair/repair.md": {
       "sha256": "51f9d673c5614e202ff9e40aa5e5dd2ba8042fbe87354dd502a0e5497bca2628",
       "object": "b43619e6619b95f62914791edb90080d54e364a3",
+      "mode": "100644"
+    },
+    "singularity/templates/feature/design-imported.md": {
+      "sha256": "8b7455f464a7025efa92942c272a04e3c0a3ab2a4d3eb438703cc14e230bc856",
+      "object": "4eae66db0f48eb6b2c096d4f15dbaa0b46cc7355",
       "mode": "100644"
     },
     "singularity/templates/feature/design.md": {
@@ -386,6 +543,11 @@
       "object": "ab67dfec66842ca790481423a916e4078c3e42c6",
       "mode": "100644"
     },
+    "singularity/templates/figma-mobile/component-mapping-imported.md": {
+      "sha256": "cdea8a1e3defa73ade72bdaaac162ecd9b8b43817aa319d7e712e2de2eb296a3",
+      "object": "97320deb9427fc4206029578dfaa60c8ba8c98d0",
+      "mode": "100644"
+    },
     "singularity/templates/figma-mobile/component-mapping.md": {
       "sha256": "cdea8a1e3defa73ade72bdaaac162ecd9b8b43817aa319d7e712e2de2eb296a3",
       "object": "97320deb9427fc4206029578dfaa60c8ba8c98d0",
@@ -396,9 +558,19 @@
       "object": "07d4cbe1b58f7593a4ffec9d4b9ff35c2ed2bbdc",
       "mode": "100644"
     },
+    "singularity/templates/figma-mobile/design-intake-imported.md": {
+      "sha256": "5cb9495b64189d9f73d6aae23201197d7634cbf46d03176544badfc7683518ef",
+      "object": "9335d2a5a66f9bbe0366fae7503a33951ea07fa5",
+      "mode": "100644"
+    },
     "singularity/templates/figma-mobile/design-intake.md": {
       "sha256": "5cb9495b64189d9f73d6aae23201197d7634cbf46d03176544badfc7683518ef",
       "object": "9335d2a5a66f9bbe0366fae7503a33951ea07fa5",
+      "mode": "100644"
+    },
+    "singularity/templates/figma-mobile/design-inventory-imported.md": {
+      "sha256": "822ea61a75a25ec5a6b42dd887c842d5126233b36f7f0fc875402f9a43125079",
+      "object": "1e80db923fae1a5c0584738d7fea3df2ffcb10a3",
       "mode": "100644"
     },
     "singularity/templates/figma-mobile/design-inventory.md": {
@@ -411,9 +583,19 @@
       "object": "ba4b231b299b9cfd87dee20ef502a982011d17bd",
       "mode": "100644"
     },
+    "singularity/templates/figma-mobile/mobile-spec-imported.md": {
+      "sha256": "cdb4cc328b7a60c87fe5e00818f6b04ee8f066ed7dd2840c56bd5c78d413b4e4",
+      "object": "fb513fe0d7539817d27622d5aa67d19bd6cb5983",
+      "mode": "100644"
+    },
     "singularity/templates/figma-mobile/mobile-spec.md": {
       "sha256": "cdb4cc328b7a60c87fe5e00818f6b04ee8f066ed7dd2840c56bd5c78d413b4e4",
       "object": "fb513fe0d7539817d27622d5aa67d19bd6cb5983",
+      "mode": "100644"
+    },
+    "singularity/templates/figma-mobile/visual-verification-imported.md": {
+      "sha256": "aca2f864d6cc1b5321e466f80d0751ab4874049271b2fabab03dde7b0ec0e835",
+      "object": "2a2daa2bd55619f860fc6e1c433fd48018d3816d",
       "mode": "100644"
     },
     "singularity/templates/figma-mobile/visual-verification.md": {
@@ -721,9 +903,19 @@
       "object": "21c377fad4f73e3a16bc69c64a54155b66b44ff8",
       "mode": "100644"
     },
+    "singularity/templates/poc-workflow/ui-exploration-imported.md": {
+      "sha256": "f0b14cf81aa72451e3cbf0de71a2dad050200177d66622d0f575541066d6ddf9",
+      "object": "0f2ddaed1662fa62ea82fec38dfb6537df72dfc7",
+      "mode": "100644"
+    },
     "singularity/templates/poc-workflow/ui-exploration.md": {
       "sha256": "f0b14cf81aa72451e3cbf0de71a2dad050200177d66622d0f575541066d6ddf9",
       "object": "0f2ddaed1662fa62ea82fec38dfb6537df72dfc7",
+      "mode": "100644"
+    },
+    "singularity/templates/poc-workflow/validation-imported.md": {
+      "sha256": "b1d121afbd49c09538d221cbac60b352a21f7eb7699bc4cba08d35b88ba47fb6",
+      "object": "c6308dc95e89fcd8a4774b3e866c513f64f8f239",
       "mode": "100644"
     },
     "singularity/templates/poc-workflow/validation.md": {
@@ -792,8 +984,8 @@
       "mode": "100644"
     },
     "singularity/workflow.yml": {
-      "sha256": "ef05b8dd92f72a3718c5829dc533963d04a7819998cdf89df0406f4f15d895ae",
-      "object": "e8d6fed7cc48522a6c8e54ad8db6eb49991382db",
+      "sha256": "8ac5717f5dd28ab16957740c983ef50618446e8ef9add402bb307b6336cbe3b6",
+      "object": "d0471e2f0d465be1d4ffbbfafb8d35e1bc814f1d",
       "mode": "100644"
     }
   }
