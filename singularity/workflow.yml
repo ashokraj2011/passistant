@@ -86,14 +86,6 @@ approvalSecurity:
   profile: team
   allowSelfApproval: true
   autoEnrollNewIdentities: true
-architectureIntent:
-  enabled: false
-  allowedPhases:
-    - design
-    - planning
-  blockRequiredUnfulfilledAt:
-    - verification
-    - release
 artifactSets:
   spec-driven-specification:
     primary: spec.md
@@ -443,10 +435,6 @@ phases:
       path: artifacts/intake/intake.md
       kind: intake
       minimumBytes: 200
-    worldModel:
-      views:
-        - biz.rules
-      depth: quick
     clarification:
       mode: required
       maxQuestions: 5
@@ -470,10 +458,6 @@ phases:
       path: artifacts/requirements/requirements.md
       kind: requirements
       minimumBytes: 300
-    worldModel:
-      views:
-        - biz.rules
-      depth: standard
     clarification:
       mode: required
       maxQuestions: 5
@@ -498,10 +482,6 @@ phases:
       path: artifacts/design/design.md
       kind: design
       minimumBytes: 300
-    worldModel:
-      views:
-        - arch.contracts
-      depth: standard
     clarification:
       mode: required
       maxQuestions: 5
@@ -526,11 +506,6 @@ phases:
       path: artifacts/implementation-spec/implementation-spec.md
       kind: implementation-spec
       minimumBytes: 400
-    worldModel:
-      views:
-        - arch.contracts
-        - dev.impact
-      depth: deep
     clarification:
       mode: required
       maxQuestions: 5
@@ -557,10 +532,6 @@ phases:
       path: artifacts/reproduction/reproduction.md
       kind: reproduction
       minimumBytes: 250
-    worldModel:
-      views:
-        - dev.impact
-      depth: standard
     clarification:
       mode: required
       maxQuestions: 5
@@ -585,11 +556,6 @@ phases:
       path: artifacts/fix-design/fix-design.md
       kind: fix-design
       minimumBytes: 250
-    worldModel:
-      views:
-        - arch.contracts
-        - dev.impact
-      depth: standard
     clarification:
       mode: required
       maxQuestions: 5
@@ -614,10 +580,6 @@ phases:
       path: artifacts/fix-spec/fix-spec.md
       kind: implementation-spec
       minimumBytes: 300
-    worldModel:
-      views:
-        - dev.impact
-      depth: standard
     clarification:
       mode: required
       maxQuestions: 5
@@ -643,11 +605,6 @@ phases:
       path: artifacts/design-intake/design-package-intake.md
       kind: design-intake
       minimumBytes: 350
-    worldModel:
-      views:
-        - biz.rules
-        - arch.contracts
-      depth: standard
     clarification:
       mode: required
       maxQuestions: 5
@@ -671,11 +628,6 @@ phases:
       path: artifacts/design-inventory/design-inventory.md
       kind: design-inventory
       minimumBytes: 500
-    worldModel:
-      views:
-        - biz.rules
-        - arch.contracts
-      depth: standard
     clarification:
       mode: required
       maxQuestions: 5
@@ -700,11 +652,6 @@ phases:
       path: artifacts/component-mapping/component-mapping.md
       kind: component-mapping
       minimumBytes: 500
-    worldModel:
-      views:
-        - arch.contracts
-        - dev.impact
-      depth: deep
     clarification:
       mode: required
       maxQuestions: 5
@@ -729,11 +676,6 @@ phases:
       path: artifacts/mobile-spec/mobile-spec.md
       kind: implementation-spec
       minimumBytes: 700
-    worldModel:
-      views:
-        - arch.contracts
-        - dev.impact
-      depth: deep
     clarification:
       mode: required
       maxQuestions: 5
@@ -759,10 +701,6 @@ phases:
       path: artifacts/implementation/implementation-summary.md
       kind: implementation-summary
       minimumBytes: 250
-    worldModel:
-      views:
-        - dev.impact
-      depth: standard
     clarification:
       mode: when-needed
       maxQuestions: 3
@@ -786,11 +724,6 @@ phases:
       path: artifacts/verification/test-evidence.md
       kind: test-evidence
       minimumBytes: 300
-    worldModel:
-      views:
-        - dev.impact
-      depth: standard
-      evidence: true
     clarification:
       mode: when-needed
       maxQuestions: 3
@@ -815,11 +748,6 @@ phases:
       path: artifacts/testing/test-evidence.md
       kind: test-evidence
       minimumBytes: 300
-    worldModel:
-      views:
-        - dev.impact
-      depth: standard
-      evidence: true
     clarification:
       mode: when-needed
       maxQuestions: 3
@@ -844,11 +772,6 @@ phases:
       path: artifacts/visual-verification/visual-comparison.md
       kind: visual-test-evidence
       minimumBytes: 600
-    worldModel:
-      views:
-        - dev.impact
-      depth: deep
-      evidence: true
     clarification:
       mode: when-needed
       maxQuestions: 3
@@ -883,12 +806,6 @@ phases:
         - approved deviations
         - missing evidence
         - unplanned work
-    worldModel:
-      views:
-        - arch.contracts
-        - dev.impact
-      depth: deep
-      evidence: true
     writeScope: artifact-only
     comparison:
       identifiers:
@@ -925,10 +842,6 @@ phases:
           - Target environment
           - Test intent and acceptance criteria
           - Safety and access
-    worldModel:
-      views:
-        - biz.rules
-      depth: standard
     clarification:
       mode: required
       maxQuestions: 5
@@ -961,12 +874,6 @@ phases:
           - Regression footprint
           - Proposed scenarios
           - Risks and unknowns
-    worldModel:
-      views:
-        - arch.contracts
-        - dev.hotspots
-        - dev.impact
-      depth: deep
     clarification:
       mode: when-needed
       maxQuestions: 3
@@ -1000,11 +907,6 @@ phases:
           - Accessibility and locator evidence
           - Visual and runtime evidence
           - Coverage gaps
-    worldModel:
-      views:
-        - dev.impact
-      depth: deep
-      evidence: true
     clarification:
       mode: when-needed
       maxQuestions: 3
@@ -1055,11 +957,6 @@ phases:
           - Scenario traceability
           - Locator and test-data strategy
           - Deviations and residual risk
-    worldModel:
-      views:
-        - arch.contracts
-        - dev.impact
-      depth: deep
     clarification:
       mode: when-needed
       maxQuestions: 3
@@ -1102,11 +999,6 @@ phases:
           - Evidence inventory
           - Repair attempts
           - Final verdict
-    worldModel:
-      views:
-        - dev.impact
-      depth: deep
-      evidence: true
     clarification:
       mode: when-needed
       maxQuestions: 3
@@ -1188,12 +1080,6 @@ phases:
           - Validation evidence
           - Residual risk and rollback
           - Human decision
-    worldModel:
-      views:
-        - arch.contracts
-        - dev.impact
-      depth: standard
-      evidence: true
     clarification:
       mode: when-needed
       maxQuestions: 3
@@ -1237,8 +1123,6 @@ phases:
       requirement: required
       producer: deterministic
       task: reason
-    worldModel:
-      views: []
     writeScope: artifact-only
     approval: none
   poc-lite-act:
@@ -1258,8 +1142,6 @@ phases:
       requirement: required
       producer: deterministic
       task: code
-    worldModel:
-      views: []
     writeScope: source-and-artifact
     approval: none
     qualityCommands:
@@ -1286,8 +1168,6 @@ phases:
       requirement: required
       producer: deterministic
       task: analyze
-    worldModel:
-      views: []
     writeScope: artifact-only
     approval: none
     qualityCommands:
@@ -1314,8 +1194,6 @@ phases:
       requirement: required
       producer: deterministic
       task: summarize
-    worldModel:
-      views: []
     writeScope: artifact-only
     approval:
       authorities:
@@ -1336,10 +1214,6 @@ phases:
       kind: requirements
       minimumBytes: 400
     artifactSet: spec-driven-specification
-    worldModel:
-      views:
-        - biz.rules
-      depth: standard
     clarification:
       mode: required
       maxQuestions: 5
@@ -1370,10 +1244,6 @@ phases:
       kind: design
       minimumBytes: 300
     artifactSet: spec-driven-planning
-    worldModel:
-      views:
-        - arch.contracts
-      depth: standard
     clarification:
       mode: off
     writeScope: artifact-only
@@ -1392,12 +1262,6 @@ phases:
       kind: conformance-report
       minimumBytes: 300
     artifactSet: spec-driven-verification
-    worldModel:
-      views:
-        - arch.contracts
-        - dev.impact
-      depth: quick
-      evidence: true
     writeScope: artifact-only
     approval:
       authorities:
@@ -1418,10 +1282,6 @@ phases:
       requirement: required
       producer: deterministic
       task: analyze
-    worldModel:
-      views:
-        - dev.impact
-      depth: quick
     writeScope: artifact-only
     approval:
       authorities:
@@ -1440,10 +1300,6 @@ phases:
       requirement: required
       producer: deterministic
       task: code
-    worldModel:
-      views:
-        - dev.impact
-      depth: quick
     writeScope: source-and-artifact
     approval: none
     qualityCommands: []
@@ -1458,11 +1314,6 @@ phases:
       requirement: required
       producer: deterministic
       task: analyze
-    worldModel:
-      views:
-        - dev.impact
-      depth: quick
-      evidence: true
     writeScope: source-and-artifact
     approval:
       mode: policy
@@ -1506,9 +1357,6 @@ phases:
         - test tool
         - authorized target
         - repair boundary
-    worldModel:
-      views: []
-      depth: quick
     generation:
       task: clarify
     writeScope: artifact-only
@@ -1543,9 +1391,6 @@ phases:
         - test access
         - inconclusive evidence
         - defect classification
-    worldModel:
-      views: []
-      depth: quick
     generation:
       task: analyze
     writeScope: artifact-only
@@ -1580,9 +1425,6 @@ phases:
         - root cause
         - authorized scope
         - repair risks
-    worldModel:
-      views: []
-      depth: quick
     generation:
       task: code
     writeScope: source-and-artifact
@@ -1621,9 +1463,6 @@ phases:
         - test access
         - inconclusive evidence
         - remaining defects
-    worldModel:
-      views: []
-      depth: quick
     generation:
       task: analyze
     writeScope: artifact-only
@@ -2304,9 +2143,6 @@ phases:
         - test access
         - ambiguous screenshots
         - defect classification
-    worldModel:
-      views: []
-      depth: quick
     generation:
       task: analyze
     writeScope: artifact-only
@@ -2343,9 +2179,6 @@ phases:
         - interaction expectations
         - test environment
         - repair boundary
-    worldModel:
-      views: []
-      depth: quick
     generation:
       task: clarify
     writeScope: artifact-only
@@ -2379,9 +2212,6 @@ phases:
         - root cause
         - allowed paths
         - repair risks
-    worldModel:
-      views: []
-      depth: quick
     generation:
       task: code
     writeScope: source-and-artifact
@@ -2421,9 +2251,6 @@ phases:
         - test access
         - inconclusive evidence
         - remaining defects
-    worldModel:
-      views: []
-      depth: quick
     generation:
       task: analyze
     writeScope: artifact-only
@@ -2460,9 +2287,6 @@ phases:
         - test access
         - inconclusive evidence
         - defect classification
-    worldModel:
-      views: []
-      depth: quick
     generation:
       task: analyze
     writeScope: artifact-only
@@ -2501,9 +2325,6 @@ phases:
         - residual risk
         - final acceptance
         - operational handoff
-    worldModel:
-      views: []
-      depth: quick
     generation:
       task: summarize
     writeScope: artifact-only
@@ -2541,9 +2362,6 @@ phases:
         - test environment
         - repair scope
         - human checkpoints
-    worldModel:
-      views: []
-      depth: quick
     generation:
       task: clarify
     writeScope: artifact-only
@@ -2578,9 +2396,6 @@ phases:
         - root cause
         - allowed paths
         - repair risks
-    worldModel:
-      views: []
-      depth: quick
     generation:
       task: code
     writeScope: source-and-artifact
@@ -2791,13 +2606,9 @@ workTypes:
       intake:
         artifact:
           kind: requirements
-        worldModel:
-          views: []
       design:
         inputs:
           - intake
-        worldModel:
-          views: []
         approval:
           authorities:
             - architecture-reviewers
@@ -2808,22 +2619,16 @@ workTypes:
       implementation:
         inputs:
           - design
-        worldModel:
-          views: []
       testing:
         inputs:
           - intake
           - implementation
-        worldModel:
-          views: []
       conformance:
         inputs:
           - intake
           - design
           - implementation
           - testing
-        worldModel:
-          views: []
         approval:
           authorities:
             - quality-reviewers
@@ -3827,45 +3632,5 @@ workTypes:
             to: demo-intake
         maxRounds: 3
 worldModel:
-  views:
-    - arch.contracts@4
-    - biz.rules@4
-    - dev.hotspots@4
-    - dev.impact@4
-  projections:
-    arch.calm:
-      enabled: false
-      required: false
-      contract: arch.calm@1
-      calm:
-        schemaRelease: "1.2"
-        strict: true
-      profile:
-        includeGovernanceActors: true
-        includeControls: true
-        includeFlows: true
-        includeExternalDependencies: direct-architecture-only
-  outputDir: singularity/world-model
-  historyDir: singularity/world-model-history
-  stateFetchTimeoutMs: 10000
-  generation:
-    parallel: true
-    maxWorkers: 4
-  materialization:
-    mode: explicit
-    publish: governed
-    lookahead: none
-    depth: phase
-    confirmation: prompt
-  grounding: warn
-  staleness: warn
-  injection:
-    placeholder: "{{WORLD_MODEL}}"
-    mode: append
-    maxBytes: 32768
-    rules: []
-  format: registered-v4
-  v4:
-    composer: deterministic
-    consumer: developer
-    cachePolicy: reuse-valid
+  knowledge:
+    prompt: slice
