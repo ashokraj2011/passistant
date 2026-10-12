@@ -522,6 +522,7 @@ phases:
         - architecture-reviewers
       minimum: 1
       rejectTo:
+        - intake
         - requirements
         - design
         - implementation-spec
@@ -571,6 +572,7 @@ phases:
         - architecture-reviewers
       minimum: 1
       rejectTo:
+        - intake
         - reproduction
         - fix-design
   fix-spec:
@@ -595,6 +597,7 @@ phases:
         - architecture-reviewers
       minimum: 1
       rejectTo:
+        - intake
         - reproduction
         - fix-design
         - fix-spec
@@ -667,6 +670,7 @@ phases:
         - architecture-reviewers
       minimum: 1
       rejectTo:
+        - design-intake
         - design-inventory
         - component-mapping
   mobile-spec:
@@ -691,6 +695,7 @@ phases:
         - architecture-reviewers
       minimum: 1
       rejectTo:
+        - design-intake
         - design-inventory
         - component-mapping
         - mobile-spec
@@ -787,6 +792,8 @@ phases:
         - quality-reviewers
       minimum: 1
       rejectTo:
+        - design-intake
+        - design-inventory
         - component-mapping
         - mobile-spec
         - implementation
@@ -941,6 +948,7 @@ phases:
         - quality-reviewers
       minimum: 1
       rejectTo:
+        - poc-intake
         - poc-impact-analysis
         - poc-ui-exploration
   poc-test-generation:
@@ -975,6 +983,8 @@ phases:
         - engineering-reviewers
       minimum: 1
       rejectTo:
+        - poc-intake
+        - poc-impact-analysis
         - poc-ui-exploration
         - poc-test-generation
     qualityCommands:
@@ -1038,6 +1048,7 @@ phases:
       minimum: 1
       rejectTo:
         - poc-intake
+        - poc-impact-analysis
         - poc-ui-exploration
         - poc-test-generation
         - poc-validation
@@ -1269,7 +1280,10 @@ phases:
         - quality-reviewers
       minimum: 1
       rejectTo:
+        - specification
+        - planning
         - implementation
+        - convergence
         - verification
         - release
   convergence:
@@ -1289,7 +1303,10 @@ phases:
         - architecture-reviewers
       minimum: 1
       rejectTo:
+        - specification
+        - planning
         - implementation
+        - convergence
   implement:
     label: Implement
     defaultTemplate: quick-fix/implement.md
@@ -1324,6 +1341,7 @@ phases:
         - quality-reviewers
       minimum: 1
       rejectTo:
+        - intake
         - implement
         - verify
     qualityCommands:
@@ -1435,6 +1453,7 @@ phases:
       minimum: 1
       rejectTo:
         - document-intake
+        - scenario-check
         - scenario-repair
     qualityCommands: []
   scenario-retest:
@@ -1473,6 +1492,8 @@ phases:
       minimum: 1
       rejectTo:
         - document-intake
+        - scenario-check
+        - scenario-repair
         - scenario-retest
     qualityCommands: []
   intake-imported:
@@ -2222,6 +2243,7 @@ phases:
       minimum: 1
       rejectTo:
         - demo-web-intake
+        - demo-web-check
         - demo-web-repair
     qualityCommands: []
   demo-web-retest:
@@ -2261,6 +2283,8 @@ phases:
       minimum: 1
       rejectTo:
         - demo-web-intake
+        - demo-web-check
+        - demo-web-repair
         - demo-web-retest
     qualityCommands: []
   demo-check:
@@ -2336,6 +2360,7 @@ phases:
       rejectTo:
         - demo-intake
         - demo-check
+        - demo-repair
         - demo-close
     qualityCommands: []
   demo-intake:
@@ -2406,6 +2431,7 @@ phases:
       minimum: 1
       rejectTo:
         - demo-intake
+        - demo-check
         - demo-repair
     qualityCommands: []
   demo-instruction-close:
@@ -2444,6 +2470,7 @@ phases:
       rejectTo:
         - demo-instruction-intake
         - demo-instruction-test
+        - demo-instruction-repair
         - demo-instruction-close
     qualityCommands: []
   demo-instruction-intake:
@@ -2514,6 +2541,7 @@ phases:
       minimum: 1
       rejectTo:
         - demo-instruction-intake
+        - demo-instruction-test
         - demo-instruction-repair
     qualityCommands: []
   demo-instruction-test:
@@ -2665,6 +2693,11 @@ workTypes:
             maximumSummaryBytes: 16384
             expansion: hash-bound-reference
             fallback: block
+        approval:
+          rejectTo:
+            - intake
+            - design
+            - implementation
       testing:
         inputs:
           - phase: intake
@@ -2682,6 +2715,12 @@ workTypes:
             maximumSummaryBytes: 16384
             expansion: hash-bound-reference
             fallback: block
+        approval:
+          rejectTo:
+            - intake
+            - design
+            - implementation
+            - testing
       conformance:
         inputs:
           - phase: intake
@@ -2718,6 +2757,7 @@ workTypes:
             - architecture-reviewers
           minimum: 1
           rejectTo:
+            - intake
             - design
             - implementation
             - testing
@@ -2764,10 +2804,21 @@ workTypes:
       implementation:
         inputs:
           - design
+        approval:
+          rejectTo:
+            - intake
+            - design
+            - implementation
       testing:
         inputs:
           - intake
           - implementation
+        approval:
+          rejectTo:
+            - intake
+            - design
+            - implementation
+            - testing
       conformance:
         inputs:
           - intake
@@ -2780,6 +2831,7 @@ workTypes:
             - architecture-reviewers
           minimum: 1
           rejectTo:
+            - intake
             - design
             - implementation
             - testing
@@ -2819,10 +2871,25 @@ workTypes:
       implementation:
         inputs:
           - fix-spec
+        approval:
+          rejectTo:
+            - intake
+            - reproduction
+            - fix-design
+            - fix-spec
+            - implementation
       verification:
         inputs:
           - fix-spec
           - implementation
+        approval:
+          rejectTo:
+            - intake
+            - reproduction
+            - fix-design
+            - fix-spec
+            - implementation
+            - verification
       conformance:
         inputs:
           - fix-spec
@@ -2830,6 +2897,9 @@ workTypes:
           - verification
         approval:
           rejectTo:
+            - intake
+            - reproduction
+            - fix-design
             - fix-spec
             - implementation
             - verification
@@ -2849,15 +2919,25 @@ workTypes:
           - intake
         generation:
           task: analyze
+        approval:
+          rejectTo:
+            - intake
+            - implementation
       verification:
         inputs:
           - implementation
+        approval:
+          rejectTo:
+            - intake
+            - implementation
+            - verification
       conformance:
         inputs:
           - implementation
           - verification
         approval:
           rejectTo:
+            - intake
             - implementation
             - verification
             - conformance
@@ -2918,6 +2998,7 @@ workTypes:
             - quality-reviewers
           minimum: 1
           rejectTo:
+            - intake
             - implementation
             - testing
       conformance:
@@ -2966,6 +3047,11 @@ workTypes:
       design:
         inputs:
           - requirements
+        approval:
+          rejectTo:
+            - intake
+            - requirements
+            - design
       implementation-spec:
         inputs:
           - requirements
@@ -2974,10 +3060,25 @@ workTypes:
         inputs:
           - design
           - implementation-spec
+        approval:
+          rejectTo:
+            - intake
+            - requirements
+            - design
+            - implementation-spec
+            - implementation
       verification:
         inputs:
           - implementation-spec
           - implementation
+        approval:
+          rejectTo:
+            - intake
+            - requirements
+            - design
+            - implementation-spec
+            - implementation
+            - verification
       conformance:
         inputs:
           - implementation-spec
@@ -2985,6 +3086,9 @@ workTypes:
           - verification
         approval:
           rejectTo:
+            - intake
+            - requirements
+            - design
             - implementation-spec
             - implementation
             - verification
@@ -3062,6 +3166,13 @@ workTypes:
         inputs:
           - component-mapping
           - mobile-spec
+        approval:
+          rejectTo:
+            - design-intake
+            - design-inventory
+            - component-mapping
+            - mobile-spec
+            - implementation
       visual-verification:
         inputs:
           - design-inventory
@@ -3079,6 +3190,7 @@ workTypes:
             - quality-reviewers
           minimum: 1
           rejectTo:
+            - design-intake
             - design-inventory
             - component-mapping
             - mobile-spec
@@ -3245,6 +3357,11 @@ workTypes:
         inputs:
           - specification
           - planning
+        approval:
+          rejectTo:
+            - specification
+            - planning
+            - implementation
       convergence:
         inputs:
           - specification
@@ -3255,6 +3372,13 @@ workTypes:
           - specification
           - planning
           - implementation
+        approval:
+          rejectTo:
+            - specification
+            - planning
+            - implementation
+            - convergence
+            - verification
       release:
         inputs:
           - verification
@@ -3395,6 +3519,11 @@ workTypes:
         inputs:
           - specification
           - planning
+        approval:
+          rejectTo:
+            - specification
+            - planning
+            - implementation
       planning:
         inputs:
           - specification
@@ -3406,6 +3535,13 @@ workTypes:
           - specification
           - planning
           - implementation
+        approval:
+          rejectTo:
+            - specification
+            - planning
+            - implementation
+            - convergence
+            - verification
     phases:
       - specification
       - planning
